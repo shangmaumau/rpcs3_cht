@@ -852,7 +852,7 @@ If unsure, don&apos;t use this option.</source>
         <location filename="rpcs3qt/tooltips.h" line="106"/>
         <source>Provides a graphical overlay of various debugging information.
 If unsure, don&apos;t use this option.</source>
-        <translation>提供多种调试信息的图形图层。
+        <translation>提供多种调试信息的图形蒙层。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -989,7 +989,7 @@ Configure this setting if you want to switch between stereo and surround sound.
 Changing these values requires a restart of the game.
 The manual setting will use your selected formats while the automatic setting will let the game choose from all available formats.</source>
         <translation>确定声音格式。
-如果你想在立体音和环绕音之间切换，则配置此设置项。
+如果你想在立体声和环绕声之间切换，则配置此设置项。
 变更这些值需要重启游戏。
 手动设置会使用你选择的格式，自动设置会让游戏从所有可用的格式中（自动）选择。</translation>
     </message>
@@ -1127,20 +1127,20 @@ Changing this and/or adding the framerate may cause buggy or outdated recording 
         <location filename="rpcs3qt/tooltips.h" line="127"/>
         <source>Automatically resizes the game window on boot.
 This does not change the internal game resolution.</source>
-        <translation>在启动时自动调整游戏视窗的大小。
-这不会改变游戏内部的分辨率。</translation>
+        <translation>在游戏启动时自动调整其视窗尺寸。
+不会改变游戏内部的分辨率。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="128"/>
         <source>Show trophy pop-ups when a trophy is unlocked.</source>
-        <translation>当奖杯“解锁”时显示奖杯弹出视窗。</translation>
+        <translation>奖杯解锁时展示其弹窗。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="129"/>
         <source>Disables the activation of fullscreen mode per double-click while the game screen is active.
 Check this if you want to play with mouse and keyboard (for example with UCR).</source>
-        <translation>当游戏画面处于活动状态时，禁止双击触发全荧幕模式。
-检查这个，如果你想用滑鼠和键盘时(例如与 UCR)。</translation>
+        <translation>当游戏画面处于活跃态时，禁止通过双击触发全屏模式。
+如果你想用鼠标和键盘游玩（例如 UCR），请检查此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="130"/>
@@ -1150,9 +1150,9 @@ Check this if you want to play with mouse and keyboard.</source>
         <oldsource>Disables keyboard hotkeys such as Ctrl-S, Ctrl-E, Ctrl-R, Ctrl-P while the game screen is active.
 This does not include Ctrl-L (hide and lock mouse) and Alt-Enter (toggle fullscreen).
 Check this if you want to play with mouse and keyboard.</oldsource>
-        <translation>在游戏画面处于活动状态时，停用键盘快速键，例如; Ctrl+S, Ctrl+E, Ctrl+R, Ctrl+P。
-这不包含 Ctrl+L (隐藏及锁定滑鼠) 和 Alt+Enter (切换全荧幕) 。
-要使用滑鼠与键盘玩时，检查此复选框。</translation>
+        <translation>当游戏画面处于活跃态时，禁用键盘快捷键，像：Ctrl+S、Ctrl+E、Ctrl+R、Ctrl+P。
+并不包含 Ctrl+L (隐藏及锁定鼠标) 和 Alt+Enter (切换全屏) 。
+如果你想用鼠标和键盘游玩，请检查此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="131"/>
@@ -1162,41 +1162,41 @@ The default uses all available threads.</source>
         <oldsource>Limits the maximum number of threads used for PPU Module compilation.
 Lower this in order to increase performance of other open applications.
 The default uses all available threads.</oldsource>
-        <translation>限制用于初始 PPU 及 SPU 模组编译的最大执行绪数。
-降低此值以提高其它开启的应用程式效能。
-预设使用所有可用的执行绪。</translation>
+        <translation>限制初始化 PPU 和 SPU 模块编译使用的最大线程数量。
+减少此值以提升其他打开的应用的性能。
+默认使用所有可用的线程。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="132"/>
         <source>Shows the mouse cursor when the fullscreen mode is active.
 Currently this may not work every time.</source>
-        <translation>全荧幕模式处于活动状态时显示滑鼠指标。
+        <translation>全屏模式激活时，显示鼠标光标。
 目前可能并非每次都有效。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="133"/>
         <source>Locks the mouse cursor at center when the fullscreen mode is active.</source>
-        <translation>当全荧幕模式处于活动状态时，将滑鼠指标锁定在中心。</translation>
+        <translation>全屏模式激活时，将鼠标光标锁定在中心位置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="134"/>
         <source>Hides the mouse cursor if no mouse movement is detected for the configured time.</source>
-        <translation>已组态的时间内未侦测到滑鼠移动，则隐藏滑鼠指标。</translation>
+        <translation>如未在配置的时间内检测到鼠标移动，则隐藏其光标。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="135"/>
         <source>Shows &apos;Compiling shaders&apos; hint using the native overlay.</source>
         <oldsource>Show shader compilation hints using the native overlay.</oldsource>
-        <translation>使用本体覆盖显示“着色编译”提示。</translation>
+        <translation>使用原生蒙层来展示编译着色器的提示。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="136"/>
         <source>Enables use of native HUD within the game window that can interact with game controllers.
 When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
-        <translation>允许游戏视窗中使用游戏控制器与本体 HUD 互动。
-停用时，将使用正常的 QT 讯息框。
-目前在荧幕上的键盘仅支援英文按键布局。</translation>
+        <translation>允许游戏窗口内的原生 HUD 与游戏控制器互动。 
+禁用时，会替换使用普通的 Qt 对话框。 
+当前，屏内键盘仅支持英文按键布局。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="137"/>
