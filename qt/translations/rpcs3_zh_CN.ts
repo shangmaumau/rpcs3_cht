@@ -1181,7 +1181,7 @@ Currently this may not work every time.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="134"/>
         <source>Hides the mouse cursor if no mouse movement is detected for the configured time.</source>
-        <translation>如未在配置的时间内检测到鼠标移动，则隐藏其光标。</translation>
+        <translation>如未在配置的时间内检测到鼠标移动，则隐藏鼠标光标。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="135"/>
@@ -1203,29 +1203,29 @@ Currently, the on-screen keyboard only supports the English key layout.</source>
         <source>When enabled, opening the home menu will also pause emulation.
 While most games pause themselves while the home menu is shown, some do not.
 In that case it can be helpful to pause the emulation whenever the home menu is open.</source>
-        <translation>启用后，开启主选单也会暂停仿真。
-虽然大多数游戏会在显示主选单时自动暂停，但有些游戏不会。
-在这种情况下，每当主选单开启时暂停仿真会很有帮助。</translation>
+        <translation>启用后，打开主页菜单也会暂停模拟。
+虽然大多数游戏会在显示主页菜单时自动暂停，但有些游戏不会。
+在这种情形下，只要主页菜单在打开着便暂停模拟，就较为有用了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="139"/>
         <source>Enables or disables the performance overlay.</source>
-        <translation>启用或停用效能重叠。</translation>
+        <translation>启用或禁用性能蒙层。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="140"/>
         <source>Enables or disables the framerate graph.</source>
-        <translation>启用或停用框率图。</translation>
+        <translation>启用或禁用帧率图。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="141"/>
         <source>Enables or disables the frametime graph.</source>
-        <translation>启用或停用框时间图。</translation>
+        <translation>启用或禁用帧时图。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="142"/>
         <source>Sets the amount of datapoints used in the framerate graph.</source>
-        <translation>设定框率图中使用的资料点数量。</translation>
+        <translation>设定帧率图中使用的数据点数量。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="143"/>
@@ -1235,72 +1235,72 @@ In that case it can be helpful to pause the emulation whenever the home menu is 
     <message>
         <location filename="rpcs3qt/tooltips.h" line="144"/>
         <source>Sets the on-screen position (quadrant) of the performance overlay.</source>
-        <translation>设定效能重叠在画面上的方位 (象限)。</translation>
+        <translation>设定性能蒙层在画面上的位置（象限）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="145"/>
         <source>Controls the amount of information displayed on the performance overlay.</source>
-        <translation>控制显示在效能重叠上的讯息数量。</translation>
+        <translation>控制显示在性能蒙层上的信息数量。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="146"/>
         <source>Sets the time interval in which the performance overlay is being updated (measured in milliseconds).
 Setting this to 16 milliseconds will refresh the performance overlay at roughly 60Hz.
 The performance overlay refresh rate does not affect the frame graph statistics and can only be as fast as the current game allows.</source>
-        <translation>设定效能重叠更新的时间间隔 (以毫秒为单位)。
-将其设定为 16 毫秒将更新效能重叠大约在  60Hz 。
-效能重叠更新率不会影响框率图统计，并且只能与当前游戏所允许的速度一样快。</translation>
+        <translation>设定性能蒙层更新的时间间隔（以毫秒计）。
+设置到 16 毫秒大概会以 60Hz 刷新性能蒙层。
+性能蒙层的刷新率并不会影响帧率图统计，且只能与当前游戏允许的速度一样快。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="147"/>
         <source>Sets the font size of the performance overlay (measured in pixels).</source>
-        <translation>设定效能重叠上的字型大小 (以像素为单位)。</translation>
+        <translation>设定性能蒙层的字体尺寸（以像素计）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="148"/>
         <source>Sets the opacity of the performance overlay (measured in %).</source>
-        <translation>设定效能重叠上的不透明度 (计量 %)。</translation>
+        <translation>设定性能蒙层的不透明度（以百分比计）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="149"/>
         <source>Sets the horizontal distance to the screen border relative to the screen quadrant (measured in pixels).</source>
-        <translation>设定在画面象限的画面边框相对的水平距离 (以像素为单位)。</translation>
+        <translation>设定屏幕象限内水平方向距离屏幕边框的距离（以像素计）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="150"/>
         <source>Sets the vertical distance to the screen border relative to the screen quadrant (measured in pixels).</source>
-        <translation>设定在画面象限的画面边框相对的垂直距离 (以像素为单位)。</translation>
+        <translation>设定屏幕象限内垂直方向距离屏幕边框的距离（以像素计）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="151"/>
         <source>Centers the performance overlay horizontally and overrides the horizontal margin.</source>
-        <translation>水平置中效能重叠并重叠水平边距。</translation>
+        <translation>水平居中性能蒙层并覆盖水平方向的边距。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="152"/>
         <source>Centers the performance overlay vertically and overrides the vertical margin.</source>
-        <translation>垂直置中效能重叠并重叠垂直边距。</translation>
+        <translation>垂直居中性能蒙层并覆盖垂直方向的边距。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="154"/>
         <source>Shows a background image during the native shader loading dialog/loading screen.
 By default the used image will be &lt;gamedir&gt;/PS3_GAME/PIC1.PNG or &lt;gamedir&gt;/PS3_GAME/PIC0.PNG.</source>
-        <translation>在本体着色器读取讯息框中读取画面期间显示背景图片。
-预设情况下，使用的图片将是 &lt;gamedir&gt;/PS3_GAME/PIC1.PNG 或 &lt;gamedir&gt;/PS3_GAME/PIC0.PNG。</translation>
+        <translation>在原生着色器加载对话框或加载屏幕期间，展示一张背景图片。
+默认使用的图片会是 &lt;gamedir&gt;/PS3_GAME/PIC1.PNG 或 &lt;gamedir&gt;/PS3_GAME/PIC0.PNG。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="155"/>
         <source>Changes the background image darkening effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation>更改本体着色器读取讯息框中的背景图片变暗效果的强度。
-这可以用于提高辨识度及美观性。</translation>
+        <translation>调整原生着色器加载对话框的背景图片的暗化效果强度。
+这可能对提升可读性及/或美观度有点用处。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="156"/>
         <source>Changes the background image blur effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation>更改本体着色器读取讯息框中的背景图片模糊效果的强度。
-这可以用于提高辨识度及美观性。</translation>
+        <translation>调整原生着色器加载对话框的背景图片的虚化效果强度。
+这可能对提升可读性及/或美观度有点用处。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="160"/>
