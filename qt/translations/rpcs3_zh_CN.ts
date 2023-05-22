@@ -941,7 +941,7 @@ Numerical values control whether or not to enable the accurate version based on 
         <location filename="rpcs3qt/tooltips.h" line="38"/>
         <source>Multiplies the rate of VBLANK by 1000/1001 for values like 59.94Hz.
 Known to fix the rhythm game Space Channel 5 Part 2</source>
-        <translation>为求像 59.94Hz 这样的值，将 VBLANK 的速率乘以 1000/1001。
+        <translation>为了获得像 59.94Hz （这样的帧率），将 VBLANK 的速率乘以 1000/1001。
 已知修复了节奏游戏“Space Channel 5 Part 2”（的相关问题）。</translation>
     </message>
     <message>
@@ -954,33 +954,33 @@ Known to fix the rhythm game Space Channel 5 Part 2</source>
         <source>When this mode is on, emulation exits when saving and the savestate file is concealed after loading it, preventing reuse by RPCS3.
 This mode is like hibernation of emulation: if you don&apos;t want to be able to cheat using savestates when playing the game, consider using this mode.
 Do note that the savestate file is not gone completely just ignored by RPCS3, you can manually relaunch it if needed.</source>
-        <translation>开启此模式储存时将结束仿真，载入后即时存档会被隐藏，为防止 RPCS3 再用。
-此模式类似于仿真的休眠: 要是不想在玩游戏时使用即时存档作弊，请考虑使用此模式。
-请注意，即时存档并没有完全被 RPCS3 忽略，如果需要，您可以手动重新启动。</translation>
+        <translation>当此模式开启时，保存（游戏进度）时模拟会退出，且存档文件在加载后，为防 RPCS3 复用，会被隐藏。
+此模式类似于“模拟冬眠”：如果你在游玩游戏时不想使用存档来作弊，可以考虑使用此模式。 
+请务必注意，存档文件并没有完全移除，只是 RPCS3 忽略了它，如有需要，你可以手动再次加载它。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="46"/>
         <source>When this mode is on, savestates are loaded and paused on the first frame.
 This allows players to prepare for gameplay without being thrown into the action immediately.</source>
-        <translation>当此模式开启时，即时存档会在首框载入并暂停。
-这使玩家无需立即投入动作就可以为游戏做准备。</translation>
+        <translation>当此模式开启时，存档加载后，会暂停在第一帧。
+这使得玩家可以为游玩而稍做准备，而不是一下子就被带入到游戏中。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="52"/>
         <source>Controls which PS3 audio API is used.
 Games use CellAudio, while VSH requires RSXAudio.</source>
-        <translation>控制使用的 PS3 音讯 API。
-游戏使用 CellAudio，而 VSH 需要 RSXAudio。</translation>
+        <translation>控制 PS3 使用哪个音频 API。
+游戏使用 CellAudio，但 VSH 却得 RSXAudio 才可以。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="53"/>
         <source>Controls which avport is used to sample audio data from.</source>
-        <translation>控制 AV 埠用于从中取样音讯的资料。</translation>
+        <translation>控制使用哪个 avport 来取样音频数据。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="54"/>
         <source>Controls which device is used by audio backend.</source>
-        <translation>控制音讯后端使用的装置。</translation>
+        <translation>控制使用哪台设备来作为音频后端。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="57"/>
@@ -989,75 +989,75 @@ Configure this setting if you want to switch between stereo and surround sound.
 Changing these values requires a restart of the game.
 The manual setting will use your selected formats while the automatic setting will let the game choose from all available formats.</source>
         <translation>确定声音格式。
-要在“立体声”和“环绕”之间切换，请设定此组态。
-更改这些值需要重新启动游戏。
-“手动”将使用您选择的格式，而“自动”将让游戏从所有可用格式中进行选择。</translation>
+如果你想在立体音和环绕音之间切换，则配置此设置项。
+变更这些值需要重启游戏。
+手动设置会使用你选择的格式，自动设置会让游戏从所有可用的格式中（自动）选择。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="68"/>
         <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if PPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation>替代直译器 (慢)。可能比静态直译器更快。  如果 PPU“反编译 (LLVM)”不起作用，请尝试此选项。</translation>
+        <translation>备用解释器（慢）。可能比静态解释器快些。如 PPU 重编译器（LLVM）不工作，则尝试此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="71"/>
         <source>Interpreter (slow). Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation>直译器 (慢)。 如果 SPU“反编译 (LLVM)”不起作用，请尝试此选项。</translation>
+        <translation>解释器（慢）。如 SPU 重编译器（LLVM）不工作，则尝试此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="72"/>
         <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation>替代直译器 (慢)。可能比静态直译器更快。  如果 SPU“反编译 (LLVM)”不起作用，请尝试此选项。</translation>
+        <translation>备选解释器（慢）。可能比静态解释器快些。如 SPU 重编译器（LLVM）不工作，则尝试此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="82"/>
         <source>Legacy option. Fixup result vector values in Non-Java Mode in PPU LLVM.
 If unsure, do not modify this setting.</source>
-        <translation>旧版选项。 修复 PPU LLVM 中非 Java 模式下的结果向量值。
-如果不确定，请勿修改此设定。</translation>
+        <translation>旧版选项。修复 PPU LLVM 中非 Java 模式下的结果向量值。
+如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="83"/>
         <source>Use accurate double-precision FMA instructions in PPU and SPU backends.
 While disabling it might give a decent performance boost if your CPU doesn&apos;t support FMA, it may also introduce subtle bugs that otherwise do not occur.
 You shouldn&apos;t disable it if your CPU supports FMA.</source>
-        <translation>在 PPU 和 SPU 后端使用准确的双精度 FMA 指令。
-要是 CPU 不支援 FMA，停用可带来不错的效能提升，但可能引起本将不该发生的细微错误。
-要是 CPU 支援 FMA，则不应该停用。</translation>
+        <translation>在 PPU 和 SPU 后端中使用精准的双精度 FMA 指令。
+如果你的 CPU 不支持 FMA，禁用它可能会带来不错的性能跃升，也可能引入一些其他选项不会发生的小问题。
+如果你的 CPU 支持 FMA，则你不应当禁用它。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="84"/>
         <source>Accurately set Saturation Bit values in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>在 PPU 后端准确设定饱和位值。
-如果不确定，请勿修改此设定。</translation>
+        <translation>在 PPU 后端中精准设定饱和位的值。
+如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="85"/>
         <source>Respect Non-Java Mode Bit values for vector ops in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>遵从 PPU 后端中向量操作的非 Java 模式位值。
-如果不确定，请勿修改此设定。</translation>
+        <translation>为 PPU 后端中的向量操作，遵循非 Java 模式位的值。
+如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="86"/>
         <source>Fixup NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>修复 NaN 产生 PPU 后端中的向量指令。
-如果不确定，请勿修改此设定。</translation>
+        <translation>修复 PPU 后端中向量指令的 NaN 结果。
+如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="87"/>
         <source>Accurately set NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>在 PPU 后端准确设定 NaN 将产生向量指令。
-如果不确定，请勿修改此设定。</translation>
+        <translation>在 PPU 后端中的向量指令精准设定 NaN 结果。
+如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="88"/>
         <source>Accurately set FPCC Bits in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>在 PPU 后端准确设定 FPCC 位。
-如果不确定，请勿修改此设定。</translation>
+        <translation>在 PPU 后端中精准设定 FPCC 位。
+如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="89"/>
@@ -1065,17 +1065,17 @@ If unsure, do not modify this setting.</source>
 Higher values cause a more pronounced effect, but may cause audio or performance issues. A value of 50 or less is recommended.
 This option forces an FPS limit because it&apos;s active when framerate is stable.
 The lighter the game is on the hardware, the more power is saved by it. (until the preemption count barrier is reached)</source>
-        <translation>减少 CPU 使用率和耗电量，在行动装置上提高电池寿命。(0 表示停用)
-较高的值，效果更加明显，也可能造成音讯或效能问题。建议使用 50 或更小的值。
-此选项强制限制 FPS，因为在框速率稳定时处于活动状态。
-游戏在硬体上越轻，就越省电。(直到达到抢占计数障碍)</translation>
+        <translation>减少 CPU 使用和电量消耗，在移动设备上改善电池寿命。（0 表示已禁用）
+更高的值会带来更显著的效果，但可能引起音频或性能的问题。推荐 50 或更小的值。
+此选项会强制帧率固定，因为当帧率稳定时，它就变活跃了。
+游戏占用硬件越少，就会省更多电（直至达到抢占计数的栅栏）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="109"/>
         <source>Disables all video output and PS3 graphical rendering.
 Its only use case is to evaluate performance on CELL for development.</source>
-        <translation>停用所有视讯输出和 PS3 图形渲染。
-唯一的用例是评估 CELL 的开发效能。</translation>
+        <translation>禁止所有视频输出和 PS3 图形渲染。
+唯一的用场是用于评估开发阶段的 CELL 性能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="115"/>
@@ -1084,19 +1084,19 @@ Anaglyph is traditional blue-red.
 Side-by-Side is more commonly supported by VR viewer apps.
 Over-Under is closer to the native stereo output, but less commonly supported.</source>
         <translation>设定 3D 立体渲染模式。
-“浮雕”是传统的蓝红色。
-VR 检视器应用更普遍地支援“Side-by-Side”。
-“Over-Under” 更接近于原生立体输出，但不太受支援。</translation>
+“Anaglyph”为传统的蓝红色。
+“Side-by-Side”通常更多地由 VR 浏览应用支持。
+“Over-Under”更接近原生的立体输出，但受支持较少。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="122"/>
         <source>Automatically close RPCS3 when closing a game, or when a game closes itself.</source>
-        <translation>关闭游戏时自动关闭 RPCS3，或当游戏自己关闭时。</translation>
+        <translation>关闭游戏或游戏自己关闭时，自动关闭 RPCS3.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="123"/>
         <source>Leave this enabled unless you are a developer.</source>
-        <translation>请保持启用，除非您是开发人员。</translation>
+        <translation>请保留此项为启用状态——除非你是开发人员。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="124"/>
@@ -1104,31 +1104,31 @@ VR 检视器应用更普遍地支援“Side-by-Side”。
 Double click on the game window or press Alt+Enter to toggle fullscreen and windowed mode.</source>
         <oldsource>Automatically puts the game window in fullscreen.
 Double click on the game window or press alt+enter to toggle fullscreen and windowed mode.</oldsource>
-        <translation>自动将游戏视窗全荧幕显示。
-双击游戏视窗或按下 Alt + Enter 键切换全荧幕和视窗模式。</translation>
+        <translation>自动将游戏视窗全屏显示。
+双击游戏视窗或按下 Alt+Enter 键切换全屏与窗口模式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="125"/>
         <source>Prevent the display from sleeping while a game is running.
 This requires the org.freedesktop.ScreenSaver D-Bus service on Linux.
 This option will be disabled if the current platform does not support display sleep control.</source>
-        <translation>防止游戏执行时显示器进入休眠状态。
-这需要 Linux 上的 org.freedesktop.ScreenSaver D-Bus service。
-如果当前平台不支援显示器休眠控制，则将停用此选项。</translation>
+        <translation>游戏运行时，防止屏幕休眠。
+在 Linux 上，此功能需要 org.freedesktop.ScreenSaver 的 D-Bus 服务。
+如果当前平台不支持屏幕休眠控制，则此项会禁用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="126"/>
         <source>Configure the game window title.
 Changing this and/or adding the framerate may cause buggy or outdated recording software to not notice RPCS3.</source>
-        <translation>设置游戏视窗标题。
-更改此值或增加框率可能导致错误或过时的录制软体无法发现 RPCS3。</translation>
+        <translation>配置游戏视窗的标题。
+变更此值并/或增加帧率会导致问题，或过时的录制软件注意不到 RPCS3.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="127"/>
         <source>Automatically resizes the game window on boot.
 This does not change the internal game resolution.</source>
-        <translation>在启动时自动调整游戏视窗大小。
-这不会改变内部游戏的解析度。</translation>
+        <translation>在启动时自动调整游戏视窗的大小。
+这不会改变游戏内部的分辨率。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="128"/>
