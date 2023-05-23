@@ -1357,8 +1357,8 @@ Infinite 添加了一个正反馈循环，即为每一帧添加另一个 vblank 
 Can fix some otherwise difficult to solve graphics glitches.
 Low to moderate performance hit depending on your GPU hardware.</source>
         <translation>模拟 PS3 多重采样布局。
-可以修复一些难以解决的图形毛刺。
-根据您的 GPU 硬体效能低至中等。</translation>
+可以修复其他一些难以解决的图形问题。
+根据你的 GPU 硬件规格会有轻微到中等的性能影响。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="166"/>
@@ -1368,9 +1368,9 @@ Keep this on Automatic if you want to use the original setting used by a real PS
         <oldsource>Higher values increase sharpness of textures on sloped surfaces at the cost of GPU resources.
 Modern GPUs can handle this setting just fine even at 16x.
 Keep this on Automatic if you want to use the original setting used by a real PS3.</oldsource>
-        <translation>以更高的值付出 GPU 资源增加了斜面上纹理的锐度。
-当前 GPU 可以处理这些设定，甚至在“16x”。
-使用真正的 PS3 原始设定，将此保持为“自动”。</translation>
+        <translation>更高的值会增加斜面上的纹理锐度，会耗费一部分 GPU 资源。
+现代 GPU 可以轻松处理此项设置，甚至是以 16x.
+如果你想使用一台真实的 PS3 所用的原始设置，请保持此项为 Automatic。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="167"/>
@@ -1378,10 +1378,10 @@ Keep this on Automatic if you want to use the original setting used by a real PS
 The base resolution is always 1280x720.
 Set this value to 100% if you want to use the normal Resolution options.
 Values below 100% will usually not improve performance.</source>
-        <translation>按给定百分比缩放游戏的解析度。
-基本解析度始终为 1280x720。
-要使用标准的解析度选项，请将此值设定为 100%。
-低于 100% 的值通常不会提高效能。</translation>
+        <translation>按给定的百分比缩放游戏的分辨率。
+基础分辨率始终是 1280×720.
+如果你想用常规的「分辨率」选项，请将此值设定为 100%.
+通常来说，低于 100% 的值并不能提升表现。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="168"/>
@@ -1391,9 +1391,9 @@ If unsure, don&apos;t change this option.</source>
         <oldsource>Only framebuffers greater than this size will be upscaled.
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
 Do not touch this setting if you are unsure.</oldsource>
-        <translation>仅大于此大小的框缓冲才会被放大。
-增加此值可能在倍增时修复缺少图形的问题，尤其是在启用“写入色彩缓冲”时。
-如果您不确定，请不要碰此设定。</translation>
+        <translation>仅放大大于此尺寸的帧缓冲。
+增大此值可能会修复放大时的图形丢失问题，尤其是当「写入色彩缓冲」启用时。
+如不确定，请勿更改此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="169"/>
