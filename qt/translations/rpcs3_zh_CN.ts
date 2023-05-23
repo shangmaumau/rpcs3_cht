@@ -1306,8 +1306,8 @@ This may be used to improve readability and/or aesthetics.</source>
         <location filename="rpcs3qt/tooltips.h" line="160"/>
         <source>Vulkan is the fastest renderer. OpenGL is the most accurate renderer.
 If unsure, use Vulkan. Should you have any compatibility issues, fall back to OpenGL.</source>
-        <translation>Vulkan 是最快速的渲染器。 OpenGL 是最准确的渲染器。
-如果不确定，请使用 Vulkan。 如果您有任何相容性问题，请回到 OpenGL。</translation>
+        <translation>Vulkan 是最快速的渲染器。OpenGL 是最精准的渲染器。
+如不确定，请使用 Vulkan。假如你有任何兼容性问题，请回退到 OpenGL.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="161"/>
@@ -1319,22 +1319,22 @@ Rarely due to emulation bugs some games will only render at low resolutions like
 Leave this on 1280x720, every PS3 game is compatible with this resolution.
 Only use 1920x1080 if the game supports it.
 Rarely due to emulation bugs some games will only render at low resolutions like 480p.</oldsource>
-        <translation>如果“解析度比例”设定为 100% 以外的任何值，则此设定将被忽略! 
-请保持在“1280x720”上，每个 PS3 游戏都与这个解析度相容，
-仅当游戏支援的情况下，才能将其设定为“1920x1080”。
-较低的解析度可能工作，但不实用，然而很少会出于仿真的错误，一些游戏只能在低解析度 (480p) 下呈现。</translation>
+        <translation>如果分辨率的缩放设定高于 100%，此设置会忽略。
+保留此设置在 1280×720. 所有 PS3 游戏与此分辨率都兼容。
+仅在游戏支持时才使用 1920×1080.
+由于模拟的问题，一些游戏会仅以较低的 480p 分辨率渲染。此种情形极罕见。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="162"/>
         <source>On multi GPU systems select which GPU to use in RPCS3 when using Vulkan.
 This is not needed when using OpenGL.</source>
-        <translation>在多 GPU 系统上使用 Vulkan 时，于 RPCS3 中将使用哪个 GPU。
-当使用 OpenGL 则无需求。</translation>
+        <translation>在多 GPU 系统中使用 Vulkan 时，选择让 RPCS3 使用哪个 GPU。
+使用 OpenGL 时，此项则不需要。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="163"/>
         <source>Leave this on 16:9 unless you have a 4:3 monitor.</source>
-        <translation>请保持 16:9，除非有 4:3 显示器。</translation>
+        <translation>保留此项为 16:9——除非你有一个 4:3 的显示器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="164"/>
@@ -1346,10 +1346,10 @@ Infinite adds a positive feedback loop which adds another vblank signal per fram
 Using the frame limiter will add extra overhead and slow down the game.
 However, some games will crash if the frame rate is too high.
 PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.</oldsource>
-        <translation>“关闭”为最快的选项。
-使用“框限制” 将附加减缓游戏速度。但是，框速过高某些游戏将会崩溃。
-仅当“自动”无作用时才需使用“ PS3 本体”，因为可能会引入框同步问题。
-“无限”增加了一个正回馈回路，每框增加另一个 vblank 信号，从而使更多游戏的 FPS 无限。</translation>
+        <translation>Off 是最快的选项。
+使用帧率限制器会增加额外开支并减慢游戏。然而，如果帧率过高，有些游戏就会崩溃。
+仅当 Auto 不能正常工作时，才使用 PS3 原生，因为这会引起帧同步问题。
+Infinite 添加了一个正反馈循环，即为每一帧添加另一个 vblank 信号来使更多游戏的帧率趋于无限。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="165"/>
