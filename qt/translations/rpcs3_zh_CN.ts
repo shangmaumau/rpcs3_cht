@@ -867,7 +867,7 @@ If unsure, don&apos;t use this option.</source>
         <source>Disables running occlusion queries. Minor to moderate performance boost.
 Might introduce issues with broken occlusion e.g missing geometry and extreme pop-in.</source>
         <translation>禁止运行遮挡查询。轻微到中等的性能跃升。
-可能引起破坏遮挡的问题，如缺少几何体和极端 pop-in。</translation>
+可能引起破坏遮挡的问题，如几何体丢失及极端的图形异突（pop-in）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="110"/>
@@ -1391,7 +1391,7 @@ If unsure, don&apos;t change this option.</source>
         <oldsource>Only framebuffers greater than this size will be upscaled.
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
 Do not touch this setting if you are unsure.</oldsource>
-        <translation>仅放大大于此尺寸的帧缓冲。
+        <translation>仅放大大于此尺寸的帧缓冲器。
 增大此值可能会修复放大时的图形丢失问题，尤其是当「写入色彩缓冲」启用时。
 如不确定，请勿更改此项。</translation>
     </message>
@@ -1400,14 +1400,14 @@ Do not touch this setting if you are unsure.</oldsource>
         <source>Enable this option if you get missing graphics or broken lighting ingame.
 Might degrade performance and introduce stuttering in some cases.
 Required for Demon&apos;s Souls.</source>
-        <translation>如果缺失图形或损坏的游戏采光，请启用此选项。
-可能会降低效能，在某些情况下引起卡顿。
-如有需求的游戏“Demon&apos;s Souls”。</translation>
+        <translation>如果你在游戏中遇到图形丢失或光线破坏的问题，请启用此项。
+在某些情形下可能会降低性能并引入卡顿。
+Demon&apos;s Souls 强制要求此项（开启）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="170"/>
         <source>By having this off you might obtain a higher frame rate at the cost of tearing artifacts in the game.</source>
-        <translation>关掉可能会获得高框速，但会损失游戏中的器物。</translation>
+        <translation>关掉此项的话，你可能会得到一个更高的帧率，但代价是撕裂游戏内的物件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="171"/>
@@ -1415,24 +1415,24 @@ Required for Demon&apos;s Souls.</source>
 Might result in degraded performance in some games.
 Can resolve rare cases of missing graphics and flickering.
 If unsure, don&apos;t use this option.</source>
-        <translation>强制执行 API 规格。
-可能导致某些游戏效能降低。
-可以解决罕见的图形和闪烁的情况。
-如果不确定，请勿使用此选项。</translation>
+        <translation>强制严格遵循 API 规范。
+也许会导致一些游戏的性能降低。
+可解决罕见的图形丢失和闪烁问题。
+如不确定，请勿使用此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="172"/>
         <source>Disables the vertex cache.
 Might resolve missing or flickering graphics output.
 May degrade performance.</source>
-        <translation>停用顶点快取。
-可能解决丢失或闪烁的图形输出。
-可能会降低效能。</translation>
+        <translation>禁用顶点缓存。
+也许能解决图形输出的丢失或闪烁问题。
+可能会降低性能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="173"/>
         <source>Overrides the aspect ratio and stretches the image to the full display area.</source>
-        <translation>覆盖“宽高比”并将图像延伸到完整显示区域。</translation>
+        <translation>覆盖屏幕宽高比，将图片拉伸到全屏区域。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="174"/>
@@ -1442,27 +1442,27 @@ May cause slowdown in weaker CPUs due to the extra worker thread load.</source>
         <oldsource>Offloads some RSX operations to a secondary thread.
 May improve performance for some high-core processors.
 May cause slowdown in some situations due to the extra worker thread load.</oldsource>
-        <translation>将一些 RSX 执行绪作业卸载到次要。
-可提升高核处理器的效能。
-由于外加的工作执行绪负载，可能会导致较弱的 CPU 变慢。</translation>
+        <translation>将一些 RSX 操作卸解到一个次要线程。
+一些强核心处理器可能会提升性能。
+由于额外的工作线程负载，在一些情况下可能会导致减慢。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="176"/>
         <source>Disables asynchronous shader compilation.
 Fixes missing graphics while shaders are compiling but introduces severe stuttering or lag.
 Use this if you do not want to deal with graphics pop-in, or for testing before filing any bug reports.</source>
-        <translation>停用非同步着色编译。
-修正着色器正在编译时缺少的图形，但引起严重的卡顿或延迟。
-不想处理图形弹出视窗或在提交任何错误报告之前进行测试，请使用此选项。</translation>
+        <translation>禁用异步着色器编译。
+修复在着色器编译时的图形丢失问题，但会引入严重的卡顿或延迟。
+如果你不想处理图形异突，或在提交任何测试报告前进行测试，请使用此项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="177"/>
         <source>This is the recommended option.
 If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
-        <translation>这是建议的选项。
-如果在快取中未找到着色，则在编译之前不会为该着色呈现任何内容。
-您可能会遇到图形弹出视窗。</translation>
+        <translation>这是推荐选项。
+如果在缓存中未找到着色器，则在编译完成之前不会有任何东西渲染出来。
+你可能会经验一些图形异突问题。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="178"/>
@@ -1530,7 +1530,7 @@ FidelityFX 目前不适用于立体 3D 输出。</translation>
         <location filename="rpcs3qt/tooltips.h" line="187"/>
         <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
         <oldsource>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artefacts.</oldsource>
-        <translation>控制 FidelityFX 超解析度应用的锐化强度。 较高的值将提供更清晰的输出，但可能会引入假影。</translation>
+        <translation>控制 FidelityFX 超解析度应用的锐化强度。 较高的值将提供更清晰的输出，但可能会引入伪影。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="189"/>
