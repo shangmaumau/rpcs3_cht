@@ -1442,7 +1442,7 @@ May cause slowdown in weaker CPUs due to the extra worker thread load.</source>
         <oldsource>Offloads some RSX operations to a secondary thread.
 May improve performance for some high-core processors.
 May cause slowdown in some situations due to the extra worker thread load.</oldsource>
-        <translation>将一些 RSX 操作卸解到一个次要线程。
+        <translation>将一些 RSX 操作卸解到次要线程。
 一些强核心处理器可能会提升性能。
 由于额外的工作线程负载，在一些情况下可能会导致减慢。</translation>
     </message>
@@ -1461,7 +1461,7 @@ Use this if you do not want to deal with graphics pop-in, or for testing before 
 If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
         <translation>这是推荐选项。
-如果在缓存中未找到着色器，则在编译完成之前不会有任何东西渲染出来。
+如果在缓存中未找到着色器，则在编译完成之前，此着色器不会有任何东西渲染出来。
 你可能会经验一些图形异突问题。</translation>
     </message>
     <message>
@@ -1469,26 +1469,26 @@ You may experience graphics pop-in.</source>
         <source>Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
         <translation>混合渲染模式。
-如果在快取中找不到着色，则将使用直译器来渲染此着色的近似图形，直到编译完成为止。</translation>
+如果在缓存中找不到着色器，会用解释器为此着色器渲染近似的图形，直至编译完成。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="179"/>
         <source>All rendering is handled by the interpreter with no attempt to compile native shaders.
 This mode is very slow and experimental.</source>
-        <translation>所有渲染均由直译器处理，而无需尝试编译本体着色。
+        <translation>所有渲染工作由解释器来处理，且不尝试编译原生着色器。
 此模式非常慢且处于实验状态。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="180"/>
         <source>Number of threads to use for the shader compiler backend.
 Only has an impact when shader mode is set to one of the asynchronous modes.</source>
-        <translation>用于着色器编译后端的执行绪数。
-仅在着色器模式设定为非同步模式之一时才有影响。</translation>
+        <translation>用于着色器编译器后端的线程数量。
+仅在着色器模式设为异步模式的一种时才有影响。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="181"/>
         <source>Controls the precision level of generated shaders. Low precision generates much faster code depending on the hardware, but can sometimes generate minor visual glitches or flicker.</source>
-        <translation>控制着色器产生的精度等级。 低精度会根据硬体产生更快的代码，但有时会产生微量的视觉故障或闪烁。</translation>
+        <translation>控制生成着色器的精确度等级。低精确度会根据硬件生成更快的代码，但有时也会生成少量的视觉小问题或闪烁。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="183"/>
@@ -1498,18 +1498,18 @@ Only works with Vulkan renderer and greatly benefits from having MTRSX enabled i
         <oldsource>Stream textures to GPU in parallel with 3D rendering.
 Can improve performance on more powerful GPUs that have spare headroom.
 Only works with Vulkan renderer.</oldsource>
-        <translation>使用非同步计算将纹理流与 3D 渲染并行传输到 GPU。
-可以在具有备用宽限更强大的 GPU 上提高效能。
-仅适用于 Vulkan 渲染器，如果您有一个功能强大的 CPU，则启用 MTRSX 将会大大受益。</translation>
+        <translation>并行使用异步计算 3D 渲染，并将纹理串流给 GPU.
+在性能更强且有裕余空间的 GPU 上，可提升性能。
+仅适用于 Vulkan 渲染器，如果你有一个能干的 CPU，则会大大地受益于 MTRSX 的启用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="184"/>
         <source>Controls which fullscreen mode RPCS3 requests from drivers when using Vulkan renderer.
 Automatic will let the driver choose an appropriate mode, while the other options will hint the drivers on whether they should use exclusive or borderless fullscreen.
 Using Prefer borderless fullscreen option can help if you have issues with streaming RPCS3 gameplay or if your system incorrectly enables HDR mode when using fullscreen.</source>
-        <translation>控制使用 Vulkan 渲染器时 RPCS3 从驱动程式要求的全荧幕模式。
-“自动”将让驱动程式选择合适的模式，而其它选项将提示驱动程式是否应该使用“专有”或“无框”全荧幕。
-如果您在流式传输 RPCS3 游戏时遇到问题，或者您的系统在使用全荧幕时错误地启用 HDR 模式，则使用“首选无框全荧幕”选项会有所帮助。</translation>
+        <translation>控制当使用 Vulkan 渲染器时 RPCS3 从驱动中请求哪种全屏模式。
+「自动」会让驱动（自动）选择一种适当的模式，而其他选项则提示驱动它们是否应该使用独占式全屏或无边框全屏。
+如果你串流 RPCS3 游玩时遇到了问题，或如果你的系统在使用全屏时错误地启用了 HDR 模式，则对无边框全屏选项的「优先」使用，（对你）就有所帮助了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="186"/>
