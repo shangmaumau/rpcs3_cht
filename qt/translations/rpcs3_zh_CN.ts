@@ -1635,42 +1635,41 @@ Requires a restart of RPCS3 to completely close the connection.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="207"/>
         <source>Prioritize custom user interface colors over properties set in stylesheet.</source>
-        <translation>根据“风格”中设定的属性确定自订使用者介面色彩。</translation>
+        <translation>优先考虑自定义的用户界面颜色，而非样式中设定的（相关）属性。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="208"/>
         <source>This is the ID used for hardware statistics.
 It should only be reset if you change your hardware configuration or if you copied RPCS3 to another PC.</source>
-        <translation>这是用于硬体统计的 ID。
-仅当变更硬体组态或将 RPCS3 复制到另一台 PC 时，才需要将其重设。</translation>
+        <translation>这是用于硬件统计的 ID.
+如果你改换了你的硬件配置，或如果你把 RPCS3 拷贝到了另一台 PC 时，此项才需要重置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="212"/>
         <source>Single-threaded: All pad handlers run on the same thread sequentially.
 Multi-threaded: Each pad handler has its own thread.
 Only use multi-threaded if you can spare the extra threads.</source>
-        <translation>单执行绪: 所有 PAD 处理程序按顺序在同一个执行绪上运作。
-多执行绪: 每个 PAD 处理程序都有专用的执行绪。
-如果可以腾出多余的执行绪，请仅使用多执行绪。</translation>
+        <translation>「单线程的」：所有手柄的处理程序会相继运行在同一线程上。
+「多线程的」：每一个手柄处理程序都有它自己的线程。
+仅当你能匀出额外的线程时，再使用多线程的（方式）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="213"/>
         <source>Shows all configured pads as always connected ingame even if they are physically disconnected.</source>
-        <translation>将所有已组态的控制器显示为始终在游戏中连结，即使在实体上中断连结也是如此。</translation>
+        <translation>在游戏中将所有已配置的手柄显示为“始终连接”，即使是它们已经在物理层面上断开了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="214"/>
         <source>Some games support native keyboard input.
 Basic will work in these cases.</source>
-        <translation>一些游戏支援本体键盘输入。
-“基本”将在这些情况下运作。</translation>
+        <translation>一些游戏支持原生的键盘输出。
+「Basic」在这些情形下是可正常工作的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="215"/>
         <source>Some games support native mouse input.
 Basic will work in these cases.</source>
-        <translation>一些游戏支援本体滑鼠输入。
-“基本”将在这些情况下运作。</translation>
+「Basic」在这些情形下是可正常工作的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="216"/>
