@@ -1678,47 +1678,47 @@ Basic will work in these cases.</source>
 Select Qt to use the default output device of your operating system.
 This may not be able to play all audio formats.</source>
         <translation>目前仅用于 cellMusic 模拟。
-选择 Qt 以使用作业系统的预设输出装置。
-这可能无法播放所有音讯格式。</translation>
+选择「Qt」以使用你的操作系统默认的输出设备。
+这可能无法播放所有音频格式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="217"/>
         <source>Select Qt Camera to use the default camera device of your operating system.</source>
-        <translation>选择 Qt 相机以使用当前系统的预设相机装置。</translation>
+        <translation>选择「Qt 相机」以使用你的操作系统默认的相机设备。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="218"/>
         <source>Depending on the game, you may need to select a specific camera type.</source>
         <oldsource>Camera support is not implemented, leave this on unknown.</oldsource>
-        <translation>根据游戏，您可能需要选择特定的相机类型。</translation>
+        <translation>依游戏而异，你可能需要选择一个特定的相机类型。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="219"/>
         <source>Flips the camera image either horizontally, vertically, or on both axis.</source>
-        <translation>水平、垂直或在两个轴上翻转相机影像。</translation>
+        <translation>在水平轴，垂直轴或两个轴上翻转相机图像。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="220"/>
         <source>Select the camera that you want to use during gameplay.</source>
-        <translation>选择您要在游戏过程中使用的相机。</translation>
+        <translation>选择你想在游玩期间使用的相机。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="221"/>
         <source>PlayStation Move support.
 Fake: Experimental! This maps Move controls to DS3 controller mappings.
 Mouse: Emulate PSMove with Mouse handler.</source>
-        <translation>PlayStation Move 支援
-虚设: 实验! 动态控制器将映射到 DS3 控制器。
-滑鼠: 使用滑鼠处理程序模拟 PSMove。</translation>
+        <translation>PlayStation Move 支持。
+「Fake」：实验功能！这会把移动控制映射到 DS3 控制器的按键上。
+「Mouse」：使用鼠标处理程序模拟 PSMove.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="222"/>
         <source>Buzz! support.
 Select 1 or 2 controllers if the game requires Buzz! controllers and you don&apos;t have real controllers.
 Select Null if the game has support for DualShock or if you have real Buzz! controllers.</source>
-        <translation>Buzz! 支援。
-如果游戏需要 Buzz! 控制器且您没有真实的控制器，请选择“ 1 ”或“ 2 个控制器”。
-如果游戏支援 DualShock 或您拥有真实的 Buzz! 控制器，则选择“ 空 ”。</translation>
+        <translation>Buzz! 支持。
+如果游戏需要 Buzz! 控制器而你并没有一个真正的控制器，那么选择 1 个或 2 个控制器。
+如果游戏已支持 DualShock 或如果你有一个真正的 Buzz! 控制器，请选择「Null」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="223"/>
