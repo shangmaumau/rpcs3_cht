@@ -1669,6 +1669,7 @@ Basic will work in these cases.</source>
         <location filename="rpcs3qt/tooltips.h" line="215"/>
         <source>Some games support native mouse input.
 Basic will work in these cases.</source>
+        <translation>一些游戏支持原生的鼠标输出。
 「Basic」在这些情形下是可正常工作的。</translation>
     </message>
     <message>
