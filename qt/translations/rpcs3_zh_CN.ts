@@ -1507,8 +1507,8 @@ Only works with Vulkan renderer.</oldsource>
         <source>Controls which fullscreen mode RPCS3 requests from drivers when using Vulkan renderer.
 Automatic will let the driver choose an appropriate mode, while the other options will hint the drivers on whether they should use exclusive or borderless fullscreen.
 Using Prefer borderless fullscreen option can help if you have issues with streaming RPCS3 gameplay or if your system incorrectly enables HDR mode when using fullscreen.</source>
-        <translation>控制当使用 Vulkan 渲染器时 RPCS3 从驱动中请求哪种全屏模式。
-「自动」会让驱动（自动）选择一种适当的模式，而其他选项则提示驱动它们是否应该使用独占式全屏或无边框全屏。
+        <translation>使用 Vulkan 渲染器时，控制 RPCS3 从驱动中请求哪种全屏模式。
+「自动」会让驱动（自动）选择一种适当的模式，而其他选项则提示驱动它们应该使用独占式全屏还是无边框全屏。
 如果你串流 RPCS3 游玩时遇到了问题，或如果你的系统在使用全屏时错误地启用了 HDR 模式，则对无边框全屏选项的「优先」使用，（对你）就有所帮助了。</translation>
     </message>
     <message>
@@ -1521,34 +1521,34 @@ FidelityFX does not work with stereo 3D output for now.</source>
 If the game is rendering at an internal resolution lower than your window resolution, FidelityFX will handle the upscale.
 Can cause visual artifacts.
 Does not work with stereo 3D output for now.</oldsource>
-        <translation>决定影像过滤。“近似”不会应用过滤。“双线性”平滑影像。“FidelityFX 超解析度”增强放大影像。
-如果游戏低于视窗解析度的内部解析度渲染，FidelityFX 将倍增处理。
-FidelityFX 将引起视觉假影。
-FidelityFX 目前不适用于立体 3D 输出。</translation>
+        <translation>最终图像过滤。「Nearest」不应用过滤，「Bilinear」使图像平滑，「FidelityFX 超级分辨率」增强放大后的图像画质。
+如果游戏以一个低于你的视窗分辨率的内置分辨率来渲染的话，FidelityFX 则会处理其放大。
+FidelityFX 会导致视觉伪影。
+FidelityFX 目前不支持立体 3D 输出。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="187"/>
         <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
         <oldsource>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artefacts.</oldsource>
-        <translation>控制 FidelityFX 超解析度应用的锐化强度。 较高的值将提供更清晰的输出，但可能会引入伪影。</translation>
+        <translation>控制应用 FidelityFX 超级分辨率之后的锐化强度。较高的值会提供更锐利的输出，但可能会引入伪影。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="189"/>
         <source>Changes Texture sampling accuracy. (Small changes have a big effect.)
 Avoid using values outside the range of -12 to +12 if you&apos;re unsure.
 -3 to +3 is plenty for most usecases</source>
-        <translation>变更纹理采样准确度。 (小改变有很大的作用。)
-如果您不确定，请避免使用 -12 到 +12 范围之外的值。
--3 到 +3 对于大多数用例来说已经足够了</translation>
+        <translation>调整纹理取样的精准度。（小的调整会带来大的影响。）
+如果你不确定，请避免使用 -12 到 +12 范围之外的值。
+-3 到 +3 对于大多数使用场景来说已经足够了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="193"/>
         <source>Sets the maximum amount of blocks that the log can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
-        <translation>设置 LOG 可以显示的最大区段数。
-这通常等同行数。
-设置为 0 以解除限制。</translation>
+        <translation>设定 log 可以显示的最大区块数量。
+通常来说，这和行数是一个意思。
+为了移除限制，可设为 0.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="194"/>
@@ -1558,56 +1558,56 @@ Set 0 in order to remove the limit.</source>
         <oldsource>Sets the maximum amount of blocks that the tty can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</oldsource>
-        <translation>设置 TTY 可以显示的最大区段数。
-这通常等同行数。
-设置为 0 以解除限制。</translation>
+        <translation>设定 TTY 可以显示的最大区块数量。
+通常来说，这和行数是一个意思。
+为了移除限制，可设为 0.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="195"/>
         <source>Changes the overall look of RPCS3.
 Choose a stylesheet and click Apply to change between styles.</source>
         <translation>更改 RPCS3 的整体外观。
-选择一个“风格”并点击“套用”风格之间切换。</translation>
+选择一个样式，然后点击「应用」以在各种风格间切换。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="196"/>
         <source>Shows the initial welcome screen upon starting RPCS3.</source>
-        <translation>显示启动 RPCS3 时的初始欢迎画面。</translation>
+        <translation>展示启动 RPCS3 时的初始欢迎画面。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="197"/>
         <source>Shows a confirmation dialog when the game window is being closed.</source>
-        <translation>关闭游戏视窗时显示确定讯息。</translation>
+        <translation>游戏视窗关闭时，展示一个确认对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="198"/>
         <source>Shows a confirmation dialog when a game was booted while another game is running.</source>
-        <translation>当另一项游戏正启动执行时显示确定讯息。</translation>
+        <translation>当另一款游戏正在运行，又启动一个游戏时，展示一个确认对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="199"/>
         <source>Shows a dialog when packages were installed successfully.</source>
-        <translation>成功安装软体时显示讯息。</translation>
+        <translation>软件包安装成功时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="200"/>
         <source>Shows a dialog when firmware was installed successfully.</source>
-        <translation>成功安装韧体后显示讯息。</translation>
+        <translation>固件安装成功时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="201"/>
         <source>Shows a dialog when obsolete settings were found.</source>
-        <translation>发现过时的设定时显示讯息。</translation>
+        <translation>发现废弃的设置项时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="202"/>
         <source>Shows a dialog in the game pad configuration when the same button was assigned twice.</source>
-        <translation>当同一按钮被指派两次时，在游戏控制器组态中显示讯息。</translation>
+        <translation>在游戏手柄配置界面，当同一按键被分配两次时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="203"/>
         <source>Shows a dialog when RPCS3 is ready to restart after an update.</source>
-        <translation>当 RPCS3 准备好在更新后重新启动时显示一个对话框。</translation>
+        <translation>在 RPCS3 更新后已经准备好重启时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="204"/>
@@ -1616,21 +1616,21 @@ If &quot;Automatic&quot; is selected, the update will run automatically without 
 If &quot;Background&quot; is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</source>
         <oldsource>Checks if an update is available on startup and asks if you want to update.
 If &quot;Background&quot; is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</oldsource>
-        <translation>检查启动时是否有可用更新，并询问是否要更新。
-如果选择&quot;自动&quot;将自动执行更新，无需用户确认。
-如选择了&quot;后台&quot;将在后台静默进行检查，若发现新版本，则主选单的右上角将显示一个新的下载选项。</translation>
+        <translation>启动时检查是否有更新可用，并询问用户是否要更新。
+如果「Automatic」选择了，更新无须用户确认即可自动进行。
+如果「Background」选择了，检查会在后台安静完成，如果发现了新版本，就会在菜单右上角展示一个新下载选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="205"/>
         <source>Enables use of Discord Rich Presence to show what game you are playing on Discord.
 Requires a restart of RPCS3 to completely close the connection.</source>
-        <translation>允许使用 Discord Rich Presence 在 Discord 上显示你玩的游戏。
-需要重新启动 RPCS3 才能完全关闭连线。</translation>
+        <translation>启用「Discord Rich Presence」来在 Discord 上展示你正在玩什么游戏。
+必须重启 RPCS3 才能完全关闭连接。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="206"/>
         <source>Tell your friends what you are doing.</source>
-        <translation>告知你的朋友你在做什么。</translation>
+        <translation>告诉你的朋友们你正在做什么。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="207"/>
