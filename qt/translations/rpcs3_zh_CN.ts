@@ -1717,8 +1717,8 @@ Mouse: Emulate PSMove with Mouse handler.</source>
 Select 1 or 2 controllers if the game requires Buzz! controllers and you don&apos;t have real controllers.
 Select Null if the game has support for DualShock or if you have real Buzz! controllers.</source>
         <translation>Buzz! 支持。
-如果游戏需要 Buzz! 控制器而你并没有一个真正的控制器，那么选择 1 个或 2 个控制器。
-如果游戏已支持 DualShock 或如果你有一个真正的 Buzz! 控制器，请选择「Null」。</translation>
+如果游戏需要 Buzz! 控制器而你并没有真正的控制器，那么选择 1 个或 2 个控制器。
+如果游戏已支持 DualShock 或如果你有真正的 Buzz! 控制器，请选择「Null」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="223"/>
@@ -1726,10 +1726,10 @@ Select Null if the game has support for DualShock or if you have real Buzz! cont
 Select 1 or 2 controllers if the game requires DJ Hero Turntable controllers and you don&apos;t have real turntable controllers.
 Select Null if the game has support for DualShock or if you have real turntable controllers.
 A real turntable controller can be used at the same time as an emulated turntable controller.</source>
-        <translation>DJ Hero 转盘控制器支援。
-如果游戏需要 DJ Hero 转盘控制器而您没有真实的转盘控制器，请选择“ 1 ”或“ 2 个控制器”。
-如果游戏支援 DualShock 或者您有真实的转盘控制器，请选择“空”。
-真实的转盘控制器可以与模拟转盘控制器同时使用。</translation>
+        <translation>DJ Hero 转盘控制器支持。
+如果游戏需要 DJ Hero 转盘控制器而你并没有真正的转盘控制器，那么选择 1 个或 2 个控制器。
+如果游戏已支持 DualShock 或如果你有真正的转盘控制器，请选择「Null」。
+真正的转盘控制器可与模拟的转盘模拟器同时使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="224"/>
@@ -1737,48 +1737,48 @@ A real turntable controller can be used at the same time as an emulated turntabl
 Select 1 or 2 controllers if the game requires GHL Guitar controllers and you don&apos;t have real guitar controllers.
 Select Null if the game has support for DualShock or if you have real guitar controllers.
 A real guitar controller can be used at the same time as an emulated guitar controller.</source>
-        <translation>Guitar Hero Live (GHL) 吉他控制器支援。
-如果游戏需要 GHL Guitar 控制器而您没有真实的吉他控制器，请选择“ 1 ”或“ 2 个控制器”。
-如果游戏支援 DualShock 或者您有真实的吉他控制器，请选择“空”。
-真实的吉他控制器可以与模拟吉他控制器同时使用。</translation>
+        <translation>Guitar Hero Live (GHL) 吉他控制器支持。
+如果游戏需要 GHL Guitar 控制器而你并没有真正的吉他控制器，那么选择 1 个或 2 个控制器。
+如果游戏已支持 DualShock 或你有真正的吉他控制器，请选择「Null」。
+真正的吉他控制器可与模拟的吉他控制器同时使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="225"/>
         <source>Allows pad and keyboard input while the game window is unfocused.</source>
-        <translation>在游戏视窗未聚焦时允许 PAD 和键盘输入。</translation>
+        <translation>游戏窗口失去焦点时，允许手柄和键盘输入。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="226"/>
         <source>Shows the raw position of the PS Move input.
 This can be very helpful during calibration screens.</source>
         <translation>显示 PS Move 输入的原始位置。
-这在校准画面期间非常实用。</translation>
+在屏幕校准期间，这会非常有用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="227"/>
         <source>Select up to 3 emulated midi devices and their type.</source>
-        <translation>最多选择 3 个模拟 MIDI 装置以及其类型。</translation>
+        <translation>选择多至三个模拟的 MIDI 设备及它们的类型。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="231"/>
         <source>If set to Connected, RPCS3 will allow programs to use your internet connection.</source>
-        <translation>如果设置为连结，RPCS3 将允许程式使用网际网路连结。</translation>
+        <translation>如果设为「连接」，RPCS3 会允许程序使用你的互联网连接。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="232"/>
         <source>If set to RPCN, RPCS3 will use the RPCN server as PSN connection if the game is supported.
 If set to Simulated, RPCS3 will try to fake the PSN connection, but any actual attempt at using the PSN functionality may result in errors or crashes.
 Simulated is only available in custom configurations.</source>
-        <translation>在游戏支援下设定为“ RPCN”，则 RPCS3 将使用 RPCN 伺服器作为 PSN 连结。
-如果设定为“模拟”，将尝试伪造 PSN 连结，而任何使用 PSN 功能的实际尝试都可能造成错误或崩溃。
-模拟仅在“自订组态”中可用。</translation>
+        <translation>如果设为「RPCN」，假如游戏支持的话，RPCS3 会使用 RPCN 服务器作为 PSN 连接。
+如果设为「模拟」，RPCS3 会尝试伪造 PSN 连接，但所有实际的使用 PSN 功能的尝试，结果都会是错误或崩溃。
+模拟仅在自定义配置中可用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="234"/>
         <source>DNS Swap List.
 Only available in custom configurations.</source>
-        <translation>DNS 调换清单。
-仅在“自订组态”中可用。</translation>
+        <translation>DNS 交换列表。
+仅在自定义配置中可用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="233"/>
