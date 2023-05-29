@@ -1784,38 +1784,38 @@ Only available in custom configurations.</source>
         <location filename="rpcs3qt/tooltips.h" line="233"/>
         <source>DNS used to resolve hostnames by applications.</source>
         <oldsource>DNS used to resolve hostnames by applications</oldsource>
-        <translation>DNS 用于解析主机名的应用程式。</translation>
+        <translation>用于应用程序解析主机名的 DNS.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="235"/>
         <source>Interface IP Address to bind to.
 Only available in custom configurations.</source>
         <oldsource>Interface IP Address to bind to.</oldsource>
-        <translation>要连结的介面 IP 位址。
-仅在“自订组态”中可用。</translation>
+        <translation>要绑定的界面 IP 地址。
+仅在自定义配置中可用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="236"/>
         <source>Enable UPNP.
 This will automatically forward ports bound on 0.0.0.0 if your router has UPNP enabled.</source>
-        <translation>启用 UPNP。
-如果您的路由器启用了 UPNP，这将自动正向连结在 0.0.0.0 上的埠。</translation>
+        <translation>启用 UPNP.
+如果你的路由器启用了 UPNP，这将自动转发绑定在 0.0.0.0 上的端口。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="240"/>
         <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
-        <translation>控制台区域定义了 PS3 授权区域。
-根据授权的区域，某些游戏可能无法正常工作。</translation>
+        <translation>主机地区定义了 PS3 的许可地区。
+根据许可地区的不同，一些游戏可能没法工作。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="241"/>
         <source>Some games may fail to boot if the system language is not available in the game itself.
 Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
-        <translation>如果系统语言在游戏本身不可用，某些游戏可能无法启动。
-一些游戏会自动将语言切换到所选择的内容。
-建议选择游戏所支援的语言。</translation>
+        <translation>如果系统语言在游戏内不可用，一些游戏可能会启动失败。
+其他游戏会根据此处选择了哪种语言来自动切换语言。
+推荐将此值保留为游戏支持一种语言。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="242"/>
@@ -1824,7 +1824,7 @@ Currently only US, Japanese and German layouts are fully supported at this momen
         <oldsource> Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</oldsource>
         <translation>设定使用的键盘布局。
-目前仅支援美国、日本和德国布局。</translation>
+当前，仅美国、日本和韩国的键盘布局在现在是完全支持的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="243"/>
@@ -1834,16 +1834,16 @@ In these cases having the cross button assigned can often lead to confusion.</so
         <oldsource>The button used for enter/accept/confirm in system dialogs.
 Change this to use the circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</oldsource>
-        <translation>用于进入、接受、确定系统讯息框中的按钮。
-将其更改为使用 ○ 按钮，这是日版系统及许多日版游戏中的预设设定。
-在这些情况下，指定 ╳ 按钮通常会导致混淆。</translation>
+        <translation>在系统对话框中，用于进入/接受/确认的按键。
+将此改为使用「Circle」按键，这是在日本系统和众多日本游戏中的默认配置。
+在这些情形下，如果配置给了「Cross」按键，就总会引起困惑。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="244"/>
         <source>Required for some Homebrew.
 If unsure, don&apos;t use this option.</source>
-        <translation>一些自制有需求。
-如果不确定，请勿使用此选项。</translation>
+        <translation>一些 Homebrew 游戏对此项是必须的。
+如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="245"/>
@@ -1853,70 +1853,70 @@ Games can use the cache folder to temporarily store data outside of system memor
 This setting is only available in the global configuration.</source>
         <oldsource>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.</oldsource>
-        <translation>如果旧档案大于指定值，则在启动时自动从磁碟中删除快取旧档案。
-游戏使用快取资料夹临时储存系统记忆之外的资料，但不用于长期储存。
+        <translation>如果增长得比指定的值大，则在启动时自动从磁盘缓存中移除旧文件。
+游戏可在系统内存之外，使用缓存文件夹来临时地存储数据。不用于长期存储。
 
-此设定仅在全局组态中可用。</translation>
+此设置仅可用于全局配置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="246"/>
         <source>Sets the time to be used within the console. This will be applied as an offset that tracks wall clock time.
 Can be reset to current wallclock time by clicking &quot;Set to Now&quot;.</source>
-        <translation>设定控制台中要使用的时间。 这将应用跟踪挂钟时间的偏移量。
-可以透过点击 &quot;设定为现在&quot; 将其重设为当前的挂钟时间。</translation>
+        <translation>设定主机内使用的时间。会应用为跟踪挂钟时间的一个偏移量。
+通过点击「设为现在」可重置为当前的挂钟时间。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="251"/>
         <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
-        <translation>此控制器已停用并显示与软体断开。 选择其它处理程序以启用它。</translation>
+        <translation>此控制器已禁用，且将被显示为与软件断开连接。选择另一个程序来启用它。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="252"/>
         <source>This port is currently assigned to a custom controller by the application and can&apos;t be changed.</source>
-        <translation>此连接埠当前由应用程序指派给自订控制器且无法更改。</translation>
+        <translation>此端口当前已被应用程序分配给一个自定义控制器，不可更改。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="253"/>
         <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
         <oldsource>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.
 To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</oldsource>
-        <translation>虽然可以在 RPCS3 中使用键盘当作 PAD，但强烈建议使用实际控制器。&lt;br&gt;如需映射滑鼠移动到按钮或摇杆，点击触发所需的按钮再次按住滑鼠拖曳到某个方向。</translation>
+        <translation>虽然在 RPCS3 中可以用键盘来作为手柄，但还是强烈推荐使用一个真正的控制器。&lt;br&gt;要把鼠标的移动绑定到一个按键或摇杆上，点击想要的按键来激活，或在鼠标拖拽至一个方向时点击并保持。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="254"/>
         <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <oldsource>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.
 See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</oldsource>
-        <translation>要使用“DualShock 3”处理程序，首先需要安装官方的 DualShock 3 驱动程式。&lt;br&gt;请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
+        <translation>为使用 DualShock 3 处理程序，你首先需要安装官方的 DualShock 3 驱动程序。&lt;br&gt;请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="255"/>
         <source>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <oldsource>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.
 See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</oldsource>
-        <translation>为了使用“DualShock 3”处理程序，您可能需要新增 udev 规则以使 RPCS3 存取控制器。&lt;br&gt;请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt;的说明。</translation>
+        <translation>为使用 DualShock 3 处理程序，你可能需要添加 udev 规则来让 RPCS3 使用控制器。&lt;br&gt;请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt;的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="256"/>
         <source>The DualShock 3 handler is recommended for official DualShock 3 controllers.</source>
-        <translation>“DualShock 3”处理程序建议使用官方的 DualShock 3 控制器。</translation>
+        <translation>对于官方 DualShock 3 控制器，推荐使用「DualShock 3」处理程序。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="257"/>
         <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
-        <translation>如果“DualShock 4”处理程序出现任何问题，则可能是由 DS4Windows 等第三方工具引起的。 建议在使用此处理程序时停用它。</translation>
+        <translation>如果你在使用 DualShock 4 处理程序时遇到了任何问题，它可能是由第三方工具如 DS4Windows 引起的。推荐你在使用此处理程序时将它们禁用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="258"/>
         <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <oldsource>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.
 See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</oldsource>
-        <translation>为了使用“ DualShock 4”处理程序，您可能需要新增 udev 规则以使 RPCS3 存取控制器。&lt;br&gt;请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
+        <translation>为使用 DualShock 4 处理程序，你可能需要添加 udev 规则来让 RPCS3 使用控制器。&lt;br&gt;请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="259"/>
         <source>The DualShock 4 handler is recommended for official DualShock 4 controllers.</source>
-        <translation>对于官方的 DualShock 4 控制器，建议使用“DualShock 4”处理程序。</translation>
+        <translation>对于官方 DualShock 4 控制器，推荐使用「DualShock 4」处理程序。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="260"/>
@@ -1924,29 +1924,29 @@ See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_
         <location filename="rpcs3qt/tooltips.h" line="262"/>
         <source>The DualSense handler is recommended for official DualSense controllers.</source>
         <oldsource>The DualSense handler is recommended for official DualSense controllers.&lt;br&gt;&lt;br&gt;Battery settings are not supported yet.</oldsource>
-        <translation>对于官方的 DualSense 控制器，建议使用“DualSense”处理程序。</translation>
+        <translation>对于官方 DualSense 控制器，推荐使用「DualSense」处理程序。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="263"/>
         <source>The XInput handler will work with Xbox controllers and many third-party PC-compatible controllers. Pressure sensitive buttons from SCP are supported when SCP&apos;s XInput1_3.dll is placed in the main RPCS3 directory. For more details, see the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</source>
-        <translation>“XInput”处理程序将可用于 Xbox 控制器以及大多第三方 PC 相容控制器。 将 SCP 的 XInput1_3.dll 放在 RPCS3 主目录中时，将支援 SCP 的感应式按钮。 关于更多详细资讯，请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt;。</translation>
+        <translation>「XInput」处理程序适用于 Xbox 控制器和众多第三方 PC 兼容控制器。如果 SCP 的 XInput1_3.dll 放在了 RPCS3 的主目录下，SCP 的压感按键就是支持的。欲获取更多细节，请参阅 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="264"/>
         <source>The evdev handler should work with any controller that has linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <oldsource>The evdev handler should work with any controller that has linux support.
 If your joystick is not being centered properly, read the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</oldsource>
-        <translation>“evdev”处理程序应工作于任何 Linux 支援的控制器。&lt;br&gt;如果摇杆未正确居中，请阅读 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的相关说明。</translation>
+        <translation>「evdev」处理程序应适用于任何支持 Linux 的控制器。&lt;br&gt;如摇杆未正常居中，请阅读 &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的相关说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="265"/>
         <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
-        <translation>“MMJoystick”处理程序应该适用于所有 Windows 识别的控制器。 但是，如果您有支援的控制器，建议使用特定的处理程序。</translation>
+        <translation>「MMJoystick」处理程序应适用于几乎所有可被 Windows 识别的控制器。然而，还是推荐你使用更为具体的处理程序——如果你有一个支持它们的控制器的话。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="266"/>
         <source>The SDL handler supports a variety of controllers across different platforms.</source>
-        <translation>SDL 处理程序支持跨不同平台的各种控制器。</translation>
+        <translation>「SDL」处理程序支持横跨不同平台的多种控制器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="268"/>
