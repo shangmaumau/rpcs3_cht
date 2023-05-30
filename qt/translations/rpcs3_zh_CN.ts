@@ -1956,32 +1956,32 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     <message>
         <location filename="rpcs3qt/tooltips.h" line="269"/>
         <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 8000 is usually recommended.</source>
-        <translation>实际“ DualShock 3”摇杆范围不是圆形的，而是形成一个圆角正方形 (或方圆形)，表示模拟摇杆的最大范围。 如果您的摇杆无法达到该范围的角落，则可以使用“方圆形值”来修改摇杆输入。 值为 0 不会应用于任何的方圆形。 通常建议值为 8000。</translation>
+        <translation>实际的 DualShock 3 摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示了模拟的摇杆的最大范围。如果你的摇杆不能达到那个范围的几个角，你可以使用方形圆角值来修改摇杆输入。值为 0 不会应用于任何所谓的方形圆角。值为 8000 则是通常推荐的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="270"/>
         <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
-        <translation>“摇杆倍增器”可用于更改摇杆移动的灵敏度。&lt;br&gt;预设设定为 1 代表正常输入。</translation>
+        <translation>摇杆倍率可被用于改变你的摇杆移动的灵敏度。&lt;br&gt;默认设置为 1，表示正常输入。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="271"/>
         <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is actually simulated as a real DualShock 3&apos;s deadzone of ~13%, so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
-        <translation>“摇杆盲区”判定了摇杆被移动的距离可被游戏完全识别。产生的范围将被投射到整个输入范围内，以便给你一个流畅的体验。 盲区内部的移动实际上被模拟为真实的 “DualShock 3 ”盲区，约为  13%，因此不必担心在模拟“摇杆预览”中是否仍显示移动。</translation>
+        <translation>摇杆盲区决定了摇杆在被游戏完全识别前要移动多远。由此产生的范围将被投射到整个输入范围，以给你一个流畅的体验。盲区内的移动实际上被模拟为一个真实的 DualShock 3 的盲区的约 13%，因此如果在模拟的摇杆预览中仍有移动，请不必担心。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="272"/>
         <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.</source>
-        <translation>PS3 启动两个马达 (大与小) 以处理控制器的振动。&lt;br&gt;您可以在此处启用，禁用甚至切换这些讯号以用于当前选定的控制器。</translation>
+        <translation>PS3 激活两个马达 (大的与小的) 来处理控制器的振动。&lt;br&gt;你可以在这里为当前选中的手柄启用、禁用或甚至是切换这些信号。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="273"/>
         <source>Use this to configure the gamepad motion controls.</source>
-        <translation>可用来设置游戏手把动态控制器。</translation>
+        <translation>使用此项来配置游戏手柄的运动控制。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="274"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
-        <translation>“摇杆预览”中模拟的摇杆值 (红点) 代表实际的摇杆位置，因为它们在游戏中可见。 实际的“DualShock 3”摇杆范围不是圆形的，而是形成一个圆角正方形 (或方圆形)，表示模拟摇杆的最大范围。 蓝色常规点表示原始摇杆值 (包括摇杆倍增器)，在转换为游戏中使用之前。</translation>
+        <translation>摇杆预览中模拟的摇杆值（红色圆点）表示实际的摇杆位置，因为它们对游戏是可见的。 实际的 DualShock 3 摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示模拟摇杆的最大范围。蓝色常规圆点表示了在被转为游戏使用之前的原始摇杆值（包含摇杆倍率）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="275"/>
