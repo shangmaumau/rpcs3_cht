@@ -1966,7 +1966,7 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     <message>
         <location filename="rpcs3qt/tooltips.h" line="271"/>
         <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is actually simulated as a real DualShock 3&apos;s deadzone of ~13%, so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
-        <translation>摇杆盲区决定了摇杆在被游戏完全识别前要移动多远。由此产生的范围将被投射到整个输入范围，以给你一个流畅的体验。盲区内的移动实际上被模拟为一个真实的 DualShock 3 的盲区的约 13%，因此如果在模拟的摇杆预览中仍有移动，请不必担心。</translation>
+        <translation>摇杆死区决定了在被游戏完全识别到之前，摇杆要移动多远距离。为了给你一个流畅的体验，由此产生的范围将被投射到整个输入范围。死区内的移动实际上被模拟为一个真实的 DualShock 3 的死区的约 13%，因此如果在模拟的摇杆预览中仍有移动，请不必担心。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="272"/>
@@ -1981,24 +1981,24 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     <message>
         <location filename="rpcs3qt/tooltips.h" line="274"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
-        <translation>摇杆预览中模拟的摇杆值（红色圆点）表示实际的摇杆位置，因为它们对游戏是可见的。 实际的 DualShock 3 摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示模拟摇杆的最大范围。蓝色常规圆点表示了在被转为游戏使用之前的原始摇杆值（包含摇杆倍率）。</translation>
+        <translation>摇杆预览中模拟的摇杆值（红色圆点）表示实际的摇杆位置，因为它们会对游戏可见。实际的 DualShock 3 摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示模拟摇杆的最大范围。蓝色常规圆点表示了在被转为游戏内使用之前的原始摇杆值（包含摇杆倍率）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="275"/>
         <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
-        <translation>盲区判定触发移动的距离，直到游戏将其识别为止。 产生的范围将被投射到整个输入范围内，以便给你一个流畅的体验。</translation>
+        <translation>扳机死区决定了在被游戏识别到之前，扳机要移动多远的距离。为了给你一个流畅的体验，由此产生的范围将被投射至整个输入范围。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="276"/>
         <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
         <oldsource>With keyboards you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore when a key is pressed the stick will jump to the maximum value of the chosen direction immediately. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</oldsource>
-        <translation>使用键盘时，您不可避免地会受到 8 个方向的限制 (4 个直线 + 4 个对角线)。 此外，当按下一个键时，摇杆将立即跳至所选方向的最大值。 “摇杆插值”可以透过平滑这些方向变更来解决这两个问题。 数值越低，时间越长，必须按住按键或达到最大范围松开。</translation>
+        <translation>使用键盘时，你不可避免被限制在八个摇杆方向——四个直向加四个对角向。而且，在键盘上的按键被按下时，摇杆会立即跳至所选方向的最大值。摇杆插值可用来变通处理这两种问题，其方式是平滑地处理这些方向的变化。值越低，达到最大偏角前，你就需要越久地按压或松开一个键。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="277"/>
         <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
         <oldsource>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</oldsource>
-        <translation>滑鼠盲区代表游戏在 x 轴及 y 轴上的盲区。 游戏通常会强制执行自己的盲区，以过滤些微的摇杆移动。 其结果是，因为它依赖于直接的反应滑鼠的输入感观。 您可以在游戏过程中临时更改这些值，以找出游戏的最佳值 ( Alt  + T 及 Alt + Y 为 x，Alt  + U 及 Alt + I  为 y  )。</translation>
+        <translation>鼠标死区表示了游戏自己在 x 轴和 y 轴上的死区。游戏通常会强制启用它们自己的死区以过滤掉一些微小的、不想要的摇杆移动。结果是，鼠标输入会感觉不太连贯，因为它依赖于即时的响应。你可以在游戏游玩期间临时地更改这些值，以为你的游戏找到最理想的值（x 轴使用 Alt+T 和 Alt+Y，y 轴使用 Alt+U 和 Alt+I）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="278"/>
