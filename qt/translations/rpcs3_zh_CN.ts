@@ -2003,12 +2003,12 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     <message>
         <location filename="rpcs3qt/tooltips.h" line="278"/>
         <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
-        <translation>滑鼠加速可用于放大滑鼠在 x 和 y 轴上的移动。 如果在玩游戏时滑鼠移动过慢，请增加这些值。 您可以在游戏过程中临时变更这些值，以找出最佳值 (  Alt + G 及 Alt + H 为 x ， Alt + J 及 Alt + K 为 y  )。 请记住，现今的滑鼠通常提供不同的模式和设定，这些模式和设定也可用于变更滑鼠的移动速度。</translation>
+        <translation>鼠标加速可用来放大你的鼠标在 x 和 y 轴上的移动。如果你在玩游戏时感觉你的鼠标移动太慢，就增大这些值。你可以在游戏游玩期间临时地更改这些值以找到最理想的值（x 轴使用 Alt+G 和 Alt+H，y 轴使用 Alt+J 和 Alt+K）请记住，现代的鼠标通常也会提供不同的模式和设置，以用来改变鼠标的移动速度。。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="279"/>
         <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
-        <translation>滑鼠移动模式决定了滑鼠移动如何转换为 PAD 输入。&lt;br&gt;对传统滑鼠移动使用“相对”模式。&lt;br&gt;使用“绝对”模式将滑鼠指标到荧幕中心的距离用作输入值。</translation>
+        <translation>鼠标移动的模式决定了如何将鼠标的移动转换为手柄的输入。&lt;br&gt;传统鼠标移动的话，使用相对模式。&lt;br&gt;以鼠标（光标）距离屏幕中心的距离作为输入的话，使用相对模式。</translation>
     </message>
 </context>
 <context>
@@ -2021,25 +2021,25 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="108"/>
         <source>RPCS3 PlayStation 3 Emulator</source>
-        <translation>RPCS3 PlayStation 3 仿真器</translation>
+        <translation>RPCS3 PlayStation 3 模拟器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="127"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.&lt;br/&gt;It is written in C++ for Windows, Linux, FreeBSD and MacOS funded with &lt;a href=&quot;https://www.patreon.com/Nekotekina&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Patreon&lt;/span&gt;&lt;/a&gt;.&lt;br/&gt;Our developers and contributors are always working hard to ensure this project is the best that it can be.&lt;br/&gt;There are still plenty of implementations to make and optimizations to do.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.&lt;br/&gt;It is written in C++ for Windows and Linux funded with &lt;a href=&quot;https://www.patreon.com/Nekotekina&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Patreon&lt;/span&gt;&lt;/a&gt;.&lt;br/&gt;Our developers and contributors are always working hard to ensure this project can be the best that it can be.&lt;br/&gt;There are still plenty of implementations to be made and optimizations to be done.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RPCS3 是一款开源的 Sony PlayStation 3 仿真器与侦错器。&lt;br/&gt;使用 C ++ 编写，适用于 Windows、Linux、FreeBSD 和 MacOS。 资助由 &lt;a href=&quot;https://www.patreon.com/Nekotekina&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Patreon&lt;/span&gt;&lt;/a&gt;。&lt;br/&gt;主要的“开发团队”和“贡献者”仍然努力着维持项目的完善，&lt;br/&gt;但还有大量的项目得实现及最佳化。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RPCS3 是一款开源的索尼 PlayStation 3 模拟器与调试器。&lt;br/&gt;它以 C++ 编写而成，适用于 Windows、Linux、FreeBSD 和 macOS 平台。由 &lt;a href=&quot;https://www.patreon.com/Nekotekina&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Patreon&lt;/span&gt;&lt;/a&gt; 资助。&lt;br/&gt;我们的开发者和贡献者一直努力工作以确保这个项目达到它能做到的最好。&lt;br/&gt;还有大量的实现有待添加、大量的优化有待完成。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="221"/>
         <source>&lt;p&gt;&lt;b&gt;Developers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;cornytrace&lt;br&gt;ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</source>
         <oldsource>&lt;p&gt;&lt;b&gt;Developers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;Oil&lt;br&gt;Nekotekina&lt;br&gt;Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;vlj&lt;br&gt;kd-11&lt;br&gt;jarveson&lt;br&gt;raven02&lt;br&gt;AniLeo&lt;br&gt;cornytrace&lt;br&gt;ssshadow&lt;br&gt;Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</oldsource>
-        <translation>&lt;p&gt;&lt;b&gt;开发团队:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;cornytrace&lt;br&gt;ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;开发者：&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;cornytrace&lt;br&gt;ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="237"/>
         <source>&lt;p&gt;&lt;b&gt;Contributors:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;/p&gt;</source>
         <oldsource>&lt;p&gt;&lt;b&gt;Contributors:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;/p&gt;</oldsource>
-        <translation>&lt;p&gt;&lt;b&gt;贡献者:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;贡献者：&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="250"/>
@@ -2114,7 +2114,7 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
           &lt;br&gt;Chaining Ten
           &lt;br&gt;Xeropel
           &lt;/p&gt;</oldsource>
-        <translation>&lt;p&gt;&lt;b&gt;赞助者:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
+        <translation>&lt;p&gt;&lt;b&gt;支持者：&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;李佳文&lt;br&gt;sorryboi
           &lt;br&gt;Johnson Bui
           &lt;br&gt;itachi1986
           &lt;br&gt;Mortano
@@ -2153,7 +2153,7 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
           &lt;br&gt;Marc Tönsing
           &lt;br&gt;Amogus
           &lt;br&gt;Scott Davis
-          &lt;br&gt;秉軒 侯
+          &lt;br&gt;侯秉軒
           &lt;br&gt;Wiktor Tkaczyński
           &lt;br&gt;Vekkar
           &lt;br&gt;Jackson Abney
@@ -2177,7 +2177,7 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="361"/>
         <source>Patreon</source>
-        <translation>赞助</translation>
+        <translation>Patreon</translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="381"/>
@@ -2187,7 +2187,7 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
     <message>
         <location filename="rpcs3qt/about_dialog.cpp" line="16"/>
         <source>RPCS3 Version: %1</source>
-        <translation>RPCS3 版本: %1</translation>
+        <translation>RPCS3 版本：%1</translation>
     </message>
 </context>
 <context>
@@ -2196,13 +2196,13 @@ If your joystick is not being centered properly, read the &lt;a href=&quot;https
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="20"/>
         <source>To use auto pause: enter the ID(s) of a function or a system call.
 Restart of the game is required to apply. You can enable/disable this in the settings.</source>
-        <translation>使用 Auto Pause: 输入一个函数或系统呼叫 ID。
-必须重新启动游戏才会套用。 您也可以启用或停用此设定。</translation>
+        <translation>使用自动暂停：请输入函数或系统调用的 ID（可为多个）。
+需要重新开始游戏才会应用。你可以在设置中启用/禁用此功能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="24"/>
         <source>Call ID</source>
-        <translation>Call ID</translation>
+        <translation>调用 ID</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="24"/>
@@ -2217,12 +2217,12 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="32"/>
         <source>Reload</source>
-        <translation>再启动</translation>
+        <translation>重新加载</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="33"/>
         <source>Save</source>
-        <translation>储存</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="34"/>
@@ -2232,7 +2232,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="51"/>
         <source>Auto Pause Manager</source>
-        <translation>Auto Pause 管理</translation>
+        <translation>自动暂停管理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="134"/>
@@ -2242,17 +2242,17 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="139"/>
         <source>System Call</source>
-        <translation>系统呼叫</translation>
+        <translation>系统调用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="143"/>
         <source>Function Call</source>
-        <translation>函数呼叫</translation>
+        <translation>函数调用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="158"/>
         <source>&amp;Add</source>
-        <translation>新增(&amp;A)</translation>
+        <translation>添加(&amp;A)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="159"/>
@@ -2262,7 +2262,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="161"/>
         <source>&amp;Config</source>
-        <translation>设定(&amp;C)</translation>
+        <translation>配置(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -2275,43 +2275,43 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
         <source>Unimplemented Breakpoints For Thread Type!</source>
-        <translation>执行绪类型未实现断点!</translation>
+        <translation>线程类型未实现断点！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="122"/>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="164"/>
         <source>Invalid Memory For Breakpoints!</source>
-        <translation>无效的记忆断点!</translation>
+        <translation>断点无效内存！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="164"/>
         <source>Cannot set breakpoints on non-executable memory!</source>
-        <translation>无法在不可执行的记忆上设定断点!</translation>
+        <translation>不可在非执行的内存上设定断点！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="112"/>
         <source>Interpreters-Only Feature!</source>
-        <translation>仅限直译器功能!</translation>
+        <translation>解释器专用功能！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="112"/>
         <source>Cannot set breakpoints on non-interpreter decoders.</source>
-        <translation>无法在非直译器译码器上设定断点。</translation>
+        <translation>不可在非解释器解码器上设定断点。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="122"/>
         <source>Cannot set breakpoints on non-SPU executable memory!</source>
-        <translation>无法在非 SPU 可执行记忆上设定断点!</translation>
+        <translation>不可在非 SPU 执行的内存上设定断点！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
         <source>Cannot set breakpoints on a thread not an PPU/SPU currently, sorry.</source>
-        <translation>无法在当前不是 PPU/SPU 的执行绪上设定断点，抱歉。</translation>
+        <translation>目前不可在非 PPU/SPU 的线程上设定断点，不好意思。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="176"/>
         <source>Unknown error while setting breakpoint!</source>
-        <translation>设定断点时出现未知错误!</translation>
+        <translation>设定断点时出现未知错误！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="176"/>
@@ -2344,12 +2344,12 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/camera_settings_dialog.ui" line="38"/>
         <source>Settings</source>
-        <translation>设定</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/camera_settings_dialog.ui" line="44"/>
         <source>No settings found</source>
-        <translation>未找到设定</translation>
+        <translation>未找到设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/camera_settings_dialog.ui" line="56"/>
@@ -2368,12 +2368,12 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <source>The selected camera is not available.
 It might be blocked by another application.</source>
         <translation>所选相机不可用。
-可能被另一个应用程式阻止。</translation>
+可能被另一个应用程序占用了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/camera_settings_dialog.cpp" line="163"/>
         <source>%0x%1, %2-%3 FPS, Format=%4, PixelAspectRatio=%5x%6</source>
-        <translation>%0x%1, %2-%3 FPS, 型式=%4, PixelAspectRatio=%5x%6</translation>
+        <translation>%0x%1, %2-%3 FPS, 格式=%4, PixelAspectRatio=%5x%6</translation>
     </message>
 </context>
 <context>
@@ -2381,7 +2381,7 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="22"/>
         <source>Cg Disasm</source>
-        <translation>Cg 反组译</translation>
+        <translation>Cg 反汇编</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="68"/>
@@ -2391,17 +2391,17 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="69"/>
         <source>Open &amp;Cg binary program</source>
-        <translation>开启 Cg 二进位程序(&amp;G)</translation>
+        <translation>打开 Cg 二进制程序(&amp;G)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="83"/>
         <source>Select Cg program object</source>
-        <translation>选取 Cg 程序目标</translation>
+        <translation>选择 Cg 程序的目标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="83"/>
         <source>Cg program objects (*.fpo;*.vpo);;</source>
-        <translation>Cg 程序目标 (*.fpo;*.vpo);;</translation>
+        <translation>Cg 程序的目标 (*.fpo;*.vpo);;</translation>
     </message>
 </context>
 <context>
@@ -2432,27 +2432,27 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Current Value:</source>
-        <translation>当前值:</translation>
+        <translation>当前值：</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>套用</translation>
+        <translation>应用</translation>
     </message>
     <message>
         <source>Cheat Search</source>
-        <translation>作弊搜寻</translation>
+        <translation>作弊搜索</translation>
     </message>
     <message>
         <source>New Search</source>
-        <translation>新搜寻</translation>
+        <translation>新搜索</translation>
     </message>
     <message>
         <source>Filter Results</source>
-        <translation>筛选结果</translation>
+        <translation>过滤结果</translation>
     </message>
     <message>
         <source>Failed to resolve redirection script</source>
-        <translation>无法剖析重定向脚本</translation>
+        <translation>解析重定向脚本失败</translation>
     </message>
     <message>
         <source>%1</source>
@@ -2460,7 +2460,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Failed to get the value from memory</source>
-        <translation>无法从记忆中获取值</translation>
+        <translation>从内存获取值失败</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -2476,16 +2476,16 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Reverse-Lookup Cheat</source>
-        <translation>反向寻找作弊</translation>
+        <translation>反向查找作弊</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="981"/>
         <source>Error converting value</source>
-        <translation>转换值时出错</translation>
+        <translation>转换值时出现错误</translation>
     </message>
     <message>
         <source>Couldn&apos;t convert the value you typed to the integer type of that cheat</source>
-        <translation>无法将您输入的值转换为作弊的整数类型</translation>
+        <translation>你敲下的值无法转换为那个作弊（需要）的整数类型</translation>
     </message>
     <message>
         <source>Error applying value</source>
@@ -2493,11 +2493,11 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Couldn&apos;t patch memory</source>
-        <translation>无法补缀记忆</translation>
+        <translation>无法给内存打补丁</translation>
     </message>
     <message>
         <source>Add to cheat list</source>
-        <translation>增加到作弊清单</translation>
+        <translation>添加到作弊列表</translation>
     </message>
     <message>
         <source>Cheat already exist</source>
@@ -2505,22 +2505,22 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Do you want to overwrite the existing cheat?</source>
-        <translation>要取代现有的作弊吗?</translation>
+        <translation>要覆盖已经存在的作弊吗？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="981"/>
         <source>Couldn&apos;t convert the search value you typed to the integer type you selected</source>
-        <translation>无法将您输入的搜寻值转换为所选的整数类型</translation>
+        <translation>你敲下的搜索值无法转换为你选择的整数类型</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="991"/>
         <source>Nothing found</source>
-        <translation>未找到</translation>
+        <translation>什么也没找到</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="998"/>
         <source>Too many entries to display (%0)</source>
-        <translation>显示的项目过多 (%0)</translation>
+        <translation>显示的项目过多（%0）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1006"/>
@@ -2535,42 +2535,42 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1059"/>
         <source>Unsigned 8 bits</source>
-        <translation>无正负号 8 位元</translation>
+        <translation>无符号八位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1060"/>
         <source>Unsigned 16 bits</source>
-        <translation>无正负号 16 位元</translation>
+        <translation>无符号十六位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1061"/>
         <source>Unsigned 32 bits</source>
-        <translation>无正负号 32 位元</translation>
+        <translation>无符号三十二位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1062"/>
         <source>Unsigned 64 bits</source>
-        <translation>无正负号 64 位元</translation>
+        <translation>无符号六十四位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1063"/>
         <source>Signed 8 bits</source>
-        <translation>带正负号 8 位元</translation>
+        <translation>有符号八位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1064"/>
         <source>Signed 16 bits</source>
-        <translation>带正负号 16 位元</translation>
+        <translation>有符号十六位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1065"/>
         <source>Signed 32 bits</source>
-        <translation>带正负号 32 位元</translation>
+        <translation>有符号三十二位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="1066"/>
         <source>Signed 64 bits</source>
-        <translation>带正负号 64 位元</translation>
+        <translation>有符号六十四位</translation>
     </message>
 </context>
 <context>
@@ -2578,32 +2578,32 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/config_checker.cpp" line="27"/>
         <source>Interesting!</source>
-        <translation>有趣的!</translation>
+        <translation>有意思！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/config_checker.cpp" line="31"/>
         <source>Found config.
 It seems to match the default config.</source>
-        <translation>发现组态。
-似乎与预设组态符合。</translation>
+        <translation>发现配置。
+看起来与默认配置匹配。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/config_checker.cpp" line="35"/>
         <source>Found config.
 Some settings seem to deviate from the default config:</source>
-        <translation>发现组态。
-一些设定似乎偏离了预设组态:</translation>
+        <translation>发现配置。
+一些设置看起来与默认配置有些偏离：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/config_checker.cpp" line="47"/>
         <source>Ooops!</source>
-        <translation>哎!</translation>
+        <translation>哎呀！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/config_checker.cpp" line="78"/>
         <location filename="rpcs3qt/config_checker.cpp" line="88"/>
         <source>Cannot find any config!</source>
-        <translation>未发现任何组态!</translation>
+        <translation>未能发现任何配置！</translation>
     </message>
 </context>
 <context>
@@ -2611,23 +2611,23 @@ Some settings seem to deviate from the default config:</source>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="68"/>
         <source>Debugger</source>
-        <translation>侦错器</translation>
+        <translation>调试器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="100"/>
         <source>Choose a thread</source>
-        <translation>选取一个执行绪</translation>
+        <translation>选择一个线程</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="105"/>
         <location filename="rpcs3qt/debugger_frame.cpp" line="1021"/>
         <source>Go To Address</source>
-        <translation>至 位址</translation>
+        <translation>去往地址</translation>
     </message>
-    <message>
+    <message>····
         <location filename="rpcs3qt/debugger_frame.cpp" line="106"/>
         <source>Go To PC</source>
-        <translation>至 PC</translation>
+        <translation>去往 PC</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="107"/>
@@ -2641,11 +2641,11 @@ Some settings seem to deviate from the default config:</source>
     </message>
     <message>
         <source>No Thread</source>
-        <translation>没有执行绪</translation>
+        <translation>无线程</translation>
     </message>
     <message>
         <source>Run</source>
-        <translation>执行</translation>
+        <translation>运行</translation>
     </message>
     <message>
         <source>Pause</source>
@@ -2654,12 +2654,12 @@ Some settings seem to deviate from the default config:</source>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="288"/>
         <source>Debugger Guide &amp; Shortcuts</source>
-        <translation>侦错器指南和捷径方式</translation>
+        <translation>调试器指南与快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="422"/>
         <source>Max MFC cmds logged</source>
-        <translation>最大 MFC CMDS 日志</translation>
+        <translation>已记录 MFC 指令至最大数量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="258"/>
@@ -2671,19 +2671,19 @@ Some settings seem to deviate from the default config:</source>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="247"/>
         <source>Breakpoint Settings</source>
-        <translation>断点设定</translation>
+        <translation>断点设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="250"/>
         <source>Pause All Threads On Hit</source>
-        <translation>暂停全部执行绪在命中</translation>
+        <translation>（断点）命中时暂停所有线程</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="253"/>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
-        <translation>当设定: 断点命中将暂停仿真，而不是当前执行绪。
-无论在更改此设定之前还是之后，都将应用于所有执行绪中的所有断点。</translation>
+        <translation>当设定：击中断点时会暂停模拟而非暂停当前线程。
+应用于所有线程中的所有断点，而不管是在更改此设置之前或之后设定的。（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="290"/>
@@ -2707,37 +2707,37 @@ Key Down: Scroll one instruction downwards. (address is incremented)
 Key Page-Up: Scroll upwards with steps count equal to the viewed instruction count.
 Key Page-Down: Scroll downwards with steps count equal to the viewed instruction count.
 Double-click: Set breakpoints.</source>
-        <translation>Ctrl+G 键: 移至键入的位址。
-Ctrl+B 键: 开启断点设定。
-Alt+S 键: PPU 使用时截取选定 SPU 或通用形式的 SPU 图像。
-Alt+R 键: 载入上次截取储存的 SPU 状态。
- D 键: SPU MFC 命令日志，必须启用 MFC 侦错设定。
- D 键: 还必须使用 PPU 调用历程记录、直译器和非零调用历程大小。
- E 键: 指令编辑: 点击要修改的指令，然后按 E。
- F 键: SPU 执行绪专用的浮点模式开关。
- R 键: 选定执行绪的暂存器编辑。
- N 键: 显示下一条指令，此执行绪将在标记的指令之后执行，如果目标不可预测，则不执行任何操作。
- M 键: 显示记忆检视器，其初始位址指向标记的指令。
- I 键: 显示 RSX 方法内容。
-F10 键: 对指令执行跃步。 (跳过函式调用)
-F11 键: 对指令执行单步执行。
-F1 键: 显示说明对话框。
-向上键: 向上卷动一条指令。(位址递减)
-向下键: 向下卷动一条指令。(位址递增)
-Page-Up 键: 向上卷动，步数等于检视的指令数。
-Page-Down 键: 向下卷动，步数等于检视的指令数。
-双击: 设定断点。</translation>
+        <translation>Ctrl+G：前往敲入的地址。
+Ctrl+B：打开断点设置。
+Alt+S：捕获选中的 SPU 的 SPU 图像，或来自 PPU 使用的一般形式。（看不懂）
+Alt+R：加载上次保存的 SPU 捕获状态。
+D：SPU MFC 指令记录器，必须启用 MFC 调试设置。
+D：也是 PPU 调用历史记录器，必须使用解释器和非 0 的调用历史大小。
+E：指令编辑器：点击你要修改的指令，然后按下 E。
+F：为 SPU 线程切换至专用的浮点模式。
+R：（打开）选中线程的寄存器编辑器。
+N：展示标记指令之后下一条要执行的指令，如目标不可预计，就什么也不做。
+M：以指向标记指令的初始地址来展示内存查看器。
+I：展示 RSX 方法的细节。
+F10：在指令上执行跃步操作。（跳过函数调用）
+F11：在指令上执行单步前进。
+F1：展示此帮助对话框。
+上键：向上滚动一条指令。（地址是递减的）
+下键：向下滚动一条指令。（地址是递增的）
+上翻页键：向上滚动，其步数等于当前看到的指令数量。
+下翻页键：向下滚动，其步数等于当前看到的指令数量。
+双击：设定断点。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="422"/>
         <location filename="rpcs3qt/debugger_frame.cpp" line="478"/>
         <source>Decimal only, max allowed is %0.</source>
-        <translation>仅小数点，最大允许为 %0。</translation>
+        <translation>仅允许小数，最大可设为 %0。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="478"/>
         <source>Max PPU calls logged</source>
-        <translation>记录最大 PPU 调用</translation>
+        <translation>已记录 PPU 调用至最大数量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="1044"/>
@@ -2755,7 +2755,7 @@ Page-Down 键: 向下卷动，步数等于检视的指令数。
     <message>
         <location filename="rpcs3qt/debugger_list.cpp" line="328"/>
         <source>RSX Command Detail</source>
-        <translation>RSX 指令内容</translation>
+        <translation>RSX 指令细节</translation>
     </message>
 </context>
 <context>
@@ -2763,12 +2763,12 @@ Page-Down 键: 向下卷动，步数等于检视的指令数。
     <message>
         <location filename="rpcs3qt/downloader.cpp" line="117"/>
         <source>Please wait...</source>
-        <translation>请稍后...</translation>
+        <translation>请稍等……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/downloader.cpp" line="117"/>
         <source>Abort</source>
-        <translation>中止</translation>
+        <translation>终止</translation>
     </message>
 </context>
 <context>
