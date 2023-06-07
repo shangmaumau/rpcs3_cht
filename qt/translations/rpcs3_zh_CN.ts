@@ -2252,17 +2252,17 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="158"/>
         <source>&amp;Add</source>
-        <translation>添加(&amp;A)</translation>
+        <translation>&amp;添加</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="159"/>
         <source>&amp;Remove</source>
-        <translation>删除(&amp;R)</translation>
+        <translation>&amp;删除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="161"/>
         <source>&amp;Config</source>
-        <translation>配置(&amp;C)</translation>
+        <translation>&amp;配置</translation>
     </message>
 </context>
 <context>
@@ -2270,7 +2270,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="24"/>
         <source>&amp;Delete</source>
-        <translation>删除(&amp;D)</translation>
+        <translation>&amp;删除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
@@ -2321,7 +2321,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="199"/>
         <source>&amp;Rename</source>
-        <translation>重新命名(&amp;R)</translation>
+        <translation>&amp;重命名</translation>
     </message>
 </context>
 <context>
@@ -2386,12 +2386,12 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="68"/>
         <source>&amp;Clear</source>
-        <translation>清理(&amp;C)</translation>
+        <translation>&amp;清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="69"/>
         <source>Open &amp;Cg binary program</source>
-        <translation>打开 Cg 二进制程序(&amp;G)</translation>
+        <translation>打开 &amp;Cg 二进制程序</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="83"/>
@@ -2724,8 +2724,8 @@ F11：在指令上执行单步前进。
 F1：展示此帮助对话框。
 上键：向上滚动一条指令。（地址是递减的）
 下键：向下滚动一条指令。（地址是递增的）
-上翻页键：向上滚动，其步数等于当前看到的指令数量。
-下翻页键：向下滚动，其步数等于当前看到的指令数量。
+Page-Up 键：向上滚动，其步数等于当前看到的指令数量。
+Page-Down 键：向下滚动，其步数等于当前看到的指令数量。
 双击：设定断点。</translation>
     </message>
     <message>
@@ -2776,72 +2776,72 @@ F1：展示此帮助对话框。
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="24"/>
         <source>SPU ELF Dumper</source>
-        <translation>SPU ELF 倾印</translation>
+        <translation>SPU ELF 转储器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="34"/>
         <source>PPU Address: 0x00000000, LS Address: 0x00000, Segment Size: 0x00000, Flags: 0x0</source>
-        <translation>PPU 位址: 0x00000000, LS 位址: 0x00000, 段大小: 0x00000, 旗标: 0x0</translation>
+        <translation>PPU 地址：0x00000000，LS 地址：0x00000，切片尺寸：0x00000，标记位：0x0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="55"/>
         <source>Add new segment</source>
-        <translation>增加新段</translation>
+        <translation>增加新切片</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="60"/>
         <source>Remove segment</source>
-        <translation>删除段</translation>
+        <translation>删除切片</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="65"/>
         <source>Save To ELF</source>
-        <translation>储存到 ELF</translation>
+        <translation>保存至 ELF</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="66"/>
         <source>Save To An ELF file</source>
-        <translation>储存为 ELF 档案</translation>
+        <translation>保存为一个 ELF 文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="70"/>
         <source>Segment Size:</source>
-        <translation>段大小:</translation>
+        <translation>切片尺寸：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="74"/>
         <source>PPU Address:</source>
-        <translation>PPU 位址:</translation>
+        <translation>PPU 地址：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="77"/>
         <source>LS Address:</source>
-        <translation>LS 位址:</translation>
+        <translation>LS 地址：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="80"/>
         <source>Flags:</source>
-        <translation>旗标:</translation>
+        <translation>村记位：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="129"/>
         <source>Segment Size</source>
-        <translation>段大小</translation>
+        <translation>切片尺寸</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="130"/>
         <source>PPU Address</source>
-        <translation>PPU 位址</translation>
+        <translation>PPU 地址</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="131"/>
         <source>LS Address</source>
-        <translation>LS 位址</translation>
+        <translation>LS 地址</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="132"/>
         <source>Segment Flags</source>
-        <translation>段旗标</translation>
+        <translation>切片标记位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="136"/>
@@ -2850,56 +2850,56 @@ F1：展示此帮助对话框。
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="154"/>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="168"/>
         <source>Failed To Add Segment</source>
-        <translation>增加段失败</translation>
+        <translation>添加切片失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="136"/>
         <source>Segment parameters are incorrect:
 %1</source>
-        <translation>段参数不正确:
+        <translation>切片参数不正确：
 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="142"/>
         <source>SPU segment size must be 4 bytes aligned.</source>
-        <translation>SPU 段大小必须为 4 位元组对齐。</translation>
+        <translation>SPU 切片尺寸必须为 4 字节对齐。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="148"/>
         <source>SPU segment range is invalid.</source>
-        <translation>SPU 段范围无效。</translation>
+        <translation>SPU 切片范围无效。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="154"/>
         <source>PPU address range is not accessible.</source>
-        <translation>PPU 位址范围不可存取。</translation>
+        <translation>PPU 地址范围无法获取。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="168"/>
         <source>SPU segment overlaps with previous SPU segment(s)
 </source>
-        <translation>SPU 段与之前的 SPU 段重叠
+        <translation>SPU 切片与之前的 SPU 切片部分重叠
 </translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="173"/>
         <source>PPU Address: 0x%0, LS Address: 0x%1, Segment Size: 0x%2, Flags: 0x%3</source>
-        <translation>PPU 位址: 0x%0, LS 位址: 0x%1, 段大小: 0x%2, 旗标: 0x%3</translation>
+        <translation>PPU 地址：0x%0，LS 地址：0x%1，切片尺寸：0x%2，标记位：0x%3</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="207"/>
         <source>Capture</source>
-        <translation>截取</translation>
+        <translation>捕获</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="221"/>
         <source>Save Failure</source>
-        <translation>储存失败</translation>
+        <translation>保存失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="221"/>
         <source>Failed to save SPU ELF.</source>
-        <translation>储存 SPU ELF 失败。</translation>
+        <translation>保存 SPU ELF 失败。</translation>
     </message>
 </context>
 <context>
@@ -2909,13 +2909,13 @@ F1：展示此帮助对话框。
         <location filename="rpcs3qt/emu_settings.cpp" line="129"/>
         <location filename="rpcs3qt/emu_settings.cpp" line="161"/>
         <source>Config Error</source>
-        <translation>组态错误</translation>
+        <translation>配置错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="112"/>
         <source>Failed to load default config:
 %0</source>
-        <translation>无法载入预设组态:
+        <translation>加载默认配置失败：
 %0</translation>
     </message>
     <message>
@@ -2923,23 +2923,23 @@ F1：展示此帮助对话框。
         <source>Failed to load global config:
 File: %0
 Error: %1</source>
-        <translation>无法载入全局组态:
-档案: %0
-错误: %1</translation>
+        <translation>加载全局配置失败：
+文件：%0
+错误：%1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="161"/>
         <source>Failed to load custom config:
 File: %0
 Error: %1</source>
-        <translation>无法载入自订组态:
-档案: %0
-错误: %1</translation>
+        <translation>加载自定义配置失败：
+文件：%0
+错误：%1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="858"/>
         <source>Fix invalid settings?</source>
-        <translation>修正无效的设定?</translation>
+        <translation>修复无效的设置项？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="859"/>
@@ -2949,18 +2949,18 @@ Consider that a correction might render them invalid for other versions of RPCS3
 
 Do you wish to let the program correct them for you?
 This change will only be final when you save the config.</source>
-        <translation>您的组态档案包含一个或多个无法辨识的设定。
-其预设值将被使用，直到修正为止。
-考虑到修正后可能使得 RPCS3 的其它版本无效。
+        <translation>你的配置文件中包含了一个或多个无法识别的设置项值。
+直至其被更正前，会使用它们的默认值。
+请考虑到：更正操作在其他版本的 RPCS3 中可能会无效渲染。
 
-想让程式为你修正吗?
-当您储存设定时，此更改将会是最终决定。</translation>
+你希望让程序为你更正它们吗？
+只有你保存的时候，这个更改才会成为最终版本。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="889"/>
         <source>Safe</source>
         <comment>SPU block size</comment>
-        <translation>安全</translation>
+        <translation>Safe</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="890"/>
@@ -2978,25 +2978,25 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="897"/>
         <source>RPCS3 Scheduler</source>
         <comment>Thread Scheduler Mode</comment>
-        <translation>RPCS3 排程器</translation>
+        <translation>RPCS3 调度器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="898"/>
         <source>RPCS3 Alternative Scheduler</source>
         <comment>Thread Scheduler Mode</comment>
-        <translation>RPCS3 替代排程器</translation>
+        <translation>RPCS3 备用调度器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="899"/>
         <source>Operating System</source>
         <comment>Thread Scheduler Mode</comment>
-        <translation>作业系统</translation>
+        <translation>操作系统</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="905"/>
         <source>Disabled</source>
         <comment>Enable TSX</comment>
-        <translation>停用</translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="906"/>
@@ -3014,7 +3014,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="913"/>
         <source>Disable Video Output</source>
         <comment>Video renderer</comment>
-        <translation>停用视讯输出</translation>
+        <translation>禁用视频输出</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="914"/>
@@ -3032,25 +3032,25 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="921"/>
         <source>Legacy (single threaded)</source>
         <comment>Shader Mode</comment>
-        <translation>旧版 (单执行绪)</translation>
+        <translation>旧版（单线程）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="922"/>
         <source>Async (multi threaded)</source>
         <comment>Shader Mode</comment>
-        <translation>非同步 (多执行绪)</translation>
+        <translation>异步（多线程）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="923"/>
         <source>Async with Shader Interpreter</source>
         <comment>Shader Mode</comment>
-        <translation>非同步直译器着色</translation>
+        <translation>异步着色器解释器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="924"/>
         <source>Shader Interpreter only</source>
         <comment>Shader Mode</comment>
-        <translation>仅直译器着色</translation>
+        <translation>仅着色器解释器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="930"/>
@@ -3086,19 +3086,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="935"/>
         <source>PS3 Native</source>
         <comment>Frame limit</comment>
-        <translation>PS3 本体</translation>
+        <translation>PS3 原生</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="936"/>
         <source>Infinite</source>
         <comment>Frame limit</comment>
-        <translation>无限</translation>
+        <translation>Infinite</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="942"/>
         <source>Disabled</source>
         <comment>MSAA</comment>
-        <translation>停用</translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="943"/>
@@ -3116,7 +3116,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="950"/>
         <source>Ultra</source>
         <comment>Shader Precision</comment>
-        <translation>超级</translation>
+        <translation>Ultra</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="951"/>
@@ -3146,13 +3146,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="960"/>
         <source>FidelityFX Super Resolution</source>
         <comment>Output Scaling Mode</comment>
-        <translation>FidelityFX 超解析度</translation>
+        <translation>FidelityFX 超级分辨率</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="966"/>
         <source>Disable Audio Output</source>
         <comment>Audio renderer</comment>
-        <translation>停用音讯输出</translation>
+        <translation>禁用音频输出</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="968"/>
@@ -3176,7 +3176,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="979"/>
         <source>Disabled</source>
         <comment>Microphone handler</comment>
-        <translation>停用</translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="980"/>
@@ -3194,7 +3194,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="982"/>
         <source>Real SingStar</source>
         <comment>Microphone handler</comment>
-        <translation>Real SingStar</translation>
+        <translation>真正的 SingStar</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="983"/>
@@ -3212,7 +3212,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="990"/>
         <source>Basic</source>
         <comment>Keyboard handler</comment>
-        <translation>基本</translation>
+        <translation>Basic</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="996"/>
@@ -3224,7 +3224,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="997"/>
         <source>Basic</source>
         <comment>Mouse handler</comment>
-        <translation>基本</translation>
+        <translation>Basic</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1003"/>
@@ -3272,7 +3272,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1015"/>
         <source>Flip both axis</source>
         <comment>Camera flip</comment>
-        <translation>翻转两个轴</translation>
+        <translation>双轴翻转</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1021"/>
@@ -3284,7 +3284,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1022"/>
         <source>Fake</source>
         <comment>Camera handler</comment>
-        <translation>虚设</translation>
+        <translation>伪造</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1023"/>
@@ -3308,13 +3308,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1036"/>
         <source>Single-threaded</source>
         <comment>Pad handler mode</comment>
-        <translation>单执行绪</translation>
+        <translation>单线程的</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1037"/>
         <source>Multi-threaded</source>
         <comment>Pad handler mode</comment>
-        <translation>多执行绪</translation>
+        <translation>多线程的</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1043"/>
@@ -3326,13 +3326,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1044"/>
         <source>Fake</source>
         <comment>Move handler</comment>
-        <translation>虚设</translation>
+        <translation>伪造</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1045"/>
         <source>Mouse</source>
         <comment>Move handler</comment>
-        <translation>滑鼠</translation>
+        <translation>鼠标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1047"/>
@@ -3344,19 +3344,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1054"/>
         <source>Null (use real Buzzers)</source>
         <comment>Buzz handler</comment>
-        <translation>空 (使用真实的 Buzzers)</translation>
+        <translation>空（使用真正的 Buzzers）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1055"/>
         <source>1 controller (1-4 players)</source>
         <comment>Buzz handler</comment>
-        <translation>1 个控制器 (1-4 个玩家)</translation>
+        <translation>1 个控制器（1-4 个玩家）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1056"/>
         <source>2 controllers (5-7 players)</source>
         <comment>Buzz handler</comment>
-        <translation>2 个控制器 (5-7 个玩家)</translation>
+        <translation>2 个控制器（5-7 个玩家）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1062"/>
@@ -3398,19 +3398,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1078"/>
         <source>Disconnected</source>
         <comment>Internet Status</comment>
-        <translation>断线</translation>
+        <translation>已断开连接</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1079"/>
         <source>Connected</source>
         <comment>Internet Status</comment>
-        <translation>连结</translation>
+        <translation>已连接</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1085"/>
         <source>Disconnected</source>
         <comment>PSN Status</comment>
-        <translation>断线</translation>
+        <translation>已断开连接</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1086"/>
@@ -3452,13 +3452,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1102"/>
         <source>Atomic</source>
         <comment>RSX FIFO Accuracy</comment>
-        <translation>Atomic</translation>
+        <translation>原子</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1103"/>
         <source>Ordered &amp; Atomic</source>
         <comment>RSX FIFO Accuracy</comment>
-        <translation>Ordered &amp; Atomic</translation>
+        <translation>有序原子</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1104"/>
@@ -3470,7 +3470,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1110"/>
         <source>None</source>
         <comment>Detail Level</comment>
-        <translation>空</translation>
+        <translation>无</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1111"/>
@@ -3525,58 +3525,58 @@ This change will only be final when you save the config.</source>
         <source>Interpreter (static)</source>
         <oldsource>Interpreter (precise)</oldsource>
         <comment>PPU decoder</comment>
-        <translation>直译器 (静态)</translation>
+        <translation>解释器（静态）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1130"/>
         <source>Interpreter (dynamic)</source>
         <oldsource>Interpreter (fast)</oldsource>
         <comment>PPU decoder</comment>
-        <translation>直译器 (动态)</translation>
+        <translation>解释器（动态）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1131"/>
         <source>Recompiler (LLVM)</source>
         <comment>PPU decoder</comment>
-        <translation>反编译 (LLVM)</translation>
+        <translation>重编译器（LLVM）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1137"/>
         <source>Interpreter (static)</source>
         <oldsource>Interpreter (precise)</oldsource>
         <comment>SPU decoder</comment>
-        <translation>直译器 (静态)</translation>
+        <translation>解释器（静态）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1138"/>
         <source>Interpreter (dynamic)</source>
         <oldsource>Interpreter (fast)</oldsource>
         <comment>SPU decoder</comment>
-        <translation>直译器 (动态)</translation>
+        <translation>解释器（动态）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1139"/>
         <source>Recompiler (ASMJIT)</source>
         <comment>SPU decoder</comment>
-        <translation>反编译 (ASMJIT)</translation>
+        <translation>重编译器（ASMJIT）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1140"/>
         <source>Recompiler (LLVM)</source>
         <comment>SPU decoder</comment>
-        <translation>反编译 (LLVM)</translation>
+        <translation>重编译器（LLVM）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1146"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
-        <translation>用 ○ 输入</translation>
+        <translation>用圆圈键输入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1147"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
-        <translation>用 ╳ 输入</translation>
+        <translation>用叉号键输入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1153"/>
@@ -3642,7 +3642,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1173"/>
         <source>None</source>
         <comment>Audio Provider</comment>
-        <translation>空</translation>
+        <translation>无</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1174"/>
@@ -3702,7 +3702,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1193"/>
         <source>Europe, Oceania, Middle East, Russia</source>
         <comment>License Area</comment>
-        <translation>欧洲, 大洋洲, 中东, 俄罗斯</translation>
+        <translation>欧洲，大洋洲，中东，俄罗斯</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1194"/>
@@ -3732,13 +3732,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1203"/>
         <source>Safe</source>
         <comment>Asynchronous Queue Scheduler</comment>
-        <translation>安全</translation>
+        <translation>Safe</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1204"/>
         <source>Fast</source>
         <comment>Asynchronous Queue Scheduler</comment>
-        <translation>快速</translation>
+        <translation>Fast</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1210"/>
@@ -3750,7 +3750,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1211"/>
         <source>English (US)</source>
         <comment>System Language</comment>
-        <translation>英文 (美国)</translation>
+        <translation>英文（美国）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1212"/>
@@ -3786,7 +3786,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1217"/>
         <source>Portuguese (Portugal)</source>
         <comment>System Language</comment>
-        <translation>葡萄牙文 (葡萄牙)</translation>
+        <translation>葡萄牙文（葡萄牙）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1218"/>
@@ -3804,13 +3804,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1220"/>
         <source>Chinese (Traditional)</source>
         <comment>System Language</comment>
-        <translation>中文 (繁体)</translation>
+        <translation>中文（繁体）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1221"/>
         <source>Chinese (Simplified)</source>
         <comment>System Language</comment>
-        <translation>中文 (简体)</translation>
+        <translation>中文（简体）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1222"/>
@@ -3846,13 +3846,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1227"/>
         <source>English (UK)</source>
         <comment>System Language</comment>
-        <translation>英文 (英国)</translation>
+        <translation>英文（英国）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1228"/>
         <source>Portuguese (Brazil)</source>
         <comment>System Language</comment>
-        <translation>葡萄牙文 (巴西)</translation>
+        <translation>葡萄牙文（巴西）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1229"/>
@@ -3864,7 +3864,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1236"/>
         <source>English keyboard (US standard)</source>
         <comment>Keyboard Type</comment>
-        <translation>英文键盘 (美国标准)</translation>
+        <translation>英文键盘（美国标准）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1237"/>
@@ -3876,7 +3876,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1238"/>
         <source>Japanese keyboard (Kana state)</source>
         <comment>Keyboard Type</comment>
-        <translation>日文键盘 (假名状态)</translation>
+        <translation>日文键盘（假名状态）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1239"/>
@@ -3912,7 +3912,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1244"/>
         <source>Portuguese keyboard (Portugal)</source>
         <comment>Keyboard Type</comment>
-        <translation>葡萄牙文键盘 (葡萄牙)</translation>
+        <translation>葡萄牙文键盘（葡萄牙）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1245"/>
@@ -3924,7 +3924,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1246"/>
         <source>English keyboard (UK standard)</source>
         <comment>Keyboard Type</comment>
-        <translation>英文键盘 (英国标准)</translation>
+        <translation>英文键盘（英国标准）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1247"/>
@@ -3960,37 +3960,37 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1252"/>
         <source>Chinese keyboard (Traditional)</source>
         <comment>Keyboard Type</comment>
-        <translation>中文键盘 (繁体)</translation>
+        <translation>中文键盘（繁体）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1253"/>
         <source>Chinese keyboard (Simplified)</source>
         <comment>Keyboard Type</comment>
-        <translation>中文键盘 (简体)</translation>
+        <translation>中文键盘（简体）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1254"/>
         <source>French keyboard (Switzerland)</source>
         <comment>Keyboard Type</comment>
-        <translation>法文键盘 (瑞士)</translation>
+        <translation>法文键盘（瑞士）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1255"/>
         <source>German keyboard (Switzerland)</source>
         <comment>Keyboard Type</comment>
-        <translation>德文键盘 (瑞士)</translation>
+        <translation>德文键盘（瑞士）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1256"/>
         <source>French keyboard (Canada)</source>
         <comment>Keyboard Type</comment>
-        <translation>法文键盘 (加拿大)</translation>
+        <translation>法文键盘（加拿大）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1257"/>
         <source>French keyboard (Belgium)</source>
         <comment>Keyboard Type</comment>
-        <translation>法文键盘 (比利时)</translation>
+        <translation>法文键盘（比利时）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1258"/>
@@ -4002,7 +4002,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1259"/>
         <source>Portuguese keyboard (Brazil)</source>
         <comment>Keyboard Type</comment>
-        <translation>葡萄牙文键盘 (巴西)</translation>
+        <translation>葡萄牙文键盘（巴西）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1260"/>
@@ -4014,25 +4014,25 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1266"/>
         <source>Automatic (Default)</source>
         <comment>Exclusive Fullscreen Mode</comment>
-        <translation>自动 (预设)</translation>
+        <translation>自动（默认）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1267"/>
         <source>Prefer borderless fullscreen</source>
         <comment>Exclusive Fullscreen Mode</comment>
-        <translation>首选无框全荧幕</translation>
+        <translation>优先无边框全屏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1268"/>
         <source>Prefer exclusive fullscreen</source>
         <comment>Exclusive Fullscreen Mode</comment>
-        <translation>首选专有全荧幕</translation>
+        <translation>优先专用全屏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1274"/>
         <source>Disabled</source>
         <comment>3D Display Mode</comment>
-        <translation>停用</translation>
+        <translation>禁用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1275"/>
@@ -4044,7 +4044,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1276"/>
         <source>Side-by-side</source>
         <comment>3D Display Mode</comment>
-        <translation>Side-by-Side</translation>
+        <translation>Side-by-side</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1277"/>
@@ -4056,13 +4056,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1283"/>
         <source>Guitar (17 frets)</source>
         <comment>Midi Device Type</comment>
-        <translation>吉他 (17 音格)</translation>
+        <translation>吉他（17 音格）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1284"/>
         <source>Guitar (22 frets)</source>
         <comment>Midi Device Type</comment>
-        <translation>吉他 ((22 音格)</translation>
+        <translation>吉他（22 音格）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1285"/>
@@ -4076,17 +4076,17 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/fatal_error_dialog.cpp" line="49"/>
         <source>RPCS3: Fatal Error</source>
-        <translation>RPCS3: 严重错误</translation>
+        <translation>RPCS3：致命错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/fatal_error_dialog.cpp" line="38"/>
         <source>HOW TO REPORT ERRORS:</source>
-        <translation>如何报告错误:</translation>
+        <translation>如何报告错误：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/fatal_error_dialog.cpp" line="39"/>
         <source>Please, don&apos;t send incorrect reports. Thanks for understanding.</source>
-        <translation>请勿传送不正确的报告。 感谢您的理解。</translation>
+        <translation>请，不要发送不正确的报告。感谢理解。</translation>
     </message>
 </context>
 <context>
@@ -4094,7 +4094,7 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="413"/>
         <source>Figure Creator</source>
-        <translation>人物创造器</translation>
+        <translation>形象创作器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="443"/>
@@ -4104,12 +4104,12 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="461"/>
         <source>Figure Number:</source>
-        <translation>人物编号:</translation>
+        <translation>形象编号：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="463"/>
         <source>Series:</source>
-        <translation>序列:</translation>
+        <translation>系列：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="476"/>
