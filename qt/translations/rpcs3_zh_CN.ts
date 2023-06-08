@@ -4165,32 +4165,32 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="7"/>
         <source>Find string</source>
-        <translation>寻找字串</translation>
+        <translation>查找字符串</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="10"/>
         <source>Search...</source>
-        <translation>搜寻...</translation>
+        <translation>搜索……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="12"/>
         <source>Counted in lines: -</source>
-        <translation>行数: -</translation>
+        <translation>以行数计：-</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="13"/>
         <source>Counted in total: -</source>
-        <translation>总计: -</translation>
+        <translation>总计：-</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="15"/>
         <source>First</source>
-        <translation>顶部</translation>
+        <translation>第一个</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="16"/>
         <source>Last</source>
-        <translation>底部</translation>
+        <translation>最后一个</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="17"/>
@@ -4200,17 +4200,17 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="18"/>
         <source>Previous</source>
-        <translation>上一个</translation>
+        <translation>前一个</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="115"/>
         <source>Counted in lines: %0</source>
-        <translation>行数: %0</translation>
+        <translation>以行数计：%0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/find_dialog.cpp" line="116"/>
         <source>Counted in total: %0</source>
-        <translation>总计: %0</translation>
+        <translation>总计：%0</translation>
     </message>
 </context>
 <context>
@@ -4218,57 +4218,57 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/game_compatibility.cpp" line="229"/>
         <source>Downloading Database</source>
-        <translation>下载资料库</translation>
+        <translation>正在下载数据库</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="124"/>
         <source>Playable</source>
-        <translation>可玩</translation>
+        <translation>能玩儿</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="124"/>
         <source>Games that can be properly played from start to finish</source>
-        <translation>可以从头到尾执行的游戏</translation>
+        <translation>游戏能够从头到尾正确地游玩</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="125"/>
         <source>Ingame</source>
-        <translation>游戏中</translation>
+        <translation>能进游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="125"/>
         <source>Games that either can&apos;t be finished, have serious glitches or have insufficient performance</source>
-        <translation>不完善的游戏，有严重故障或效能不足</translation>
+        <translation>游戏或不能完成，或有严重的小故障，或性能不佳</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="126"/>
         <source>Intro</source>
-        <translation>介绍</translation>
+        <translation>只有欢迎界面</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="126"/>
         <source>Games that display image but don&apos;t make it past the menus</source>
-        <translation>显示图形但不会超过游戏选单</translation>
+        <translation>游戏能显示图像，但过不了菜单界面</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="127"/>
         <source>Loadable</source>
-        <translation>可读取</translation>
+        <translation>仅可加载</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="127"/>
         <source>Games that display a black screen with a framerate on the window&apos;s title</source>
-        <translation>在视窗标题上仅显示框速率但不会出现游戏画面</translation>
+        <translation>游戏显示一个黑屏，视窗的标题处有帧率</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="128"/>
         <source>Nothing</source>
-        <translation>没有</translation>
+        <translation>完全不能加载</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="128"/>
         <source>Games that don&apos;t initialize properly, not loading at all and/or crashing the emulator</source>
-        <translation>不正确初始化游戏，根本不读取或使仿真器崩溃</translation>
+        <translation>游戏不能正确地初始化，完全不能加载且/或使模拟器崩溃</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="129"/>
@@ -4278,29 +4278,29 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="129"/>
         <source>There is no entry for this game or application in the compatibility database yet.</source>
-        <translation>此相容性资料库中未发现游戏或应用程式项目。</translation>
+        <translation>在兼容性数据库尚未发现此游戏或应用程序的记录。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="130"/>
         <source>Database missing</source>
-        <translation>资料库遗失</translation>
+        <translation>数据库缺失</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="130"/>
         <source>Right click here and download the current database.
 Make sure you are connected to the internet.</source>
-        <translation>右键点击此处并下载最新的资料库。
-确定您已连结到网际网路。</translation>
+        <translation>右键点击此处，然后下载当前的数据库。
+请确保你已经联上了互联网。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="131"/>
         <source>Retrieving...</source>
-        <translation>提取...</translation>
+        <translation>检索中……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="131"/>
         <source>Downloading the compatibility database. Please wait...</source>
-        <translation>下载相容性资料库。 请稍候...</translation>
+        <translation>正在下载兼容性数据库。请稍候……</translation>
     </message>
 </context>
 <context>
@@ -4308,17 +4308,17 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="56"/>
         <source>Game List</source>
-        <translation>游戏清单</translation>
+        <translation>游戏列表</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="125"/>
         <source>Icon</source>
-        <translation>图示</translation>
+        <translation>图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="125"/>
         <source>Show Icons</source>
-        <translation>显示图示</translation>
+        <translation>显示图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="126"/>
@@ -4333,22 +4333,22 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="127"/>
         <source>Serial</source>
-        <translation>序列</translation>
+        <translation>序列号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="127"/>
         <source>Show Serials</source>
-        <translation>显示序列</translation>
+        <translation>显示序列号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="128"/>
         <source>Firmware</source>
-        <translation>韧体</translation>
+        <translation>固件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="128"/>
         <source>Show Firmwares</source>
-        <translation>显示韧体</translation>
+        <translation>显示固件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="129"/>
@@ -4398,7 +4398,7 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="133"/>
         <source>Show Supported Resolutions</source>
-        <translation>显示支援解析度</translation>
+        <translation>显示支持的分辨率</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="134"/>
@@ -4443,22 +4443,22 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="138"/>
         <source>Compatibility</source>
-        <translation>相容性</translation>
+        <translation>兼容性</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="138"/>
         <source>Show Compatibility</source>
-        <translation>显示相容性</translation>
+        <translation>显示兼容性</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="139"/>
         <source>Space On Disk</source>
-        <translation>磁碟空间</translation>
+        <translation>占用硬盘空间</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="139"/>
         <source>Show Space On Disk</source>
-        <translation>显示磁碟空间</translation>
+        <translation>显示占用硬盘空间</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="190"/>
@@ -4468,7 +4468,7 @@ Make sure you are connected to the internet.</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1612"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1656"/>
         <source>Warning!</source>
-        <translation>警告!</translation>
+        <translation>警告！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="190"/>
@@ -4476,75 +4476,75 @@ Make sure you are connected to the internet.</source>
 Falling back to local database.
 
 %0</source>
-        <translation>提取线上相容性资料库失败!
-返回到本机资料库。
+        <translation>检索线上兼容性数据库失败！
+回落使用本地数据库。
 
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="320"/>
         <source>Loading games</source>
-        <translation>载入游戏</translation>
+        <translation>正在加载游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="320"/>
         <source>Loading games, please wait...</source>
-        <translation>正在载入游戏，请稍候...</translation>
+        <translation>正在加载游戏，请稍候……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1017"/>
         <source>&amp;Reboot with global configuration</source>
-        <translation>使用全局组态重启(&amp;G)</translation>
+        <translation>&amp;使用全局配置重启</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1018"/>
         <source>&amp;Boot with global configuration</source>
-        <translation>使用全局组态启动(&amp;B)</translation>
+        <translation>&amp;使用全局配置启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1020"/>
         <source>&amp;Reboot</source>
-        <translation>重启(&amp;B)</translation>
+        <translation>&amp;重启</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1021"/>
         <source>&amp;Boot</source>
-        <translation>启动(&amp;B)</translation>
+        <translation>&amp;启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1029"/>
         <source>&amp;Reboot with custom configuration</source>
-        <translation>使用自订组态重启(&amp;T)</translation>
+        <translation>&amp;使用自定义配置重启</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1030"/>
         <source>&amp;Boot with custom configuration</source>
-        <translation>使用自订组态启动(&amp;T)</translation>
+        <translation>&amp;使用自定义配置启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1047"/>
         <source>&amp;Reboot with default configuration</source>
-        <translation>使用预设组态重新启动(&amp;F)</translation>
+        <translation>&amp;使用默认默认重启</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1048"/>
         <source>&amp;Boot with default configuration</source>
-        <translation>使用预设组态启动(&amp;A)</translation>
+        <translation>&amp;使用默认配置启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1057"/>
         <source>&amp;Reboot with manually selected configuration</source>
-        <translation>使用自选的组态重新启动(&amp;T)</translation>
+        <translation>&amp;使用手动选择的配置重启</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1058"/>
         <source>&amp;Boot with manually selected configuration</source>
-        <translation>使用自选的组态启动(&amp;S)</translation>
+        <translation>&amp;使用手动选择的配置启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1062"/>
         <source>Config Files (*.yml);;All files (*.*)</source>
-        <translation>组态档案 (*.yml);;全部档案 (*.*)</translation>
+        <translation>配置文件 (*.yml);;全部文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1079"/>
@@ -4554,105 +4554,105 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1080"/>
         <source>&amp;Boot with savestate</source>
-        <translation>使用存档启动(&amp;Y)</translation>
+        <translation>&amp;使用存档启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1091"/>
         <source>&amp;Change Custom Configuration</source>
-        <translation>变更自订组态(&amp;C)</translation>
+        <translation>&amp;更改自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1092"/>
         <source>&amp;Create Custom Configuration</source>
-        <translation>建立自订组态(&amp;C)</translation>
+        <translation>&amp;创建自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1094"/>
         <source>&amp;Change Custom Gamepad Configuration</source>
-        <translation>变更自订游戏控制器组态(&amp;P)</translation>
+        <translation>&amp;更改自定义手柄配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1095"/>
         <source>&amp;Create Custom Gamepad Configuration</source>
-        <translation>建立自订游戏控制器组态(&amp;P)</translation>
+        <translation>&amp;创建自定义手柄配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1096"/>
         <source>&amp;Manage Game Patches</source>
         <oldsource>&amp;Configure Game Patches</oldsource>
-        <translation>管理游戏补缀(&amp;G)</translation>
+        <translation>&amp;管理游戏补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1097"/>
         <source>&amp;Create PPU Cache</source>
-        <translation>建立 PP&amp;U 快取</translation>
+        <translation>&amp;创建 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1418"/>
         <source>Permanently remove %0 from drive?
 %1Path: %2</source>
-        <translation>从磁碟中永久删除 %0?
-%1路径: %2</translation>
+        <translation>从硬盘中永久地移除 %0？
+%1路径：%2</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="972"/>
         <source>Success!</source>
-        <translation>成功!</translation>
+        <translation>成功！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1101"/>
         <source>&amp;Create Shortcut</source>
-        <translation>建立捷径(&amp;W)</translation>
+        <translation>&amp;创建快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1102"/>
         <source>&amp;Create Desktop Shortcut</source>
-        <translation>建立桌面捷径(&amp;D)</translation>
+        <translation>&amp;创建桌面快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1105"/>
         <source>&amp;Create Start Menu Shortcut</source>
-        <translation>建立开始选单捷径(&amp;S)</translation>
+        <translation>&amp;创建开始菜单快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1107"/>
         <source>&amp;Create Launchpad Shortcut</source>
-        <translation>建立启动器捷径(&amp;L)</translation>
+        <translation>&amp;创建启动面板快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1109"/>
         <source>&amp;Create Application Menu Shortcut</source>
-        <translation>建立应用程式选单捷径(&amp;A)</translation>
+        <translation>&amp;创建应用程序菜单快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1115"/>
         <source>&amp;Rename In Game List</source>
-        <translation>在游戏清单中重新命名(&amp;R)</translation>
+        <translation>&amp;在游戏列表中重命名</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1116"/>
         <source>&amp;Hide From Game List</source>
-        <translation>隐藏游戏清单(&amp;H)</translation>
+        <translation>&amp;从游戏列表中隐藏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1120"/>
         <source>&amp;Remove</source>
-        <translation>删除(&amp;D)</translation>
+        <translation>&amp;移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1121"/>
         <source>&amp;Remove %1</source>
-        <translation>&amp;删除 %1</translation>
+        <translation>&amp;移除 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1124"/>
         <source>&amp;Remove Custom Configuration</source>
-        <translation>删除自订组态(&amp;C)</translation>
+        <translation>&amp;移除自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1135"/>
         <source>&amp;Remove Custom Gamepad Configuration</source>
-        <translation>删除自订控制器组态(&amp;P)</translation>
+        <translation>&amp;移除自定义手柄配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1147"/>
@@ -4662,17 +4662,17 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1152"/>
         <source>&amp;Remove PPU Cache</source>
-        <translation>删除 &amp;PPU 快取</translation>
+        <translation>&amp;移除 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1157"/>
         <source>&amp;Remove SPU Cache</source>
-        <translation>删除 SP&amp;U 快取</translation>
+        <translation>&amp;移除 SPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1162"/>
         <source>&amp;Remove All Caches</source>
-        <translation>删除全部快取(&amp;A)</translation>
+        <translation>&amp;移除所有缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1165"/>
@@ -4683,77 +4683,77 @@ Falling back to local database.
         <location filename="rpcs3qt/game_list_frame.cpp" line="1718"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1769"/>
         <source>Confirm Removal</source>
-        <translation>确认删除</translation>
+        <translation>移除确认</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1165"/>
         <source>Remove all caches?</source>
-        <translation>删除全部的快取?</translation>
+        <translation>移除所有缓存？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1175"/>
         <source>&amp;Open Install Folder</source>
-        <translation>开启安装资料夹(&amp;O)</translation>
+        <translation>&amp;打开安装文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1178"/>
         <source>&amp;Open Custom Config Folder</source>
-        <translation>开启自订组态资料夹(&amp;F)</translation>
+        <translation>&amp;打开自定义配置文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1189"/>
         <source>&amp;Open Data Folder</source>
-        <translation>开启数据资料夹(&amp;A)</translation>
+        <translation>&amp;打开数据文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1196"/>
         <source>&amp;Check Game Compatibility</source>
-        <translation>检阅游戏相容性(&amp;K)</translation>
+        <translation>&amp;检查游戏兼容性</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1197"/>
         <source>&amp;Download Compatibility Database</source>
-        <translation>下载相容性资料库(&amp;L)</translation>
+        <translation>&amp;下载兼容性数据库</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1199"/>
         <source>&amp;Edit Tooltip Notes</source>
-        <translation>编辑提示框注解(&amp;E)</translation>
+        <translation>&amp;编辑工具条提示</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1202"/>
         <source>&amp;Custom Images</source>
-        <translation>自订图片(&amp;M)</translation>
+        <translation>&amp;自定义图像</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1205"/>
         <source>&amp;Import Custom Icon</source>
-        <translation>汇入自订图示(&amp;I)</translation>
+        <translation>&amp;导入自定义图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1206"/>
         <source>&amp;Replace Custom Icon</source>
-        <translation>更换自订图示(&amp;R)</translation>
+        <translation>&amp;替换自定义图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1207"/>
         <source>&amp;Remove Custom Icon</source>
-        <translation>删除自订图示(&amp;D)</translation>
+        <translation>&amp;移除自定义图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1212"/>
         <source>&amp;Import Hover Gif</source>
-        <translation>汇入悬停 Gif(&amp;G)</translation>
+        <translation>&amp;导入悬浮 Gif</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1213"/>
         <source>&amp;Replace Hover Gif</source>
-        <translation>更换悬停 Gif(&amp;R)</translation>
+        <translation>&amp;替换悬浮 Gif</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1214"/>
         <source>&amp;Remove Hover Gif</source>
-        <translation>删除悬停 Gif(&amp;D)</translation>
+        <translation>&amp;移除悬浮 Gif</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1219"/>
@@ -4763,27 +4763,27 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1220"/>
         <source>&amp;Replace Custom Shader Loading Background</source>
-        <translation>替换自订着色器读取背景(&amp;C)</translation>
+        <translation>&amp;替换自定义着色器加载背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1221"/>
         <source>&amp;Remove Custom Shader Loading Background</source>
-        <translation>删除自订着色器读取背景(&amp;D)</translation>
+        <translation>&amp;移除自定义着色器加载背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1250"/>
         <source>Select Custom Icon</source>
-        <translation>选取自订图示</translation>
+        <translation>选择自定义图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1253"/>
         <source>Select Custom Hover Gif</source>
-        <translation>选取自订悬停 Gif</translation>
+        <translation>选择自定义悬浮 Gif</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1256"/>
         <source>Select Custom Shader Loading Background</source>
-        <translation>选取自订着色器读取背景</translation>
+        <translation>选择自定义着色器加载背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1259"/>
