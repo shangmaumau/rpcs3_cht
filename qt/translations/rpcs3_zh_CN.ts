@@ -4278,7 +4278,7 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="129"/>
         <source>There is no entry for this game or application in the compatibility database yet.</source>
-        <translation>在兼容性数据库尚未发现此游戏或应用程序的记录。</translation>
+        <translation>在兼容性数据库中尚未发现此游戏或应用程序的记录。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="130"/>
