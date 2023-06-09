@@ -4433,12 +4433,12 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="137"/>
         <source>Time Played</source>
-        <translation>游玩时间</translation>
+        <translation>游玩时长</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="137"/>
         <source>Show Time Played</source>
-        <translation>显示游玩时间</translation>
+        <translation>显示游玩时长</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="138"/>
@@ -4758,7 +4758,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1219"/>
         <source>&amp;Import Custom Shader Loading Background</source>
-        <translation>汇入自订着色器读取背景(&amp;B)</translation>
+        <translation>&amp;导入自定义着色器加载背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1220"/>
@@ -4788,67 +4788,67 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1259"/>
         <source>%0 (*.%0);;All files (*.*)</source>
-        <translation>%0 (*.%0);;全部档案 (*.*)</translation>
+        <translation>%0 (*.%0);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1269"/>
         <source>Remove Custom Icon of %0?</source>
-        <translation>删除 %0 自订图示?</translation>
+        <translation>移除%0的自定义图标？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1272"/>
         <source>Remove Custom Hover Gif of %0?</source>
-        <translation>删除 %0 自订悬停 Gif?</translation>
+        <translation>移除%0的自定义悬浮 Gif？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1285"/>
         <source>Failed to remove the old file!</source>
-        <translation>无法删除旧档案!</translation>
+        <translation>移除旧文件失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1301"/>
         <source>Failed to import the new file!</source>
-        <translation>无法汇入新档案!</translation>
+        <translation>导入新文件失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1275"/>
         <source>Remove Custom Shader Loading Background of %0?</source>
-        <translation>删除 %0 自订着色器读取背景?</translation>
+        <translation>移除%0的自定义加载背景？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="972"/>
         <source>Successfully created shortcut(s).</source>
-        <translation>已成功建立捷径。</translation>
+        <translation>成功创建（多个）快捷方式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="976"/>
         <source>Failed to create shortcut(s)!</source>
-        <translation>无法建立捷径!</translation>
+        <translation>创建（多个）快捷方式失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1200"/>
         <source>&amp;Reset Time Played</source>
-        <translation>&amp;重设游玩时间</translation>
+        <translation>&amp;重置游玩时长</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1348"/>
         <source>&amp;Copy Info</source>
-        <translation>复制讯息(&amp;I)</translation>
+        <translation>&amp;复制信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1349"/>
         <source>&amp;Copy Name + Serial</source>
-        <translation>复制名称 + 序列(&amp;C)</translation>
+        <translation>&amp;复制名称+序列号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1350"/>
         <source>&amp;Copy Name</source>
-        <translation>复制名称(&amp;N)</translation>
+        <translation>&amp;复制名称</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1351"/>
         <source>&amp;Copy Serial</source>
-        <translation>复制序列(&amp;S)</translation>
+        <translation>&amp;复制序列号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1414"/>
@@ -4856,46 +4856,46 @@ Falling back to local database.
 Current Free Disk Space: %1
 
 </source>
-        <translation>游戏目录大小: %0
-当前可用磁碟空间: %1
+        <translation>游戏目录大小：%0
+当前磁盘剩余空间：%1
 
 </translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1418"/>
         <source>Confirm %1 Removal</source>
-        <translation>确认删除 %1</translation>
+        <translation>确认%1移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1419"/>
         <source>Remove caches and custom configs</source>
-        <translation>删除快取与自订组态</translation>
+        <translation>移除缓存与自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1446"/>
         <source>Failure!</source>
-        <translation>失败!</translation>
+        <translation>失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1447"/>
         <source>Failed to remove %0 from drive!
 Path: %1
 Caches and custom configs have been left intact.</source>
-        <translation>无法从磁碟中删除 %0 !
-路径: %1
-快取与自订组态未做更动。</translation>
+        <translation>从硬盘中移除%0失败！
+路径：%1
+缓存与自定义配置未受影响。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1448"/>
         <source>Failed to remove %0 from drive!
 Path: %1</source>
-        <translation>无法从磁碟中删除 %0 !
-路径: %1</translation>
+        <translation>从硬盘中移除%0失败！
+路径：%1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1483"/>
         <source>Rename Title</source>
-        <translation>重新命名标题</translation>
+        <translation>重命名标题</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1483"/>
@@ -4906,12 +4906,12 @@ You can clear the line in order to use the original title.</source>
         <translation>%0
 %1
 
-您可以清理此行以使用原始名称。</translation>
+你可以清除此行以使用原始标题。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1507"/>
         <source>Edit Tooltip Notes</source>
-        <translation>编辑提示框注解</translation>
+        <translation>编辑工具条提示</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1507"/>
@@ -4923,74 +4923,74 @@ You can clear the line in order to use the original title.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1526"/>
         <source>Confirm Reset</source>
-        <translation>确认重设</translation>
+        <translation>重置确认</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1526"/>
         <source>Reset time played?
 
 %0 [%1]</source>
-        <translation>重设游戏时间?
+        <translation>重置游玩时长？
 
 %0 [%1]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1588"/>
         <source>Remove custom game configuration?</source>
-        <translation>删除自订游戏组态?</translation>
+        <translation>移除自定义游戏配置？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1612"/>
         <source>Failed to remove configuration file!</source>
-        <translation>无法删除组态档案!</translation>
+        <translation>移除配置文件失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1629"/>
         <source>Remove custom pad configuration?
 Your configuration will revert to the global pad settings.</source>
-        <translation>删除自订控制器组态?
-您的组态将还原为全局控制器设定。</translation>
+        <translation>移除自定义手柄配置？
+你的配置会还原为全局手柄设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1630"/>
         <source>Remove custom pad configuration?</source>
-        <translation>删除自订控制器组态?</translation>
+        <translation>移除自定义手柄配置？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1656"/>
         <source>Failed to completely remove pad configuration directory!</source>
-        <translation>无法完整的删除控制器组态目录!</translation>
+        <translation>完全地移除配置目录失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1667"/>
         <source>Remove shaders cache?</source>
-        <translation>删除着色快取?</translation>
+        <translation>移除着色器缓存？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1718"/>
         <source>Remove PPU cache?</source>
-        <translation>删除 PPU 快取?</translation>
+        <translation>移除 PPU 缓存？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1769"/>
         <source>Remove SPU cache?</source>
-        <translation>删除 SPU 快取?</translation>
+        <translation>移除 SPU 缓存？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1823"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1834"/>
         <source>PPU Cache Batch Creation</source>
-        <translation>PPU 快取批次建立</translation>
+        <translation>批量创建 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1823"/>
         <source>No titles found</source>
-        <translation>未找到标题</translation>
+        <translation>一个作品也没发现</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1832"/>
         <source>Creating all PPU caches</source>
-        <translation>建立全部的 PPU 快取</translation>
+        <translation>创建全部 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="320"/>
@@ -5009,7 +5009,7 @@ Your configuration will revert to the global pad settings.</source>
 Progress: %1/%2. Compiling caches for VSH...</source>
         <comment>Second line after main label</comment>
         <translation>%0
-进度: %1/%2。正在编译 VSH 快取...</translation>
+进度：%1/%2。正在编译 VSH 缓存……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1873"/>
@@ -5017,14 +5017,14 @@ Progress: %1/%2. Compiling caches for VSH...</source>
 Progress: %1/%2. Compiling caches for %3...</source>
         <comment>Second line after main label</comment>
         <translation>%0
-进度: %1/%2。正在编译 %3 快取...</translation>
+进度：%1/%2。正在编译%3的缓存……</translation>
     </message>
     <message numerus="yes">
         <location filename="rpcs3qt/game_list_frame.cpp" line="1899"/>
         <source>Created PPU Caches for %n title(s)</source>
         <oldsource>Created PPU Caches for %0 titles</oldsource>
         <translation>
-            <numerusform>为 %n 标题建立 PPU 快取</numerusform>
+            <numerusform>为%n作品创建 PPU 缓存</numerusform>
         </translation>
     </message>
     <message>
@@ -5035,13 +5035,13 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2071"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2113"/>
         <source>OK</source>
-        <translation>确定</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1915"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1919"/>
         <source>PPU Cache Batch Removal</source>
-        <translation>PPU 快取批次删除</translation>
+        <translation>批量移除 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1915"/>
@@ -5050,77 +5050,77 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2045"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2087"/>
         <source>No files found</source>
-        <translation>未找到档案</translation>
+        <translation>一个文件也没发现</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1919"/>
         <source>Removing all PPU caches</source>
-        <translation>删除全部的 PPU 快取</translation>
+        <translation>移除所有 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1940"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1981"/>
         <source>%0/%1 caches cleared</source>
-        <translation>%0/%1 快取已清除</translation>
+        <translation>%0/%1 缓存已清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1956"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1960"/>
         <source>SPU Cache Batch Removal</source>
-        <translation>SPU 快取批次删除</translation>
+        <translation>批量移除 SPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1960"/>
         <source>Removing all SPU caches</source>
-        <translation>删除全部的 SPU 快取</translation>
+        <translation>移除所有 SPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2000"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2004"/>
         <source>Custom Configuration Batch Removal</source>
-        <translation>自订组态批次删除</translation>
+        <translation>批量移除自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2004"/>
         <source>Removing all custom configurations</source>
-        <translation>删除全部的自订组态</translation>
+        <translation>移除所有自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2025"/>
         <source>%0/%1 custom configurations cleared</source>
-        <translation>%0/%1 自订组态已清除</translation>
+        <translation>%0/%1 自定义配置已清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2045"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2049"/>
         <source>Custom Pad Configuration Batch Removal</source>
-        <translation>自订控制器组态批次删除</translation>
+        <translation>批量移除自定义手柄配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2049"/>
         <source>Removing all custom pad configurations</source>
-        <translation>删除全部自订控制器组态</translation>
+        <translation>移除所有自定义手柄配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2070"/>
         <source>%0/%1 custom pad configurations cleared</source>
-        <translation>%0/%1 自订控制器组态已清除</translation>
+        <translation>%0/%1 自定义手柄配置已清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2087"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2091"/>
         <source>Shader Cache Batch Removal</source>
-        <translation>着色快取批次删除</translation>
+        <translation>批量移除着色器缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2091"/>
         <source>Removing all shader caches</source>
-        <translation>删除全部的着色快取</translation>
+        <translation>移除所有着色器缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2112"/>
         <source>%0/%1 shader caches cleared</source>
-        <translation>%0/%1 着色快取已清除</translation>
+        <translation>%0/%1 着色器缓存已清理</translation>
     </message>
 </context>
 <context>
