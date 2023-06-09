@@ -4813,7 +4813,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1275"/>
         <source>Remove Custom Shader Loading Background of %0?</source>
-        <translation>移除%0的自定义加载背景？</translation>
+        <translation>移除%0的自定义着色器加载背景？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="972"/>
