@@ -5138,7 +5138,7 @@ Notes:
 %2</source>
         <translation>%0 [%1]
 
-注解:
+提示：
 %2</translation>
     </message>
 </context>
@@ -5158,28 +5158,28 @@ Notes:
 %2</source>
         <translation>%0 [%1]
 
-注解:
+提示：
 %2</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_table.cpp" line="338"/>
         <source>%0 (Update available: %1)</source>
-        <translation>%0 (可用更新: %1)</translation>
+        <translation>%0（可用更新：%1）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_table.cpp" line="368"/>
         <source>Supported</source>
-        <translation>支援</translation>
+        <translation>支持</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_table.cpp" line="368"/>
         <source>Not Supported</source>
-        <translation>不支援</translation>
+        <translation>不支持</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_table.cpp" line="373"/>
         <source>Never played</source>
-        <translation>未玩过</translation>
+        <translation>还没玩过</translation>
     </message>
 </context>
 <context>
@@ -5187,33 +5187,33 @@ Notes:
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="465"/>
         <source>Recording saved: %0</source>
-        <translation>录制已储存: %0</translation>
+        <translation>录制已保存：%0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="511"/>
         <location filename="rpcs3qt/gs_frame.cpp" line="519"/>
         <source>Recording not possible</source>
-        <translation>无法录制</translation>
+        <translation>不能录制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="528"/>
         <source>Recording started</source>
-        <translation>录制开始</translation>
+        <translation>录制已开始</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="1009"/>
         <source>Screenshot saved: %0</source>
-        <translation>已储存荧幕截图: %0</translation>
+        <translation>截屏已保存：%0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="1074"/>
         <source>Exit Game?</source>
-        <translation>结束游戏?</translation>
+        <translation>退出游戏？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="1075"/>
         <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
-        <translation>你真的想要离开游戏吗?&lt;br&gt;&lt;br&gt;任何未储存的进度都将失去!&lt;br&gt;</translation>
+        <translation>你真的要退出游戏吗？&lt;br&gt;&lt;br&gt;任何未保存进度都会丢失！&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -5221,7 +5221,7 @@ Notes:
     <message>
         <location filename="rpcs3qt/gui_application.cpp" line="75"/>
         <source>Experimental Build Warning</source>
-        <translation>实验性建置警告</translation>
+        <translation>实验性构建版本警告</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_application.cpp" line="80"/>
@@ -5236,11 +5236,11 @@ Notes:
 			</source>
         <translation>
 				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
-					请您理解，此版本非 RPCS3 官方所发布的版本。&lt;br&gt;
-					此建置可能会破坏游戏的变化，甚至 &lt;b&gt;毁损&lt;/b&gt; 您的资料。&lt;br&gt;
-					建议从 &lt;a href=&apos;https://rpcs3.net/download&apos;&gt;RPCS3 网站&lt;/a&gt;下载使用官方版本。&lt;br&gt;&lt;br&gt;
-					建置来源: %1&lt;br&gt;
-					是否仍要使用此版本?
+					请意识到此构建版本不是一个官方发布版本。&lt;br&gt;
+					此构建版本包含一些变更，可能损坏游戏，甚至&lt;b&gt;破坏&lt;/b&gt;你的数据。&lt;br&gt;
+					我们推荐从 &lt;a href=&apos;https://rpcs3.net/download&apos;&gt;RPCS3 网站&lt;/a&gt;下载并使用官方构建版本。&lt;br&gt;&lt;br&gt;
+					构建产地：%1&lt;br&gt;
+					你一定要用这个构建版本吗？
 				&lt;/p&gt;
 			</translation>
     </message>
@@ -5255,10 +5255,10 @@ Notes:
 Some games will crash.
 
 Please increase the limit before running RPCS3.</source>
-        <translation>当前最大档案描述符的限制过低。
+        <translation>当前最大文件描述器限制数量过低。
 有些游戏会崩溃。
 
-请在执行 RPCS3 之前增加限制。</translation>
+请在运行 RPCS3 之前增加限制数量。</translation>
     </message>
 </context>
 <context>
@@ -5271,7 +5271,7 @@ Please increase the limit before running RPCS3.</source>
     <message>
         <location filename="rpcs3qt/gui_settings.cpp" line="189"/>
         <source>Close Running Game?</source>
-        <translation>关闭执行的游戏?</translation>
+        <translation>关闭运行中的游戏？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_settings.cpp" line="190"/>
@@ -5281,7 +5281,7 @@ Do you really want to continue?
 
 Any unsaved progress will be lost!
 </oldsource>
-        <translation>执行此操作将关闭当前游戏。&lt;br&gt;您真的要继续吗?&lt;br&gt;&lt;br&gt;任何未储存的进度都将失去!&lt;br&gt;</translation>
+        <translation>执行此操作将关闭当前游戏。&lt;br&gt;你真的要继续吗？&lt;br&gt;&lt;br&gt;任何未保存进度都会丢失！&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_settings.cpp" line="194"/>
@@ -5291,12 +5291,12 @@ Do you really want to boot another game?
 
 Any unsaved progress will be lost!
 </oldsource>
-        <translation>启动另一项游戏将关闭当前游戏。&lt;br&gt;你真的要启动另一项游戏吗?&lt;br&gt;&lt;br&gt;任何未储存的进度都将失去!&lt;br&gt;</translation>
+        <translation>启动另一个游戏将关闭当前游戏。&lt;br&gt;你真的要启动另一个游戏吗？&lt;br&gt;&lt;br&gt;任何未保存进度都会丢失！&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_settings.cpp" line="198"/>
         <source>Exit RPCS3?</source>
-        <translation>离开 RPCS3?</translation>
+        <translation>退出 RPCS3？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_settings.cpp" line="199"/>
@@ -5305,7 +5305,7 @@ Any unsaved progress will be lost!
 
 Any unsaved progress will be lost!
 </oldsource>
-        <translation>目前正在执行游戏。 你真的要关闭 RPCS3 吗?&lt;br&gt;&lt;br&gt;任何未储存的进度都将失去!&lt;br&gt;</translation>
+        <translation>当前有一款游戏正在运行。你真的要关闭 RPCS3 吗？&lt;br&gt;&lt;br&gt;任何未保存进度都会丢失！&lt;br&gt;</translation>
     </message>
 </context>
 <context>
