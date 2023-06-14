@@ -1783,7 +1783,7 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="269"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-        <translation>控制按下此特殊按钮时压力感应按钮的强度。&lt;br&gt;如果您想在按下按钮时切换强度，请启用&quot;切换&quot;。&lt;br&gt;使用百分比来更改您想要按下按钮的力度。</translation>
+        <translation>当此特殊按键被按压时，控制压力感应的强度。&lt;br&gt;如果你想换用按键按压来切换强度，请启用&quot;切换&quot;。&lt;br&gt;使用百分比来改变你想按压按键的强度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="234"/>
@@ -1820,7 +1820,7 @@ Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
         <translation>如果系统语言在游戏内不可用，一些游戏可能会启动失败。
 其他游戏会根据此处选择了哪种语言来自动切换语言。
-推荐将此值保留为游戏支持一种语言。</translation>
+推荐将此值保留为游戏支持的一种语言。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="243"/>
@@ -2411,7 +2411,7 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="83"/>
         <source>Cg program objects (*.fpo;*.vpo);;</source>
-        <translation>Cg 程序的目标 (*.fpo;*.vpo);;</translation>
+        <translation>Cg 程序实例 (*.fpo;*.vpo);;</translation>
     </message>
 </context>
 <context>
@@ -2613,7 +2613,7 @@ Some settings seem to deviate from the default config:</source>
         <location filename="rpcs3qt/config_checker.cpp" line="78"/>
         <location filename="rpcs3qt/config_checker.cpp" line="88"/>
         <source>Cannot find any config!</source>
-        <translation>未能发现任何配置！</translation>
+        <translation>没能找到任何配置！</translation>
     </message>
 </context>
 <context>
@@ -4090,37 +4090,37 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="52"/>
         <source>Confirm Reset</source>
-        <translation>确认重设</translation>
+        <translation>重置确认</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="52"/>
         <source>Reset all buttons of all players?</source>
-        <translation>重设全部玩家的所有按钮?</translation>
+        <translation>重置所有玩家的所有按键？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="67"/>
         <source>Configure Emulated Buzz</source>
-        <translation>设定模拟 Buzz</translation>
+        <translation>配置模拟的 Buzz</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="71"/>
         <source>Configure Emulated Turntable</source>
-        <translation>设定模拟转盘</translation>
+        <translation>配置模拟的转盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="75"/>
         <source>Configure Emulated GHLtar</source>
-        <translation>设定模拟 GHLtar</translation>
+        <translation>配置模拟的 GHLtar</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="79"/>
         <source>Configure Emulated USIO</source>
-        <translation>设定模拟 USIO</translation>
+        <translation>配置模拟的 USIO</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="83"/>
         <source>Configure Emulated PS Move (Fake)</source>
-        <translation>设定模拟 PS Move (虚设)</translation>
+        <translation>配置模拟的 PS Move（伪造）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="217"/>
@@ -5384,7 +5384,7 @@ Any unsaved progress will be lost!
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="679"/>
         <source>Active Infinity Figures:</source>
-        <translation>活跃 Infinity 画像：</translation>
+        <translation>活跃的 Infinity 形象：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="682"/>
@@ -5429,58 +5429,58 @@ Any unsaved progress will be lost!
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="723"/>
         <source>Create</source>
-        <translation>创造</translation>
+        <translation>创建</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="724"/>
         <source>Load</source>
-        <translation>载入</translation>
+        <translation>加载</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="737"/>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="829"/>
         <source>Unknown Figure</source>
-        <translation>未知人物</translation>
+        <translation>未知形象</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="742"/>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="775"/>
         <source>None</source>
-        <translation>空</translation>
+        <translation>无</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="792"/>
         <source>Select Infinity File</source>
-        <translation>选取无限档案</translation>
+        <translation>选择 Infinity 文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="792"/>
         <source>Infinity Figure (*.bin);;</source>
-        <translation>无限人物 (*.bin);;</translation>
+        <translation>Infinity 形象 (*.bin);;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="808"/>
         <source>Failed to open the figure file!</source>
-        <translation>人物档案开启失败!</translation>
+        <translation>打开形象文件失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="808"/>
         <source>Failed to open the figure file(%1)!
 File may already be in use on the base.</source>
-        <translation>无法开启人物档案(%1)!
-档案可能已在基座上使用。</translation>
+        <translation>打开形象文件（%1）失败！
+文件可能已经在 base 上使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="815"/>
         <source>Failed to read the figure file!</source>
-        <translation>读取人物档案失败!</translation>
+        <translation>读取形象文件失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="815"/>
-        <source>Failed to read the figure file(%1)!
+        <source>读取形象文件失败（%1）！
 File was too small.</source>
         <translation>无法读取人物档案(%1)!
-档案过小。</translation>
+文件过小。</translation>
     </message>
 </context>
 <context>
@@ -5504,22 +5504,22 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="53"/>
         <source>Address:     </source>
-        <translation>位址:     </translation>
+        <translation>地址：     </translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="54"/>
         <source>Instruction: </source>
-        <translation>指令: </translation>
+        <translation>指令：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="55"/>
         <source>Preview:     </source>
-        <translation>预览:     </translation>
+        <translation>预览：     </translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="67"/>
         <source>For SPUs Group</source>
-        <translation>对于 SPU 群</translation>
+        <translation>SPU 群专用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="103"/>
@@ -5530,12 +5530,12 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="103"/>
         <source>Failed to parse PPU instruction.</source>
-        <translation>无法解析 PPU 指令。</translation>
+        <translation>解析 PPU 指令失败。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="113"/>
         <source>Failed to patch PPU instruction.</source>
-        <translation>无法修补 PPU 指令。</translation>
+        <translation>给 PPU 指令打补丁失败。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="152"/>
@@ -5548,27 +5548,27 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/ipc_settings_dialog.cpp" line="16"/>
         <source>IPC Settings</source>
-        <translation>IPC 设定</translation>
+        <translation>IPC 设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/ipc_settings_dialog.cpp" line="22"/>
         <source>Enable IPC Server</source>
-        <translation>启用 IPC 伺服器</translation>
+        <translation>启用 IPC 服务器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/ipc_settings_dialog.cpp" line="24"/>
         <source>IPC Server Port</source>
-        <translation>IPC 伺服器连接埠</translation>
+        <translation>IPC 服务器端口</translation>
     </message>
     <message>
         <location filename="rpcs3qt/ipc_settings_dialog.cpp" line="49"/>
         <source>Invalid port</source>
-        <translation>连接埠无效</translation>
+        <translation>无效的端口</translation>
     </message>
     <message>
         <location filename="rpcs3qt/ipc_settings_dialog.cpp" line="49"/>
         <source>The server port must be an integer in the range 1025 - 65535!</source>
-        <translation>伺服器连接埠必须是 1025 - 65535 范围内的整数!</translation>
+        <translation>服务器端口号必须是 1025 到 65535 之间的一个整数！</translation>
     </message>
 </context>
 <context>
@@ -5576,37 +5576,37 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="175"/>
         <source>Kernel Explorer | %1</source>
-        <translation>核心浏览器 | %1</translation>
+        <translation>内核浏览器 | %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="182"/>
         <source>Refresh</source>
-        <translation>更新</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="183"/>
         <source>Log All</source>
-        <translation>全部 Log</translation>
+        <translation>打印所有日志</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="191"/>
         <source>Kernel</source>
-        <translation>核心</translation>
+        <translation>内核</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="224"/>
         <source>Process Info</source>
-        <translation>处理资讯</translation>
+        <translation>处理器信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="226"/>
         <source>Shared Memory</source>
-        <translation>共享记忆体</translation>
+        <translation>共享内存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="227"/>
         <source>Virtual Memory</source>
-        <translation>虚拟记忆体</translation>
+        <translation>虚拟内存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="228"/>
@@ -5616,12 +5616,12 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="229"/>
         <source>Condition Variables</source>
-        <translation>情况变数</translation>
+        <translation>条件变量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="230"/>
         <source>Reader Writer Locks</source>
-        <translation>读写器锁</translation>
+        <translation>读写锁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="231"/>
@@ -5631,42 +5631,42 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="232"/>
         <source>Interrupt Service Handles</source>
-        <translation>中断服务处理</translation>
+        <translation>中断服务句柄</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="233"/>
         <source>Event Queues</source>
-        <translation>事件伫列</translation>
+        <translation>事件队列</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="234"/>
         <source>Event Ports</source>
-        <translation>事件埠</translation>
+        <translation>事件端口</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="235"/>
         <source>Traces</source>
-        <translation>追踪</translation>
+        <translation>Traces</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="236"/>
         <source>SPU Images</source>
-        <translation>SPU 影像</translation>
+        <translation>SPU 图像</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="237"/>
         <source>PRX Modules</source>
-        <translation>PRX 模组</translation>
+        <translation>PRX 模块</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="238"/>
         <source>SPU Ports</source>
-        <translation>SPU 埠</translation>
+        <translation>SPU 端口</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="239"/>
         <source>Overlay Modules</source>
-        <translation>覆盖模组</translation>
+        <translation>蒙层模块</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="240"/>
@@ -5688,42 +5688,42 @@ File was too small.</source>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="254"/>
         <source>File Descriptors</source>
         <oldsource>File Descriptors ?</oldsource>
-        <translation>档案描述符</translation>
+        <translation>文件描述符</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="244"/>
         <source>Light Weight Condition Variables</source>
-        <translation>轻量情况变数</translation>
+        <translation>轻量条件变量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="245"/>
         <source>Event Flags</source>
-        <translation>事件旗标</translation>
+        <translation>事件标记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="246"/>
         <source>RSXAudio Objects</source>
-        <translation>RSX 音讯项目</translation>
+        <translation>RSXAudio 实例</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="248"/>
         <source>Memory Containers</source>
-        <translation>记忆体容器</translation>
+        <translation>内存容器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="249"/>
         <source>PPU Threads</source>
-        <translation>PPU 执行绪</translation>
+        <translation>PPU 线程</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="250"/>
         <source>SPU Threads</source>
-        <translation>SPU 执行绪</translation>
+        <translation>SPU 线程</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="251"/>
         <source>SPU Thread Groups</source>
-        <translation>SPU 执行绪群</translation>
+        <translation>SPU 线程组</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="252"/>
@@ -5733,7 +5733,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="253"/>
         <source>Sockets</source>
-        <translation>插槽</translation>
+        <translation>Sockets</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="762"/>
@@ -5748,7 +5748,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="838"/>
         <source>Zcull Bindings</source>
-        <translation>Zcull 连结</translation>
+        <translation>Zcull 绑定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="839"/>
@@ -5765,7 +5765,7 @@ File was too small.</source>
         <oldsource>You have earned the bronze trophy
 %0</oldsource>
         <comment>Trophy text</comment>
-        <translation>您已獲得青銅獎盃。
+        <translation>你获得了一个青铜奖杯。
 %0</translation>
     </message>
     <message>
@@ -5775,7 +5775,7 @@ File was too small.</source>
         <oldsource>You have earned the silver trophy
 %0</oldsource>
         <comment>Trophy text</comment>
-        <translation>您已獲得白銀獎盃。
+        <translation>你获得了一个白银奖杯。
 %0</translation>
     </message>
     <message>
@@ -5785,7 +5785,7 @@ File was too small.</source>
         <oldsource>You have earned the gold trophy
 %0</oldsource>
         <comment>Trophy text</comment>
-        <translation>您已獲得黃金獎盃。
+        <translation>你获得了一个黄金奖杯。
 %0</translation>
     </message>
     <message>
@@ -5795,13 +5795,13 @@ File was too small.</source>
         <oldsource>You have earned the platinum trophy
 %0</oldsource>
         <comment>Trophy text</comment>
-        <translation>您已獲得白金獎盃。
+        <translation>你获得了一个白银奖杯。
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="44"/>
         <source>Compiling shaders</source>
-        <translation>著色編譯</translation>
+        <translation>编译着色器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="46"/>
@@ -5819,61 +5819,61 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="49"/>
         <source>OK</source>
         <comment>Message Dialog</comment>
-        <translation>確定</translation>
+        <translation>确定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="50"/>
         <source>Save Dialog</source>
         <comment>Save Dialog</comment>
-        <translation>記錄訊息</translation>
+        <translation>保存对话</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="51"/>
         <source>Delete Save</source>
         <comment>Save Dialog</comment>
-        <translation>刪除紀錄</translation>
+        <translation>删除保存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="52"/>
         <source>Load Save</source>
         <comment>Save Dialog</comment>
-        <translation>讀取紀錄</translation>
+        <translation>加载对话</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="53"/>
         <source>Save</source>
         <comment>Save Dialog</comment>
-        <translation>紀錄</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="56"/>
         <source>Space</source>
         <comment>OSK Dialog</comment>
-        <translation>空格</translation>
+        <translation>Space</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="57"/>
         <source>Backspace</source>
         <comment>OSK Dialog</comment>
-        <translation>退格</translation>
+        <translation>Backspace</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="58"/>
         <source>Shift</source>
         <comment>OSK Dialog</comment>
-        <translation>移位</translation>
+        <translation>Shift</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="59"/>
         <source>[Enter Text]</source>
         <comment>OSK Dialog</comment>
-        <translation>[輸入文字]</translation>
+        <translation>[输入文本]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="60"/>
         <source>[Enter Password]</source>
         <comment>OSK Dialog</comment>
-        <translation>[輸入密碼]</translation>
+        <translation>[输入密码]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="48"/>
@@ -5884,13 +5884,13 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="45"/>
         <source>Compiling PPU Modules</source>
-        <translation>編譯 PPU 模組</translation>
+        <translation>编译 PPU 模块</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="54"/>
         <source>Enter</source>
         <comment>OSK Dialog</comment>
-        <translation>進入</translation>
+        <translation>进入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="55"/>
@@ -5902,25 +5902,25 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="61"/>
         <source>Select media</source>
         <comment>Media dialog</comment>
-        <translation>選擇媒體</translation>
+        <translation>选择媒体文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="62"/>
         <source>Select photo to import</source>
         <comment>Media dialog</comment>
-        <translation>選取要匯入的照片</translation>
+        <translation>选择照片或导入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="63"/>
         <source>No media found.</source>
         <comment>Media dialog</comment>
-        <translation>未找到媒體。</translation>
+        <translation>未找到媒体文件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="64"/>
         <source>Enter</source>
         <comment>Enter Dialog List</comment>
-        <translation>進入</translation>
+        <translation>进入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="65"/>
@@ -5932,47 +5932,47 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="66"/>
         <source>ERROR: Game data is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
-        <translation>錯誤: 遊戲資料已損壞。 該應用軟體將繼續。</translation>
+        <translation>错误：游戏数据已损坏。应用程序将继续。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="67"/>
         <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
-        <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將繼續。</translation>
+        <translation>错误：HDD 启动游戏已损坏。应用程序将继续。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="68"/>
         <source>ERROR: Game data is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
-        <translation>錯誤: 遊戲資料已損壞。 該應用軟體將被終止。</translation>
+        <translation>错误：游戏数据已损坏。应用程序将被终止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="69"/>
         <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
-        <translation>錯誤: 硬碟啟動遊戲已損壞。 該應用軟體將被終止。</translation>
+        <translation>错误：HDD 启动游戏已损坏。应用程序将被终止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="70"/>
         <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
-        <translation>錯誤: 可用空間不足。 該應用軟體將繼續。
-需要空間: %0 KB</translation>
+        <translation>错误：没有足够的可用空间。应用程序将继续。
+需要的空间：%0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="71"/>
         <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
-        <translation>錯誤: 可用空間不足。 該應用軟體將被終止。
-需要空間: %0 KB</translation>
+        <translation>错误：没有足够的可用空间。应用程序将被终止。
+需要的空间：%0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="72"/>
         <source>Directory name: %0</source>
         <comment>Game Error</comment>
-        <translation>目錄名稱: %0</translation>
+        <translation>目录名称：%0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="73"/>
@@ -5980,9 +5980,9 @@ Space needed: %0 KB</source>
 
 Please remove the game data for this title.</source>
         <comment>Game Error</comment>
-        <translation>發生錯誤!
+        <translation>有一个错误！
 
-請刪除該標題的遊戲資料。</translation>
+请移除此作品的游戏数据。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="74"/>
@@ -5990,17 +5990,17 @@ Please remove the game data for this title.</source>
 
 Please reinstall the HDD boot game.</source>
         <comment>Game Error</comment>
-        <translation>發生錯誤!
+        <translation>有一个错误！
 
-請重新安裝硬碟遊戲啟動。</translation>
+请重新安装 HDD 启动游戏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="75"/>
         <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
         <comment>HDD Game Check Error</comment>
-        <translation>沒有足夠的空間可建立硬碟啟動遊戲。
-需要空間: %0 KB</translation>
+        <translation>没有足够的空间以创建 HDD 启动游戏。
+需要的空间：%0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="76"/>
