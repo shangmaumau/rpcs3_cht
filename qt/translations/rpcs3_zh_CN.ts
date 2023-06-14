@@ -4130,33 +4130,33 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="504"/>
         <source>Figure number entered is invalid!</source>
-        <translation>输入的人物编号无效!</translation>
+        <translation>输入形象编号无效！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="510"/>
         <source>Series number entered is invalid!</source>
-        <translation>输入的序列无效!</translation>
+        <translation>输入序列号无效！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="523"/>
         <source>Create Figure File</source>
-        <translation>建立人物档案</translation>
+        <translation>创建形象文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="523"/>
         <source>Infinity Figure (*.bin);;</source>
-        <translation>无限人物 (*.bin);;</translation>
+        <translation>Infinity 形象 (*.bin);;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="530"/>
         <source>Failed to create figure file!</source>
-        <translation>无法建立人物档案!</translation>
+        <translation>创建形象文件失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="530"/>
         <source>Failed to create figure file:
 %1</source>
-        <translation>无法建立人物档案:
+        <translation>创建形象文件失败：
 %1</translation>
     </message>
 </context>
@@ -4393,7 +4393,7 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="133"/>
         <source>Supported Resolutions</source>
-        <translation>支援解析度</translation>
+        <translation>支持的分辨率</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="133"/>
@@ -4413,12 +4413,12 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="135"/>
         <source>Parental Level</source>
-        <translation>年龄分级</translation>
+        <translation>家长（控制）分级</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="135"/>
         <source>Show Parental Levels</source>
-        <translation>显示年龄分级</translation>
+        <translation>显示家长（控制）分级</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="136"/>
@@ -4453,12 +4453,12 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="139"/>
         <source>Space On Disk</source>
-        <translation>占用硬盘空间</translation>
+        <translation>占用磁盘空间</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="139"/>
         <source>Show Space On Disk</source>
-        <translation>显示占用硬盘空间</translation>
+        <translation>显示占用磁盘空间</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="190"/>
@@ -4524,7 +4524,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1047"/>
         <source>&amp;Reboot with default configuration</source>
-        <translation>&amp;使用默认默认重启</translation>
+        <translation>&amp;使用默认配置重启</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1048"/>
@@ -4657,7 +4657,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1147"/>
         <source>&amp;Remove Shaders Cache</source>
-        <translation>删除着色快取(&amp;S)</translation>
+        <translation>&amp;移除着色器缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1152"/>
@@ -5313,47 +5313,47 @@ Any unsaved progress will be lost!
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="664"/>
         <source>Infinity Manager</source>
-        <translation>无限管理</translation>
+        <translation>Infinity 管理器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="679"/>
         <source>Active Infinity Figures:</source>
-        <translation>自动无限人物:</translation>
+        <translation>活跃 Infinity 画像：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="682"/>
         <source>Play Set/Power Disc</source>
-        <translation>Play Set/Power Disc</translation>
+        <translation>游玩设定/能量盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="684"/>
         <source>Player One</source>
-        <translation>Player One</translation>
+        <translation>玩家一</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="686"/>
         <source>Player One Ability One</source>
-        <translation>Player One Ability One</translation>
+        <translation>玩家一能力一</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="688"/>
         <source>Player One Ability Two</source>
-        <translation>Player One Ability Two</translation>
+        <translation>玩家一能力二</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="690"/>
         <source>Player Two</source>
-        <translation>Player Two</translation>
+        <translation>玩家二</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="692"/>
         <source>Player Two Ability One</source>
-        <translation>Player Two Ability One</translation>
+        <translation>玩家二能力一</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="694"/>
         <source>Player Two Ability Two</source>
-        <translation>Player Two Ability Two</translation>
+        <translation>玩家二能力二</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="722"/>
