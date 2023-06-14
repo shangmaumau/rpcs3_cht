@@ -6006,52 +6006,52 @@ Space Needed: %0 KB</source>
         <location filename="rpcs3qt/localized_emu.h" line="76"/>
         <source>HDD boot game %0 is corrupt!</source>
         <comment>HDD Game Check Error</comment>
-        <translation>硬碟啟動遊戲 %0 已損壞!</translation>
+        <translation>HDD 启动游戏 %0 已损坏！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="77"/>
         <source>HDD boot game %0 could not be found!</source>
         <comment>HDD Game Check Error</comment>
-        <translation>硬碟啟動遊戲 %0 找不到!</translation>
+        <translation>无法找到 HDD 启动游戏 %0！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="78"/>
         <source>Error: %0</source>
         <comment>HDD Game Check Error</comment>
-        <translation>錯誤: %0</translation>
+        <translation>错误：%0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="79"/>
         <source>Not enough space to create game data.
 Space Needed: %0 KB</source>
         <comment>Gamedata Check Error</comment>
-        <translation>沒有足夠的空間可建立遊戲資料。
-需要空間: %0 KB</translation>
+        <translation>没有足够的空间来创建游戏数据。
+需要的空间：%0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="80"/>
         <source>The game data in %0 is corrupt!</source>
         <comment>Gamedata Check Error</comment>
-        <translation>%0 中的遊戲資料已損壞!</translation>
+        <translation>在 %0 中的游戏数据已损坏！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="81"/>
         <source>The game data in %0 could not be found!</source>
         <comment>Gamedata Check Error</comment>
-        <translation>找不到 %0 中的遊戲資料!</translation>
+        <translation>在 %0 中没有找到游戏数据！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="82"/>
         <source>Error: %0</source>
         <comment>Gamedata Check Error</comment>
-        <translation>錯誤: %0</translation>
+        <translation>错误：%0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="83"/>
         <source>The resource is temporarily unavailable.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>資源暫時不可用。
+        <translation>资源暂不可用。
 (%0)</translation>
     </message>
     <message>
@@ -6059,7 +6059,7 @@ Space Needed: %0 KB</source>
         <source>Invalid argument or flag.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>無效的引數或標示
+        <translation>无效的参数或标记。
 (%0)</translation>
     </message>
     <message>
@@ -6067,7 +6067,7 @@ Space Needed: %0 KB</source>
         <source>The feature is not yet implemented.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>功能尚未實現。
+        <translation>此功能尚未实现。
 (%0)</translation>
     </message>
     <message>
@@ -6075,7 +6075,7 @@ Space Needed: %0 KB</source>
         <source>Memory allocation failed.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>記憶體分配失敗。
+        <translation>内存分配失败。
 (%0)</translation>
     </message>
     <message>
@@ -6083,7 +6083,7 @@ Space Needed: %0 KB</source>
         <source>The resource with the specified identifier does not exist.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>與資源指定的識別碼不存在。
+        <translation>指定唯一标识符的资源不存在。
 (%0)</translation>
     </message>
     <message>
@@ -6091,7 +6091,7 @@ Space Needed: %0 KB</source>
         <source>The file does not exist.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案不存在。
+        <translation>文件不存在。
 (%0)</translation>
     </message>
     <message>
@@ -6099,7 +6099,7 @@ Space Needed: %0 KB</source>
         <source>The file is in unrecognized format / The file is not a valid ELF file.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案是無法識別的格式/不是有效的 ELF 檔案。
+        <translation>文件格式未能识别 / 文件非有效的 ELF 文件。
 (%0)</translation>
     </message>
     <message>
@@ -6107,7 +6107,7 @@ Space Needed: %0 KB</source>
         <source>Resource deadlock is avoided.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>避免資源鎖死。
+        <translation>已避免资源死锁。
 (%0)</translation>
     </message>
     <message>
@@ -6115,7 +6115,7 @@ Space Needed: %0 KB</source>
         <source>Operation not permitted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不允許操作。
+        <translation>操作不允许。
 (%0)</translation>
     </message>
     <message>
@@ -6123,7 +6123,7 @@ Space Needed: %0 KB</source>
         <source>The device or resource is busy.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>裝置或資源工作中。
+        <translation>设备或资源正忙。
 (%0)</translation>
     </message>
     <message>
@@ -6131,7 +6131,7 @@ Space Needed: %0 KB</source>
         <source>The operation is timed out.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>操作逾時。
+        <translation>操作已超时。
 (%0)</translation>
     </message>
     <message>
@@ -6139,7 +6139,7 @@ Space Needed: %0 KB</source>
         <source>The operation is aborted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>操作被中止。
+        <translation>操作被终止。
 (%0)</translation>
     </message>
     <message>
@@ -6147,7 +6147,7 @@ Space Needed: %0 KB</source>
         <source>Invalid memory access.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>無效的記憶體存取。
+        <translation>无效的内存存取。
 (%0)</translation>
     </message>
     <message>
@@ -6155,7 +6155,7 @@ Space Needed: %0 KB</source>
         <source>State of the target thread is invalid.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>目標執行緒的狀態無效。
+        <translation>目标线程的状态无效。
 (%0)</translation>
     </message>
     <message>
@@ -6163,7 +6163,7 @@ Space Needed: %0 KB</source>
         <source>Alignment is invalid.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>調正無效。
+        <translation>Alignment 无效。
 (%0)</translation>
     </message>
     <message>
@@ -6171,7 +6171,7 @@ Space Needed: %0 KB</source>
         <source>Shortage of the kernel resources.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>核心資源不足。
+        <translation>内核资源不足。
 (%0)</translation>
     </message>
     <message>
@@ -6179,7 +6179,7 @@ Space Needed: %0 KB</source>
         <source>The file is a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案是一個目錄。
+        <translation>此文件为目录。
 (%0)</translation>
     </message>
     <message>
@@ -6195,7 +6195,7 @@ Space Needed: %0 KB</source>
         <source>Entry already exists.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>項目已經存在。
+        <translation>项目已存在。
 (%0)</translation>
     </message>
     <message>
@@ -6203,7 +6203,7 @@ Space Needed: %0 KB</source>
         <source>Port is already connected.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>埠已連接。
+        <translation>端口已连接。
 (%0)</translation>
     </message>
     <message>
@@ -6211,7 +6211,7 @@ Space Needed: %0 KB</source>
         <source>Port is not connected.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>埠未連接。
+        <translation>端口未连接。
 (%0)</translation>
     </message>
     <message>
@@ -6219,7 +6219,7 @@ Space Needed: %0 KB</source>
         <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>無法授權 SELF。 程式驗證失敗。
+        <translation>授权 SELF 失败。程序认证失败。
 (%0)</translation>
     </message>
     <message>
@@ -6227,7 +6227,7 @@ Space Needed: %0 KB</source>
         <source>The file is not MSELF.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案不是 MSELF。
+        <translation>文件不是 MSELF。
 (%0)</translation>
     </message>
     <message>
@@ -6235,7 +6235,7 @@ Space Needed: %0 KB</source>
         <source>System version error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>系統版本錯誤。
+        <translation>系统版本错误。
 (%0)</translation>
     </message>
     <message>
@@ -6243,7 +6243,7 @@ Space Needed: %0 KB</source>
         <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>授權 SELF 時發生嚴重系統錯誤。 SELF 驗證失敗。
+        <translation>授权 SELF 时发生致命系统错误。SELF 认证失败。
 (%0)</translation>
     </message>
     <message>
@@ -6251,7 +6251,7 @@ Space Needed: %0 KB</source>
         <source>Math domain violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>違反數學定域。
+        <translation>违背数学域。（看不懂）
 (%0)</translation>
     </message>
     <message>
@@ -6259,7 +6259,7 @@ Space Needed: %0 KB</source>
         <source>Math range violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>超出數學範圍。
+        <translation>违背数学范围。（看不懂）
 (%0)</translation>
     </message>
     <message>
@@ -6267,7 +6267,7 @@ Space Needed: %0 KB</source>
         <source>Illegal multi-byte sequence in input.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>輸入中的非法多位元組順序。
+        <translation>非法的多字节序列输入。
 (%0)</translation>
     </message>
     <message>
@@ -6275,7 +6275,7 @@ Space Needed: %0 KB</source>
         <source>File position error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案位置錯誤。
+        <translation>文件位置错误。
 (%0)</translation>
     </message>
     <message>
@@ -6283,7 +6283,7 @@ Space Needed: %0 KB</source>
         <source>Syscall was interrupted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>Syscall 被中斷。
+        <translation>Syscall 被打断。
 (%0)</translation>
     </message>
     <message>
@@ -6291,7 +6291,7 @@ Space Needed: %0 KB</source>
         <source>File too large.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案過大。
+        <translation>文件过大。
 (%0)</translation>
     </message>
     <message>
@@ -6299,7 +6299,7 @@ Space Needed: %0 KB</source>
         <source>Too many links.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>連接太多。
+        <translation>链接过多。
 (%0)</translation>
     </message>
     <message>
@@ -6307,7 +6307,7 @@ Space Needed: %0 KB</source>
         <source>File table overflow.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案表超限。
+        <translation>文件表溢出。
 (%0)</translation>
     </message>
     <message>
@@ -6315,7 +6315,7 @@ Space Needed: %0 KB</source>
         <source>No space left on device.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>裝置上沒有剩餘空間。
+        <translation>设备上没有空间了。
 (%0)</translation>
     </message>
     <message>
@@ -6323,7 +6323,7 @@ Space Needed: %0 KB</source>
         <source>Not a TTY.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不是 TTY。
+        <translation>不是 TTY.
 (%0)</translation>
     </message>
     <message>
@@ -6331,7 +6331,7 @@ Space Needed: %0 KB</source>
         <source>Broken pipe.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>pipe 中斷。
+        <translation>损坏的 pipe.
 (%0)</translation>
     </message>
     <message>
@@ -6339,7 +6339,7 @@ Space Needed: %0 KB</source>
         <source>Read-only filesystem.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>唯讀檔案系統。
+        <translation>只读文件系统。
 (%0)</translation>
     </message>
     <message>
@@ -6347,7 +6347,7 @@ Space Needed: %0 KB</source>
         <source>Illegal seek.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>非法尋找。
+        <translation>非法查找。
 (%0)</translation>
     </message>
     <message>
@@ -6355,7 +6355,7 @@ Space Needed: %0 KB</source>
         <source>Arg list too long.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>Arg 清單過長。
+        <translation>参数列表过长。
 (%0)</translation>
     </message>
     <message>
@@ -6363,7 +6363,7 @@ Space Needed: %0 KB</source>
         <source>Access violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>存取違規。
+        <translation>存取违例。
 (%0)</translation>
     </message>
     <message>
@@ -6371,7 +6371,7 @@ Space Needed: %0 KB</source>
         <source>Invalid file descriptor.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>無效的檔案描述符。
+        <translation>无效的文件描述符。
 (%0)</translation>
     </message>
     <message>
@@ -6379,7 +6379,7 @@ Space Needed: %0 KB</source>
         <source>Filesystem mounting failed.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案系統安裝失敗。
+        <translation>文件系统挂载失败。
 (%0)</translation>
     </message>
     <message>
@@ -6387,7 +6387,7 @@ Space Needed: %0 KB</source>
         <source>Too many files open.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>開啟的檔案過多。
+        <translation>打开的文件过多。
 (%0)</translation>
     </message>
     <message>
@@ -6395,7 +6395,7 @@ Space Needed: %0 KB</source>
         <source>No device.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>沒有裝置。
+        <translation>无设备。
 (%0)</translation>
     </message>
     <message>
@@ -6403,7 +6403,7 @@ Space Needed: %0 KB</source>
         <source>Not a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不是目錄。
+        <translation>非目录。
 (%0)</translation>
     </message>
     <message>
@@ -6411,7 +6411,7 @@ Space Needed: %0 KB</source>
         <source>No such device or IO.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>沒有此類裝置或 IO。
+        <translation>无此设备或 IO.
 (%0)</translation>
     </message>
     <message>
@@ -6419,7 +6419,7 @@ Space Needed: %0 KB</source>
         <source>Cross-device link error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>跨裝置連接錯誤。
+        <translation>跨设备链接错误。
 (%0)</translation>
     </message>
     <message>
@@ -6427,7 +6427,7 @@ Space Needed: %0 KB</source>
         <source>Bad Message.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>錯誤訊息。
+        <translation>坏消息。
 (%0)</translation>
     </message>
     <message>
@@ -6435,7 +6435,7 @@ Space Needed: %0 KB</source>
         <source>In progress.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>正在進行。
+        <translation>正在进行。
 (%0)</translation>
     </message>
     <message>
@@ -6443,7 +6443,7 @@ Space Needed: %0 KB</source>
         <source>Message size error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>訊息大小錯誤。
+        <translation>信息大小错误。
 (%0)</translation>
     </message>
     <message>
@@ -6451,7 +6451,7 @@ Space Needed: %0 KB</source>
         <source>Name too long.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>名稱過長。
+        <translation>名称过长。
 (%0)</translation>
     </message>
     <message>
@@ -6459,7 +6459,7 @@ Space Needed: %0 KB</source>
         <source>No lock.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>未鎖定
+        <translation>无锁。
 (%0)</translation>
     </message>
     <message>
@@ -6467,7 +6467,7 @@ Space Needed: %0 KB</source>
         <source>Not empty.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不是空的。
+        <translation>非空。
 (%0)</translation>
     </message>
     <message>
@@ -6475,7 +6475,7 @@ Space Needed: %0 KB</source>
         <source>Not supported.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不支援。
+        <translation>不支持。
 (%0)</translation>
     </message>
     <message>
@@ -6483,7 +6483,7 @@ Space Needed: %0 KB</source>
         <source>File-system specific error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>檔案系統特定的錯誤。
+        <translation>文件系统特有错误。
 (%0)</translation>
     </message>
     <message>
@@ -6491,7 +6491,7 @@ Space Needed: %0 KB</source>
         <source>Overflow occured.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>出現溢出。
+        <translation>发生溢出。
 (%0)</translation>
     </message>
     <message>
@@ -6499,7 +6499,7 @@ Space Needed: %0 KB</source>
         <source>Filesystem not mounted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>未安裝檔案系統。
+        <translation>文件系统未挂载。
 (%0)</translation>
     </message>
     <message>
@@ -6507,7 +6507,7 @@ Space Needed: %0 KB</source>
         <source>Not SData.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>不是 SData。
+        <translation>非 SData.
 (%0)</translation>
     </message>
     <message>
@@ -6515,7 +6515,7 @@ Space Needed: %0 KB</source>
         <source>Incorrect version in sys_load_param.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>sys_load_param 中的版本不正確。
+        <translation>sys_load_param 中的版本不正确。
 (%0)</translation>
     </message>
     <message>
@@ -6524,7 +6524,7 @@ Space Needed: %0 KB</source>
         <source>Pointer is null.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>指標是空的。
+        <translation>指针为 null.
 (%0)</translation>
     </message>
     <message>
@@ -6532,38 +6532,38 @@ Space Needed: %0 KB</source>
         <source>An error has occurred.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>發生錯誤。
+        <translation>发生了一个错误。
 (%0)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="145"/>
         <source>On Screen Keyboard</source>
         <comment>OSK Dialog</comment>
-        <translation>螢幕鍵盤</translation>
+        <translation>屏上键盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="146"/>
         <source>The Home Menu can&apos;t be opened while the On Screen Keyboard is busy!</source>
         <comment>OSK Dialog</comment>
-        <translation>螢幕鍵盤正忙時無法開啟主選單!</translation>
+        <translation>屏上键盘正忙，无法打开主页菜单。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="147"/>
         <source>Error - Save data corrupted</source>
         <comment>Savedata Error</comment>
-        <translation>錯誤 - 儲存資料已損壞</translation>
+        <translation>错误 - 保存数据已损坏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="148"/>
         <source>Error - Failed to save or load</source>
         <comment>Savedata Error</comment>
-        <translation>錯誤 - 無法儲存或讀取</translation>
+        <translation>错误 - 保存或加载失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="149"/>
         <source>Error - Save data cannot be found</source>
         <comment>Savedata Error</comment>
-        <translation>錯誤 - 未找到儲存資料</translation>
+        <translation>错误 - 未找到保存数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="150"/>
@@ -6571,33 +6571,33 @@ Space Needed: %0 KB</source>
 
 Space needed: %0 KB</source>
         <comment>Savedata Error</comment>
-        <translation>錯誤 -可用空間不足
+        <translation>错误 - 可用空间不足
 
-需要空間: %0 KB</translation>
+需要的空间：%0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="151"/>
         <source>There is no saved data.</source>
         <comment>Savedata entry info</comment>
-        <translation>沒有儲存資料。</translation>
+        <translation>没有保存数据。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="152"/>
         <source>New Saved Data</source>
         <comment>Savedata Dialog</comment>
-        <translation>新的儲存資料</translation>
+        <translation>新保存数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="153"/>
         <source>Select to create a new entry</source>
         <comment>Savedata Dialog</comment>
-        <translation>選擇以建立一個新紀錄</translation>
+        <translation>选择或创建一条新记录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="154"/>
         <source>Do you want to save this data?</source>
         <comment>Savedata Dialog</comment>
-        <translation>您要儲存此資料嗎?</translation>
+        <translation>你想保存此数据吗？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="155"/>
@@ -6605,7 +6605,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>您真的要刪除此資料嗎?
+        <translation>你真的要删除此数据吗？
 
 %0</translation>
     </message>
@@ -6615,7 +6615,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>已成功刪除資料!
+        <translation>成功移除数据！
 
 %0</translation>
     </message>
@@ -6625,7 +6625,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>刪除此資料?
+        <translation>删除此数据？
 
 %0</translation>
     </message>
@@ -6635,7 +6635,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>讀取此資料?
+        <translation>加载此数据？
 
 %0</translation>
     </message>
@@ -6645,7 +6645,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>要取代儲存的資料嗎?
+        <translation>你真的要覆写已保存的数据吗？
 
 %0</translation>
     </message>
@@ -6654,354 +6654,354 @@ Space needed: %0 KB</source>
         <source>Start [%0] on the PS Vita system.
 If you have not installed [%0], go to [Remote Play] on the PS Vita system and start [Cross-Controller] from the LiveArea™ screen.</source>
         <comment>Cross-Controller message</comment>
-        <translation>啟動 PS Vita 系統上的 [%0]。
-如果您尚未安裝 [%0]，請前往 PS Vita 系統上的 [Remote Play] 並從 LiveArea™ 畫面啟動 [Cross-Controller]。</translation>
+        <translation>启动 PS Vita 系统上的 [%0]。
+如果你还未安装 [%0]，则在 PS Vita 系统上前往 [Remote Play]，然后从 LiveArea™ 屏开始 [Cross-Controller]。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="161"/>
         <source>If your system software version on the PS Vita system is earlier than 1.80, you must update the system software to the latest version.</source>
         <comment>Cross-Controller firmware message</comment>
-        <translation>如果您在 PS Vita 系統上的系統軟體版本低於 1.80，則必須將系統軟體更新到最新版本。</translation>
+        <translation>如果 PS Vita 系统上你的系统软件版本早于 1.80，你必须更新系统软件到最新的版本。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="162"/>
         <source>Recording aborted!</source>
-        <translation>錄製中止!</translation>
+        <translation>录制被终止！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="163"/>
         <source>RPCN: No Error</source>
-        <translation>RPCN: 沒有錯誤</translation>
+        <translation>RPCN：无错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="164"/>
         <source>RPCN: Invalid Input (Wrong Host/Port)</source>
-        <translation>RPCN: 無效輸入 (錯誤的主機/連接埠)</translation>
+        <translation>RPCN：无效输入（错误的主机/端口）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="165"/>
         <source>RPCN Connection Error: WolfSSL Error</source>
-        <translation>RPCN 連接錯誤: WolfSSL 錯誤</translation>
+        <translation>RPCN 连接错误：WolfSLL 错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="166"/>
         <source>RPCN Connection Error: Resolve Error</source>
-        <translation>RPCN 連接錯誤: 解析錯誤</translation>
+        <translation>RPCN 连接错误：解析错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="167"/>
         <source>RPCN Connection Error</source>
-        <translation>RPCN 連接錯誤</translation>
+        <translation>RPCN 连接错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="168"/>
         <source>RPCN Login Error: Identification Error</source>
-        <translation>RPCN 登入錯誤: 識別錯誤</translation>
+        <translation>RPCN 登录错误：认证错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="169"/>
         <source>RPCN Login Error: User Already Logged In</source>
-        <translation>RPCN 登入錯誤: 用戶已經登入</translation>
+        <translation>RPCN 登录错误：用户已登入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="170"/>
         <source>RPCN Login Error: Invalid Username</source>
-        <translation>RPCN 登入錯誤: 用戶名無效</translation>
+        <translation>RPCN 登录错误：无效的用户名</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="171"/>
         <source>RPCN Login Error: Invalid Password</source>
-        <translation>RPCN 登入錯誤: 密碼無效</translation>
+        <translation>RPCN 登录错误：无效的密码</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="172"/>
         <source>RPCN Login Error: Invalid Token</source>
-        <translation>RPCN 登入錯誤: 權杖無效</translation>
+        <translation>RPCN 登录错误：无效的令牌</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="173"/>
         <source>RPCN Misc Error: Protocol Version Error (outdated RPCS3?)</source>
-        <translation>RPCN 雜項錯誤: 協定版本錯誤 (過時的 RPCS3?)</translation>
+        <translation>RPCN 杂项错误：协议版本错误（过时的 RPCS3?）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="174"/>
         <source>RPCN: Unknown Error</source>
-        <translation>RPCN: 未知錯誤</translation>
+        <translation>RPCN：未知错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="175"/>
         <source>Successfully logged on RPCN!</source>
-        <translation>成功登入 RPCN!</translation>
+        <translation>成功登录 RPCN！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="176"/>
         <source>Home Menu</source>
-        <translation>主選單</translation>
+        <translation>主页菜单</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="177"/>
         <source>Exit Game</source>
-        <translation>結束遊戲</translation>
+        <translation>退出游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="178"/>
         <source>Resume Game</source>
-        <translation>遊戲繼續</translation>
+        <translation>恢复游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="179"/>
         <source>Settings</source>
-        <translation>設定</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="180"/>
         <source>Save custom configuration?</source>
-        <translation>儲存自訂組態?</translation>
+        <translation>保存自定义配置？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="181"/>
         <source>Save</source>
-        <translation>儲存</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="182"/>
         <source>Discard the current settings&apos; changes?</source>
-        <translation>放棄當前設定的更變?</translation>
+        <translation>弃用当前设置的变更？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="183"/>
         <source>Discard</source>
-        <translation>放棄</translation>
+        <translation>弃用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="184"/>
         <source>Audio</source>
-        <translation>聲音</translation>
+        <translation>音频</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="185"/>
         <source>Video</source>
-        <translation>視訊</translation>
+        <translation>视频</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="186"/>
         <source>Input</source>
-        <translation>輸入</translation>
+        <translation>输入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="187"/>
         <source>Advanced</source>
-        <translation>進階</translation>
+        <translation>高级</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="188"/>
         <source>Overlays</source>
-        <translation>重疊</translation>
+        <translation>Overlays</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="189"/>
         <source>Performance Overlay</source>
-        <translation>效能重疊</translation>
+        <translation>性能 Overlay</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="190"/>
         <source>Debug</source>
-        <translation>偵錯</translation>
+        <translation>调试</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="191"/>
         <source>Take Screenshot</source>
-        <translation>截圖</translation>
+        <translation>截图</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="192"/>
         <source>Save Emulation State</source>
-        <translation>儲存仿真器狀態</translation>
+        <translation>保存模拟状态</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="193"/>
         <source>Save Emulation State And Exit</source>
-        <translation>儲存仿真器狀態並結束</translation>
+        <translation>保存模拟状态并退出</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="194"/>
         <source>Reload Last Emulation State</source>
-        <translation>再啟動上次仿真器狀態</translation>
+        <translation>重新载入上次的模拟状态</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="195"/>
         <source>Start/Stop Recording</source>
-        <translation>開始/停止錄製</translation>
+        <translation>开始/停止录制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="196"/>
         <source>Press and hold the START button to resume</source>
-        <translation>按住 START 按鈕繼續</translation>
+        <translation>按压并保持 START 按键以继续</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="197"/>
         <source>Resuming...!</source>
-        <translation>繼續...!</translation>
+        <translation>恢复中……！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="198"/>
         <source>The PS3 application has likely crashed, you can close it.</source>
-        <translation>PS3 應用程式可能已崩潰，您可以將其關閉。</translation>
+        <translation>PS3 应用程序好像已经崩溃，你可以关闭它。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="199"/>
         <source>Invalid</source>
-        <translation>無效</translation>
+        <translation>无效的</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="200"/>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation>未知的</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="8"/>
         <source>D-Pad Up</source>
-        <translation>方向鍵向上</translation>
+        <translation>D-Pad 上键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="9"/>
         <source>D-Pad Down</source>
-        <translation>方向鍵向下</translation>
+        <translation>D-Pad 下键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="10"/>
         <source>D-Pad Left</source>
-        <translation>方向鍵向左</translation>
+        <translation>D-Pad 左键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="11"/>
         <source>D-Pad Right</source>
-        <translation>方向鍵向右</translation>
+        <translation>D-Pad 右键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="12"/>
         <source>Select</source>
-        <translation>選擇</translation>
+        <translation>Select 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="13"/>
         <source>Start</source>
-        <translation>開始</translation>
+        <translation>Start 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="14"/>
         <source>PS</source>
-        <translation>PS</translation>
+        <translation>PS 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="15"/>
         <source>Triangle</source>
-        <translation>△</translation>
+        <translation>三角键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="16"/>
         <source>Circle</source>
-        <translation>○</translation>
+        <translation>圆形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="17"/>
         <source>Square</source>
-        <translation>□</translation>
+        <translation>方形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="18"/>
         <source>Cross</source>
-        <translation>╳</translation>
+        <translation>叉形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="19"/>
         <source>L1</source>
-        <translation>L1</translation>
+        <translation>L1 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="20"/>
         <source>R1</source>
-        <translation>R1</translation>
+        <translation>R1 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="21"/>
         <source>L2</source>
-        <translation>L2</translation>
+        <translation>L2 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="22"/>
         <source>R2</source>
-        <translation>R2</translation>
+        <translation>R2 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="23"/>
         <source>L3</source>
-        <translation>L3</translation>
+        <translation>L3 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="24"/>
         <source>R3</source>
-        <translation>R3</translation>
+        <translation>R3 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="25"/>
         <source>Left Stick Up</source>
-        <translation>左搖桿向上</translation>
+        <translation>左摇杆上键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="26"/>
         <source>Left Stick Down</source>
-        <translation>左搖桿向下</translation>
+        <translation>左摇杆下键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="27"/>
         <source>Left Stick Left</source>
-        <translation>左搖桿向左</translation>
+        <translation>左摇杆左键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="28"/>
         <source>Left Stick Right</source>
-        <translation>左搖桿向右</translation>
+        <translation>左摇杆右键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="29"/>
         <source>Left Stick X-Axis</source>
-        <translation>左搖桿 X 軸</translation>
+        <translation>左摇杆 X 轴</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="30"/>
         <source>Left Stick Y-Axis</source>
-        <translation>左搖桿 Y 軸</translation>
+        <translation>左摇杆 Y 轴</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="31"/>
         <source>Right Stick Up</source>
-        <translation>右搖桿向上</translation>
+        <translation>右摇杆上键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="32"/>
         <source>Right Stick Down</source>
-        <translation>右搖桿向下</translation>
+        <translation>右摇杆下键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="33"/>
         <source>Right Stick Left</source>
-        <translation>右搖桿向左</translation>
+        <translation>右摇杆左键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="34"/>
         <source>Right Stick Right</source>
-        <translation>右搖桿向右</translation>
+        <translation>右摇杆右键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="35"/>
         <source>Right Stick X-Axis</source>
-        <translation>右搖桿 X 軸</translation>
+        <translation>右摇杆 X 轴</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="36"/>
         <source>Right Stick Y-Axis</source>
-        <translation>右搖桿 Y 軸</translation>
+        <translation>右摇杆 Y 轴</translation>
     </message>
 </context>
 <context>
@@ -7025,7 +7025,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/log_frame.cpp" line="275"/>
         <source>All user channels</source>
         <oldsource>All User Channels</oldsource>
-        <translation>全部的使用者通道</translation>
+        <translation>所有用户通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="151"/>
@@ -7041,27 +7041,27 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="244"/>
         <source>Go-To On The Debugger</source>
-        <translation>移至侦错器</translation>
+        <translation>调试器上的 Go-To</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="251"/>
         <source>Stack Mode (TTY)</source>
-        <translation>堆叠模式 (TTY)</translation>
+        <translation>栈模式（TTY）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="259"/>
         <source>ANSI Code (TTY)</source>
-        <translation>ANSI 码 (TTY)</translation>
+        <translation>ANSI 码（TTY）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="292"/>
         <source>Nothing</source>
-        <translation>空</translation>
+        <translation>啥也没有</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="294"/>
         <source>Fatal</source>
-        <translation>严重</translation>
+        <translation>致命</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="295"/>
@@ -7086,27 +7086,27 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="299"/>
         <source>Notice</source>
-        <translation>通知</translation>
+        <translation>注意</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="300"/>
         <source>Trace</source>
-        <translation>追踪</translation>
+        <translation>Trace</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="302"/>
         <source>Stack Mode (Log)</source>
-        <translation>堆叠模式 (Log)</translation>
+        <translation>栈模式（Log）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="310"/>
         <source>Stack Cell Errors</source>
-        <translation>堆叠单元错误</translation>
+        <translation>栈单元错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="318"/>
         <source>Show Thread Prefix</source>
-        <translation>显示执行绪前缀</translation>
+        <translation>显示线程前缀</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="326"/>
@@ -7116,12 +7116,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="351"/>
         <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
-        <translation>移至侦错器上日志内文中选定的十六进位位址。</translation>
+        <translation>从调试器的日志文本跳至已选的十六进制地址。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="371"/>
         <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
-        <translation>移至侦错器上的 TTY 内文中选定的十六进位位址。</translation>
+        <translation>从调试器的 TTY 文本跳至已选的十六进制地址。</translation>
     </message>
 </context>
 <context>
@@ -7129,57 +7129,57 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="30"/>
         <source>Log Viewer</source>
-        <translation>日志检视器</translation>
+        <translation>日志浏览器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="64"/>
         <source>&amp;Clear</source>
-        <translation>清理(&amp;C)</translation>
+        <translation>&amp;清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="65"/>
         <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
+        <translation>&amp;复制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="66"/>
         <source>&amp;Open log file</source>
-        <translation>开启日志档案(&amp;O)</translation>
+        <translation>&amp;打开日志文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="67"/>
         <source>&amp;Save filtered log</source>
-        <translation>储存过滤的日志(&amp;A)</translation>
+        <translation>&amp;保存过滤后的日志</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="68"/>
         <source>&amp;Filter log</source>
-        <translation>过滤日志(&amp;F)</translation>
+        <translation>&amp;过滤日志</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="69"/>
         <source>&amp;Check config</source>
-        <translation>检查组态(&amp;H)</translation>
+        <translation>&amp;检查配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="71"/>
         <source>&amp;Show Timestamps</source>
-        <translation>显示时间戳(&amp;T)</translation>
+        <translation>&amp;显示时间戳</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="75"/>
         <source>&amp;Show Threads</source>
-        <translation>显示执行绪(&amp;S)</translation>
+        <translation>&amp;显示线程</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="79"/>
         <source>&amp;Last actions only</source>
-        <translation>仅上次操作(&amp;L)</translation>
+        <translation>&amp;仅上次操作</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="84"/>
         <source>Fatal</source>
-        <translation>严重</translation>
+        <translation>致命</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="85"/>
@@ -7204,28 +7204,28 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="89"/>
         <source>Notice</source>
-        <translation>通知</translation>
+        <translation>注意</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="90"/>
         <source>Trace</source>
-        <translation>追踪</translation>
+        <translation>Trace</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="148"/>
         <source>Select log file</source>
-        <translation>选取日志档案</translation>
+        <translation>选择日志文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="148"/>
         <location filename="rpcs3qt/log_viewer.cpp" line="157"/>
         <source>Log files (*.log);;All files (*.*)</source>
-        <translation>日志档案 (*.log);;全部档案 (*.*)</translation>
+        <translation>日志文件 (*.log);;全部文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="157"/>
         <source>Save to file</source>
-        <translation>储存到档案</translation>
+        <translation>保存到文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="181"/>
@@ -7235,37 +7235,37 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="181"/>
         <source>Enter text</source>
-        <translation>输入文字</translation>
+        <translation>输入文本</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="230"/>
         <source>Loading file...</source>
-        <translation>正在载入档案...</translation>
+        <translation>正在加载文件……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="246"/>
         <source>Failed to open &apos;%0&apos;</source>
-        <translation>无法开启 &apos;%0&apos;</translation>
+        <translation>打开 &apos;%0&apos; 失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="254"/>
         <source>Pasting...</source>
-        <translation>正在传送...</translation>
+        <translation>正在粘贴……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="270"/>
         <source>Filtering...</source>
-        <translation>正在过滤...</translation>
+        <translation>正在过滤……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="375"/>
         <source>Ooops!</source>
-        <translation>哎!</translation>
+        <translation>哎呀！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="375"/>
         <source>Cannot find any game boot!</source>
-        <translation>找不到任何游戏启动!</translation>
+        <translation>不能找到任何游戏启动！</translation>
     </message>
 </context>
 <context>
