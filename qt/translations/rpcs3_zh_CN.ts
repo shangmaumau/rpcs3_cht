@@ -7609,7 +7609,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="649"/>
         <source>Memory Viewer</source>
-        <translation>内存浏览器</translation>
+        <translation>内存查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="657"/>
@@ -8644,8 +8644,8 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
         <location filename="rpcs3qt/main_window.cpp" line="1589"/>
         <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
-        <translation>提示: KLIC (KLicense key) 是一个 16 位元组长的字串。 (32 十六进位字元)
-所有 &quot;%0&quot; 的游戏以及应用程序正在执行时，并使用某些 sceNpDrm* 功能进行记录。</translation>
+        <translation>提示：KLIC（KLicense Key）是一个 16 字节长的字符串。（32 个十六进制字符）
+当拥有 &quot;%0&quot; 的游戏以或应用程序正在运行时，使用一些 sceNpDrm* 的函数进行记录。（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1597"/>
@@ -8656,13 +8656,13 @@ And is logged with some sceNpDrm* functions when the game/application which owns
         <location filename="rpcs3qt/main_window.cpp" line="1598"/>
         <source>Decryption failed with provided KLIC.
 %0</source>
-        <translation>提供的 KLIC 解密失败。
+        <translation>使用提供的 KLIC 解密失败。
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1598"/>
         <source>Hexadecimal only.</source>
-        <translation>仅十六进位。</translation>
+        <translation>仅十六进制。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1762"/>
@@ -8688,51 +8688,51 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1808"/>
         <source>Resume %0</source>
-        <translation>继续 %0</translation>
+        <translation>恢复 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1774"/>
         <location filename="rpcs3qt/main_window.cpp" line="1797"/>
         <source>&amp;Pause</source>
-        <translation>暂停(&amp;P)</translation>
+        <translation>&amp;暂停</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="643"/>
         <source>RRC files (*.rrc *.RRC);;All files (*.*)</source>
-        <translation>RRC 档案 (*.rrc *.RRC);;全部档案 (*.*)</translation>
+        <translation>RRC 文件 (*.rrc *.RRC);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="722"/>
         <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
         <oldsource>All relevant (*.pkg *.PKG *.rap *.RAP);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;All files (*.*)</oldsource>
-        <translation>全部相关 (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;套装软体档案 (*.pkg *.PKG);;RAP 档案 (*.rap *.RAP);;EDAT 档案 (*.edat *.EDAT);;全部档案 (*.*)</translation>
+        <translation>所有相关文件 (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;软件包文件 (*.pkg *.PKG);;RAP 文件 (*.rap *.RAP);;EDAT 文件 (*.edat *.EDAT);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1173"/>
         <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
-        <translation>全部 MSELF 档案 (*.mself *.MSELF);;全部档案 (*.*)</translation>
+        <translation>所有 MSELF 文件 (*.mself *.MSELF);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1194"/>
         <location filename="rpcs3qt/main_window.cpp" line="1219"/>
         <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup *.PUP);;All files (*.*)</source>
-        <translation>PS3 更新档案 (PS3UPDAT.PUP);;全部 PUP 档案 (*.pup *.PUP);;全部档案 (*.*)</translation>
+        <translation>PS3 更新文件 (PS3UPDAT.PUP);;所有 PUP 文件 (*.pup *.PUP);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1244"/>
         <source>All tar files (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;All files (*.*)</source>
-        <translation>全部 TAR 档案 (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;全部档案 (*.*)</translation>
+        <translation>所有 TAR 文件 (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1814"/>
         <source>&amp;Resume</source>
-        <translation>继续(&amp;E)</translation>
+        <translation>&amp;恢复</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1834"/>
         <location filename="rpcs3qt/main_window.cpp" line="1895"/>
         <source>&amp;Play</source>
-        <translation>游戏(&amp;P)</translation>
+        <translation>&amp;游玩</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1990"/>
@@ -8744,17 +8744,17 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2252"/>
         <source>Select a folder containing one or more games</source>
-        <translation>选择包含单个或数个游戏资料夹</translation>
+        <translation>选择包含一个或多个游戏的文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2535"/>
         <source>Log or Config files (*.log *.txt *.yml);;Log files (*.log);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
-        <translation>日志或组态档案 (*.log *.txt *.yml);;日志档案 (*.log);;组态档案 (*.yml);;文字档案 (*.txt);;全部档案 (*.*)</translation>
+        <translation>日志或配置文件 (*.log *.txt *.yml);;日志文件 (*.log);;配置文件 (*.yml);;文本文件 (*.txt);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2546"/>
         <source>Weird file!</source>
-        <translation>不明档案!</translation>
+        <translation>奇怪的文件！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2546"/>
@@ -8762,25 +8762,25 @@ And is logged with some sceNpDrm* functions when the game/application which owns
 %0
 
 Check anyway?</source>
-        <translation>此档案似乎具有非预期的类型:
+        <translation>该文件的类型看起来有点让人意想不到：
 %0
 
-仍要检查?</translation>
+仍要检查？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2710"/>
         <source>Auto-updater</source>
-        <translation>自动更新</translation>
+        <translation>自动更新器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3073"/>
         <source>Cache Cleared</source>
-        <translation>快取已清除</translation>
+        <translation>缓存已清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3073"/>
         <source>Disk cache was cleared successfully</source>
-        <translation>磁碟快取已成功清除</translation>
+        <translation>磁盘缓存已成功清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3077"/>
@@ -8790,17 +8790,17 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3077"/>
         <source>Could not remove disk cache</source>
-        <translation>无法删除磁碟快取</translation>
+        <translation>无法移除磁盘缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3088"/>
         <source>Confirm Removal</source>
-        <translation>确认删除</translation>
+        <translation>确认移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3088"/>
         <source>Remove firmware cache?</source>
-        <translation>删除韧体快取?</translation>
+        <translation>移除固件缓存？</translation>
     </message>
 </context>
 <context>
@@ -8808,32 +8808,32 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="61"/>
         <source>Memory Viewer</source>
-        <translation>记忆体检视器</translation>
+        <translation>内存查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="59"/>
         <source>Memory Viewer Of %0</source>
-        <translation>记忆检视于 %0</translation>
+        <translation>%0 内存查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="60"/>
         <source>Memory Viewer Of RSX[0x55555555]</source>
-        <translation>记忆检视于 RSX[0x55555555]</translation>
+        <translation>RSX[0x55555555] 内存查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="80"/>
         <source>Memory Viewer Options</source>
-        <translation>记忆体检视器选项</translation>
+        <translation>内存查看器选项</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="84"/>
         <source>Address</source>
-        <translation>位址</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="97"/>
         <source>Words</source>
-        <translation>字组</translation>
+        <translation>字</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="114"/>
@@ -8853,7 +8853,7 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="156"/>
         <source>Size</source>
-        <translation>大小</translation>
+        <translation>尺寸</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="171"/>
@@ -8869,23 +8869,23 @@ Check anyway?</source>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="190"/>
         <source>View
 image</source>
-        <translation>检视
-图片</translation>
+        <translation>查看
+图像</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="268"/>
         <source>Memory Search</source>
-        <translation>记忆体搜寻</translation>
+        <translation>内存搜索</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="274"/>
         <source>Search...</source>
-        <translation>搜寻...</translation>
+        <translation>搜索……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="277"/>
         <source>Search</source>
-        <translation>搜寻</translation>
+        <translation>搜索</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="280"/>
@@ -8896,39 +8896,39 @@ image</source>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="282"/>
         <source>When using string mode, the characters&apos; case will not matter both in string and in memory.
 Warning: this may reduce performance of the search.</source>
-        <translation>使用&quot;字串&quot;模式时，无关字串和记忆中的字元大小写。
-警告: 可能会降低搜寻效率。</translation>
+        <translation>当使用字符串模式时，字符大小写在字符串和内存中都无关紧要。
+警告：这可能会降低搜索的性能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="286"/>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="327"/>
         <source>Select search mode(s)..</source>
-        <translation>选择搜寻模式..</translation>
+        <translation>选择搜索模式……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="287"/>
         <source>Deselect All Modes</source>
-        <translation>取消选取全部模式</translation>
+        <translation>取消选择所有模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="288"/>
         <source>String</source>
-        <translation>字串</translation>
+        <translation>字符串</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="289"/>
         <source>HEX bytes/integer</source>
-        <translation>16 进位字元/整数</translation>
+        <translation>HEX 字节/整数</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="290"/>
         <source>Double</source>
-        <translation>双倍</translation>
+        <translation>Double</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="291"/>
         <source>Float</source>
-        <translation>浮点</translation>
+        <translation>Float</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="292"/>
@@ -8942,11 +8942,11 @@ HEX bytes/integer: search the memory for hexadecimal values. Spaces, commas, &qu
 Double: reinterpret the string as 64-bit precision floating point value. Values are searched for exact representation, meaning -0 != 0.
 Float: reinterpret the string as 32-bit precision floating point value. Values are searched for exact representation, meaning -0 != 0.
 Instruction: search an instruction contains the text of the string.</source>
-        <translation>字串: 搜寻记忆中指定的字串。
-16 进位字元/整数: 在记忆中搜寻十六进位值。 空格，逗号 &quot;0x&quot;, &quot;0X&quot;, &quot;\x&quot;, &quot;h&quot;, &quot;H&quot; 确保字元间隔，但不是强制性的。
-双倍: 将字串重新解释为 64 位元精确浮点值。 搜寻值以获取精确的表示法，表示 -0 != 0。
-浮点: 将字串重新解释为 32 位元精确浮点值。 搜寻值以获取精确的表示法，表示 -0 != 0。
-指令: 搜寻包含字串文本的指令。</translation>
+        <translation>字符串：搜索内存中特定的字符串。
+HEX 字节/整数：搜索内存中的十六进制值。空格，逗号，&quot;0x&quot;，&quot;0X&quot;，&quot;\x&quot;，&quot;h&quot;，&quot;H&quot; 确保字节分隔，但不是强制性的。
+Double：将字符串以 64 位精度的浮点数值重新解释。值以其精确表示来搜索，意即 -0 != 0.
+Float：将字符串以 32 位精度浮点数值重新解释。值以其精确表示来搜索，意即 -0 != 0.
+指令：搜索包含字符串文本的指令。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="303"/>
@@ -8954,13 +8954,13 @@ Instruction: search an instruction contains the text of the string.</source>
 SPU Instruction: Search an SPU instruction contains the text of the string. For searching instructions within embedded SPU images.
 Tip: SPU floats are commented along forming instructions.</source>
         <translation>
-SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 SPU 图像中搜寻指令。
-提示: SPU 浮点随成型指令一起注释。</translation>
+SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 图像中搜索指令。
+小提示：SPU 浮点随成型指令一起注释。（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="332"/>
         <source>%0 mode(s) selected</source>
-        <translation>选择了 %0  模式</translation>
+        <translation>%0 模式已选择</translation>
     </message>
 </context>
 <context>
@@ -8969,7 +8969,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/microphone_creator.cpp" line="18"/>
         <source>None</source>
         <comment>Microphone device</comment>
-        <translation>空</translation>
+        <translation>无</translation>
     </message>
 </context>
 <context>
@@ -8978,7 +8978,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/midi_creator.cpp" line="18"/>
         <source>None</source>
         <comment>Midi device</comment>
-        <translation>空</translation>
+        <translation>无</translation>
     </message>
 </context>
 <context>
@@ -8996,17 +8996,17 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/msg_dialog_frame.cpp" line="68"/>
         <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
+        <translation>&amp;是</translation>
     </message>
     <message>
         <location filename="rpcs3qt/msg_dialog_frame.cpp" line="69"/>
         <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
+        <translation>&amp;否</translation>
     </message>
     <message>
         <location filename="rpcs3qt/msg_dialog_frame.cpp" line="103"/>
         <source>&amp;OK</source>
-        <translation>确定(&amp;O)</translation>
+        <translation>&amp;确定</translation>
     </message>
 </context>
 <context>
@@ -9014,18 +9014,18 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="14"/>
         <source>LED Settings</source>
-        <translation>LED 设定</translation>
+        <translation>LED 设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="26"/>
         <location filename="rpcs3qt/pad_led_settings_dialog.cpp" line="54"/>
         <source>LED Color</source>
-        <translation>LED 色彩</translation>
+        <translation>LED 颜色</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="39"/>
         <source>Select color</source>
-        <translation>选取色彩</translation>
+        <translation>选择颜色</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="49"/>
@@ -9040,22 +9040,22 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="65"/>
         <source>In-game battery status</source>
-        <translation>游戏中电池状态</translation>
+        <translation>游戏内电池状态</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="71"/>
         <source>Blink LED when battery is low</source>
-        <translation>电量过低时闪烁 LED</translation>
+        <translation>电量低时闪烁 LED</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="78"/>
         <source>Use LED as a battery indicator</source>
-        <translation>使用 LED 当作电池显示器</translation>
+        <translation>使用 LED 作为电池指示器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="88"/>
         <source>LED battery indicator brightness</source>
-        <translation>LED 电池显示器亮度</translation>
+        <translation>LED 电池指示器亮度</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="94"/>
@@ -9068,12 +9068,12 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="14"/>
         <source>Motion Controls</source>
-        <translation>动态控制器</translation>
+        <translation>运动控制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="20"/>
         <source>Device</source>
-        <translation>装置</translation>
+        <translation>设备</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="32"/>
@@ -9094,7 +9094,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="144"/>
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="187"/>
         <source>Mirrored</source>
-        <translation>Mirrored</translation>
+        <translation>镜像的</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="65"/>
@@ -9102,7 +9102,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="151"/>
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="194"/>
         <source>Shift: </source>
-        <translation>移动: </translation>
+        <translation>转移：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.ui" line="75"/>
@@ -9132,12 +9132,12 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.h" line="66"/>
         <source> (disconnected)</source>
-        <translation> (未连结)</translation>
+        <translation>（已断开连接）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.cpp" line="47"/>
         <source>Disabled</source>
-        <translation>停用</translation>
+        <translation>禁用</translation>
     </message>
 </context>
 <context>
@@ -9145,7 +9145,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="17"/>
         <source>Configure Keyboard</source>
-        <translation>设定键盘</translation>
+        <translation>配置键盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="46"/>
@@ -9160,27 +9160,27 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="87"/>
         <source>Refresh</source>
-        <translation>更新</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="100"/>
         <source>Devices</source>
-        <translation>装置</translation>
+        <translation>设备</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="152"/>
         <source>Profiles</source>
-        <translation>设定档</translation>
+        <translation>个人档案</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="173"/>
         <source>Add Profile</source>
-        <translation>增加设定档</translation>
+        <translation>添加个人档案</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="195"/>
         <source>D-Pad</source>
-        <translation>方向键</translation>
+        <translation>方向键（D-Pad）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="247"/>
@@ -9251,7 +9251,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="751"/>
         <source>Trigger Thresholds</source>
-        <translation>触发定限</translation>
+        <translation>扳机阈值</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="808"/>
@@ -9271,12 +9271,12 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="846"/>
         <source>Switch</source>
-        <translation>开关</translation>
+        <translation>切换</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="913"/>
         <source>Mouse Acceleration</source>
-        <translation>滑鼠加速</translation>
+        <translation>鼠标加速</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="931"/>
@@ -9293,12 +9293,12 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="994"/>
         <source>Mouse Deadzone</source>
-        <translation>滑鼠盲区</translation>
+        <translation>鼠标死区</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1593"/>
         <source>Device Class</source>
-        <translation>装置类别</translation>
+        <translation>设备类别</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1141"/>
@@ -9308,12 +9308,12 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="124"/>
         <source>Motion Controls</source>
-        <translation>动态控制器</translation>
+        <translation>运动控制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="142"/>
         <source>Configure</source>
-        <translation>组态</translation>
+        <translation>配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="675"/>
@@ -9348,7 +9348,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1067"/>
         <source>Mouse Movement Mode</source>
-        <translation>滑鼠移动模式</translation>
+        <translation>鼠标移动模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1159"/>
@@ -9388,7 +9388,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1333"/>
         <source>PS Button</source>
-        <translation>PS 按键</translation>
+        <translation>PS 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1351"/>
@@ -9443,7 +9443,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1666"/>
         <source>LED Settings</source>
-        <translation>LED 设定</translation>
+        <translation>LED 设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1694"/>
@@ -9458,7 +9458,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1775"/>
         <source>Triangle</source>
-        <translation>△</translation>
+        <translation>三角键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1793"/>
@@ -9468,7 +9468,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1824"/>
         <source>Square</source>
-        <translation>□</translation>
+        <translation>方块键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1842"/>
@@ -9478,7 +9478,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1855"/>
         <source>Circle</source>
-        <translation>○</translation>
+        <translation>圆形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1873"/>
@@ -9488,7 +9488,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1916"/>
         <source>Cross</source>
-        <translation>╳</translation>
+        <translation>叉形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1934"/>
@@ -9525,7 +9525,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2222"/>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2454"/>
         <source>Stick Multipliers</source>
-        <translation>摇杆倍增器</translation>
+        <translation>摇杆倍率</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2297"/>
@@ -9536,7 +9536,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2375"/>
         <source>Analog Stick Deadzones</source>
         <oldsource>Analog Deadzones</oldsource>
-        <translation>类比摇杆盲区</translation>
+        <translation>模拟摇杆死区</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2529"/>
@@ -9546,17 +9546,17 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="139"/>
         <source>Filter Noise</source>
-        <translation>过滤杂讯</translation>
+        <translation>噪音过滤</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="68"/>
         <source>Gamepad Settings: [%0] %1</source>
-        <translation>游戏控制器设定: [%0] %1</translation>
+        <translation>游戏手柄设置：[%0] %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="72"/>
         <source>Gamepad Settings</source>
-        <translation>游戏控制器设定</translation>
+        <translation>游戏手柄设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="112"/>
@@ -9566,12 +9566,12 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1650"/>
         <source>Choose a unique name</source>
-        <translation>命名唯一的名称</translation>
+        <translation>选取一个唯一的名字</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1651"/>
         <source>Profile Name: </source>
-        <translation>设定档名: </translation>
+        <translation>个人档案名称：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1660"/>
@@ -9583,22 +9583,22 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1660"/>
         <source>Name cannot be empty</source>
-        <translation>名称不能是空的</translation>
+        <translation>名称不能为空</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1665"/>
         <source>Must choose a name without &apos;.&apos;</source>
-        <translation>必须命名不带 &apos;.&apos; 的名称</translation>
+        <translation>必须选取一个不带 &apos;.&apos; 的名称</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1670"/>
         <source>Please choose a non-existing name</source>
-        <translation>请命名不存在的名称</translation>
+        <translation>请选取一个不存在的名称</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="164"/>
         <source>Standard (Pad)</source>
-        <translation>标准 (Pad)</translation>
+        <translation>标准（手柄）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="165"/>
@@ -9618,38 +9618,38 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="168"/>
         <source>Dance Mat</source>
-        <translation>跳舞垫</translation>
+        <translation>跳舞毯</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="169"/>
         <source>Navigation</source>
-        <translation>巡览控制器</translation>
+        <translation>Navigation</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="183"/>
         <source>Relative</source>
-        <translation>相对</translation>
+        <translation>Relative</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="184"/>
         <source>Absolute</source>
-        <translation>绝对</translation>
+        <translation>Absolute</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="301"/>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1270"/>
         <source>[ Waiting %1 ]</source>
-        <translation>[ 等候 %1 ]</translation>
+        <translation>[ 等待 %1 ]</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1431"/>
         <source>Custom Controller</source>
-        <translation>自订控制器</translation>
+        <translation>自定义控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1483"/>
         <source>No Device Detected</source>
-        <translation>未侦测到装置</translation>
+        <translation>未检测到设备</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1600"/>
@@ -9661,7 +9661,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1605"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
-        <translation>劲爆热舞</translation>
+        <translation>「劲舞革命」控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1610"/>
@@ -9713,12 +9713,12 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1818"/>
         <source>Warning!</source>
-        <translation>警告!</translation>
+        <translation>警告！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1819"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
-        <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按钮&lt;b&gt;%1&lt;/b&gt; 至少被指派了两次。&lt;br&gt;请考虑调整组态。&lt;br&gt;&lt;br&gt;仍要继续吗?&lt;br</translation>
+        <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按钮&lt;b&gt;%1&lt;/b&gt; 被分配了至少两次。&lt;br&gt;请考虑调整配置。&lt;br&gt;&lt;br&gt;仍要继续？&lt;br</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1853"/>
@@ -9768,7 +9768,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.h" line="87"/>
         <source> (disconnected)</source>
-        <translation> (未连结)</translation>
+        <translation>（已断开连接）</translation>
     </message>
 </context>
 <context>
@@ -9776,7 +9776,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="14"/>
         <source>Patch Creator</source>
-        <translation>补缀创造器</translation>
+        <translation>补丁创作器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="37"/>
@@ -9799,22 +9799,22 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="52"/>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="79"/>
         <source>Comment</source>
-        <translation>注解</translation>
+        <translation>注释</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="86"/>
         <source>Add</source>
-        <translation>新增</translation>
+        <translation>添加</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="104"/>
         <source>Hash</source>
-        <translation>杂凑</translation>
+        <translation>Hash</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="113"/>
         <source>Patch Version</source>
-        <translation>补缀版本</translation>
+        <translation>补丁版本</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="131"/>
@@ -9834,7 +9834,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="152"/>
         <source>Patch Name</source>
-        <translation>补缀名称</translation>
+        <translation>补丁名称</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="159"/>
@@ -9844,7 +9844,7 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="166"/>
         <source>Title ID</source>
-        <translation>标题 ID</translation>
+        <translation>作品 ID</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="173"/>
@@ -9855,82 +9855,82 @@ SPU 指令: 搜寻一条 SPU 指令包含的字串文本。 用于在嵌入的 S
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="180"/>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="346"/>
         <source>Valid Patch</source>
-        <translation>有效补缀</translation>
+        <translation>有效补丁</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>档案</translation>
+        <translation>文件</translation>
     </message>
     <message>
         <source>&amp;Export Patch</source>
-        <translation>输出补缀(&amp;E)</translation>
+        <translation>&amp;导出补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="130"/>
         <source>&amp;Add Instruction</source>
-        <translation>新增指令(&amp;I)</translation>
+        <translation>&amp;添加指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="140"/>
         <source>&amp;Add Instruction Above</source>
-        <translation>新增指令上方(&amp;A)</translation>
+        <translation>&amp;在其上添加指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="146"/>
         <source>&amp;Add Instruction Below</source>
-        <translation>新增指令下方(&amp;B)</translation>
+        <translation>&amp;在其下添加指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="160"/>
         <source>&amp;Move Instruction(s) Up</source>
-        <translation>向上移动指令(&amp;U)</translation>
+        <translation>&amp;（多个）指令上移</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="172"/>
         <source>&amp;Move Instruction(s) Down</source>
-        <translation>向下移动指令(&amp;D)</translation>
+        <translation>&amp;（多个）指令下移</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="181"/>
         <source>&amp;Remove Instruction(s)</source>
-        <translation>删除指令(&amp;R)</translation>
+        <translation>&amp;移除（多个）指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="190"/>
         <source>&amp;Clear Table</source>
-        <translation>清理表格(&amp;C)</translation>
+        <translation>&amp;清理表</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="352"/>
         <source>Validation Failed</source>
-        <translation>验证失败</translation>
+        <translation>校验失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="366"/>
         <source>Patch invalid!</source>
-        <translation>补缀无效!</translation>
+        <translation>补丁无效！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="366"/>
         <source>The patch validation failed.
 The export of invalid patches is not allowed.</source>
-        <translation>补缀验证失败。
-不允许输出无效补缀。</translation>
+        <translation>补丁校验失败。
+不允许导出无效的补丁。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="370"/>
         <source>Select Patch File</source>
-        <translation>选取补缀档案</translation>
+        <translation>选择补丁文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="370"/>
         <source>patch.yml files (*.yml);;All files (*.*)</source>
-        <translation>patch.yml 档案 (*.yml);;全部档案 (*.*)</translation>
+        <translation>patch.yml 文件 (*.yml);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="418"/>
         <source>Instruction %0: Type &apos;%1&apos; is invalid!</source>
-        <translation>指令 %0: 类型 &apos;%1&apos; 是无效的!</translation>
+        <translation>指令 %0：类型 &apos;%1&apos; 无效！</translation>
     </message>
 </context>
 <context>
@@ -9939,16 +9939,16 @@ The export of invalid patches is not allowed.</source>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="17"/>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="988"/>
         <source>Patch Manager</source>
-        <translation>补缀管理器</translation>
+        <translation>补丁管理器</translation>
     </message>
     <message>
         <source>Download latest patches</source>
-        <translation>下载最新补缀</translation>
+        <translation>下载最新补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="38"/>
         <source>Filter patches</source>
-        <translation>筛选补缀</translation>
+        <translation>过滤补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="45"/>
@@ -9958,7 +9958,7 @@ The export of invalid patches is not allowed.</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="944"/>
         <source>Collapse All</source>
-        <translation>全部折叠</translation>
+        <translation>折叠全部</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="940"/>
@@ -9968,12 +9968,12 @@ The export of invalid patches is not allowed.</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="106"/>
         <source>Patch Information</source>
-        <translation>补缀资讯</translation>
+        <translation>补丁信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="131"/>
         <source>Serial</source>
-        <translation>序列</translation>
+        <translation>序列号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="150"/>
@@ -9983,7 +9983,7 @@ The export of invalid patches is not allowed.</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="166"/>
         <source>Hash</source>
-        <translation>杂凑</translation>
+        <translation>Hash</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="112"/>
@@ -9998,7 +9998,7 @@ The export of invalid patches is not allowed.</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="204"/>
         <source>Patch Version</source>
-        <translation>补缀版本</translation>
+        <translation>补丁版本</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="223"/>
