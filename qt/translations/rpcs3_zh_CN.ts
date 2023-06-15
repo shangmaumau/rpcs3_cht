@@ -8122,8 +8122,8 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <oldsource>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</oldsource>
-        <translation>商业游戏需要安装韧体 (PS3UPDAT.PUP 档案)。
-&lt;br&gt;关于如何获取韧体所需的资讯，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
+        <translation>商业游戏必需固件（PS3UPDAT.PUP 文件）的已安装。
+&lt;br&gt;关于如何获得必需固件的更多信息，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="282"/>
@@ -8138,17 +8138,17 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="415"/>
         <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
-        <translation>光碟无法正确安装。请确定光碟不在 dev_hdd0/game 资料夹中。</translation>
+        <translation>光盘无法正常挂载。请确保光盘不在 dev_hdd0/game 文件夹下。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="418"/>
         <source>The selected file or folder is invalid or corrupted.</source>
-        <translation>选定的档案或资料夹是无效的或已损毁。</translation>
+        <translation>选择的文件或文件夹无效或已损坏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="421"/>
         <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
-        <translation>虚拟 dev_bdvd 资料夹不存在或不是空的。</translation>
+        <translation>虚拟 dev_bdvd 文件夹不存在或为非空文件夹。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="424"/>
@@ -8158,27 +8158,27 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="427"/>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
-        <translation>数位内容无法解密。这通常是由丢失或无效的 RAP 授权档案引起的。</translation>
+        <translation>数字内容无法解密。这通常是由于授权（RAP）文件缺失或无效。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="430"/>
         <source>The emulator could not create files required for booting.</source>
-        <translation>仿真器无法建立启动所需的档案。</translation>
+        <translation>模拟器无法创建启动必需的文件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="433"/>
         <source>This disc type is not supported yet.</source>
-        <translation>目前尚不支援此光碟类型。</translation>
+        <translation>该光盘类型当前还不支持。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="436"/>
         <source>Savestate data is corrupted or it&apos;s not an RPCS3 savestate.</source>
-        <translation>存档资料已毁损或非 RPCS3 的存档。</translation>
+        <translation>存档资料已损坏或非 RPCS3 的存档。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="439"/>
         <source>Savestate versioning data differes from your RPCS3 build.</source>
-        <translation>存档版本资料与您的 RPCS3 建立不同。</translation>
+        <translation>存档版本数据与你的 RPCS3 构建的不一样。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="445"/>
@@ -8189,7 +8189,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="448"/>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <oldsource>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</oldsource>
-        <translation>&lt;br /&gt;&lt;br /&gt;关于设定仿真器与倾印 PS3 游戏的资讯，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
+        <translation>&lt;br /&gt;&lt;br /&gt;关于设置起步模拟器并转储你的 PS3 游戏的更多信息，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="451"/>
@@ -8199,7 +8199,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="455"/>
         <source>Booting failed: %1 %2</source>
-        <translation>启动失败: %1 %2</translation>
+        <translation>启动失败：%1 %2</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="499"/>
@@ -8210,27 +8210,27 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="499"/>
         <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;All files (*.*)</source>
-        <translation>(S)ELF 档案 (*BOOT.BIN *.elf *.self);;ELF 档案 (BOOT.BIN *.elf);;SELF 档案 (EBOOT.BIN *.self);;BOOT 档案 (*BOOT.BIN);;BIN 档案 (*.bin);;全部档案 (*.*)</translation>
+        <translation>(S)ELF 文件 (*BOOT.BIN *.elf *.self);;ELF 文件 (BOOT.BIN *.elf);;SELF 文件 (EBOOT.BIN *.self);;BOOT 文件 (*BOOT.BIN);;BIN 文件 (*.bin);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="545"/>
         <source>(S)ELF files (*.elf *.self);;ELF files (*.elf);;SELF files (*.self);;All files (*.*)</source>
-        <translation>(S)ELF 档案 (*.elf *.self);;ELF 档案 (*.elf);;SELF 档案 (*.self);;全部档案 (*.*)</translation>
+        <translation>(S)ELF 文件 (*.elf *.self);;ELF 文件 (*.elf);;SELF 文件 (*.self);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="608"/>
         <source>Select Game Folder</source>
-        <translation>选择游戏资料夹</translation>
+        <translation>选择游戏文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="643"/>
         <source>Select RSX Capture</source>
-        <translation>选择 RSX 截取</translation>
+        <translation>选择 RSX 捕获</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="743"/>
         <source>Invalid package!</source>
-        <translation>无效的套装软体!</translation>
+        <translation>无效的软件包！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="743"/>
@@ -8238,34 +8238,34 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
 
 Path:
 %0</source>
-        <translation>所选的套装软体无效!
+        <translation>所选软件包无效！
 
-路径:
+路径：
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="781"/>
         <source>PKG Decrypter / Installer</source>
-        <translation>PKG 解密/安装程式</translation>
+        <translation>PKG 解密器 / 安装器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="781"/>
         <source>Do you want to install this package?
 
 %0</source>
-        <translation>你要安装这个套装软体吗?
+        <translation>你要安装这个软件包吗？
 
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="905"/>
         <source>RPCS3 Package Installer</source>
-        <translation>RPCS3 软体安装程式</translation>
+        <translation>RPCS3 软件包安装器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="905"/>
         <source>Installing package, please wait...</source>
-        <translation>安装软体，请稍候...</translation>
+        <translation>正在安装软件包，请稍候……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="905"/>
@@ -8279,32 +8279,32 @@ Path:
         <location filename="rpcs3qt/main_window.cpp" line="1058"/>
         <location filename="rpcs3qt/main_window.cpp" line="1555"/>
         <source>Success!</source>
-        <translation>成功!</translation>
+        <translation>成功！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1053"/>
         <source>Successfully installed software from package(s)!</source>
-        <translation>成功从套装软体安装软体!</translation>
+        <translation>成功从（多个）软件包安装了软件！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1062"/>
         <source>Add desktop shortcut(s)</source>
-        <translation>新增桌面捷径</translation>
+        <translation>添加（多个）桌面快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1064"/>
         <source>Add Start menu shortcut(s)</source>
-        <translation>新增开始选单捷径</translation>
+        <translation>添加（多个）开始菜单快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1066"/>
         <source>Add dock shortcut(s)</source>
-        <translation>新增停驻捷径</translation>
+        <translation>添加（多个）Dock 栏快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1068"/>
         <source>Add launcher shortcut(s)</source>
-        <translation>新增启动器捷径</translation>
+        <translation>添加（多个）启动器快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1070"/>
@@ -8312,44 +8312,44 @@ Path:
 Would you like to install shortcuts to the installed software? (%1 new software detected)
 
 </source>
-        <translation>已成功从套装软体中安装软体!
-是否为已安装的软体安装捷径吗? (检测到 %1 新软体)
+        <translation>成功从（多个）软件包安装了软件！
+你要给安装的软件安装快捷方式吗？（已检测到 %1 个新软件）
 
 </translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1155"/>
         <source>Warning!</source>
-        <translation>警告!</translation>
+        <translation>警告！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1155"/>
         <source>The following package cannot be installed on top of the current data:
 %1!</source>
-        <translation>无法在当前资料之上安装以下套装软体:
-%1!</translation>
+        <translation>无法在当前数据的顶部安装下列软件包：
+%1！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1160"/>
         <source>Failure!</source>
-        <translation>失败!</translation>
+        <translation>失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1173"/>
         <source>Select MSELF To extract</source>
-        <translation>选取 MSELF 提取</translation>
+        <translation>选择 MSELF 来提取</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1180"/>
         <location filename="rpcs3qt/main_window.cpp" line="1226"/>
         <location filename="rpcs3qt/main_window.cpp" line="1251"/>
         <source>Extraction Directory</source>
-        <translation>提取目录</translation>
+        <translation>提取的文件目录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1194"/>
         <source>Select PS3UPDAT.PUP To Install</source>
-        <translation>选取 PS3UPDAT.PUP 安装</translation>
+        <translation>选择 PS3UPDAT.PUP 来安装</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1198"/>
@@ -8357,39 +8357,39 @@ Would you like to install shortcuts to the installed software? (%1 new software 
         <location filename="rpcs3qt/main_window.cpp" line="1457"/>
         <location filename="rpcs3qt/main_window.cpp" line="1468"/>
         <source>RPCS3 Firmware Installer</source>
-        <translation>RPCS3 韧体安装程式</translation>
+        <translation>RPCS3 固件安装器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1198"/>
         <source>Install firmware: %1?</source>
-        <translation>安装韧体: %1?</translation>
+        <translation>安装固件：%1？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1219"/>
         <source>Select PS3UPDAT.PUP To extract</source>
-        <translation>选取 PS3UPDAT.PUP 提取</translation>
+        <translation>选择 PS3UPDAT.PUP 来提取</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1244"/>
         <source>Select TAR To extract</source>
-        <translation>选取 TAR 提取</translation>
+        <translation>选择 TAR 来提取</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1260"/>
         <source>TAR Extraction</source>
-        <translation>TAR 提取</translation>
+        <translation>TAR 的提取文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1260"/>
         <source>Extracting encrypted TARs
 Please wait...</source>
-        <translation>提取加密的 TAR
-请稍候...</translation>
+        <translation>正在提取加密的 TAR
+请稍候……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1277"/>
         <source>The following TAR file(s) could not be extracted:</source>
-        <translation>无法提取以下 TAR 档案:</translation>
+        <translation>下列（多个）TAR 文件无法提取：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1291"/>
@@ -8399,37 +8399,37 @@ Please wait...</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1301"/>
         <source>Firmware Installation Failed</source>
-        <translation>韧体安装失败</translation>
+        <translation>固件安装失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1308"/>
         <source>Firmware installation failed: The provided path is empty.</source>
-        <translation>韧体安装失败: 所提供的路径是空的。</translation>
+        <translation>固件安装失败：提供的路径为空。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1327"/>
         <source>Firmware installation failed: The selected firmware file couldn&apos;t be opened.</source>
-        <translation>韧体安装失败: 无法开启所选的韧体档案。</translation>
+        <translation>固件安装失败：选择的文件无法打开。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1338"/>
         <source>Firmware installation failed: The provided file is empty.</source>
-        <translation>韧体安装失败: 所提供的档案是空的。</translation>
+        <translation>固件安装失败：提供的文件为空。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1344"/>
         <source>Firmware installation failed: The provided file is not a PUP file.</source>
-        <translation>韧体安装失败: 提供的档案不是 PUP 档案。</translation>
+        <translation>固件安装失败：提供的文件非 PUP 文件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1350"/>
         <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
-        <translation>韧体安装失败: 提供的档案不完整。 尝试重新下载。</translation>
+        <translation>固件安装失败：提供的文件不完整。请尝试重新下载它。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1365"/>
         <source>Firmware installation failed: The provided file is corrupted.</source>
-        <translation>韧体安装失败: 提供的档案已损坏。</translation>
+        <translation>固件安装失败：提供的文件已损坏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1371"/>
@@ -8437,97 +8437,97 @@ Please wait...</source>
         <location filename="rpcs3qt/main_window.cpp" line="1421"/>
         <location filename="rpcs3qt/main_window.cpp" line="1442"/>
         <source>Firmware installation failed: The provided file&apos;s contents are corrupted.</source>
-        <translation>韧体安装失败: 提供的档案内容已损坏。</translation>
+        <translation>固件安装失败：提供的文件的内容已损坏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1395"/>
         <source>Firmware extraction failed: VFS mounting failed.</source>
-        <translation>韧体提取失败: VFS 安装失败。</translation>
+        <translation>固件提取失败：VFS 挂载失败。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1493"/>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
-        <translation>韧体安装失败: 无法解压缩韧体</translation>
+        <translation>固件安装失败：固件无法解压</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1571"/>
         <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
-        <translation>全部二进位 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 档案 (*.bin *.BIN);;SELF 档案 (*.self *.SELF);;SPRX 档案 (*.sprx *.SPRX);;SDAT/EDAT 档案 (*.sdat *.SDAT *.edat *.EDAT);;全部档案 (*.*)</translation>
+        <translation>所有二进制文件 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 文件 (*.bin *.BIN);;SELF 文件 (*.self *.SELF);;SPRX 文件 (*.sprx *.SPRX);;SDAT/EDAT 文件 (*.sdat *.SDAT *.edat *.EDAT);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2337"/>
         <source>Select Disc Game Folder</source>
-        <translation>选取光碟游戏资料夹</translation>
+        <translation>选择光盘游戏文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2348"/>
         <source>Failed to insert disc</source>
-        <translation>插入光碟失败</translation>
+        <translation>插入光盘失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2348"/>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
-        <translation>确定仿真正在运作并且所选路径属于有效的光碟游戏。</translation>
+        <translation>请确保模拟正在运行，且选择的路径属于一个有效的光盘游戏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2535"/>
         <source>Select rpcs3.log or config.yml</source>
-        <translation>选取 rpcs3.log 或 config.yml</translation>
+        <translation>选择 rpcs3.log 或 config.yml</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2555"/>
         <source>Failed to open file</source>
-        <translation>无法开启档案</translation>
+        <translation>打开文件失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2555"/>
         <source>The file could not be opened:
 %0</source>
-        <translation>档案无法开启:
+        <translation>文件无法打开：
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2710"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
-        <translation>自动更新程序目前不适用于您的作业系统。</translation>
+        <translation>对你的系统来说，自动更新器当前是不可用的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3334"/>
         <source>PARAM.SFO Information</source>
-        <translation>PARAM.SFO 资讯</translation>
+        <translation>PARAM.SFO 信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1402"/>
         <source>Firmware installation failed: Firmware contents could not be extracted.</source>
-        <translation>韧体安装失败: 无法提取韧体内容。</translation>
+        <translation>固件安装失败：固件内容无法提取。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1447"/>
         <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
-        <translation>检测到旧版韧体。
-最新的韧体版本是 %1 并且您正在尝试安装 %2 版本
-您想继续安装吗?</translation>
+        <translation>检测到旧版固件。
+最新的固件版本为 %1 ，你正要尝试安装的版本为 %2
+继续安装流程？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="721"/>
         <source>Select packages and/or rap files to install</source>
-        <translation>选择要安装的套装软体或 RAP 档案</translation>
+        <translation>选择软件包和/或 rap 文件来安装</translation>
     </message>
     <message>
         <source>(S)ELF files (*.elf *.self);;ELF files (*.elf);;SELF files (*.self);;</source>
-        <translation>(S)ELF 档案 (*.elf *.self);;ELF 档案 (*.elf);;SELF 档案 (*.self);;</translation>
+        <translation>(S)ELF 文件 (*.elf *.self);;ELF 文件 (*.elf);;SELF 文件 (*.self);;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="577"/>
         <source>Select Savestate To Boot</source>
-        <translation>选取存档启动</translation>
+        <translation>选择存档来启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="577"/>
         <source>Savestate files (*.SAVESTAT);;All files (*.*)</source>
-        <translation>存档档案 (*.SAVESTAT);;全部档案 (*.*)</translation>
+        <translation>存档文件 (*.SAVESTAT);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="751"/>
@@ -8578,7 +8578,7 @@ Changelog:
         <comment>Block for Changelog</comment>
         <translation>
 
-更新日志:
+更新日志：
 %0</translation>
     </message>
     <message>
@@ -8592,7 +8592,7 @@ Changelog:
         <source>Installing package (%0/%1), please wait...
 
 %2</source>
-        <translation>正在安装套装软体 (%0/%1)，请稍候...
+        <translation>正在安装软件包（%0/%1），请稍候……
 
 %2</translation>
     </message>
@@ -8602,43 +8602,43 @@ Changelog:
 %1!
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
-        <translation>无法从套装软体安装:
-%1!
-这很可能是由故障的防毒软体引起的外部干扰。
-请新增 RPCS3 到您的防毒白名单中或用更好的防毒软体。</translation>
+        <translation>从软件包安装软件失败：
+%1！
+这很像由有缺陷的防病毒软件引起的外部干扰！
+请把 RPCS3 添加到你的防病毒软件的白名单中，或使用更佳的防病毒软件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1457"/>
         <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
-        <translation>已经安装了 %1 版本的韧体。
-是否使用 %2 版本覆写当前安装?</translation>
+        <translation>版本为 %1 的固件已安装。 
+使用版本 %2 覆写当前的安装版本？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1468"/>
         <source>Installing firmware version %1
 Please wait...</source>
-        <translation>安装韧体 %1 版本
-请稍候...</translation>
+        <translation>正在安装固件版本 %1
+请稍候……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1502"/>
         <source>The firmware contents could not be extracted.
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
-        <translation>无法提取韧体内容。
-这很可能是由故障的防毒软体引起的外部干扰。
-请新增 RPCS3 到您的防毒白名单中或用更好的防毒软体。</translation>
+        <translation>固件内容无法提取。
+这很像由有缺陷的防病毒软件引起的外部干扰！
+请把 RPCS3 添加到你的防病毒软件的白名单中，或使用更佳的防病毒软件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1555"/>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
-        <translation>已成功安装 PS3 韧体与 LLE 模组!</translation>
+        <translation>成功安装 PS3 固件和 LLE 模块！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1571"/>
         <source>Select binary files</source>
-        <translation>选择二进位档案</translation>
+        <translation>选择二进制文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1589"/>
