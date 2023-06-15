@@ -6791,7 +6791,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="187"/>
         <source>Advanced</source>
-        <translation>高级</translation>
+        <translation>高阶</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="188"/>
@@ -7278,12 +7278,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="76"/>
         <source>Search...</source>
-        <translation>搜寻...</translation>
+        <translation>搜索……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="152"/>
         <source>File</source>
-        <translation>档案</translation>
+        <translation>文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="159"/>
@@ -7293,32 +7293,32 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="172"/>
         <source>Boot Recent</source>
-        <translation>近期启动</translation>
+        <translation>最近启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="183"/>
         <source>All Titles</source>
-        <translation>全部标题</translation>
+        <translation>所有作品</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="197"/>
         <source>Firmware</source>
-        <translation>韧体</translation>
+        <translation>固件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="220"/>
         <source>Emulation</source>
-        <translation>仿真</translation>
+        <translation>模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="231"/>
         <source>Configuration</source>
-        <translation>组态</translation>
+        <translation>配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="235"/>
         <source>USB Devices</source>
-        <translation>USB 装置</translation>
+        <translation>USB 设备</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="265"/>
@@ -7328,22 +7328,22 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="281"/>
         <source>Utilities</source>
-        <translation>实用项</translation>
+        <translation>实用工具</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="305"/>
         <source>View</source>
-        <translation>检视</translation>
+        <translation>视图</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="309"/>
         <source>Game List Icons</source>
-        <translation>游戏清单图示</translation>
+        <translation>游戏列表图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="321"/>
         <source>Game List Mode</source>
-        <translation>游戏清单模式</translation>
+        <translation>游戏列表模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="328"/>
@@ -7353,7 +7353,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="360"/>
         <source>Help</source>
-        <translation>说明</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="364"/>
@@ -7363,7 +7363,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="394"/>
         <source>Show tool bar</source>
-        <translation>显示工具列</translation>
+        <translation>显示工具栏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="432"/>
@@ -7389,23 +7389,23 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="452"/>
         <source>Install Packages/Raps/Edats</source>
         <oldsource>Install Packages/Raps</oldsource>
-        <translation>安装 软体/RAP/EDAT</translation>
+        <translation>安装 软件包/Raps/Edats</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="455"/>
         <source>Install application from a .pkg file</source>
         <oldsource>Install application from pkg file</oldsource>
-        <translation>从 PKG 档案安装应用程式</translation>
+        <translation>安装应用程序——以 .pkg 文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="460"/>
         <source>Install Firmware</source>
-        <translation>安装 韧体/固件</translation>
+        <translation>安装固件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="463"/>
         <source>Install firmware from PS3UPDAT.PUP</source>
-        <translation>从 PS3UPDAT.PUP 安装韧体</translation>
+        <translation>安装固件——以 PS3UPDAT.PUP 文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="475"/>
@@ -7419,7 +7419,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="943"/>
         <source>Start emulation</source>
         <oldsource>Start Emulation</oldsource>
-        <translation>启动仿真</translation>
+        <translation>开始模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="490"/>
@@ -7433,12 +7433,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="955"/>
         <source>Stop emulation</source>
         <oldsource>Stop Emulation</oldsource>
-        <translation>停止仿真</translation>
+        <translation>停止模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="501"/>
         <source>Send Open System Menu CMD</source>
-        <translation>传送开启系统选单 CMD</translation>
+        <translation>发送开启系统菜单 CMD</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="506"/>
@@ -7448,7 +7448,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="509"/>
         <source>Configure CPU</source>
-        <translation>设定 CPU</translation>
+        <translation>配置 CPU</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="514"/>
@@ -7459,32 +7459,32 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="517"/>
         <source>Configure graphics</source>
         <oldsource>Configure Graphics</oldsource>
-        <translation>设定图形</translation>
+        <translation>配置图形</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="522"/>
         <location filename="rpcs3qt/main_window.ui" line="525"/>
         <location filename="rpcs3qt/main_window.ui" line="976"/>
         <source>Pads</source>
-        <translation>控制器</translation>
+        <translation>手柄</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="528"/>
         <location filename="rpcs3qt/main_window.ui" line="979"/>
         <source>Configure controls</source>
         <oldsource>Configure Controls</oldsource>
-        <translation>设定控制器</translation>
+        <translation>配置控制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="533"/>
         <source>Audio</source>
-        <translation>声音</translation>
+        <translation>音频</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="536"/>
         <source>Configure audio</source>
         <oldsource>Configure Audio</oldsource>
-        <translation>设定声音</translation>
+        <translation>配置音频</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="541"/>
@@ -7494,7 +7494,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="544"/>
         <source>Configure Input/Output</source>
-        <translation>设定输入/输出</translation>
+        <translation>配置输入/输出</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="549"/>
@@ -7505,37 +7505,37 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="552"/>
         <source>Configure system</source>
         <oldsource>Configure System</oldsource>
-        <translation>设定系统</translation>
+        <translation>配置系统</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="557"/>
         <source>Advanced</source>
-        <translation>进阶</translation>
+        <translation>高阶</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="560"/>
         <source>Configure advanced emulator settings</source>
-        <translation>进阶仿真器组态设定</translation>
+        <translation>配置高阶的模拟器设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="565"/>
         <source>Emulator</source>
-        <translation>仿真器</translation>
+        <translation>模拟器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="568"/>
         <source>Configure Emulator settings</source>
-        <translation>仿真器组态设定</translation>
+        <translation>配置模拟器设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="573"/>
         <source>GUI</source>
-        <translation>GUI</translation>
+        <translation>图形用户界面（GUI）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="576"/>
         <source>Configure GUI settings</source>
-        <translation>GUI 组态设定</translation>
+        <translation>配置图形用户界面（GUI）设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="584"/>
@@ -7545,34 +7545,34 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="587"/>
         <source>Configure Auto Pause</source>
-        <translation>设定自动暂停</translation>
+        <translation>配置自动暂停</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="592"/>
         <source>Exit</source>
-        <translation>关闭</translation>
+        <translation>退出</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="595"/>
         <source>Exit RPCS3</source>
-        <translation>关闭 RPCS3</translation>
+        <translation>退出 RPCS3</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="598"/>
         <source>Exit the application.</source>
         <oldsource>Exit the application</oldsource>
-        <translation>关闭应用程式。</translation>
+        <translation>退出应用程序。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="606"/>
         <source>Save Data</source>
-        <translation>储存资料</translation>
+        <translation>保存数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="609"/>
         <source>Manage save data</source>
         <oldsource>Manage Save Data</oldsource>
-        <translation>管理储存资料</translation>
+        <translation>管理保存数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="617"/>
@@ -7588,38 +7588,38 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="625"/>
         <source>User Accounts</source>
-        <translation>使用者帐号</translation>
+        <translation>用户帐号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="628"/>
         <source>Manage user accounts</source>
         <oldsource>Manage User Accounts</oldsource>
-        <translation>管理使用者帐号</translation>
+        <translation>管理用户帐号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="633"/>
         <source>Cg Disasm</source>
-        <translation>Cg 反组译</translation>
+        <translation>Cg 反汇编</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="641"/>
         <source>Kernel Explorer</source>
-        <translation>核心浏览器</translation>
+        <translation>内核浏览器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="649"/>
         <source>Memory Viewer</source>
-        <translation>记忆体检视器</translation>
+        <translation>内存浏览器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="657"/>
         <source>RSX Debugger</source>
-        <translation>RSX 侦错器</translation>
+        <translation>RSX 调试器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="662"/>
         <source>Decrypt PS3 Binaries</source>
-        <translation>解密 PS3 二进位</translation>
+        <translation>解密 PS3 二进制文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="667"/>
@@ -7639,12 +7639,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="680"/>
         <source>Extract files from special .tar files inside PS3UPDAT.PUP</source>
-        <translation>从 PS3UPDAT.PUP 内的特定 .tar 档案中提取档案</translation>
+        <translation>从 PS3UPDAT.PUP 内特定的 .tar 文件中提取文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="688"/>
         <source>Show Debugger</source>
-        <translation>显示侦错器</translation>
+        <translation>显示调试器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="696"/>
@@ -7664,27 +7664,27 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="714"/>
         <source>Show Game List</source>
-        <translation>显示游戏清单</translation>
+        <translation>显示游戏列表</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="722"/>
         <source>Show Tool Bar</source>
-        <translation>显示工具列</translation>
+        <translation>显示工具栏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="730"/>
         <source>Show Game Compatibility in Grid Mode</source>
-        <translation>在格状模式下显示游戏相容性</translation>
+        <translation>显示游戏兼容性——在网格模式下</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="735"/>
         <source>Game List Refresh</source>
-        <translation>更新游戏清单</translation>
+        <translation>游戏列表刷新</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="743"/>
         <source>RAP Files</source>
-        <translation>RAP 档案</translation>
+        <translation>RAP 文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="748"/>
@@ -7694,22 +7694,22 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="753"/>
         <source>Virtual File System</source>
-        <translation>虚拟档案系统</translation>
+        <translation>虚拟文件系统</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="758"/>
         <source>List Clear</source>
-        <translation>清理清单</translation>
+        <translation>列表清理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="766"/>
         <source>List Freeze</source>
-        <translation>停用清单</translation>
+        <translation>列表冻结</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="774"/>
         <source>Tiny</source>
-        <translation>最小</translation>
+        <translation>极小</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="785"/>
@@ -7724,17 +7724,17 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="801"/>
         <source>Large</source>
-        <translation>最大</translation>
+        <translation>大</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="812"/>
         <source>List View</source>
-        <translation>显示清单</translation>
+        <translation>列表视图</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="820"/>
         <source>Grid View</source>
-        <translation>格状图示</translation>
+        <translation>网格视图</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="832"/>
@@ -7749,13 +7749,13 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="843"/>
         <location filename="rpcs3qt/main_window.cpp" line="2695"/>
         <source>HDD Games</source>
-        <translation>硬碟游戏</translation>
+        <translation>HDD 游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="854"/>
         <location filename="rpcs3qt/main_window.cpp" line="2696"/>
         <source>Disc Games</source>
-        <translation>光碟游戏</translation>
+        <translation>光盘游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="865"/>
@@ -7785,13 +7785,13 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="909"/>
         <location filename="rpcs3qt/main_window.cpp" line="2701"/>
         <source>Audio/Video</source>
-        <translation>音乐/影视</translation>
+        <translation>音频/视频</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="920"/>
         <location filename="rpcs3qt/main_window.cpp" line="2702"/>
         <source>Game Data</source>
-        <translation>游戏资料</translation>
+        <translation>游戏数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="931"/>
@@ -7802,74 +7802,74 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="940"/>
         <source>Start</source>
-        <translation>启动</translation>
+        <translation>开始</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="964"/>
         <source>Config</source>
-        <translation>设定</translation>
+        <translation>配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="967"/>
         <source>Configure the emulator</source>
-        <translation>设定仿真器</translation>
+        <translation>配置模拟器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="988"/>
         <source>FullScr</source>
-        <translation>全荧幕</translation>
+        <translation>全屏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="991"/>
         <source>Toggle fullscreen</source>
-        <translation>切换全荧幕</translation>
+        <translation>切换全屏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1000"/>
         <source>List</source>
-        <translation>清单</translation>
+        <translation>列表</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1003"/>
         <source>Switch to list mode</source>
-        <translation>切换清单模式</translation>
+        <translation>切换至列表模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1012"/>
         <source>Grid</source>
-        <translation>格状</translation>
+        <translation>网格</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1015"/>
         <source>Switch to grid mode</source>
-        <translation>切换格状模式</translation>
+        <translation>切换至网格模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1024"/>
         <source>Refresh</source>
-        <translation>更新</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1027"/>
         <source>Refresh gamelist</source>
-        <translation>更新游戏清单</translation>
+        <translation>刷新游戏列表</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1036"/>
         <source>Open</source>
-        <translation>开启</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1039"/>
         <source>Boot a game</source>
         <oldsource>Boot game</oldsource>
-        <translation>启动游戏</translation>
+        <translation>启动一个游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1050"/>
         <location filename="rpcs3qt/main_window.cpp" line="2704"/>
         <source>Other</source>
-        <translation>其它</translation>
+        <translation>其他</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1058"/>
@@ -7879,62 +7879,62 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1063"/>
         <source>Open RSX Capture</source>
-        <translation>RSX 截取开启</translation>
+        <translation>打开 RSX 捕获</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1068"/>
         <source>Add Games</source>
-        <translation>增加游戏</translation>
+        <translation>添加游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1076"/>
         <source>Show Title Bars</source>
-        <translation>显示标题列</translation>
+        <translation>显示标题栏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1081"/>
         <source>Create PPU Caches</source>
-        <translation>建立 PPU 快取</translation>
+        <translation>创建 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1086"/>
         <source>Remove Custom Configurations</source>
-        <translation>删除自订组态</translation>
+        <translation>移除自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1091"/>
         <source>Remove PPU Caches</source>
-        <translation>删除 PPU 快取</translation>
+        <translation>移除 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1096"/>
         <source>Remove SPU Caches</source>
-        <translation>删除 SPU 快取</translation>
+        <translation>移除 SPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1101"/>
         <source>Remove Shader Caches</source>
-        <translation>删除着色快取</translation>
+        <translation>移除着色器缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1106"/>
         <source>Remove Custom Pad Configurations</source>
-        <translation>删除自订控制器组态</translation>
+        <translation>移除自定义手柄配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1111"/>
         <source>Remove Disk Cache</source>
-        <translation>删除磁碟快取</translation>
+        <translation>移除磁盘缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1116"/>
         <source>Skylanders Portal</source>
-        <translation>宝贝龙世界</translation>
+        <translation>Skylanders Portal</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1121"/>
         <source>Infinity Base</source>
-        <translation>无限基座</translation>
+        <translation>Infinity Base</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1126"/>
@@ -7944,37 +7944,37 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1134"/>
         <source>English</source>
-        <translation>English</translation>
+        <translation>英语</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1139"/>
         <source>Screenshots</source>
-        <translation>画面撷取</translation>
+        <translation>截屏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1144"/>
         <source>Remove Firmware Cache</source>
-        <translation>删除韧体快取</translation>
+        <translation>移除固件缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1149"/>
         <source>Create Firmware Cache</source>
-        <translation>建立韧体快取</translation>
+        <translation>创建固件缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1157"/>
         <source>Create RSX Capture</source>
-        <translation>建立 RSX 截取</translation>
+        <translation>创建 RSX 捕获</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1165"/>
         <source>Create Savestate</source>
-        <translation>建立存档</translation>
+        <translation>创建存档</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1170"/>
         <source>Game Patches</source>
-        <translation>游戏补缀</translation>
+        <translation>游戏补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1175"/>
@@ -7984,7 +7984,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1178"/>
         <source>Configure RPCN</source>
-        <translation>RPCN 组态</translation>
+        <translation>配置 RPCN</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1183"/>
@@ -7994,22 +7994,22 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1186"/>
         <source>Configure IPC</source>
-        <translation>设置 IPC</translation>
+        <translation>配置 IPC</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1191"/>
         <source>Log Viewer</source>
-        <translation>日志检视器</translation>
+        <translation>日志浏览器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1202"/>
         <source>Show Custom Icons</source>
-        <translation>显示自订图示</translation>
+        <translation>显示自定义图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1213"/>
         <source>Play Hover Gifs</source>
-        <translation>播放悬停的 Gif</translation>
+        <translation>播放悬停 Gif</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1218"/>
@@ -8019,7 +8019,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1223"/>
         <source>Patch Creator</source>
-        <translation>补缀创造器</translation>
+        <translation>补丁创作器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1228"/>
@@ -8029,22 +8029,22 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1236"/>
         <source>Eject Disc</source>
-        <translation>弹出光碟</translation>
+        <translation>弹出光盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1244"/>
         <source>Insert Disc</source>
-        <translation>插入光碟</translation>
+        <translation>插入光盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1249"/>
         <source>Check Config</source>
-        <translation>检查组态</translation>
+        <translation>检查配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1254"/>
         <source>Shortcuts</source>
-        <translation>捷径</translation>
+        <translation>快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1262"/>
@@ -8074,7 +8074,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1287"/>
         <source>PS Move (Fake)</source>
-        <translation>PS Move (虚设)</translation>
+        <translation>PS Move（伪造）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="145"/>
@@ -8084,7 +8084,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="2914"/>
         <location filename="rpcs3qt/main_window.cpp" line="2927"/>
         <source>Play %0</source>
-        <translation>游戏 %0</translation>
+        <translation>游玩 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="145"/>
@@ -8093,18 +8093,18 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="1898"/>
         <location filename="rpcs3qt/main_window.cpp" line="2907"/>
         <source>Play</source>
-        <translation>游戏</translation>
+        <translation>游玩</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="149"/>
         <source>&amp;Play last played game</source>
         <oldsource>&amp;Play last played game	Ctrl+R</oldsource>
-        <translation>开始上次玩过的游戏(&amp;P)</translation>
+        <translation>&amp;开玩上次玩的游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="199"/>
         <source>Update Available!</source>
-        <translation>更新可用!</translation>
+        <translation>有可用更新！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="201"/>
@@ -8114,7 +8114,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="275"/>
         <source>Missing Firmware Detected!</source>
-        <translation>检测到缺少韧体!</translation>
+        <translation>检测到固件缺失！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="276"/>
