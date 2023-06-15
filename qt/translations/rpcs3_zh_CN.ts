@@ -5215,7 +5215,7 @@ Notes:
 %2</source>
         <translation>%0 [%1]
 
-提示：
+笔记：
 %2</translation>
     </message>
     <message>
@@ -9819,7 +9819,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="131"/>
         <source>Notes</source>
-        <translation>注解</translation>
+        <translation>笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="138"/>
@@ -10008,12 +10008,12 @@ The export of invalid patches is not allowed.</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="242"/>
         <source>Notes</source>
-        <translation>注解</translation>
+        <translation>笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="264"/>
         <source>Configurable Values</source>
-        <translation>可配置值</translation>
+        <translation>可配置的值</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="270"/>
@@ -10024,24 +10024,24 @@ The export of invalid patches is not allowed.</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="848"/>
         <source>Show Patch File</source>
-        <translation>显示补缀档</translation>
+        <translation>显示补丁文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="859"/>
         <source>Remove Patch</source>
-        <translation>删除补缀</translation>
+        <translation>移除补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="863"/>
         <source>Remove Patch?</source>
-        <translation>删除补缀?</translation>
+        <translation>移除补丁？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="864"/>
         <source>Do you really want to remove the selected patch?
 This action is immediate and irreversible!</source>
-        <translation>你真的要删除所选的补缀?
-这个动作是即时的和不可逆的!</translation>
+        <translation>你真的想要移除所选补丁吗？
+该操作会立即进行且不可撤销！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="875"/>
@@ -10051,7 +10051,7 @@ This action is immediate and irreversible!</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="875"/>
         <source>The patch was successfully removed!</source>
-        <translation>补缀已成功删除!</translation>
+        <translation>补丁已成功移除！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="881"/>
@@ -10061,7 +10061,7 @@ This action is immediate and irreversible!</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="881"/>
         <source>The patch could not be removed!</source>
-        <translation>无法删除此补缀!</translation>
+        <translation>补丁无法移除！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="895"/>
@@ -10086,17 +10086,17 @@ This action is immediate and irreversible!</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="988"/>
         <source>What do you want to do with the patch file?</source>
-        <translation>您想对补缀档做什么?</translation>
+        <translation>你想对补丁文件做些什么？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="989"/>
         <source>Import</source>
-        <translation>汇入</translation>
+        <translation>导入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="990"/>
         <source>Validate</source>
-        <translation>验证</translation>
+        <translation>校验</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1026"/>
@@ -10106,24 +10106,24 @@ Log:
 %0</source>
         <translation>
 
-日志:
+日志：
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1030"/>
         <source>Nothing to import</source>
-        <translation>没什么可汇入的</translation>
+        <translation>啥也没导入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1030"/>
         <source>None of the found %0 patches were imported.%1</source>
-        <translation>发现的 %0 补缀均未汇入 %1</translation>
+        <translation>发现的 %0 补丁均未导入。%1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1035"/>
         <source>Imported %0/%1 patches to:
 %2%3</source>
-        <translation>汇入 %0/%1 补缀到:
+        <translation>导入 %0/%1 补丁至：
 %2%3</translation>
     </message>
     <message>
@@ -10132,9 +10132,9 @@ Log:
 
 Log:
 %0</source>
-        <translation>无法汇入补缀档。
+        <translation>补丁文件无法导入。
 
-日志:
+日志：
 %0</translation>
     </message>
     <message>
@@ -10143,21 +10143,21 @@ Log:
 
 Log:
 %0</source>
-        <translation>在补缀档中发现错误。
+        <translation>在补丁文件中发现错误。
 
-日志:
+日志：
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1060"/>
         <source>Errors were found in the patch file.</source>
-        <translation>在补缀档中发现错误。</translation>
+        <translation>在补丁文件中发现错误。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1062"/>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1274"/>
         <source>To see the error log, please click &quot;Show Details&quot;.</source>
-        <translation>要观看错误日志，请点选 &quot;显示详细资料&quot;。</translation>
+        <translation>要查看错误日志，请点击「显示详情」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1063"/>
@@ -10168,7 +10168,7 @@ Log:
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1133"/>
         <source>Downloading latest patches</source>
-        <translation>下载最新补缀</translation>
+        <translation>正在下载最新补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1167"/>
@@ -10179,26 +10179,26 @@ Log:
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1167"/>
         <source>Your patch file is already up to date.</source>
-        <translation>您的补缀档已经是最新的。</translation>
+        <translation>你的补丁文件已经是最新的了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1182"/>
         <source>Update patches?</source>
-        <translation>更新补缀档?</translation>
+        <translation>更新补丁？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1182"/>
         <source>New patches are available.
 
 Do you want to update?</source>
-        <translation>有新的补缀档可用。
+        <translation>有可用的新补丁。
 
-你想更新吗?</translation>
+你想更新吗？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1259"/>
         <source>Your patch file is now up to date</source>
-        <translation>您的补缀档现在是最新的</translation>
+        <translation>你的补丁文件现在是最新的了</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1268"/>
@@ -10206,49 +10206,49 @@ Do you want to update?</source>
 
 Log:
 %0</source>
-        <translation>在下载的补缀档中发现错误。
+        <translation>在已下载的补丁中发现错误。
 
-日志:
+日志：
 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1272"/>
         <source>Errors were found in the downloaded patch file.</source>
-        <translation>在下载的补缀档中发现错误。</translation>
+        <translation>在已下载的补丁文件中发现错误。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1035"/>
         <source>Import successful</source>
-        <translation>汇入成功</translation>
+        <translation>导入成功</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="220"/>
         <source>Incompatible patches detected</source>
-        <translation>检测到不相容的补缀</translation>
+        <translation>检测到不兼容的补丁</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="221"/>
         <source>Some of your patches are not compatible with the current version of RPCS3&apos;s Patch Manager.
 
 Make sure that all the patches located in &quot;%0&quot; contain the proper formatting that is required for the Patch Manager Version %1.</source>
-        <translation>您的某些补缀与 RPCS3 补缀管理器的当前版本不相容。
+        <translation>你的一些补丁与当前版本的 RPCS3 补丁管理器不兼容。
 
-确保位于 &quot;%0&quot; 中的所有补缀均包含了补缀管理器版本 %1 所需的正确格式。</translation>
+请确保位于 &quot;%0&quot; 中的所有补丁包含了补丁管理器版本 %1 要求的适当格式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1041"/>
         <source>Import failed</source>
-        <translation>汇入失败</translation>
+        <translation>导入失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1046"/>
         <source>Validation successful</source>
-        <translation>验证成功</translation>
+        <translation>校验成功</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1046"/>
         <source>The patch file passed the validation.</source>
-        <translation>补缀档已通过验证。</translation>
+        <translation>补丁文件已通过校验。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1056"/>
@@ -10256,22 +10256,22 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1268"/>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1273"/>
         <source>Validation failed</source>
-        <translation>验证失败</translation>
+        <translation>校验失败</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.h" line="37"/>
         <source>All titles - Warning: These patches apply to all games!</source>
-        <translation>全部标题 - 警告: 这些补缀将应用在所有的游戏!</translation>
+        <translation>所有作品 - 警告：这些补丁将应用于所有游戏！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.h" line="38"/>
         <source>All serials</source>
-        <translation>全部序列</translation>
+        <translation>所有序列号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.h" line="39"/>
         <source>All versions</source>
-        <translation>全部版本</translation>
+        <translation>所有版本</translation>
     </message>
 </context>
 <context>
@@ -10304,7 +10304,7 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
         <location filename="rpcs3qt/pkg_install_dialog.cpp" line="82"/>
         <source>No info</source>
         <comment>Changelog info placeholder</comment>
-        <translation>暂无资讯</translation>
+        <translation>无信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pkg_install_dialog.cpp" line="86"/>
@@ -10312,7 +10312,7 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
 
 %0</source>
         <comment>Changelog info</comment>
-        <translation>更新日志:
+        <translation>更新日志：
 
 %0</translation>
     </message>
@@ -10341,13 +10341,13 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
         <location filename="rpcs3qt/pkg_install_dialog.cpp" line="156"/>
         <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
-        <translation>您将要安装多个套装软体。
-重新排序或根据所需排除，然后点击 &quot;安装&quot; 继续。</translation>
+        <translation>你即将安装多个软件包。
+重新排序并且/或如有需要排除它们，接着点击「安装」以进行。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pkg_install_dialog.cpp" line="165"/>
         <source>Batch PKG Installation</source>
-        <translation>批次 PKG 安装</translation>
+        <translation>批量 PKG 安装</translation>
     </message>
 </context>
 <context>
@@ -10355,7 +10355,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="38"/>
         <source>Choose message:</source>
-        <translation>选取讯息:</translation>
+        <translation>选取信息：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="49"/>
@@ -10375,12 +10375,12 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
         <source>Error receiving a message!</source>
-        <translation>接收讯息时出错!</translation>
+        <translation>接收信息出错！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
         <source>You must select a message!</source>
-        <translation>您必须选择一条讯息!</translation>
+        <translation>你必须选择一条信息！</translation>
     </message>
 </context>
 <context>
@@ -10388,19 +10388,19 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="170"/>
         <source>Error parsing register value!</source>
-        <translation>剖析暂存器值时出错!</translation>
+        <translation>解析寄存器值出错！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="199"/>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="221"/>
         <source>Lose reservation on OK</source>
-        <translation>确定取消预留区</translation>
+        <translation>丢弃预留区在 OK 上（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="199"/>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="221"/>
         <source>Reservation is inactive</source>
-        <translation>预留区无效</translation>
+        <translation>预留区不活跃</translation>
     </message>
     <message>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="427"/>
@@ -10412,7 +10412,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
         <source>This value could not be converted.
 No changes were made.</source>
         <translation>此值无法转换。
-未进行任何更改。</translation>
+未产生任何变更。</translation>
     </message>
 </context>
 <context>
@@ -10427,9 +10427,9 @@ No changes were made.</source>
         <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
 
 Selecting ignore starts the emulator without Vulkan support.</source>
-        <translation>查询 Vulkan 相容的装置花费时间过久。 这通常是由图形驱动程式故障引起的，重新安装即可解决问题。
+        <translation>查询 Vulkan 兼容设备花费的时间过长。通常这是由有故障的图形驱动所导致，重新安装它们也许可以修复此问题。
 
-选择忽略将在没有 Vulkan 支持的情况下启动仿真器。</translation>
+选择「忽略」会在没有 Vulkan 支持下启动模拟器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/render_creator.cpp" line="111"/>
@@ -10449,118 +10449,118 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="46"/>
         <source>RSX Debugger</source>
-        <translation>RSX 侦错器</translation>
+        <translation>RSX 调试器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="58"/>
         <source>Frame</source>
-        <translation>Frame</translation>
+        <translation>帧</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="59"/>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="147"/>
         <source>Texture</source>
-        <translation>Texture</translation>
+        <translation>纹理</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="60"/>
         <source>Draw</source>
-        <translation>Draw</translation>
+        <translation>绘制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="61"/>
         <source>Primitive</source>
-        <translation>Primitive</translation>
+        <translation>原始</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="62"/>
         <source>Command</source>
-        <translation>Command</translation>
+        <translation>指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="76"/>
         <source>Break on:</source>
-        <translation>Break on:</translation>
+        <translation>中断于：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="112"/>
         <source>Captured Frame</source>
-        <translation>Captured Frame</translation>
+        <translation>捕获帧</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="113"/>
         <source>Captured Draw Calls</source>
-        <translation>Captured Draw Calls</translation>
+        <translation>捕获绘制调用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="115"/>
         <source>Column</source>
-        <translation>Column</translation>
+        <translation>列</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="118"/>
         <source>Draw calls</source>
-        <translation>Draw calls</translation>
+        <translation>绘制调用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="141"/>
         <source>Color Buffer A</source>
-        <translation>Color Buffer A</translation>
+        <translation>颜色缓冲 A</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="142"/>
         <source>Color Buffer B</source>
-        <translation>Color Buffer B</translation>
+        <translation>颜色缓冲 B</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="143"/>
         <source>Color Buffer C</source>
-        <translation>Color Buffer C</translation>
+        <translation>颜色缓冲 C</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="144"/>
         <source>Color Buffer D</source>
-        <translation>Color Buffer D</translation>
+        <translation>颜色缓冲 D</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="145"/>
         <source>Depth Buffer</source>
-        <translation>Depth Buffer</translation>
+        <translation>深度缓冲</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="146"/>
         <source>Stencil Buffer</source>
-        <translation>Stencil Buffer</translation>
+        <translation>图案缓冲</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="160"/>
         <source>Texture Index or Address / Format Override</source>
-        <translation>Texture Index or Address / Format Override</translation>
+        <translation>纹理索引或地址 / 格式覆盖</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="212"/>
         <source>RTTs and DS</source>
-        <translation>RTTs and DS</translation>
+        <translation>RTTs 和 DS</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="213"/>
         <source>Transform program</source>
-        <translation>Transform program</translation>
+        <translation>变换程序</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="214"/>
         <source>Shader program</source>
-        <translation>Shader program</translation>
+        <translation>着色器程序</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="215"/>
         <source>Index buffer</source>
-        <translation>Index buffer</translation>
+        <translation>索引缓冲</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.h" line="53"/>
         <source> Enabled Textures Indices: </source>
-        <translation> Enabled Textures Indices: </translation>
+        <translation> 启用的纹理索引： </translation>
     </message>
 </context>
 <context>
@@ -10568,7 +10568,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="14"/>
         <source>Save Data Information</source>
-        <translation>储存资料讯息</translation>
+        <translation>保存数据信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="23"/>
@@ -10579,17 +10579,17 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="23"/>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="73"/>
         <source>Detail</source>
-        <translation>内容</translation>
+        <translation>详情</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="26"/>
         <source>&amp;Close</source>
-        <translation>关闭(&amp;C)</translation>
+        <translation>&amp;关闭</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="64"/>
         <source>User ID</source>
-        <translation>使用者 ID</translation>
+        <translation>用户 ID</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="67"/>
@@ -10604,7 +10604,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_data_info_dialog.cpp" line="82"/>
         <source>Icon</source>
-        <translation>图示</translation>
+        <translation>图标</translation>
     </message>
 </context>
 <context>
@@ -10612,17 +10612,17 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="22"/>
         <source>Save Data Interface (Delete)</source>
-        <translation>储存资料讯息 (删除)</translation>
+        <translation>保存数据界面（删除）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="26"/>
         <source>Save Data Interface (Load)</source>
-        <translation>储存资料讯息 (读取)</translation>
+        <translation>保存数据界面（加载）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="30"/>
         <source>Save Data Interface (Save)</source>
-        <translation>储存资料讯息 (储存)</translation>
+        <translation>保存数据界面（保存）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="46"/>
@@ -10637,37 +10637,37 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="46"/>
         <source>Save ID</source>
-        <translation>储存 ID</translation>
+        <translation>保存 ID</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="46"/>
         <source>Entry Notes</source>
-        <translation>记录备注</translation>
+        <translation>记录笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="53"/>
         <source>&amp;Select Entry</source>
-        <translation>选取记录(&amp;S)</translation>
+        <translation>&amp;选择记录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="65"/>
         <source>Save New Entry</source>
-        <translation>储存新记录</translation>
+        <translation>保存新记录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="76"/>
         <source>&amp;Cancel</source>
-        <translation>取消(&amp;C)</translation>
+        <translation>&amp;取消</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="124"/>
         <source>Currently Selected: None</source>
-        <translation>目前选择: 空</translation>
+        <translation>当前已选择：无</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_data_list_dialog.cpp" line="129"/>
         <source>Currently Selected: </source>
-        <translation>目前选择: </translation>
+        <translation>当前已选择：</translation>
     </message>
 </context>
 <context>
@@ -10675,17 +10675,17 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="70"/>
         <source>Save Manager</source>
-        <translation>储存管理器</translation>
+        <translation>保存管理器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="93"/>
         <source>Icon</source>
-        <translation>图示</translation>
+        <translation>图标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="93"/>
         <source>Title &amp; Subtitle</source>
-        <translation>标题与副标题</translation>
+        <translation>标题 &amp; 副标题</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="93"/>
@@ -10695,43 +10695,43 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="93"/>
         <source>Save ID</source>
-        <translation>储存 ID</translation>
+        <translation>保存 ID</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="93"/>
         <source>Notes</source>
-        <translation>注解</translation>
+        <translation>笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="100"/>
         <source>Icon size:</source>
-        <translation>图示大小:</translation>
+        <translation>图标尺寸：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="105"/>
         <source>&amp;Close</source>
-        <translation>关闭(&amp;C)</translation>
+        <translation>&amp;关闭</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="111"/>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="616"/>
         <source>Select an item to view details</source>
-        <translation>选定项目以检视内容</translation>
+        <translation>选择一个项目来查看详情</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="121"/>
         <source>Delete Selection</source>
-        <translation>删除选择</translation>
+        <translation>删除选择项</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="123"/>
         <source>View Folder</source>
-        <translation>检视资料夹</translation>
+        <translation>查看文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="240"/>
         <source>Loading save data, please wait...</source>
-        <translation>正在载入储存资料，请稍候...</translation>
+        <translation>正在加载保存数据，请稍候……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="240"/>
@@ -10741,7 +10741,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="240"/>
         <source>Loading save data</source>
-        <translation>载入储存资料</translation>
+        <translation>正在加载保存数据</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="510"/>
@@ -10753,48 +10753,48 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="510"/>
         <source>Are you sure you want to delete:
 %1?</source>
-        <translation>你确定要删除:
-%1?</translation>
+        <translation>你确定你要删除：
+%1？</translation>
     </message>
     <message numerus="yes">
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="534"/>
         <source>Are you sure you want to delete these %n items?</source>
         <translation>
-            <numerusform>你确定要删除这 %n 项目?</numerusform>
+            <numerusform>你确定你要删除这 %n 项？</numerusform>
         </translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="557"/>
         <source>&amp;Remove</source>
-        <translation>移除(&amp;R)</translation>
+        <translation>&amp;移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="558"/>
         <source>&amp;Open Save Directory</source>
-        <translation>开启储存目录(&amp;O)</translation>
+        <translation>&amp;打开保存目录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="611"/>
         <source>%1 items selected</source>
-        <translation>%1 项目已选取</translation>
+        <translation>%1 项已选择</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="639"/>
         <source>Last modified: %1</source>
-        <translation>上次修改: %1</translation>
+        <translation>上次修改：%1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="640"/>
         <source>Details:
 </source>
-        <translation>详细:
+        <translation>详情：
 </translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="641"/>
         <source>Note:
 </source>
-        <translation>注解:
+        <translation>笔记：
 </translation>
     </message>
 </context>
@@ -10803,7 +10803,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/screenshot_manager_dialog.cpp" line="22"/>
         <source>Screenshots</source>
-        <translation>画面撷取</translation>
+        <translation>截屏</translation>
     </message>
 </context>
 <context>
@@ -10812,32 +10812,32 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="21"/>
         <source>Screenshot Viewer</source>
         <oldsource>Screenshot Preview</oldsource>
-        <translation>撷取检视</translation>
+        <translation>截屏查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="35"/>
         <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
+        <translation>&amp;复制</translation>
     </message>
     <message>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="37"/>
         <source>&amp;Open file location</source>
-        <translation>开启档案位置(&amp;O)</translation>
+        <translation>&amp;打开文件位置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="40"/>
         <source>To &amp;Normal Size</source>
-        <translation>到正常大小(&amp;N)</translation>
+        <translation>至 &amp;正常尺寸</translation>
     </message>
     <message>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="43"/>
         <source>&amp;Stretch to size</source>
-        <translation>延伸至大小(&amp;S)</translation>
+        <translation>&amp;拉伸至尺寸</translation>
     </message>
     <message>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="48"/>
         <source>E&amp;xit</source>
-        <translation>关闭(&amp;X)</translation>
+        <translation>&amp;退出</translation>
     </message>
 </context>
 <context>
