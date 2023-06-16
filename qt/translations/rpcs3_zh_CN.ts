@@ -12005,7 +12005,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4144"/>
         <source>Strict Texture Flushing</source>
-        <translation>精确纹理清理</translation>
+        <translation>严格纹理冲刷</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4151"/>
@@ -12015,43 +12015,43 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4183"/>
         <source>PPU Debug</source>
-        <translation>PPU 侦错器</translation>
+        <translation>PPU 调试</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4190"/>
         <source>SPU Debug</source>
-        <translation>SPU 侦错器</translation>
+        <translation>SPU 调试</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4197"/>
         <source>MFC Debug</source>
-        <translation>MFC 侦错器</translation>
+        <translation>MFC 调试</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4204"/>
         <source>Set DAZ and FTZ</source>
-        <translation>设定 DAZ 与 FTZ</translation>
+        <translation>设定 DAZ 和 FTZ</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4211"/>
         <source>Accurate GETLLAR</source>
-        <translation>准确的 GETLLAR</translation>
+        <translation>精准 GETLLAR</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4218"/>
         <source>Accurate SPU DMA</source>
         <oldsource>Accurate PUTLLUC</oldsource>
-        <translation>准确的 SPU DMA</translation>
+        <translation>精准 SPU DMA</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4239"/>
         <source>Enable Performance Report</source>
-        <translation>启用效能报告</translation>
+        <translation>启用性能报告</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4280"/>
         <source>Accurate PPU 128 Reservations</source>
-        <translation>准确的 PPU 128 预留区</translation>
+        <translation>精准 PPU 128 预留区</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4292"/>
