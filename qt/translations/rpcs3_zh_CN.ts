@@ -14236,7 +14236,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>An error occured trying to remove a friend!</source>
-        <translation>尝试移除朋友时出错！</translation>
+        <translation>尝试移除朋友时发生了错误！</translation>
     </message>
     <message>
         <source>Friend removed!</source>
