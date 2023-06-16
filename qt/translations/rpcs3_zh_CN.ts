@@ -5477,9 +5477,9 @@ File may already be in use on the base.</source>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="815"/>
-        <source>读取形象文件失败（%1）！
+        <source>Failed to read the figure file(%1)!
 File was too small.</source>
-        <translation>无法读取人物档案(%1)!
+        <translation>读取形象文件（%1）失败！
 文件过小。</translation>
     </message>
 </context>
