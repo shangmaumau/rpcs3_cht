@@ -13835,7 +13835,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>The token you have received should be 16 characters long and contain only 0-9 A-F.</source>
-        <translation>您收到的令牌应为 16 个字符长，并且仅包含 0-9 A-F。</translation>
+        <translation>你收到的令牌应为 16 个字符长，并且仅包含 0-9 A-F。</translation>
     </message>
     <message>
         <source>The server has no email verification and doesn&apos;t need a token!</source>
@@ -13995,11 +13995,11 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     <name>rpcn_ask_username_dialog</name>
     <message>
         <source>RPCN: Username</source>
-        <translation>RPCN: 用户名</translation>
+        <translation>RPCN：用户名</translation>
     </message>
     <message>
         <source>Username:</source>
-        <translation>用户名:</translation>
+        <translation>用户名：</translation>
     </message>
     <message>
         <source>Missing Username</source>
@@ -14007,7 +14007,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>You must enter a username!</source>
-        <translation>您必须输入用户名!</translation>
+        <translation>你必须输入一个用户名！</translation>
     </message>
     <message>
         <source>Invalid Username</source>
@@ -14015,7 +14015,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Please enter a valid username!</source>
-        <translation>请输入有效的用户名!</translation>
+        <translation>请输入一个有效的用户名！</translation>
     </message>
     <message>
         <source>Please enter your username.\n\n
@@ -14023,9 +14023,9 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
                 - Username must be between 3 and 16 characters\n
                 - Username can only contain a-z A-Z 0-9 &apos;-&apos; &apos;_&apos;\n
                 - Username is case sensitive\n</source>
-        <translation>请输入您的用户名。\n\n
-                     请注意，这些限制条件:\n
-                     - 用户名必须介于 3 到 16 个字元之间\n
+        <translation>请输入你的用户名。\n\n
+                     注意遵守这些限制：\n
+                     - 用户名必须为 3 到 16 个字符\n
                      - 用户名只能包含 a-z A-Z 0-9 &apos;-&apos; &apos;_&apos;\n
                      - 用户名区分大小写\n</translation>
     </message>
@@ -14034,7 +14034,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     <name>rpcn_account_dialog</name>
     <message>
         <source>Error: Emulation Running</source>
-        <translation>错误: 模拟正在执行</translation>
+        <translation>错误：模拟正在运行</translation>
     </message>
     <message>
         <source>You need to stop the emulator before editing RPCN account information!</source>
@@ -14557,7 +14557,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1813"/>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt 是用于跨平台应用软体开发的 C ++ 套件。&lt;/p&gt;&lt;p&gt;Qt 提供横跨各大桌面作业系统的单源可移植性。 可用于 Linux 以及其它嵌入式和行动式作业系统。&lt;/p&gt;&lt;p&gt;Qt 提供三种不同的授权选项供应各种使用者的需求。&lt;/p&gt;&lt;p&gt;根据我们商业授权协议许可的 Qt 适用于您不希望与第三方共享任何原始程式码或不符合 GNU LGPL 3 版本条款的专属/商业软体的开发。&lt;/p&gt;&lt;p&gt;Qt 基于 GNU LGPL 3 版本授权适合 Qt&amp;nbsp; 应用软体开发提供了可遵循 GNU LGPL 3.0 版本的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 关于 Qt 授权的概述。&lt;/p&gt;&lt;p&gt;著作权 (C) %1 Qt 有限公司与其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 及 Qt 标志是 Qt 有限公司的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目所开发的 Qt 有限公司产品。 参照 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; 关于更多资讯。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 横跨所有主要桌面操作系统提供了同一套源代码的可移植性。它也可用于嵌入式 Linux 和其他嵌入式及移动端操作系统。&lt;/p&gt;&lt;p&gt;Qt 可以我们的设计的三种不同的授权选项而使用，以适应我们不同用户的需求。&lt;/p&gt;&lt;p&gt;根据我们商业授权协议许可的 Qt 适用于您不希望与第三方共享任何原始程式码或不符合 GNU LGPL 3 版本条款的专属/商业软体的开发。&lt;/p&gt;&lt;p&gt;Qt 基于 GNU LGPL 3 版本授权适合 Qt&amp;nbsp; 应用软体开发提供了可遵循 GNU LGPL 3.0 版本的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 关于 Qt 授权的概述。&lt;/p&gt;&lt;p&gt;著作权 (C) %1 Qt 有限公司与其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 及 Qt 标志是 Qt 有限公司的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目所开发的 Qt 有限公司产品。 参照 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; 关于更多资讯。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1840"/>
@@ -14578,7 +14578,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="kernel/qwhatsthis.cpp" line="498"/>
         <source>What&apos;s This?</source>
-        <translation>这是什么?</translation>
+        <translation>这是什么？</translation>
     </message>
 </context>
 <context>
@@ -14586,7 +14586,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="403"/>
         <source>Scroll here</source>
-        <translation>在此卷轴</translation>
+        <translation>滚动此处</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="405"/>
@@ -14596,7 +14596,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="405"/>
         <source>Top</source>
-        <translation>顶端</translation>
+        <translation>顶部</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="406"/>
@@ -14606,47 +14606,47 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="406"/>
         <source>Bottom</source>
-        <translation>底端</translation>
+        <translation>底部</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="408"/>
         <source>Page left</source>
-        <translation>页面左方</translation>
+        <translation>左翻页</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="408"/>
         <source>Page up</source>
-        <translation>页面上方</translation>
+        <translation>上翻页</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="409"/>
         <source>Page right</source>
-        <translation>页面右方</translation>
+        <translation>右翻页</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="409"/>
         <source>Page down</source>
-        <translation>页面下方</translation>
+        <translation>下翻页</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="411"/>
         <source>Scroll left</source>
-        <translation>往左卷轴</translation>
+        <translation>向左滚动</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="411"/>
         <source>Scroll up</source>
-        <translation>往上卷轴</translation>
+        <translation>向上滚动</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="412"/>
         <source>Scroll right</source>
-        <translation>往右卷轴</translation>
+        <translation>向右滚动</translation>
     </message>
     <message>
         <location filename="widgets/widgets/qscrollbar.cpp" line="412"/>
         <source>Scroll down</source>
-        <translation>往下卷轴</translation>
+        <translation>向下滚动</translation>
     </message>
 </context>
 <context>
@@ -14654,32 +14654,32 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2257"/>
         <source>&amp;Undo</source>
-        <translation>取消(&amp;U)</translation>
+        <translation>&amp;撤销</translation>
     </message>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2261"/>
         <source>&amp;Redo</source>
-        <translation>重做(&amp;R)</translation>
+        <translation>&amp;重做</translation>
     </message>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2268"/>
         <source>Cu&amp;t</source>
-        <translation>剪下(&amp;T)</translation>
+        <translation>&amp;剪切</translation>
     </message>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2277"/>
         <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
+        <translation>&amp;复制</translation>
     </message>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2286"/>
         <source>Copy &amp;Link Location</source>
-        <translation>复制连结位址(&amp;L)</translation>
+        <translation>复制 &amp; 链接定位</translation>
     </message>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2294"/>
         <source>&amp;Paste</source>
-        <translation>贴上(&amp;P)</translation>
+        <translation>&amp;粘贴</translation>
     </message>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2299"/>
@@ -14689,7 +14689,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/qwidgettextcontrol.cpp" line="2308"/>
         <source>Select All</source>
-        <translation>全选</translation>
+        <translation>选择全部</translation>
     </message>
 </context>
 <context>
@@ -14702,12 +14702,12 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qwizard.cpp" line="715"/>
         <source>Help</source>
-        <translation>说明</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <location filename="dialogs/qwizard.cpp" line="715"/>
         <source>&amp;Help</source>
-        <translation>说明(&amp;H)</translation>
+        <translation>&amp;帮助</translation>
     </message>
 </context>
 <context>
@@ -14720,42 +14720,42 @@ Press ESC to cancel</source>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="667"/>
         <source>Save</source>
-        <translation>储存</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="669"/>
         <source>Save All</source>
-        <translation>全部储存</translation>
+        <translation>保存所有</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="671"/>
         <source>Open</source>
-        <translation>开启</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="673"/>
         <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
+        <translation>&amp;是</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="675"/>
         <source>Yes to &amp;All</source>
-        <translation>全是(&amp;A)</translation>
+        <translation>&amp;全是</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="677"/>
         <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
+        <translation>&amp;否</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="679"/>
         <source>N&amp;o to All</source>
-        <translation>全否(&amp;O)</translation>
+        <translation>&amp;全否</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="681"/>
         <source>Abort</source>
-        <translation>中止</translation>
+        <translation>终止</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="683"/>
@@ -14780,27 +14780,27 @@ Press ESC to cancel</source>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="691"/>
         <source>Discard</source>
-        <translation>丢弃</translation>
+        <translation>弃用</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="693"/>
         <source>Help</source>
-        <translation>说明</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="695"/>
         <source>Apply</source>
-        <translation>套用</translation>
+        <translation>应用</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="697"/>
         <source>Reset</source>
-        <translation>重启</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="699"/>
         <source>Restore Defaults</source>
-        <translation>还原预设值</translation>
+        <translation>恢复至默认</translation>
     </message>
 </context>
 </TS>
