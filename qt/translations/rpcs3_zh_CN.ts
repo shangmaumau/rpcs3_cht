@@ -13839,53 +13839,53 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>The server has no email verification and doesn&apos;t need a token!</source>
-        <translation>伺服器无须电子信箱验证，也不需要权杖!</translation>
+        <translation>服务器没有电子邮箱验证，也不需要令牌！</translation>
     </message>
     <message>
         <source>A database related error happened on the server!</source>
-        <translation>伺服器上发生了与资料库相关的错误!</translation>
+        <translation>服务器上发生了一个与数据库相关的错误！</translation>
     </message>
     <message>
         <source>You can only ask for a token mail once every 24 hours!</source>
-        <translation>每 24 个小时只能索取一次权杖邮件!</translation>
+        <translation>每 24 小时你只能请求一次令牌邮件！</translation>
     </message>
     <message>
         <source>The mail couldn&apos;t be sent successfully!</source>
-        <translation>无法顺利发送邮件!</translation>
+        <translation>邮件无法成功发出！</translation>
     </message>
     <message>
         <source>The username/password pair is invalid!</source>
-        <translation>用户名/密码无效!</translation>
+        <translation>用户名/密码对无效！</translation>
     </message>
     <message>
         <source>Error Sending Token</source>
-        <translation>发送权杖时出错</translation>
+        <translation>发送令牌时出错</translation>
     </message>
     <message>
         <source>Failed to send the token:\n%0</source>
-        <translation>发送权杖失败:\n%0</translation>
+        <translation>发送令牌出错：\n%0</translation>
     </message>
     <message>
         <source>Token Sent!</source>
-        <translation>权杖已发送!</translation>
+        <translation>令牌已发送！</translation>
     </message>
     <message>
         <source>Your token was successfully resent to the email associated with your account!</source>
-        <translation>您的权杖已顺利重新发送到与您的帐号关联的电子信箱!</translation>
+        <translation>你的令牌已成功重发送至与你账号相关联的邮箱！</translation>
     </message>
     <message>
         <source>Please confirm your username:</source>
-        <translation>请确定您的用户名:</translation>
+        <translation>请确认你的用户名：</translation>
     </message>
     <message>
         <source>RPCN: Change Password</source>
-        <translation>RPCN: 变更密码</translation>
+        <translation>RPCN：修改密码</translation>
     </message>
     <message>
         <source>Do you already have a reset password token?\n
 Note that the reset password token is different from the email verification token.</source>
-        <translation>您是否已有重设密码权杖?\n
-请注意，重设密码权杖与电子信箱验证权杖不同。</translation>
+        <translation>你是否已经有了一个重置密码的令牌？\n
+请注意重置密码令牌和电子邮件验证令牌是不一样的。</translation>
     </message>
 </context>
 <context>
@@ -13896,11 +13896,11 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Account</source>
-        <translation>帐号</translation>
+        <translation>账号</translation>
     </message>
     <message>
         <source>Friends</source>
-        <translation>好友</translation>
+        <translation>朋友</translation>
     </message>
 </context>
 <context>
@@ -13909,29 +13909,29 @@ Note that the reset password token is different from the email verification toke
         <source>An email address is required, please note:\n
 - A valid email is needed to receive the token that validates your account.\n
 - Your email won&apos;t be used for anything beyond sending you this token or the password reset token.\n\n</source>
-        <translation>需要一个电子信箱位址，请注意:\n
-- 需要有效的电子信箱才能接收验证您帐号的权杖。\n
-- 除了向您发送权杖或密码重设权杖外，您的电子信箱不会用于任何其它用途。\n\n</translation>
+        <translation>电子邮箱地址是必需的，请注意：\n
+- 一个有效的电子邮箱是必需的，以接收确认你的账户的令牌。\n
+- 你的电子邮箱除给你发送这个令牌或密码重置令牌外，不会用于其他任何用途。\n\n</translation>
     </message>
     <message>
         <source>RPCN: Account Creation</source>
-        <translation>RPCN: 建立帐号</translation>
+        <translation>RPCN：账号创建</translation>
     </message>
     <message>
         <source>You are about to create an account with:\n-Username:%0\n-Email:%1\n\nIs this correct?</source>
-        <translation>您即将建立一个帐号:\n-用户名:%0\n-电子信箱:%1\n\n是否正确吗?</translation>
+        <translation>你即将创建一个账号：\n-用户名：%0\n-电子信箱：%1\n\n这正确吗？</translation>
     </message>
     <message>
         <source>RPCN: Email</source>
-        <translation>RPCN: 电子信箱</translation>
+        <translation>RPCN：电子信箱</translation>
     </message>
     <message>
         <source>Enter your email:</source>
-        <translation>输入你的电子信箱:</translation>
+        <translation>输入你的电子邮箱：</translation>
     </message>
     <message>
         <source>Enter your email a second time:</source>
-        <translation>再次输入您的电子信箱:</translation>
+        <translation>再次输入你的电子邮箱：</translation>
     </message>
     <message>
         <source>Wrong Input</source>
@@ -13939,56 +13939,56 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>The two emails you entered don&apos;t match!</source>
-        <translation>您输入的两个电子信箱不符合!</translation>
+        <translation>你输入的两个电子邮箱不匹配！</translation>
     </message>
     <message>
         <source>Missing Email</source>
-        <translation>缺少电子信箱</translation>
+        <translation>缺少电子邮箱</translation>
     </message>
     <message>
         <source>You need to enter an email!</source>
-        <translation>您需要输入电子信箱!</translation>
+        <translation>你需要输入一个电子邮箱！</translation>
     </message>
     <message>
         <source>Invalid Email</source>
-        <translation>无效的电子信箱</translation>
+        <translation>无效电子邮箱</translation>
     </message>
     <message>
         <source>You need to enter a valid email!</source>
-        <translation>您需要输入有效的电子信箱!</translation>
+        <translation>你需要输入一个有效的电子邮箱！</translation>
     </message>
 </context>
 <context>
     <name>rpcn_ask_token_dialog</name>
     <message>
         <source>RPCN: Username</source>
-        <translation>RPCN: 用户名</translation>
+        <translation>RPCN：用户名</translation>
     </message>
     <message>
         <source>Token:</source>
-        <translation>权杖:</translation>
+        <translation>令牌：</translation>
     </message>
     <message>
         <source>Invalid Token</source>
-        <translation>权杖无效</translation>
+        <translation>无效令牌</translation>
     </message>
     <message>
         <source>The token appears to be invalid:\n
 -Token should be 16 characters long\n
 -Token should only contain 0-9 and A-F</source>
-        <translation>权杖似乎无效:\n
--权杖长度应为 16 个字元\n
--权杖应该只包含 0-9 和 A-F</translation>
+        <translation>令牌看起来是无效的：\n
+- 令牌应为 16 个字符长\n
+- 令牌应只包含 0-9 和 A-F</translation>
     </message>
     <message>
         <source>Your account has been created successfully!\n
 Your account authentification was saved.\n
 Now all you need is to enter the token that was sent to your email.\n
 You can skip this step by leaving it empty and entering it later in the Edit Account section too.\n</source>
-        <translation>您的帐号已成功建立!\n
-您的帐号身份验证已储存。\n
-现在您只需输入发送到您的电子信箱的权杖即可。\n
-您可以将其留空并稍后在&quot;编辑帐号&quot;部分中输入来跳过此步骤。\n</translation>
+        <translation>你的账号已创建成功！\n
+你的账号的验证信息已保存。\n
+现在你只需要把发送到你的电子邮箱中的令牌输入就好了。\n
+你可以保留其为空而跳过此步，然后稍后在「编辑账号」这部分输入它。\n</translation>
     </message>
 </context>
 <context>
@@ -14038,19 +14038,19 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>You need to stop the emulator before editing RPCN account information!</source>
-        <translation>编辑 RPCN 帐号资料前需要先停止模拟器!</translation>
+        <translation>在编辑 RPCN 账号信息前你需要停止模拟器！</translation>
     </message>
     <message>
         <source>RPCN: Account</source>
-        <translation>RPCN: 帐号</translation>
+        <translation>RPCN：帐号</translation>
     </message>
     <message>
         <source>Server:</source>
-        <translation>伺服器:</translation>
+        <translation>服务器：</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>新增</translation>
+        <translation>添加</translation>
     </message>
     <message>
         <source>Del</source>
@@ -14058,62 +14058,62 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Create Account</source>
-        <translation>建立帐号</translation>
+        <translation>创建账号</translation>
     </message>
     <message>
         <source>Edit Account</source>
-        <translation>编辑帐号</translation>
+        <translation>编辑账号</translation>
     </message>
     <message>
         <source>Test Account</source>
-        <translation>测试帐号</translation>
+        <translation>测试账号</translation>
     </message>
     <message>
         <source>RPCN Account Valid!</source>
-        <translation>RPCN 帐号有效!</translation>
+        <translation>RPCN 账号有效！</translation>
     </message>
     <message>
         <source>Your account is valid!</source>
-        <translation>您的帐号有效!</translation>
+        <translation>你的账号是有效的！</translation>
     </message>
     <message>
         <source>Existing Server</source>
-        <translation>现存伺服器</translation>
+        <translation>现存服务器</translation>
     </message>
     <message>
         <source>You already have a server with this description &amp; hostname in the list.</source>
-        <translation>在列表中已经有一个具有此描述和主机名的伺服器。</translation>
+        <translation>列表中你已经有了一个拥有此描述及主机名的服务器。</translation>
     </message>
     <message>
         <source>Failed to connect to RPCN:\n%0</source>
-        <translation>无法连线到 RPCN:\n%0</translation>
+        <translation>连接到 RPCN 失败：\n%0</translation>
     </message>
     <message>
         <source>Error connecting to RPCN!</source>
-        <translation>连线到 RPCN 时出错!</translation>
+        <translation>连接到 RPCN 时出错！</translation>
     </message>
     <message>
         <source>Failed to authentify to RPCN:\n%0</source>
-        <translation>向 RPCN 验证失败:\n%0</translation>
+        <translation>RPCN 验证失败：\n%0</translation>
     </message>
     <message>
         <source>Error authentifying to RPCN!</source>
-        <translation>向 RPCN 进行身份验证时出错!</translation>
+        <translation>RPCN 验证时出错！</translation>
     </message>
 </context>
 <context>
     <name>rpcn_add_server_dialog</name>
     <message>
         <source>RPCN: Add Server</source>
-        <translation>RPCN: 新增伺服器</translation>
+        <translation>RPCN：添加服务器</translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>描述:</translation>
+        <translation>描述：</translation>
     </message>
     <message>
         <source>Host:</source>
-        <translation>主机:</translation>
+        <translation>Host：</translation>
     </message>
     <message>
         <source>Missing Description</source>
@@ -14121,7 +14121,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>You must enter a description!</source>
-        <translation>你必须输入描述!</translation>
+        <translation>你必须输入一个描述！</translation>
     </message>
     <message>
         <source>Missing Hostname</source>
@@ -14129,193 +14129,193 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>You must enter a hostname for the server!</source>
-        <translation>您必须输入伺服器的主机名!</translation>
+        <translation>你必须输入服务器的主机名！</translation>
     </message>
     <message>
         <source>Please enter the email you used to create the account:</source>
-        <translation>请输入您用于建立帐号的电子信箱:</translation>
+        <translation>请输入你用于创建账号使用的电子邮箱：</translation>
     </message>
     <message>
         <source>The server has no email verification and doesn&apos;t support password changes!</source>
-        <translation>伺服器无须电子信箱验证，不支援变更密码!</translation>
+        <translation>服务器无电子邮箱验证，也不支持修改密码！</translation>
     </message>
     <message>
         <source>You can only ask for a reset password token once every 24 hours!</source>
-        <translation>每 24 个小时只能重设密码权杖一次!</translation>
+        <translation>每 24 小时你只能请求重置密码令牌一次！</translation>
     </message>
     <message>
         <source>The username/email pair is invalid!</source>
-        <translation>用户名/密码无效!</translation>
+        <translation>用户名/密码对无效！</translation>
     </message>
     <message>
         <source>Error Sending Password Reset Token</source>
-        <translation>发送密码重设权杖时出错</translation>
+        <translation>发送密码重置令牌出错</translation>
     </message>
     <message>
         <source>Failed to send the password reset token:\n%0</source>
-        <translation>发送密码重设权杖失败:\n%0</translation>
+        <translation>发送密码重置令牌失败：\n%0</translation>
     </message>
     <message>
         <source>Failed to change the password:\n%0</source>
-        <translation>变更密码失败:\n%0</translation>
+        <translation>修改密码失败：\n%0</translation>
     </message>
     <message>
         <source>Password Reset Token Sent!</source>
-        <translation>密码重设权杖已发送!</translation>
+        <translation>密码重置令牌已发送！</translation>
     </message>
     <message>
         <source>The reset password token has successfully been sent!</source>
-        <translation>重设密码权杖已成功发送!</translation>
+        <translation>重置密码令牌已成功发送！</translation>
     </message>
     <message>
         <source>Please enter the password reset token you received:</source>
-        <translation>请输入您收到的密码重设权杖:</translation>
+        <translation>请输入你收到的密码重置令牌：</translation>
     </message>
     <message>
         <source>Please enter your new password:</source>
-        <translation>请输入您的新密码:</translation>
+        <translation>请输入你的新密码：</translation>
     </message>
     <message>
         <source>The username/token pair is invalid!</source>
-        <translation>用户名/权杖无效!</translation>
+        <translation>用户名/令牌对无效！</translation>
     </message>
     <message>
         <source>Password Successfully Changed!</source>
-        <translation>密码变更成功!</translation>
+        <translation>密码已成功修改！</translation>
     </message>
     <message>
         <source>Your password has been successfully changed!</source>
-        <translation>你的密码已成功变更!</translation>
+        <translation>你的密码已成功修改！</translation>
     </message>
 </context>
 <context>
     <name>rpcn_friends_dialog</name>
     <message>
         <source>RPCN: Friends</source>
-        <translation>RPCN: 好友</translation>
+        <translation>RPCN：朋友</translation>
     </message>
     <message>
         <source>Friends</source>
-        <translation>好友</translation>
+        <translation>朋友</translation>
     </message>
     <message>
         <source>Add Friend</source>
-        <translation>新增好友</translation>
+        <translation>添加朋友</translation>
     </message>
     <message>
         <source>Friend Requests</source>
-        <translation>好友邀请</translation>
+        <translation>朋友邀请</translation>
     </message>
     <message>
         <source>Blocked Users</source>
-        <translation>已封锁的用户</translation>
+        <translation>已屏蔽的用户</translation>
     </message>
     <message>
         <source>Failed to connect to RPCN:\n%0</source>
-        <translation>无法连线到 RPCN:\n%0</translation>
+        <translation>连接 RPCN 失败：\n%0</translation>
     </message>
     <message>
         <source>Error connecting to RPCN!</source>
-        <translation>连线到 RPCN 时出错!</translation>
+        <translation>连接到 RPCN 时出错！</translation>
     </message>
     <message>
         <source>Failed to authentify to RPCN:\n%0</source>
-        <translation>向 RPCN 验证失败:\n%0</translation>
+        <translation>RPCN 验证失败：\n%0</translation>
     </message>
     <message>
         <source>Error authentifying to RPCN!</source>
-        <translation>向 RPCN 进行身份验证时出错!</translation>
+        <translation>RPCN 验证时出错！</translation>
     </message>
     <message>
         <source>&amp;Remove Friend</source>
-        <translation>删除好友​​(&amp;R)</translation>
+        <translation>&amp;移除朋友</translation>
     </message>
     <message>
         <source>Error removing a friend!</source>
-        <translation>删除好友时出错!</translation>
+        <translation>删除朋友时出错！</translation>
     </message>
     <message>
         <source>An error occured trying to remove a friend!</source>
-        <translation>尝试删除好友时出错!</translation>
+        <translation>尝试移除朋友时出错！</translation>
     </message>
     <message>
         <source>Friend removed!</source>
-        <translation>好友已删除!</translation>
+        <translation>朋友已移除！</translation>
     </message>
     <message>
         <source>You&apos;ve successfully removed a friend!</source>
-        <translation>您已成功删除好友!</translation>
+        <translation>你已成功移除了一个朋友！</translation>
     </message>
     <message>
         <source>&amp;Accept Request</source>
-        <translation>接受邀请(&amp;A)</translation>
+        <translation>&amp;接受邀请</translation>
     </message>
     <message>
         <source>Error adding a friend!</source>
-        <translation>加入好友时出错!</translation>
+        <translation>添加朋友时出错！</translation>
     </message>
     <message>
         <source>An error occured trying to add a friend!</source>
-        <translation>尝试加入好友时出错!</translation>
+        <translation>尝试添加一个朋友时发生了错误！</translation>
     </message>
     <message>
         <source>Friend added!</source>
-        <translation>好友已加入!</translation>
+        <translation>朋友已添加！</translation>
     </message>
     <message>
         <source>You&apos;ve successfully added a friend!</source>
-        <translation>您已成功加入好友!</translation>
+        <translation>你已成功添加了一个朋友！</translation>
     </message>
     <message>
         <source>Add a friend</source>
-        <translation>新增好友</translation>
+        <translation>添加一个朋友</translation>
     </message>
     <message>
         <source>Friend&apos;s username:</source>
-        <translation>好友的用户名:</translation>
+        <translation>朋友的用户名：</translation>
     </message>
     <message>
         <source>Error validating username</source>
-        <translation>验证用户名时出错</translation>
+        <translation>确认用户时出错</translation>
     </message>
     <message>
         <source>The username you entered is invalid</source>
-        <translation>您输入的用户名无效</translation>
+        <translation>你输入的用户名无效</translation>
     </message>
     <message>
         <source>Error adding friend</source>
-        <translation>新增好友时出错</translation>
+        <translation>添加朋友时出错</translation>
     </message>
     <message>
         <source>An error occured adding friend</source>
-        <translation>新增好友时发生错误</translation>
+        <translation>添加好友时发生了错误</translation>
     </message>
     <message>
         <source>Friend added</source>
-        <translation>新增了好友</translation>
+        <translation>朋友已添加</translation>
     </message>
     <message>
         <source>Friend was successfully added!</source>
-        <translation>新增好友成功!</translation>
+        <translation>朋友已成功添加！</translation>
     </message>
 </context>
 <context>
     <name>rpcn_ask_password_dialog</name>
     <message>
         <source>Please choose your password:\n\n</source>
-        <translation>请选取您的密码:\n\n</translation>
+        <translation>请选取你的密码：\n\n</translation>
     </message>
     <message>
         <source>RPCN: Password</source>
-        <translation>RPCN: 密码</translation>
+        <translation>RPCN：密码</translation>
     </message>
     <message>
         <source>Enter your password:</source>
-        <translation>输入您的密码:</translation>
+        <translation>输入你的密码：</translation>
     </message>
     <message>
         <source>Enter your password a second time:</source>
-        <translation>再次输入您的密码:</translation>
+        <translation>再次输入你的密码：</translation>
     </message>
     <message>
         <source>Wrong Input</source>
@@ -14323,7 +14323,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>The two passwords you entered don&apos;t match!</source>
-        <translation>您输入的两个密码不符合!</translation>
+        <translation>你输入的两个密码不匹配！</translation>
     </message>
     <message>
         <source>Missing Password</source>
@@ -14331,7 +14331,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>You need to enter a password!</source>
-        <translation>您需要输入密码!</translation>
+        <translation>你需要输入一个密码！</translation>
     </message>
 </context>
 <context>
@@ -14339,17 +14339,17 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     <message>
         <location filename="widgets/qabstractspinbox.cpp" line="1262"/>
         <source>&amp;Select All</source>
-        <translation>全选(&amp;S)</translation>
+        <translation>&amp;选择全部</translation>
     </message>
     <message>
         <location filename="widgets/qabstractspinbox.cpp" line="1268"/>
         <source>&amp;Step up</source>
-        <translation>单步向上(&amp;S)</translation>
+        <translation>&amp;向上一步</translation>
     </message>
     <message>
         <location filename="widgets/qabstractspinbox.cpp" line="1270"/>
         <source>Step &amp;down</source>
-        <translation>单步向下(&amp;D)</translation>
+        <translation>&amp;向下一步</translation>
     </message>
 </context>
 <context>
@@ -14357,48 +14357,48 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1471"/>
         <source>Hu&amp;e:</source>
-        <translation>色调(&amp;E):</translation>
+        <translation>&amp;色调：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1472"/>
         <source>&amp;Sat:</source>
-        <translation>饱和度(&amp;S):</translation>
+        <translation>&amp;饱和度：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1473"/>
         <source>&amp;Val:</source>
-        <translation>亮度(&amp;V):</translation>
+        <translation>&amp;亮度：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1474"/>
         <source>&amp;Red:</source>
-        <translation>红(&amp;R):</translation>
+        <translation>&amp;红：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1475"/>
         <source>&amp;Green:</source>
-        <translation>绿(&amp;G):</translation>
+        <translation>&amp;绿：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1476"/>
         <source>Bl&amp;ue:</source>
-        <translation>蓝(&amp;U):</translation>
+        <translation>&amp;蓝：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1477"/>
         <source>A&amp;lpha channel:</source>
-        <translation>Alpha 色频(&amp;L):</translation>
+        <translation>&amp;Alpha 通道：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1478"/>
         <source>&amp;HTML:</source>
-        <translation>&amp;HTML:</translation>
+        <translation>&amp;HTML：</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1643"/>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>游标位于 %1, %2
+        <translation>光标在 %1，%2
 按 ESC 键取消</translation>
     </message>
     <message>
@@ -14409,22 +14409,22 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1854"/>
         <source>&amp;Basic colors</source>
-        <translation>基本颜色(&amp;B)</translation>
+        <translation>&amp;基础颜色</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1855"/>
         <source>&amp;Custom colors</source>
-        <translation>自订颜色(&amp;C)</translation>
+        <translation>&amp;自定义颜色</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1856"/>
         <source>&amp;Add to Custom Colors</source>
-        <translation>增加自订颜色(&amp;A)</translation>
+        <translation>&amp;添加自定义颜色</translation>
     </message>
     <message>
         <location filename="dialogs/qcolordialog.cpp" line="1857"/>
         <source>&amp;Pick Screen Color</source>
-        <translation>选择荧幕颜色(&amp;P)</translation>
+        <translation>&amp;选择屏幕颜色</translation>
     </message>
 </context>
 <context>
@@ -14432,7 +14432,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qdialog.cpp" line="622"/>
         <source>What&apos;s This?</source>
-        <translation>这是什么?</translation>
+        <translation>这是什么？</translation>
     </message>
 </context>
 <context>
@@ -14458,27 +14458,27 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="167"/>
         <source>Debug Message:</source>
-        <translation>侦错讯息:</translation>
+        <translation>调试消息：</translation>
     </message>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="170"/>
         <source>Warning:</source>
-        <translation>警告:</translation>
+        <translation>警告：</translation>
     </message>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="173"/>
         <source>Fatal Error:</source>
-        <translation>严重错误:</translation>
+        <translation>致命错误：</translation>
     </message>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="371"/>
         <source>&amp;Show this message again</source>
-        <translation>再次显示此讯息(&amp;S)</translation>
+        <translation>&amp;再次展示此消息</translation>
     </message>
     <message>
         <location filename="dialogs/qerrormessage.cpp" line="372"/>
         <source>&amp;OK</source>
-        <translation>确定(&amp;O)</translation>
+        <translation>&amp;确定</translation>
     </message>
 </context>
 <context>
@@ -14486,27 +14486,27 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/qlineedit.cpp" line="2115"/>
         <source>&amp;Undo</source>
-        <translation>取消(&amp;U)</translation>
+        <translation>&amp;撤销</translation>
     </message>
     <message>
         <location filename="widgets/qlineedit.cpp" line="2120"/>
         <source>&amp;Redo</source>
-        <translation>重做(&amp;R)</translation>
+        <translation>&amp;重做</translation>
     </message>
     <message>
         <location filename="widgets/qlineedit.cpp" line="2130"/>
         <source>Cu&amp;t</source>
-        <translation>剪下(&amp;T)</translation>
+        <translation>&amp;剪切</translation>
     </message>
     <message>
         <location filename="widgets/qlineedit.cpp" line="2137"/>
         <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
+        <translation>&amp;复制</translation>
     </message>
     <message>
         <location filename="widgets/qlineedit.cpp" line="2144"/>
         <source>&amp;Paste</source>
-        <translation>贴上(&amp;P)</translation>
+        <translation>&amp;粘贴</translation>
     </message>
     <message>
         <location filename="widgets/qlineedit.cpp" line="2152"/>
@@ -14516,7 +14516,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/qlineedit.cpp" line="2161"/>
         <source>Select All</source>
-        <translation>全选</translation>
+        <translation>选择全部</translation>
     </message>
 </context>
 <context>
@@ -14529,12 +14529,12 @@ Press ESC to cancel</source>
     <message>
         <location filename="widgets/qmdisubwindow.cpp" line="346"/>
         <source>Help</source>
-        <translation>说明</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <location filename="widgets/qmdisubwindow.cpp" line="1063"/>
         <source>&amp;Close</source>
-        <translation>关闭(&amp;C)</translation>
+        <translation>&amp;关闭</translation>
     </message>
 </context>
 <context>
@@ -14542,17 +14542,17 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="169"/>
         <source>Show Details...</source>
-        <translation>显示详细资料...</translation>
+        <translation>显示详情……</translation>
     </message>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="169"/>
         <source>Hide Details...</source>
-        <translation>隐藏详细资料...</translation>
+        <translation>隐藏详情……</translation>
     </message>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1808"/>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;关于 Qt&lt;/h3&gt;&lt;p&gt;这个程式使用 Qt %1 版本。&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;关于 Qt&lt;/h3&gt;&lt;p&gt;本程序使用 Qt %1 版本。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1813"/>
