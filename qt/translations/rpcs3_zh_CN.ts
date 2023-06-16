@@ -14149,7 +14149,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Error Sending Password Reset Token</source>
-        <translation>发送密码重置令牌出错</translation>
+        <translation>发送密码重置令牌时出错</translation>
     </message>
     <message>
         <source>Failed to send the password reset token:\n%0</source>
@@ -14212,7 +14212,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Failed to connect to RPCN:\n%0</source>
-        <translation>连接 RPCN 失败：\n%0</translation>
+        <translation>连接到 RPCN 失败：\n%0</translation>
     </message>
     <message>
         <source>Error connecting to RPCN!</source>
@@ -14232,7 +14232,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Error removing a friend!</source>
-        <translation>删除朋友时出错！</translation>
+        <translation>移除朋友时出错！</translation>
     </message>
     <message>
         <source>An error occured trying to remove a friend!</source>
