@@ -16,12 +16,12 @@
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="226"/>
         <source>Specify ID of System Call or Function Call below. You need to use a Hexadecimal ID.</source>
-        <translation>指定系统调用或下方函数调用的 ID。你需要使用一个十六进制的 ID。</translation>
+        <translation>指定下方系统调用或函数调用的 ID。你需要使用一个十六进制的 ID。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="229"/>
         <source>Currently it gets an id of &quot;Unset&quot;.</source>
-        <translation>当前获取的 ID 为&quot;未设定&quot;。</translation>
+        <translation>当前获取的 ID 为「未设定」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="287"/>
@@ -44,12 +44,12 @@
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="382"/>
         <source>Save Image At</source>
-        <translation>图片储存在</translation>
+        <translation>保存图像于</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="388"/>
         <source>Save Image</source>
-        <translation>储存图片</translation>
+        <translation>保存图像</translation>
     </message>
 </context>
 <context>
@@ -64,7 +64,7 @@
         <location filename="rpcs3qt/localized.h" line="26"/>
         <source>Photo App</source>
         <oldsource>App Photo</oldsource>
-        <translation>照片应用</translation>
+        <translation>相片应用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="27"/>
@@ -75,7 +75,7 @@
         <location filename="rpcs3qt/localized.h" line="28"/>
         <source>TV App</source>
         <oldsource>App TV</oldsource>
-        <translation>电视应用</translation>
+        <translation>TV 应用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="29"/>
@@ -101,7 +101,7 @@
     <message>
         <location filename="rpcs3qt/localized.h" line="33"/>
         <source>Home</source>
-        <translation>Home</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="34"/>
@@ -372,8 +372,8 @@
         <location filename="main.cpp" line="1332"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
-        <translation>没有启动目标的情况下，不能运行无 GUI 模式。
-正在终止……</translation>
+        <translation>没有启动目标，无法运行无 GUI 模式。
+正在结束……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="658"/>
@@ -383,7 +383,7 @@ Terminating...</source>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="658"/>
         <source>Cannot perform SPU capture due to the thread need manual pausing!</source>
-        <translation>因线程需要手动暂停，无法执行 SPU 捕获！</translation>
+        <translation>由于线程需要手动暂停，无法执行 SPU 捕获！</translation>
     </message>
 </context>
 <context>
@@ -398,10 +398,10 @@ If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEin
 LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If choosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</oldsource>
-        <translation>这些库默认为低阶模拟（LLE）（下方列表），选择会切换至高阶模拟（HLE）。
-LLE - &quot;低阶模拟&quot;，选中的 SPRX 文件内的功能码会被用于输出固件功能。
-HLE - &quot;高阶模拟&quot;，可替用模拟器代码会被用以代替输出固件功能。
-如选择错误，游戏将无法工作！如不确定，两个列表请保留空选状态。高阶模拟所有 SPRX 可使游戏在固件未安装下启动。（实验性功能）</translation>
+        <translation>这些库默认为低阶模拟（LLE）（偏下一点的列表），选择会切换至高阶模拟（HLE）。
+LLE - 「低阶模拟」，选中的 SPRX 文件内的功能码会被用于输出固件功能。
+HLE - 「高阶模拟」，可替用模拟器代码会被用以代替输出固件功能。
+如选择错误，游戏将无法工作！如不确定，两个列表请保留空选状态。高阶模拟所有 SPRX 使得固件未安装时也允许启动。（实验性功能）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="24"/>
@@ -413,10 +413,10 @@ If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEin
 LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If choosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</oldsource>
-        <translation>这些库默认为高阶模拟（HLE）（上方列表），选择会切换至低阶模拟（LLE）。
-LLE - &quot;低阶模拟&quot;，选中的 SPRX 文件内的功能码会被用于输出固件功能。
-HLE - &quot;高阶模拟&quot;，可替用模拟器代码会被用以代替输出固件功能。
-如选择错误，游戏将无法工作！如不确定，两个列表请保留空选状态。高阶模拟所有 SPRX 可使游戏在固件未安装下启动。（实验性功能）</translation>
+        <translation>这些库默认为高阶模拟（HLE）（偏上一点的列表），选择会切换至低阶模拟（LLE）。
+LLE - 「低阶模拟」，选中的 SPRX 文件内的功能码会被用于输出固件功能。
+HLE - 「高阶模拟」，可替用模拟器代码会被用以代替输出固件功能。
+如选择错误，游戏将无法工作！如不确定，两个列表请保留空选状态。高阶模拟所有 SPRX 使得固件未安装时也允许启动。（实验性功能）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="25"/>
@@ -432,7 +432,7 @@ HLE - &quot;高阶模拟&quot;，可替用模拟器代码会被用以代替输�
         <location filename="rpcs3qt/tooltips.h" line="28"/>
         <source>Increases the amount of usable system memory to match a DECR console and more.
 Causes some software to behave differently than on retail hardware.</source>
-        <translation>增加可用系统内存量以符合一台 DECR 主机或更多（别的不知道的主机）。
+        <translation>增加可用系统内存量以匹配一台 DECR 主机或更多（别的不知道的主机）。
 这会使得一些软件的表现与在零售版硬件上的有所不同。</translation>
     </message>
     <message>
@@ -466,10 +466,10 @@ Causes some software to behave differently than on retail hardware.</source>
 · Precise is the most accurate to PS3 behaviour.
 · Approximate is just a faster way to generate occlusion data which may not always match what the PS3 would generate.
 · Relaxed changes the synchronization method completely and can improve performance in some games or completely break others.</oldsource>
-        <translation>更改 ZCULL 报告的同步行为。尝试为你的游戏找到最佳选项。对大多数游戏，建议使用近似模式。
-· 精确是对 PS3 行为的最精确（模拟）。在一些作品中为求精确的视觉效果，此模式是必须的，如 Demon&apos;s Souls 和 The Darkness。
-· 近似是一种快得多的生成遮挡数据的方式，但和 PS3 生成的并不总是一致。适用于大多数 PS3 游戏。
-· 轻松完全改变了同步的方法，可以极大提升一些游戏的表现，或完全使有些游戏不能运行。</translation>
+        <translation>更改 ZCULL 报告的同步行为。尝试为你的游戏找到最佳选项。对大多数游戏，推荐使用近似模式。
+· 精确是对 PS3 行为的最精准（模拟）。在一些作品中为求精准的视觉效果，此模式是必须的，如 Demon&apos;s Souls 和 The Darkness。
+· 近似是一种快得多的生成遮挡数据的方式，但和 PS3 生成的可能并不总是一致。同大多数 PS3 游戏工作融洽。
+· 轻松完全改变了同步的方法，可以极大提升一些游戏的表现，或使有些游戏完全不能运行。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="43"/>
@@ -522,7 +522,7 @@ Increments/Decrements for each test should be around 100μs to 200μs until find
 Values above 1000μs may cause noticeable performance penalties, use with caution.</oldsource>
         <translation>控制 RSX 在被 Cell 处理器唤醒后开始处理所需的时间。
 增加唤醒延迟可以提升稳定性，但非常高的值会降低 RSX/GPU 的表现。
-推荐以 20 到 40 微秒的增量来调整此值，直至达到最理想稳定性的最佳值。</translation>
+推荐以 20µs 到 40µs 的增量来调整此值，直至达到最理想稳定性的最佳值。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="50"/>
@@ -531,7 +531,7 @@ Right-click a game in the game list and choose &quot;Configure&quot; instead.</s
         <oldsource>Do not change this setting globally.
 Right-click the game in game list and choose &quot;Configure&quot; instead.</oldsource>
         <translation>请勿全局更改此设置。
-右击游戏列表中的一款游戏，然后选择 &quot;配置&quot; 来替代。</translation>
+右击游戏列表中的一款游戏，然后选择「配置」来替代。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="51"/>
@@ -542,8 +542,8 @@ Use &apos;Fast&apos; to use a faster but hacky version. This option is internall
 Use &apos;Host&apos; mode for more spec compliant behavior at the cost of CPU overhead.
 Use &apos;Device&apos; to let your driver handle this. Beware that &apos;device&apos; mode technically violates official spec but is the superior option.</oldsource>
         <translation>当使用异步流（asynchronous streaming）时，会决定如何调度 GPU 执行异步计算工作。
-使用“安全”模式以获得更符合规格的行为；会耗费一些 CPU 开销。此设置在所有设备上都可运行。
-使用“快速”来启用一个更快但略带黑客性质的版本。此选项在 NVIDIA GPU 内部被禁用，因会导致 GPU 挂起。</translation>
+使用「Safe」模式以获得更符合规格的行为；会耗费一些 CPU 开销。此设置在所有设备上都可运行。
+使用「Fast」来启用一个更快但略带黑客性质的版本。此选项在 NVIDIA GPU 内部被禁用，因会导致 GPU 挂起。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="52"/>
@@ -580,7 +580,7 @@ If it&apos;s not availiable, FAudio could be used instead.</oldsource>
         <source>Uses 16-bit audio samples instead of default 32-bit floating point.
 Use with buggy audio drivers if you have no sound or completely broken sound.</source>
         <translation>使用 16 位音频取样，而非默认的 32 位浮点取样。
-如果你没有声音或完全损坏了声音，则是使用了有缺陷的音频驱动。</translation>
+如果你没有声音或完全破坏了声音，则是使用了有缺陷的音频驱动。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="66"/>
@@ -593,21 +593,21 @@ Values above 100% might reduce the audio quality.</source>
         <location filename="rpcs3qt/tooltips.h" line="67"/>
         <source>Enables audio buffering, which reduces crackle/stutter but increases audio latency.</source>
         <oldsource>Enables audio buffering, which reduces crackle/stutter but increases audio latency (requires XAudio2 or OpenAL).</oldsource>
-        <translation>启用音频缓冲可减少爆音或断续，但会增加音频延迟。</translation>
+        <translation>启用音频缓冲可减少爆音或音频断续，但会增加延迟。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="68"/>
         <source>Target buffer duration in milliseconds.
 Higher values make the buffering algorithm&apos;s job easier, but may introduce noticeable audio latency.</source>
         <translation>目标缓冲时长，单位为毫秒。
-较高的值会使缓冲算法工作起来更轻松，但可能会导致显著的音频延迟。</translation>
+较高的值会使缓冲算法工作起来更轻松，但可能会引入显著的音频延迟。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="69"/>
         <source>Enables time stretching - requires buffering to be enabled.
 Reduces crackle/stutter further, but may cause a very noticeable reduction in audio quality on slower CPUs.</source>
         <translation>启用时间拉伸——需启用缓冲。
-进一步减少爆音或断续，但在较弱的 CPU 上可能会引起非常显著的音质下滑。</translation>
+进一步减少爆音或音频断续，但在较慢的 CPU 上可能会引起非常显著的音质下滑。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="70"/>
@@ -620,10 +620,10 @@ Reduces crackle/stutter further, but may cause a very noticeable reduction in au
 SingStar emulates a SingStar device and should be used with SingStar games.
 Real SingStar should only be used with a REAL SingStar device with SingStar games.
 Rocksmith should be used with a Rocksmith dongle.</source>
-        <translation>对大多数游戏，应当使用“标准”。
-“SingStar”模拟了一台 SingStar 设备，且应当用于 SingStar 游戏。
-“真 SingStar”应当且仅应当用于一台“真” SingStar 设备的 SingStar 游戏。
-“Rocksmith”应当用于 Rocksmith 适配器。</translation>
+        <translation>对大多数游戏，应当使用 Standard。
+SingStar 模拟了一台 SingStar 设备，且应当用于 SingStar 游戏。
+真 SingStar 应当且仅应当用于一台“真” SingStar 设备的 SingStar 游戏。
+Rocksmith 应当用于 Rocksmith 适配器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="77"/>
@@ -635,10 +635,10 @@ If unsure, use this option.</source>
 This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
 If unsure, use this option.</oldsource>
-        <translation>在游戏首次运行之前，使用 LLVM 重编译器，重编译并缓存游戏的 PPU 码一次。
+        <translation>在游戏首次运行之前，使用 LLVM 重编译器重编译并缓存游戏的 PPU 码。
 这是迄今最为快速的选项，应当始终使用。
-若你遇到了兼容性问题，回落至解释器的一种，然后重试。
-如果不确定，则使用此选项。</translation>
+假设你遇到了兼容性问题，回落至解释器的一种然后重试。
+如不确定，则使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="78"/>
@@ -668,9 +668,9 @@ If you experience issues, use the ASMJIT Recompiler.</source>
         <oldsource>This is the fastest option with very good compatibility.
 Recompiles the game&apos;s SPU LLVM cache before running which adds extra start-up time.
 If you experience issues, use the ASMJIT Recompiler.</oldsource>
-        <translation>在游戏运行之前，使用 LLVM 重编译器，重编译并缓存游戏的 SPU 码；会增加额外的启动时间。
-这是非常好的兼容性的最快选项。
-如果遇到问题，请使用 ASMJIT 重编译器。</translation>
+        <translation>在游戏运行之前，使用 LLVM 重编译器重编译并缓存其 SPU 码；会增加额外的启动时间。
+这是有着非常好的兼容性的最快选项。
+如果你遇到问题，则使用 ASMJIT 重编译器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="83"/>
@@ -693,7 +693,7 @@ Changing the thread scheduler is not supported on CPUs with less than 12 threads
 Each option heavily depends on the game and on your CPU, it&apos;s recommended to try each option to find out which performs the best.
 Changing the thread scheduler is not supported on CPUs with less than 12 threads.</oldsource>
         <translation>控制 RPCS3 如何利用你的系统线程。
-每个选项很大程度上会因游戏和你的 CPU 而有所不同。推荐尝试一下每个选项以找出表现最佳者。
+每个选项很大程度上会因游戏和你的 CPU 而有所不同。推荐尝试每个选项以找出表现最佳者。
 调整线程调度器在少于 12 线程的 CPU 上是不支持的。</translation>
     </message>
     <message>
@@ -705,15 +705,15 @@ Forcing TSX in these cases may lead to system and performance instability, use i
 Needs to be forced on some Haswell or Broadwell CPUs.
 Forcing this on older Hardware can lead to system instability, use it with caution.</oldsource>
         <translation>启用 TSX 指令的使用。
-在一些 Haswell 或 Boradwell CPU，或支持 TSX-FA 指令集的 CPU 上，此选项需要强制开启。
-在这些情况下，强制开启 TSX 会导致系统和性能的不稳定，请小心使用。</translation>
+在一些 Haswell 或 Boradwell CPU，或支持 TSX-FA 指令集的 CPU 上，此选项需要强制启用。
+在这些情形下强制启用 TSX 会导致系统和性能的不稳定，请小心使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="85"/>
         <source>Try to detect loop conditions in SPU kernels and use them as scheduling hints.
 Improves performance and reduces CPU usage.
 May cause severe audio stuttering in rare cases.</source>
-        <translation>尝试在 SPU 内核中探测循环条件并使用它们作为调度提示。
+        <translation>尝试在 SPU 内核中检测循环条件并使用它们作为调度提示。
 提升表现并减少 CPU 使用。
 在极少数情形下，会引起严重的音频断续问题。</translation>
     </message>
@@ -721,7 +721,7 @@ May cause severe audio stuttering in rare cases.</source>
         <location filename="rpcs3qt/tooltips.h" line="87"/>
         <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
 Use the Safe mode for maximum compatibility.</source>
-        <translation>此选项控制 SPU 分析器，尤其是编译单元的尺寸。Mega 和 Giga 模式通过将小的单元捆扎一起（减少编译的单元数量但增大其尺寸）来提升性能。
+        <translation>此选项控制 SPU 分析器，特别是编译单元的尺寸。Mega 和 Giga 模式通过将小的单元捆扎一起（减少编译的单元数量但增大其尺寸）来提升性能。
 如求最佳兼容性，请使用 Safe 模式。</translation>
     </message>
     <message>
@@ -740,7 +740,7 @@ Only useful to developers.
 Never use this.</source>
         <translation>创建 PPU 日志。
 仅对开发人员有用。
-请勿使用。</translation>
+永远别用这个。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="95"/>
@@ -749,7 +749,7 @@ Only useful to developers.
 Never use this.</source>
         <translation>创建 SPU 日志。
 仅对开发人员有用。
-请勿使用。</translation>
+永远别用这个。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="96"/>
@@ -758,7 +758,7 @@ Only useful to developers.
 Never use this.</source>
         <translation>创建 MFC 日志。
 仅对开发人员有用。
-请勿使用。</translation>
+永远别用这个。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="97"/>
@@ -766,10 +766,10 @@ Never use this.</source>
 Only used in PPU thread when it&apos;s not precise.
 Only useful to developers.
 Never use this.</source>
-        <translation>设定特殊 MXCSR 标志位来调试在 SSE 运算中的错误信息。
+        <translation>设定特殊 MXCSR 标志位来调试在 SSE 运算中的错误。
 仅在不精确的 PPU 线程中使用。
 仅对开发人员有用。
-请勿使用。</translation>
+永远别用这个。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="29"/>
@@ -787,7 +787,7 @@ Never use this.</source>
         <source>Accurately processes PPU DCBZ instruction.
 In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses will be processed atomically.</source>
         <translation>精准处理 PPU DCBZ 指令。
-此外，在与精准 SPU DMA 组合使用时，SPU PUT 缓存线的存取会被原子性地处理。</translation>
+此外，在与精准 SPU DMA 组合使用时，SPU PUT 缓存行访问会被原子性地处理。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="30"/>
@@ -1393,7 +1393,7 @@ Might degrade performance and introduce stuttering in some cases.
 Required for Demon&apos;s Souls.</source>
         <translation>如果你在游戏中遇到图形丢失或光线破坏的问题，请启用此项。
 在某些情形下可能会降低性能并引入卡顿。
-Demon&apos;s Souls 强制要求此项（开启）。</translation>
+对 Demon&apos;s Souls 是必须的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="172"/>
@@ -1423,12 +1423,12 @@ May degrade performance.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="137"/>
         <source>Shows &apos;Compiling PPU modules&apos; hint using the native overlay.</source>
-        <translation>使用本体覆盖显示“编译 PPU 模组”提示。</translation>
+        <translation>使用原生蒙层来展示「编译 PPU 模块」提示。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="174"/>
         <source>Overrides the aspect ratio and stretches the image to the full display area.</source>
-        <translation>覆盖屏幕宽高比，将图片拉伸到全屏区域。</translation>
+        <translation>覆盖屏幕宽高比，并将图像拉伸到全部显示区域。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="175"/>
@@ -1910,7 +1910,7 @@ See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_
     <message>
         <location filename="rpcs3qt/tooltips.h" line="259"/>
         <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation>为使用 DualShock 4 处理程序，你可能需要添加 udev 规则以让 RPCS3 存取控制器。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
+        <translation>为使用 DualShock 4 处理程序，你可能需要添加 udev 规则以让 RPCS3 访问控制器。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="260"/>
@@ -5988,20 +5988,20 @@ Please reinstall the HDD boot game.</source>
         <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
         <comment>HDD Game Check Error</comment>
-        <translation>没有足够的空间以创建 HDD 启动游戏。
+        <translation>没有足够的空间以创建硬盘启动游戏。
 需要的空间：%0 KB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="76"/>
         <source>HDD boot game %0 is corrupt!</source>
         <comment>HDD Game Check Error</comment>
-        <translation>HDD 启动游戏 %0 已损坏！</translation>
+        <translation>硬盘启动游戏 %0 已损坏！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="77"/>
         <source>HDD boot game %0 could not be found!</source>
         <comment>HDD Game Check Error</comment>
-        <translation>无法找到 HDD 启动游戏 %0！</translation>
+        <translation>无法找到硬盘启动游戏 %0！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="78"/>
@@ -6136,7 +6136,7 @@ Space Needed: %0 KB</source>
         <source>Invalid memory access.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>无效的内存存取。
+        <translation>无效的内存访问。
 (%0)</translation>
     </message>
     <message>
@@ -6352,7 +6352,7 @@ Space Needed: %0 KB</source>
         <source>Access violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>存取违例。
+        <translation>访问违例。
 (%0)</translation>
     </message>
     <message>
@@ -12052,7 +12052,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2364"/>
         <source>Accurate RSX reservation access</source>
-        <translation>精准 RSX 预留存取</translation>
+        <translation>精准 RSX 预留访问</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="157"/>
@@ -12136,7 +12136,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <translation>少于 %0 线程的 CPU 上，不支持更改线程调度器。
 
 控制 RPCS3 如何利用你的系统的线程。
-每一选项严重依赖于游戏和你的 CPU，推荐尝试每一选项以找出表现最佳者。</translation>
+每个选项很大程度上会因游戏和你的 CPU 而有所不同，推荐尝试每个选项以找出表现最佳者。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="315"/>
