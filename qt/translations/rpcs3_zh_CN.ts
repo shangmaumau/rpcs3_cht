@@ -867,9 +867,9 @@ Requires &apos;Write Color Buffers&apos; option to also be enabled in most cases
 Significantly degrades performance but is more accurate in some cases.
 This setting overrides the &apos;GPU texture scaling&apos; option.</source>
         <translation>强制所有 blit 和图像处理的模拟在 CPU 上运行。
-在大多数情形下，还需要启用“写入色彩缓冲”选项以避免图形丢失。
+在大多数情形下，还需要启用「写入颜色缓冲」选项以避免图形丢失。
 极大降低性能，但在一些情形中会更精准。
-此设置会覆盖“GPU 纹理缩放”选项。</translation>
+此设置会覆盖「GPU 纹理缩放」选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="113"/>
