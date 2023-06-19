@@ -946,7 +946,7 @@ Known to fix the rhythm game Space Channel 5 Part 2</source>
 This mode is like hibernation of emulation: if you don&apos;t want to be able to cheat using savestates when playing the game, consider using this mode.
 Do note that the savestate file is not gone completely just ignored by RPCS3, you can manually relaunch it if needed.</source>
         <translation>当此模式开启时，保存（游戏进度）时模拟会退出，且存档文件在加载后，为防 RPCS3 复用，会被隐藏。
-此模式类似于“模拟冬眠”：如果你在游玩游戏时不想使用存档来作弊，可以考虑使用此模式。 
+此模式类似于模拟的休眠：如果你在玩游戏时不想使用存档来作弊，可以考虑使用此模式。 
 请务必注意，存档文件并没有完全移除，只是 RPCS3 忽略了它，如有需要，你可以手动再次加载它。</translation>
     </message>
     <message>
@@ -961,7 +961,7 @@ This allows players to prepare for gameplay without being thrown into the action
         <source>Controls which PS3 audio API is used.
 Games use CellAudio, while VSH requires RSXAudio.</source>
         <translation>控制 PS3 使用哪个音频 API。
-游戏使用 CellAudio，但 VSH 却得 RSXAudio 才可以。</translation>
+游戏使用 CellAudio，但 VSH 却得用 RSXAudio。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="61"/>
@@ -980,8 +980,8 @@ Configure this setting if you want to switch between stereo and surround sound.
 Changing these values requires a restart of the game.
 The manual setting will use your selected formats while the automatic setting will let the game choose from all available formats.</source>
         <translation>确定声音格式。
-如果你想在立体声和环绕声之间切换，则配置此设置项。
-变更这些值需要重启游戏。
+如果你想在立体声和环绕声之间切换，请配置此设置项。
+变更这些值需要游戏重新启动。
 手动设置会使用你选择的格式，自动设置会让游戏从所有可用的格式中（自动）选择。</translation>
     </message>
     <message>
@@ -1026,28 +1026,28 @@ If unsure, do not modify this setting.</source>
         <location filename="rpcs3qt/tooltips.h" line="99"/>
         <source>Respect Non-Java Mode Bit values for vector ops in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>为 PPU 后端中的向量操作，遵循非 Java 模式位的值。
+        <translation>在 PPU 后端中的向量操作，遵循「非 Java 模式位」的值。
 如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="34"/>
         <source>Fixup NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>修复 PPU 后端中向量指令的 NaN 结果。
+        <translation>在 PPU 后端中的向量指令里，修正 NaN 结果。
 如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="100"/>
         <source>Accurately set NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>在 PPU 后端中的向量指令精准设定 NaN 结果。
+        <translation>在 PPU 后端中的向量指令里，精准设定 NaN 结果。
 如不确定，请勿修改此设置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="101"/>
         <source>Accurately set FPCC Bits in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation>在 PPU 后端中精准设定 FPCC 位。
+        <translation>在 PPU 后端中，精准设定 FPCC 位。
 如不确定，请勿修改此设置。</translation>
     </message>
     <message>
@@ -1056,16 +1056,16 @@ If unsure, do not modify this setting.</source>
 Higher values cause a more pronounced effect, but may cause audio or performance issues. A value of 50 or less is recommended.
 This option forces an FPS limit because it&apos;s active when framerate is stable.
 The lighter the game is on the hardware, the more power is saved by it. (until the preemption count barrier is reached)</source>
-        <translation>减少 CPU 使用和电量消耗，在移动设备上改善电池寿命。（0 表示已禁用）
+        <translation>减少 CPU 使用和电量消耗，在移动设备上改善电池寿命。（0 意味着已禁用）
 更高的值会带来更显著的效果，但可能引起音频或性能的问题。推荐 50 或更小的值。
-此选项会强制帧率固定，因为当帧率稳定时，它就变活跃了。
-游戏占用硬件越少，就会省更多电（直至达到抢占计数的栅栏）。</translation>
+此选项会强制帧率固定，因为当帧率稳定时它就成活跃态了。
+游戏占用硬件越少，它就会省更多电（直至达到抢占计数的栅栏）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="111"/>
         <source>Disables all video output and PS3 graphical rendering.
 Its only use case is to evaluate performance on CELL for development.</source>
-        <translation>禁止所有视频输出和 PS3 图形渲染。
+        <translation>禁用所有视频输出和 PS3 图形渲染。
 唯一的用场是用于评估开发阶段的 CELL 性能。</translation>
     </message>
     <message>
@@ -1075,9 +1075,9 @@ Anaglyph is traditional blue-red.
 Side-by-Side is more commonly supported by VR viewer apps.
 Over-Under is closer to the native stereo output, but less commonly supported.</source>
         <translation>设定 3D 立体渲染模式。
-“Anaglyph”为传统的蓝红色。
-“Side-by-Side”通常更多地由 VR 浏览应用支持。
-“Over-Under”更接近原生的立体输出，但受支持较少。</translation>
+「Anaglyph」为传统的蓝红色。
+「Side-by-Side」通常更多地由 VR 浏览应用支持。
+「Over-Under」更接近原生的立体输出，但受支持较少。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="124"/>
@@ -1105,32 +1105,32 @@ This requires the org.freedesktop.ScreenSaver D-Bus service on Linux.
 This option will be disabled if the current platform does not support display sleep control.</source>
         <translation>游戏运行时，防止屏幕休眠。
 在 Linux 上，此功能需要 org.freedesktop.ScreenSaver 的 D-Bus 服务。
-如果当前平台不支持屏幕休眠控制，则此项会禁用</translation>
+如果当前平台不支持屏幕休眠控制，则此项会禁用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="127"/>
         <source>Configure the game window title.
 Changing this and/or adding the framerate may cause buggy or outdated recording software to not notice RPCS3.</source>
         <translation>配置游戏视窗的标题。
-变更此值并/或增加帧率会导致问题，或过时的录制软件注意不到 RPCS3.</translation>
+变更此值并/或增加帧率会导致有问题的或过时的录制软件注意不到 RPCS3.</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="128"/>
         <source>Automatically resizes the game window on boot.
 This does not change the internal game resolution.</source>
         <translation>在游戏启动时自动调整其视窗尺寸。
-不会改变游戏内部的分辨率。</translation>
+这不会改变游戏内部的分辨率。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="129"/>
         <source>Show trophy pop-ups when a trophy is unlocked.</source>
-        <translation>奖杯解锁时展示其弹窗。</translation>
+        <translation>奖杯解锁时展示其弹出窗口。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="130"/>
         <source>Disables the activation of fullscreen mode per double-click while the game screen is active.
 Check this if you want to play with mouse and keyboard (for example with UCR).</source>
-        <translation>当游戏画面处于活跃态时，禁止通过双击触发全屏模式。
+        <translation>当游戏屏幕处于活跃态时，禁用双击对全屏模式的触发。
 如果你想用鼠标和键盘游玩（例如 UCR），请检查此项。</translation>
     </message>
     <message>
@@ -1141,8 +1141,8 @@ Check this if you want to play with mouse and keyboard.</source>
         <oldsource>Disables keyboard hotkeys such as Ctrl-S, Ctrl-E, Ctrl-R, Ctrl-P while the game screen is active.
 This does not include Ctrl-L (hide and lock mouse) and Alt-Enter (toggle fullscreen).
 Check this if you want to play with mouse and keyboard.</oldsource>
-        <translation>当游戏画面处于活跃态时，禁用键盘快捷键，像：Ctrl+S、Ctrl+E、Ctrl+R、Ctrl+P。
-并不包含 Ctrl+L (隐藏及锁定鼠标) 和 Alt+Enter (切换全屏) 。
+        <translation>当游戏屏幕处于活跃态时，禁用键盘快捷键，像：Ctrl+S、Ctrl+E、Ctrl+R、Ctrl+P。
+并不包含 Ctrl+L (隐藏及锁定鼠标) 和 Alt+Enter (切至全屏) 。
 如果你想用鼠标和键盘游玩，请检查此项。</translation>
     </message>
     <message>
@@ -1154,20 +1154,20 @@ The default uses all available threads.</source>
 Lower this in order to increase performance of other open applications.
 The default uses all available threads.</oldsource>
         <translation>限制初始化 PPU 和 SPU 模块编译使用的最大线程数量。
-减少此值以提升其他打开的应用的性能。
+减少此值以提升其他开启着的应用的性能。
 默认使用所有可用的线程。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="133"/>
         <source>Shows the mouse cursor when the fullscreen mode is active.
 Currently this may not work every time.</source>
-        <translation>全屏模式激活时，显示鼠标光标。
+        <translation>全屏模式处于活跃态时，显示鼠标光标。
 目前可能并非每次都有效。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="134"/>
         <source>Locks the mouse cursor at center when the fullscreen mode is active.</source>
-        <translation>全屏模式激活时，将鼠标光标锁定在中心位置。</translation>
+        <translation>全屏模式处于活跃态时，锁定鼠标光标在中心位置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="135"/>
@@ -1178,15 +1178,15 @@ Currently this may not work every time.</source>
         <location filename="rpcs3qt/tooltips.h" line="136"/>
         <source>Shows &apos;Compiling shaders&apos; hint using the native overlay.</source>
         <oldsource>Show shader compilation hints using the native overlay.</oldsource>
-        <translation>使用原生蒙层来展示编译着色器的提示。</translation>
+        <translation>使用原生蒙层来展示「正在编译着色器」的提示。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="138"/>
         <source>Enables use of native HUD within the game window that can interact with game controllers.
 When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
-        <translation>允许游戏窗口内的原生 HUD 与游戏控制器互动。 
-禁用时，会替换使用普通的 Qt 对话框。 
+        <translation>启用游戏视窗内的原生 HUD 的使用，可与游戏控制器互动。
+禁用时，会替换使用常规的 Qt 对话框。 
 当前，屏内键盘仅支持英文按键布局。</translation>
     </message>
     <message>
