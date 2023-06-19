@@ -1056,10 +1056,10 @@ If unsure, do not modify this setting.</source>
 Higher values cause a more pronounced effect, but may cause audio or performance issues. A value of 50 or less is recommended.
 This option forces an FPS limit because it&apos;s active when framerate is stable.
 The lighter the game is on the hardware, the more power is saved by it. (until the preemption count barrier is reached)</source>
-        <translation>减少 CPU 使用和电量消耗，在移动设备上改善电池寿命。（0 意味着已禁用）
+        <translation>减少 CPU 使用和电量消耗，在移动设备上提升续航时间。（0 意味着已禁用）
 更高的值会带来更显著的效果，但可能引起音频或性能的问题。推荐 50 或更小的值。
 此选项会强制帧率固定，因为当帧率稳定时它就成活跃态了。
-游戏占用硬件越少，它就会省更多电（直至达到抢占计数的栅栏）。</translation>
+游戏占用硬件越少，就会省更多电（直至达到抢占计数的栅栏）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="111"/>
