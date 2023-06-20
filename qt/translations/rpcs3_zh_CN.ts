@@ -800,13 +800,13 @@ In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses wi
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
         <translation>强制延迟所有奇数 MFC 指令，至少等待两个待处理命令，以使用随机序列执行它们。
-目前必须与任一 SPU 解释器一起使用。
+当前必须与任一 SPU 解释器一起使用。
 严重降低性能！如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="104"/>
         <source>Allows to hook some functions like &apos;memcpy&apos; replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
-        <translation>允许钩拽某些函数像&apos;memcpy&apos;，使用更高级的实现来替换它们。可能什么也不做，也可能搞砸一些东西。实验性功能。</translation>
+        <translation>允许钩住某些函数如&apos;memcpy&apos;，并使用更高级的实现来替换它们。可能什么也不做，也可能搞砸一些东西。实验性功能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="105"/>
@@ -816,7 +816,7 @@ If unsure, don&apos;t use this option.</source>
         <oldsource>Enables use of classic OpenGL buffers which allows capturing tools to work with RPCS3 e.g RenderDoc.
 If unsure, don&apos;t use this option.</oldsource>
         <translation>启用经典 OpenGL 缓冲的使用，以允许一些捕获工具能和 RPCS3 一起工作，如 RenderDoc。
-为求更佳的 Renderdoc 捕获，亦允许 Vulkan 使用调试标记。
+为求更棒的 Renderdoc 捕获，也允许 Vulkan 使用调试标记。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -825,7 +825,7 @@ If unsure, don&apos;t use this option.</oldsource>
 Not necessary for average users.
 If unsure, don&apos;t use this option.</source>
         <translation>仅在调试 GPU 硬件差异时有用。
-一般用户不需要。
+一般使用者不需要。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -834,7 +834,7 @@ If unsure, don&apos;t use this option.</source>
 Will cause severe performance degradation especially with Vulkan.
 Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-        <translation>启用已选 API 的内置调试功能。
+        <translation>启用已选择 API 的内置调试功能。
 会导致严重的性能下降，尤其是 Vulkan。
 仅对开发人员有用。
 如不确定，请勿使用此选项。</translation>
@@ -843,7 +843,7 @@ If unsure, don&apos;t use this option.</source>
         <location filename="rpcs3qt/tooltips.h" line="108"/>
         <source>Provides a graphical overlay of various debugging information.
 If unsure, don&apos;t use this option.</source>
-        <translation>提供一个多种调试信息的图形蒙层。
+        <translation>提供多种调试信息的图形蒙层。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -886,7 +886,7 @@ This setting overrides the &apos;GPU texture scaling&apos; option.</source>
         <source>Force all texture transfer, scaling and conversion operations on the GPU.
 May cause texture corruption in some cases.</source>
         <translation>强制所有纹理的传输、缩放和转换在 GPU 上运行。
-在一些情形下可能会导致纹理毁坏。</translation>
+在一些情形下可能会导致纹理损坏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="116"/>
@@ -897,7 +897,7 @@ May cause texture corruption in some cases.</source>
         <location filename="rpcs3qt/tooltips.h" line="118"/>
         <source>When enabled, PPU atomic operations will operate on entire cache line data, as opposed to a single 64bit block of memory when disabled.
 Numerical values control whether or not to enable the accurate version based on the atomic operation&apos;s length.</source>
-        <translation>启用后，PPU 原子操作会运行在整个缓存行数据上，与之相反，禁用后，则只有一个单独的 64 位内存块。
+        <translation>启用后，PPU 原子操作会运行在整个缓存线数据上，与之相反，禁用后，则只有一个单独的 64 位内存块。
 数值基于原子操作的长度来控制是否启用精准版本。</translation>
     </message>
     <message>
@@ -924,9 +924,9 @@ Numerical values control whether or not to enable the accurate version based on 
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
         <oldsource>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games over &quot;Atomic&quot; which benefits stability greatly in many games with little performance penalty.</oldsource>
-        <translation>「Fast」是最不精准的设置，RSX 不模拟原子 FIFO 缓冲。
-「Atomic」在许多游戏中极大地有利于其稳定性，只是会有一点点性能的损失。
-「Atomic Ordered」最精准，但也最慢，且对游戏的稳定性没多少好处。</translation>
+        <translation>“快速”是最不精准的设置，RSX 不会模拟原子 FIFO 缓冲。
+“原子”在许多游戏中极大地有利于其稳定性，只是会有一点点性能的损失。
+“有序原子”最精准，但也最慢，且对游戏的稳定性没多少好处。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="47"/>
@@ -938,7 +938,7 @@ Known to fix the rhythm game Space Channel 5 Part 2</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="40"/>
         <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
-        <translation>允许主机 GPU 与 CELL 直接同步。这会带来性能的损失，但暴露了 GPU 对象的真实状态给客户 CPU。可以帮助消除视觉噪音和错误，但会牺牲一部分性能。请小心使用。</translation>
+        <translation>允许 host GPU 与 CELL 直接同步。这会带来性能的损失，但暴露了 GPU object 的真实状态给 guest CPU。以性能为代价，可以帮助消除视觉噪音和错误。请小心使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="53"/>
@@ -1056,7 +1056,7 @@ If unsure, do not modify this setting.</source>
 Higher values cause a more pronounced effect, but may cause audio or performance issues. A value of 50 or less is recommended.
 This option forces an FPS limit because it&apos;s active when framerate is stable.
 The lighter the game is on the hardware, the more power is saved by it. (until the preemption count barrier is reached)</source>
-        <translation>减少 CPU 使用和电量消耗，在移动设备上提升续航时间。（0 意味着已禁用）
+        <translation>减少 CPU 使用和电量消耗，在移动设备上提升电池续航。（0 意味着已禁用）
 更高的值会带来更显著的效果，但可能引起音频或性能的问题。推荐 50 或更小的值。
 此选项会强制帧率固定，因为当帧率稳定时它就成活跃态了。
 游戏占用硬件越少，就会省更多电（直至达到抢占计数的栅栏）。</translation>
@@ -1216,12 +1216,12 @@ In that case it can be helpful to pause the emulation whenever the home menu is 
     <message>
         <location filename="rpcs3qt/tooltips.h" line="144"/>
         <source>Sets the amount of datapoints used in the framerate graph.</source>
-        <translation>设定帧率图中使用的数据点数量。</translation>
+        <translation>设定帧率图中使用的数据点集数量。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="145"/>
         <source>Sets the amount of datapoints used in the frametime graph.</source>
-        <translation>设定框时间图中使用的资料点数量。</translation>
+        <translation>设定框时间图中使用的数据点集数量。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="146"/>
@@ -1239,7 +1239,7 @@ In that case it can be helpful to pause the emulation whenever the home menu is 
 Setting this to 16 milliseconds will refresh the performance overlay at roughly 60Hz.
 The performance overlay refresh rate does not affect the frame graph statistics and can only be as fast as the current game allows.</source>
         <translation>设定性能蒙层更新的时间间隔（以毫秒计）。
-设置到 16 毫秒大概会以 60Hz 刷新性能蒙层。
+设置为 16 毫秒大概会以 60Hz 来刷新性能蒙层。
 性能蒙层的刷新率并不会影响帧率图统计，且只能与当前游戏允许的速度一样快。</translation>
     </message>
     <message>
@@ -1265,33 +1265,33 @@ The performance overlay refresh rate does not affect the frame graph statistics 
     <message>
         <location filename="rpcs3qt/tooltips.h" line="153"/>
         <source>Centers the performance overlay horizontally and overrides the horizontal margin.</source>
-        <translation>水平居中性能蒙层并覆盖水平方向的边距。</translation>
+        <translation>将性能蒙层水平居中，并覆盖水平边距。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="154"/>
         <source>Centers the performance overlay vertically and overrides the vertical margin.</source>
-        <translation>垂直居中性能蒙层并覆盖垂直方向的边距。</translation>
+        <translation>将性能蒙层垂直剧中，并覆盖垂直边距。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="156"/>
         <source>Shows a background image during the native shader loading dialog/loading screen.
 By default the used image will be &lt;gamedir&gt;/PS3_GAME/PIC1.PNG or &lt;gamedir&gt;/PS3_GAME/PIC0.PNG.</source>
-        <translation>在原生着色器加载对话框或加载屏幕期间，展示一张背景图片。
+        <translation>在原生着色器加载对话框/加载屏幕期间，展示一张背景图片。
 默认使用的图片会是 &lt;gamedir&gt;/PS3_GAME/PIC1.PNG 或 &lt;gamedir&gt;/PS3_GAME/PIC0.PNG。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="157"/>
         <source>Changes the background image darkening effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation>调整原生着色器加载对话框的背景图片的暗化效果强度。
-这可能对提升可读性及/或美观度有点用处。</translation>
+        <translation>改变原生着色器加载对话框的背景图片的暗化效果强度。
+这可以用来提升可读性及/或美观度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="158"/>
         <source>Changes the background image blur effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation>调整原生着色器加载对话框的背景图片的虚化效果强度。
-这可能对提升可读性及/或美观度有点用处。</translation>
+        <translation>改变原生着色器加载对话框的背景图片的虚化效果强度。
+这可以用来提升可读性及/或美观度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="162"/>
@@ -1310,17 +1310,17 @@ Rarely due to emulation bugs some games will only render at low resolutions like
 Leave this on 1280x720, every PS3 game is compatible with this resolution.
 Only use 1920x1080 if the game supports it.
 Rarely due to emulation bugs some games will only render at low resolutions like 480p.</oldsource>
-        <translation>如果分辨率的缩放设定高于 100%，此设置会忽略。
+        <translation>如果「分辨率缩放」为设定高于 100% 的任意值，此设置会忽略。
 保留此设置在 1280×720. 所有 PS3 游戏与此分辨率都兼容。
 仅在游戏支持时才使用 1920×1080.
-由于模拟的问题，一些游戏会仅以较低的 480p 分辨率渲染。此种情形极罕见。</translation>
+由于模拟的问题，一些游戏会仅以较低的分辨率如 480p 来渲染。此种情形极罕见。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="164"/>
         <source>On multi GPU systems select which GPU to use in RPCS3 when using Vulkan.
 This is not needed when using OpenGL.</source>
         <translation>在多 GPU 系统中使用 Vulkan 时，选择让 RPCS3 使用哪个 GPU。
-使用 OpenGL 时，此项则不需要。</translation>
+使用 OpenGL 时，此项不需要。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="165"/>
@@ -1348,7 +1348,7 @@ Infinite 添加了一个正反馈循环，即为每一帧添加另一个 vblank 
 Can fix some otherwise difficult to solve graphics glitches.
 Low to moderate performance hit depending on your GPU hardware.</source>
         <translation>模拟 PS3 多重采样布局。
-可以修复其他一些难以解决的图形问题。
+可以修复其他一些难以解决的图形故障。
 根据你的 GPU 硬件规格会有轻微到中等的性能影响。</translation>
     </message>
     <message>
@@ -1359,9 +1359,9 @@ Keep this on Automatic if you want to use the original setting used by a real PS
         <oldsource>Higher values increase sharpness of textures on sloped surfaces at the cost of GPU resources.
 Modern GPUs can handle this setting just fine even at 16x.
 Keep this on Automatic if you want to use the original setting used by a real PS3.</oldsource>
-        <translation>更高的值会增加斜面上的纹理锐度，会耗费一部分 GPU 资源。
+        <translation>更高的值会增加斜面上的纹理锐度，但会消耗一部分 GPU 资源。
 现代 GPU 可以轻松处理此项设置，甚至是以 16x.
-如果你想使用一台真实的 PS3 所用的原始设置，请保持此项为 Automatic。</translation>
+如果你想使用一台真正的 PS3 所用的原始设置，请保持此项为 Automatic。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="169"/>
@@ -1383,7 +1383,7 @@ If unsure, don&apos;t change this option.</source>
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
 Do not touch this setting if you are unsure.</oldsource>
         <translation>仅放大大于此尺寸的帧缓冲器。
-增大此值可能会修复放大时的图形丢失问题，尤其是当「写入色彩缓冲」启用时。
+增大此值可能会修复放大时的图形丢失问题，尤其是当「写入颜色缓冲」启用时。
 如不确定，请勿更改此项。</translation>
     </message>
     <message>
