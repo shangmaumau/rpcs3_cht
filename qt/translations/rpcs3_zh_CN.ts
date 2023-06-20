@@ -800,13 +800,13 @@ In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses wi
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
         <translation>强制延迟所有奇数 MFC 指令，至少等待两个待处理命令，以使用随机序列执行它们。
-当前必须与任一 SPU 解释器一起使用。
+目前必须与任一 SPU 解释器一起使用。
 严重降低性能！如不确定，请勿使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="104"/>
         <source>Allows to hook some functions like &apos;memcpy&apos; replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
-        <translation>允许钩住某些函数如&apos;memcpy&apos;，并使用更高级的实现来替换它们。可能什么也不做，也可能搞砸一些东西。实验性功能。</translation>
+        <translation>允许钩拽某些函数像 &apos;memcpy&apos; 并使用更高级的实现来替换它们。可能什么也不做，也可能搞砸一些东西。实验性功能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="105"/>
@@ -816,7 +816,7 @@ If unsure, don&apos;t use this option.</source>
         <oldsource>Enables use of classic OpenGL buffers which allows capturing tools to work with RPCS3 e.g RenderDoc.
 If unsure, don&apos;t use this option.</oldsource>
         <translation>启用经典 OpenGL 缓冲的使用，以允许一些捕获工具能和 RPCS3 一起工作，如 RenderDoc。
-为求更棒的 Renderdoc 捕获，也允许 Vulkan 使用调试标记。
+为求更佳的 Renderdoc 捕获，也允许 Vulkan 使用调试标记。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -825,7 +825,7 @@ If unsure, don&apos;t use this option.</oldsource>
 Not necessary for average users.
 If unsure, don&apos;t use this option.</source>
         <translation>仅在调试 GPU 硬件差异时有用。
-一般使用者不需要。
+一般用户不需要。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -843,7 +843,7 @@ If unsure, don&apos;t use this option.</source>
         <location filename="rpcs3qt/tooltips.h" line="108"/>
         <source>Provides a graphical overlay of various debugging information.
 If unsure, don&apos;t use this option.</source>
-        <translation>提供多种调试信息的图形蒙层。
+        <translation>提供一个多种调试信息的图形蒙层。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -886,7 +886,7 @@ This setting overrides the &apos;GPU texture scaling&apos; option.</source>
         <source>Force all texture transfer, scaling and conversion operations on the GPU.
 May cause texture corruption in some cases.</source>
         <translation>强制所有纹理的传输、缩放和转换在 GPU 上运行。
-在一些情形下可能会导致纹理损坏。</translation>
+在一些情形下可能会导致纹理毁坏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="116"/>
@@ -897,7 +897,7 @@ May cause texture corruption in some cases.</source>
         <location filename="rpcs3qt/tooltips.h" line="118"/>
         <source>When enabled, PPU atomic operations will operate on entire cache line data, as opposed to a single 64bit block of memory when disabled.
 Numerical values control whether or not to enable the accurate version based on the atomic operation&apos;s length.</source>
-        <translation>启用后，PPU 原子操作会运行在整个缓存线数据上，与之相反，禁用后，则只有一个单独的 64 位内存块。
+        <translation>启用后，PPU 原子操作会运行在整个缓存行数据上，与之相反，禁用后，则只有一个单独的 64 位内存块。
 数值基于原子操作的长度来控制是否启用精准版本。</translation>
     </message>
     <message>
@@ -924,9 +924,9 @@ Numerical values control whether or not to enable the accurate version based on 
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
         <oldsource>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games over &quot;Atomic&quot; which benefits stability greatly in many games with little performance penalty.</oldsource>
-        <translation>“快速”是最不精准的设置，RSX 不会模拟原子 FIFO 缓冲。
-“原子”在许多游戏中极大地有利于其稳定性，只是会有一点点性能的损失。
-“有序原子”最精准，但也最慢，且对游戏的稳定性没多少好处。</translation>
+        <translation>「Fast」是最不精准的设置，RSX 不模拟原子 FIFO 缓冲。
+「Atomic」在许多游戏中极大地有利于其稳定性，只是会有一点点性能的损失。
+「Atomic Ordered」最精准，但也最慢，且对游戏的稳定性没多少好处。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="47"/>
@@ -938,7 +938,7 @@ Known to fix the rhythm game Space Channel 5 Part 2</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="40"/>
         <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
-        <translation>允许 host GPU 与 CELL 直接同步。这会带来性能的损失，但暴露了 GPU object 的真实状态给 guest CPU。以性能为代价，可以帮助消除视觉噪音和错误。请小心使用。</translation>
+        <translation>允许主机 GPU 与 CELL 直接同步。这会带来性能的损失，但暴露了 GPU 对象的真实状态给客户 CPU。可以帮助消除视觉噪音和错误，但会牺牲一部分性能。请小心使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="53"/>
