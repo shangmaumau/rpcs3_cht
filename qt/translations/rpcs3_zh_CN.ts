@@ -1484,7 +1484,7 @@ Only has an impact when shader mode is set to one of the asynchronous modes.</so
     <message>
         <location filename="rpcs3qt/tooltips.h" line="182"/>
         <source>Controls the precision level of generated shaders. Low precision generates much faster code depending on the hardware, but can sometimes generate minor visual glitches or flicker.</source>
-        <translation>控制生成的着色器的精度级别。低精度会根据硬件生成更快的代码，但有时也会产生少量图形故障或闪烁。</translation>
+        <translation>控制生成的着色器的精度级别。低精度会根据硬件生成更快的代码，但有时也会产生少量视觉故障或闪烁。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="184"/>
@@ -1504,8 +1504,8 @@ Only works with Vulkan renderer.</oldsource>
 Automatic will let the driver choose an appropriate mode, while the other options will hint the drivers on whether they should use exclusive or borderless fullscreen.
 Using Prefer borderless fullscreen option can help if you have issues with streaming RPCS3 gameplay or if your system incorrectly enables HDR mode when using fullscreen.</source>
         <translation>使用 Vulkan 渲染器时，控制 RPCS3 从驱动中请求哪种全屏模式。
-「自动」会让驱动（自动）选择一种适当的模式，而其他选项则提示驱动它们应该使用独占式全屏还是无边框全屏。
-如果你串流 RPCS3 游玩时遇到了问题，或如果你的系统在使用全屏时错误地启用了 HDR 模式，则对无边框全屏选项的「优先」使用，（对你）就有所帮助了。</translation>
+「Automatic」会让驱动（自动）选择一种适当的模式，而其他选项则提示驱动它们应该使用独占式全屏还是无边框全屏。
+如果你的 RPCS3 串流游玩遇到了问题，或如果你的系统在使用全屏时错误地启用了 HDR 模式，那么，对无边框全屏选项的「Prefer（优先）」使用，（对你）就有所帮助了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="187"/>
