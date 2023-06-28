@@ -1382,9 +1382,9 @@ If unsure, don&apos;t change this option.</source>
         <oldsource>Only framebuffers greater than this size will be upscaled.
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
 Do not touch this setting if you are unsure.</oldsource>
-        <translation>仅放大大于此尺寸的帧缓冲器。
+        <translation>只有大于此尺寸的帧缓冲器会被放大。
 增大此值可能会修复放大时的图形丢失问题，尤其是当「写入颜色缓冲」启用时。
-如不确定，请勿更改此项。</translation>
+如果你不确定，此选项请碰也不要碰。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="171"/>
@@ -1393,12 +1393,12 @@ Might degrade performance and introduce stuttering in some cases.
 Required for Demon&apos;s Souls.</source>
         <translation>如果你在游戏中遇到图形丢失或光线破坏的问题，请启用此项。
 在某些情形下可能会降低性能并引入卡顿。
-对 Demon&apos;s Souls 是必须的。</translation>
+「恶魔之魂（Demon&apos;s Souls）」必须启用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="172"/>
         <source>By having this off you might obtain a higher frame rate at the cost of tearing artifacts in the game.</source>
-        <translation>关掉此项的话，你可能会得到一个更高的帧率，但代价是撕裂游戏内的物件。</translation>
+        <translation>通过关掉此项，你可能会获得一个更高的帧率，但代价是游戏内的物件的撕裂。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="173"/>
@@ -1407,7 +1407,7 @@ Might result in degraded performance in some games.
 Can resolve rare cases of missing graphics and flickering.
 If unsure, don&apos;t use this option.</source>
         <translation>强制严格遵循 API 规范。
-也许会导致一些游戏的性能降低。
+也许会导致一些游戏的表现变差。
 可解决罕见的图形丢失和闪烁问题。
 如不确定，请勿使用此项。</translation>
     </message>
@@ -1423,12 +1423,12 @@ May degrade performance.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="137"/>
         <source>Shows &apos;Compiling PPU modules&apos; hint using the native overlay.</source>
-        <translation>使用原生蒙层来展示「编译 PPU 模块」提示。</translation>
+        <translation>使用原生蒙层来展示「正在编译 PPU 模块」提示。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="174"/>
         <source>Overrides the aspect ratio and stretches the image to the full display area.</source>
-        <translation>覆盖屏幕宽高比，并将图像拉伸到全部显示区域。</translation>
+        <translation>覆盖宽高比，并将图像拉伸到整个显示区域。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="175"/>
@@ -1438,9 +1438,9 @@ May cause slowdown in weaker CPUs due to the extra worker thread load.</source>
         <oldsource>Offloads some RSX operations to a secondary thread.
 May improve performance for some high-core processors.
 May cause slowdown in some situations due to the extra worker thread load.</oldsource>
-        <translation>将一些 RSX 操作卸解到次要线程。
-一些强核心处理器可能会提升性能。
-由于额外的工作线程负载，在一些情况下可能会导致减慢。</translation>
+        <translation>将一些 RSX 操作转移（offload）到次要线程。
+强核心处理器可提升表现。
+由于额外的工作线程负载，在弱一些的 CPU 上可能会引起降速。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="177"/>
@@ -1449,7 +1449,7 @@ Fixes missing graphics while shaders are compiling but introduces severe stutter
 Use this if you do not want to deal with graphics pop-in, or for testing before filing any bug reports.</source>
         <translation>禁用异步着色器编译。
 修复在着色器编译时的图形丢失问题，但会引入严重的卡顿或延迟。
-如果你不想处理图形异突，或在提交任何测试报告前进行测试，请使用此项。</translation>
+如果你不想处理图形异突（graphics pop-in），或在提交任何测试报告前进行测试，请使用此项。（后半句看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="178"/>
@@ -1457,15 +1457,15 @@ Use this if you do not want to deal with graphics pop-in, or for testing before 
 If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
         <translation>这是推荐选项。
-如果在缓存中未找到着色器，则在编译完成之前，此着色器不会有任何东西渲染出来。
-你可能会经验一些图形异突问题。</translation>
+如果在缓存中未找到某着色器，则在编译完成之前，此着色器不会有任何东西渲染出来。
+你可能会碰到（experience）图形异突（问题）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="179"/>
         <source>Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
         <translation>混合渲染模式。
-如果在缓存中找不到着色器，会用解释器为此着色器渲染近似的图形，直至编译完成。</translation>
+如果在缓存中找不到某着色器，则会用解释器为此着色器渲染近似的图形，直至其编译完成。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="180"/>
@@ -1479,12 +1479,12 @@ This mode is very slow and experimental.</source>
         <source>Number of threads to use for the shader compiler backend.
 Only has an impact when shader mode is set to one of the asynchronous modes.</source>
         <translation>用于着色器编译器后端的线程数量。
-仅在着色器模式设为异步模式的一种时才有影响。</translation>
+仅在着色器模式设为某种异步模式时才有影响。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="182"/>
         <source>Controls the precision level of generated shaders. Low precision generates much faster code depending on the hardware, but can sometimes generate minor visual glitches or flicker.</source>
-        <translation>控制生成着色器的精确度等级。低精确度会根据硬件生成更快的代码，但有时也会生成少量的视觉小问题或闪烁。</translation>
+        <translation>控制生成的着色器的精度级别。低精度会根据硬件生成更快的代码，但有时也会产生少量图形故障或闪烁。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="184"/>
@@ -1494,7 +1494,7 @@ Only works with Vulkan renderer and greatly benefits from having MTRSX enabled i
         <oldsource>Stream textures to GPU in parallel with 3D rendering.
 Can improve performance on more powerful GPUs that have spare headroom.
 Only works with Vulkan renderer.</oldsource>
-        <translation>并行使用异步计算 3D 渲染，并将纹理串流给 GPU.
+        <translation>使用异步计算进行 3D 渲染，将纹理并行串流给 GPU.
 在性能更强且有裕余空间的 GPU 上，可提升性能。
 仅适用于 Vulkan 渲染器，如果你有一个能干的 CPU，则会大大地受益于 MTRSX 的启用。</translation>
     </message>
