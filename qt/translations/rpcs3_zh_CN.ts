@@ -1758,7 +1758,7 @@ This can be very helpful during calibration screens.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="230"/>
         <source>Locks the native overlay input to the first player.</source>
-        <translation>将本体覆盖输入锁定到 Player One。</translation>
+        <translation>将原生蒙层的输入锁定到第一个玩家。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="234"/>
@@ -1789,7 +1789,7 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="283"/>
         <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an addition button mapping.&lt;br&gt;Right-click: clear this button mapping.</source>
-        <translation>左键单击: 重新映射此按钮。&lt;br&gt;Shift + 左键单击: 新增附加按钮映射。&lt;br&gt;右键单击: 清除此按钮映射。</translation>
+        <translation>点击左键：重新映射此按键。&lt;br&gt;Shift + 点击左键：添加一个额外的按键映射。&lt;br&gt;点击右键：清除此按键的映射。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="236"/>
@@ -5360,18 +5360,18 @@ Please increase the limit before running RPCS3.</source>
         <location filename="rpcs3qt/gui_application.cpp" line="576"/>
         <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
-        <translation>停止仿真器用掉过多时间。
-有些执行绪可能已停顿。 正在中止。</translation>
+        <translation>停止模拟器花费了过久的时间。
+一些线程可能已经死锁。正在终止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_application.cpp" line="589"/>
         <source>PS3 Game/Application Is Unresponsive</source>
-        <translation>PS3 游戏或应用程式无回应</translation>
+        <translation>PS3 游戏/应用程序无响应</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_application.cpp" line="593"/>
-        <source>Terminate RPCS3</source>
-        <translation>终止 RPCS3</translation>
+        <source>结束 RPCS3</source>
+        <translation> RPCS3</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gui_application.cpp" line="594"/>
@@ -5382,8 +5382,8 @@ Some thread has probably deadlocked. Aborting.</source>
         <location filename="rpcs3qt/gui_application.cpp" line="596"/>
         <source>Waiting for %0 second(s) already to stop emulation without success.
 Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
-        <translation>已等待 %0 秒以停止仿真，但未成功。
-继续等待或不安全地终止 RPCS3 需要您自担风险?</translation>
+        <translation>停止模拟已等待 %0 秒，但未成功。
+继续等待或不安全地结束 RPCS3？——你要承担风险。</translation>
     </message>
 </context>
 <context>
@@ -5439,8 +5439,8 @@ Any unsaved progress will be lost!
         <location filename="headless_application.cpp" line="146"/>
         <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
-        <translation>停止仿真器用掉过多时间。
-有些执行绪可能已停顿。 正在中止。</translation>
+        <translation>停止模拟器花费了过久的时间。
+一些线程可能已经死锁。正在终止。</translation>
     </message>
 </context>
 <context>
@@ -7763,7 +7763,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="754"/>
         <source>View The Welcome Dialog</source>
-        <translation>检视欢迎对话框</translation>
+        <translation>查看欢迎对话框</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="759"/>
@@ -8257,7 +8257,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="447"/>
         <source>A game or PS3 application is still running or has yet to be fully stopped.</source>
-        <translation>游戏或 PS3 应用程式仍在运作或尚未完全停止。</translation>
+        <translation>一个游戏或 PS3 应用程序仍在运行，或尚未被完全停止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="453"/>
@@ -8268,7 +8268,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="456"/>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <oldsource>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</oldsource>
-        <translation>&lt;br /&gt;&lt;br /&gt;关于设置起步模拟器并转储你的 PS3 游戏的更多信息，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
+        <translation>&lt;br /&gt;&lt;br /&gt;关于设定模拟器并转储你的 PS3 游戏的更多信息，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="459"/>
@@ -8928,7 +8928,7 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="148"/>
         <source>Refresh</source>
-        <translation>更新</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="164"/>
@@ -11724,7 +11724,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1809"/>
         <source>Lock Overlay Input To Player One</source>
-        <translation>将覆盖输入锁定到 Player One</translation>
+        <translation>将蒙层输入锁定至玩家一号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2884"/>
@@ -12781,7 +12781,7 @@ Preview:
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="47"/>
         <source>Show Welcome Dialog</source>
-        <translation>显示欢迎对话框</translation>
+        <translation>展示欢迎对话框</translation>
     </message>
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="50"/>
@@ -13761,12 +13761,12 @@ Stop the emulator now?</source>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="190"/>
         <source>Create desktop shortcut</source>
-        <translation>建立桌面捷径</translation>
+        <translation>创建桌面快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="197"/>
         <source>Create Start Menu shortcut</source>
-        <translation>建立开始选单捷径</translation>
+        <translation>创建开始菜单快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="231"/>
@@ -13824,17 +13824,17 @@ Stop the emulator now?</source>
     <message>
         <location filename="rpcs3qt/welcome_dialog.cpp" line="68"/>
         <source>&amp;Create Start Menu shortcut</source>
-        <translation>&amp;建立开始选单捷径</translation>
+        <translation>&amp;创建开始菜单快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/welcome_dialog.cpp" line="70"/>
         <source>&amp;Create Launchpad shortcut</source>
-        <translation>&amp;建立启动器捷径</translation>
+        <translation>&amp;创建启动面板快捷方式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/welcome_dialog.cpp" line="72"/>
         <source>&amp;Create Application Menu shortcut</source>
-        <translation>&amp;建立应用程式选单捷径</translation>
+        <translation>&amp;创建应用程序菜单快捷方式</translation>
     </message>
 </context>
 <context>
