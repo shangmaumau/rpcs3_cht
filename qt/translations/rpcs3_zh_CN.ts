@@ -1154,7 +1154,7 @@ The default uses all available threads.</source>
 Lower this in order to increase performance of other open applications.
 The default uses all available threads.</oldsource>
         <translation>限制初始化 PPU 和 SPU 模块编译使用的最大线程数量。
-减少此值以提升其他开启着的应用的性能。
+降低此值以提升其他打开着的应用的性能。
 默认使用所有可用的线程。</translation>
     </message>
     <message>
@@ -1167,7 +1167,7 @@ Currently this may not work every time.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="134"/>
         <source>Locks the mouse cursor at center when the fullscreen mode is active.</source>
-        <translation>全屏模式处于活跃态时，锁定鼠标光标在中心位置。</translation>
+        <translation>全屏模式处于活跃态时，将鼠标光标锁定在中心位置。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="135"/>
@@ -1185,7 +1185,7 @@ Currently this may not work every time.</source>
         <source>Enables use of native HUD within the game window that can interact with game controllers.
 When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
-        <translation>启用游戏视窗内的原生 HUD 的使用，可与游戏控制器互动。
+        <translation>启用对游戏视窗内的原生 HUD 的使用，可与游戏控制器互动。
 禁用时，会替换使用常规的 Qt 对话框。 
 当前，屏内键盘仅支持英文按键布局。</translation>
     </message>
@@ -1310,17 +1310,17 @@ Rarely due to emulation bugs some games will only render at low resolutions like
 Leave this on 1280x720, every PS3 game is compatible with this resolution.
 Only use 1920x1080 if the game supports it.
 Rarely due to emulation bugs some games will only render at low resolutions like 480p.</oldsource>
-        <translation>如果「分辨率缩放」为设定高于 100% 的任意值，此设置会忽略。
+        <translation>如果「分辨率缩放」设定为非 100% 的任意值，此设置会被忽略！
 保留此设置在 1280×720. 所有 PS3 游戏与此分辨率都兼容。
 仅在游戏支持时才使用 1920×1080.
-由于模拟的问题，一些游戏会仅以较低的分辨率如 480p 来渲染。此种情形极罕见。</translation>
+罕见地，由于模拟的问题，一些游戏会仅以较低的分辨率如 480p 来渲染。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="164"/>
         <source>On multi GPU systems select which GPU to use in RPCS3 when using Vulkan.
 This is not needed when using OpenGL.</source>
         <translation>在多 GPU 系统中使用 Vulkan 时，选择让 RPCS3 使用哪个 GPU。
-使用 OpenGL 时，此项不需要。</translation>
+此项在使用 OpenGL 时不需要。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="165"/>
@@ -1337,10 +1337,10 @@ Infinite adds a positive feedback loop which adds another vblank signal per fram
 Using the frame limiter will add extra overhead and slow down the game.
 However, some games will crash if the frame rate is too high.
 PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.</oldsource>
-        <translation>Off 是最快的选项。
+        <translation>「Off」是最快的选项。
 使用帧率限制器会增加额外开支并减慢游戏。然而，如果帧率过高，有些游戏就会崩溃。
-仅当 Auto 不能正常工作时，才使用 PS3 原生，因为这会引起帧同步问题。
-Infinite 添加了一个正反馈循环，即为每一帧添加另一个 vblank 信号来使更多游戏的帧率趋于无限。</translation>
+仅当「Auto」不能正常工作时，才使用 PS3 原生，因为它会引起帧同步问题。
+「Infinite」添加了一个正反馈循环，即为每一帧添加另一个 vblank 信号来使更多游戏的帧率趋于无限。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="167"/>
@@ -1360,8 +1360,8 @@ Keep this on Automatic if you want to use the original setting used by a real PS
 Modern GPUs can handle this setting just fine even at 16x.
 Keep this on Automatic if you want to use the original setting used by a real PS3.</oldsource>
         <translation>更高的值会增加斜面上的纹理锐度，但会消耗一部分 GPU 资源。
-现代 GPU 可以轻松处理此项设置，甚至是以 16x.
-如果你想使用一台真正的 PS3 所用的原始设置，请保持此项为 Automatic。</translation>
+现代 GPU 可以轻松处理此项设置，哪怕是 16x.
+如果你想使用一台真正的 PS3 所用的原始设置，请保持此项为「Automatic」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="169"/>
@@ -1370,8 +1370,8 @@ The base resolution is always 1280x720.
 Set this value to 100% if you want to use the normal Resolution options.
 Values below 100% will usually not improve performance.</source>
         <translation>按给定的百分比缩放游戏的分辨率。
-基础分辨率始终是 1280×720.
-如果你想用常规的「分辨率」选项，请将此值设定为 100%.
+基础分辨率始终为 1280×720.
+如果你想用常规的「分辨率」选项，请设定此值为 100%.
 通常来说，低于 100% 的值并不能提升表现。</translation>
     </message>
     <message>
@@ -1384,7 +1384,7 @@ Increasing this value might fix problems with missing graphics when upscaling, e
 Do not touch this setting if you are unsure.</oldsource>
         <translation>只有大于此尺寸的帧缓冲器会被放大。
 增大此值可能会修复放大时的图形丢失问题，尤其是当「写入颜色缓冲」启用时。
-如果你不确定，此选项请碰也不要碰。</translation>
+如果你不确定，此选项请不要触碰。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="171"/>
@@ -1398,7 +1398,7 @@ Required for Demon&apos;s Souls.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="172"/>
         <source>By having this off you might obtain a higher frame rate at the cost of tearing artifacts in the game.</source>
-        <translation>通过关掉此项，你可能会获得一个更高的帧率，但代价是游戏内的物件的撕裂。</translation>
+        <translation>通过关掉此项，你可能会得到一个更高的帧率，但代价是游戏内的物件的撕裂。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="173"/>
@@ -1526,14 +1526,14 @@ FidelityFX 目前不支持立体 3D 输出。</translation>
         <location filename="rpcs3qt/tooltips.h" line="188"/>
         <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
         <oldsource>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artefacts.</oldsource>
-        <translation>控制应用 FidelityFX 超级分辨率之后的锐化强度。较高的值会提供更锐利的输出，但可能会引入伪影。</translation>
+        <translation>控制「FidelityFX 超级分辨率」应用之后的锐化强度。较高的值会提供更锐利的输出，但可能会引入伪影。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="190"/>
         <source>Changes Texture sampling accuracy. (Small changes have a big effect.)
 Avoid using values outside the range of -12 to +12 if you&apos;re unsure.
 -3 to +3 is plenty for most usecases</source>
-        <translation>调整纹理取样的精准度。（小的调整会带来大的影响。）
+        <translation>调整纹理取样的精准度。（小调整会带来大影响。）
 如果你不确定，请避免使用 -12 到 +12 范围之外的值。
 -3 到 +3 对于大多数使用场景来说已经足够了。</translation>
     </message>
@@ -1593,7 +1593,7 @@ Choose a stylesheet and click Apply to change between styles.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="202"/>
         <source>Shows a dialog when obsolete settings were found.</source>
-        <translation>发现废弃的设置项时，展示一个对话框。</translation>
+        <translation>发现淘汰的设置项时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="203"/>
@@ -1603,7 +1603,7 @@ Choose a stylesheet and click Apply to change between styles.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="204"/>
         <source>Shows a dialog when RPCS3 is ready to restart after an update.</source>
-        <translation>在 RPCS3 更新后已经准备好重启时，展示一个对话框。</translation>
+        <translation>在 RPCS3 更新后已准备好重启时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="205"/>
@@ -1612,9 +1612,9 @@ If &quot;Automatic&quot; is selected, the update will run automatically without 
 If &quot;Background&quot; is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</source>
         <oldsource>Checks if an update is available on startup and asks if you want to update.
 If &quot;Background&quot; is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</oldsource>
-        <translation>启动时检查是否有更新可用，并询问用户是否要更新。
-如果「Automatic」选择了，更新无须用户确认即可自动进行。
-如果「Background」选择了，检查会在后台安静完成，如果发现了新版本，就会在菜单右上角展示一个新下载选项。</translation>
+        <translation>启动时检查是否有更新可用，并询问「你是否要更新」。
+如果选择了「Automatic」，更新无须用户确认即可自动进行。
+如果选择了「Background」，检查会在后台安静完成，如果发现了新版本，就会在菜单右上角展示一个新下载选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="206"/>
@@ -1647,25 +1647,25 @@ Multi-threaded: Each pad handler has its own thread.
 Only use multi-threaded if you can spare the extra threads.</source>
         <translation>「单线程的」：所有手柄的处理程序会相继运行在同一线程上。
 「多线程的」：每一个手柄处理程序都有它自己的线程。
-仅当你能匀出额外的线程时，再使用多线程的（方式）。</translation>
+仅当你能匀出额外的线程时，才使用多线程的（方式）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="214"/>
         <source>Shows all configured pads as always connected ingame even if they are physically disconnected.</source>
-        <translation>在游戏中将所有已配置的手柄显示为“始终连接”，即使是它们已经在物理层面上断开了。</translation>
+        <translation>在游戏中将所有已配置的手柄显示为始终连接，即使它们已经在物理层面上断开了。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="215"/>
         <source>Some games support native keyboard input.
 Basic will work in these cases.</source>
-        <translation>一些游戏支持原生的键盘输出。
+        <translation>一些游戏支持原生的键盘输入。
 「Basic」在这些情形下是可正常工作的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="216"/>
         <source>Some games support native mouse input.
 Basic will work in these cases.</source>
-        <translation>一些游戏支持原生的鼠标输出。
+        <translation>一些游戏支持原生的鼠标输入。
 「Basic」在这些情形下是可正常工作的。</translation>
     </message>
     <message>
@@ -1675,7 +1675,7 @@ Select Qt to use the default output device of your operating system.
 This may not be able to play all audio formats.</source>
         <translation>目前仅用于 cellMusic 模拟。
 选择「Qt」以使用你的操作系统默认的输出设备。
-这可能无法播放所有音频格式。</translation>
+这可能无法播放所有的音频格式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="218"/>
@@ -1704,7 +1704,7 @@ This may not be able to play all audio formats.</source>
 Fake: Experimental! This maps Move controls to DS3 controller mappings.
 Mouse: Emulate PSMove with Mouse handler.</source>
         <translation>PlayStation Move 支持。
-「Fake」：实验功能！这会把移动控制映射到 DS3 控制器的按键上。
+「Fake」：实验功能！这会把「移动」控制映射到 DS3 控制器的（按键）映射上。
 「Mouse」：使用鼠标处理程序模拟 PSMove.</translation>
     </message>
     <message>
