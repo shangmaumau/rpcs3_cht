@@ -1425,9 +1425,9 @@ May degrade performance.</source>
         <source>Automatically pause emulation when RPCS3 loses its focus or the application is inactive in order to save power and reduce CPU usage.
 Do note that emulation pausing in general is not perfect and may not be compatible with all games.
 Although it currently also pauses gameplay, it is not recommended to rely on it as this behavior may be changed in the future and it is not the purpose of this setting.</source>
-        <translation>当 RPCS3 失去焦点或应用程式不活动时自动暂停仿真，以节省电量并减少 CPU 使用率。
-请注意，模拟暂停通常并不完美，并且可能不相容所有游戏。
-虽然当前也能暂停游戏，但不建议太过于依赖，这种行为将来可能会改变，并且这不是此设定的目的。</translation>
+        <translation>在 RPCS3 失去焦点或不活跃时，自动暂停模拟，这样可以节约电能并减少对 CPU 的使用。
+请一定要注意：通常此「模拟暂停」功能（的表现）都不太完美，可能也不适用于所有游戏。
+尽管现在它也会暂停游戏游玩，但还是不推荐你（过于）依赖它，因为此行为在未来可能会有所改变，而且这也不是本设置项的目的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="138"/>
@@ -9062,7 +9062,7 @@ RegEx：搜索包含了「与正则表达式输入匹配」的文本的指令。
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="319"/>
         <source>SPU RegEx-Instruction</source>
-        <translation>SPU 正规表达式指令</translation>
+        <translation>SPU 正则表达式指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="320"/>
@@ -11801,7 +11801,7 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="3002"/>
         <source>Show mouse cursor in Fullscreen</source>
         <oldsource>Show mouse cursor in Fullscreen </oldsource>
-        <translation>全屏时展示鼠标光标</translation>
+        <translation>全屏时显示鼠标光标</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3009"/>
