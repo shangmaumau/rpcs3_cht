@@ -2017,7 +2017,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="283"/>
         <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
-        <translation>鼠标移动的模式决定了如何将鼠标的移动转换为手柄的输入。&lt;br&gt;传统鼠标移动的话，使用相对模式。&lt;br&gt;以鼠标（光标）距离屏幕中心的距离作为输入的话，使用相对模式。</translation>
+        <translation>鼠标移动的模式决定了如何将鼠标的移动转换为手柄的输入。&lt;br&gt;传统鼠标移动的话，使用「相对模式」。&lt;br&gt;以鼠标（光标）距离屏幕中心的距离作为输入的话，使用「绝对模式」。</translation>
     </message>
 </context>
 <context>
