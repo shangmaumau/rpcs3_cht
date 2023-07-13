@@ -1722,8 +1722,8 @@ Mouse: Emulate PSMove with Mouse handler.</source>
 Select 1 or 2 controllers if the game requires Buzz! controllers and you don&apos;t have real controllers.
 Select Null if the game has support for DualShock or if you have real Buzz! controllers.</source>
         <translation>Buzz! 支持。
-如果游戏需要 Buzz! 控制器而你并没有真正的控制器，那么选择 1 个或 2 个控制器。
-如果游戏已支持 DualShock 或如果你有真正的 Buzz! 控制器，请选择「Null」。</translation>
+如果游戏必需 Buzz! 控制器，但你没有真实的控制器，那么选择 1 个或 2 个控制器。
+如果游戏已支持 DualShock 或如果你有真实的 Buzz! 控制器，请选择「Null」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="225"/>
@@ -1732,9 +1732,9 @@ Select 1 or 2 controllers if the game requires DJ Hero Turntable controllers and
 Select Null if the game has support for DualShock or if you have real turntable controllers.
 A real turntable controller can be used at the same time as an emulated turntable controller.</source>
         <translation>DJ Hero 转盘控制器支持。
-如果游戏需要 DJ Hero 转盘控制器而你并没有真正的转盘控制器，那么选择 1 个或 2 个控制器。
-如果游戏已支持 DualShock 或如果你有真正的转盘控制器，请选择「Null」。
-真正的转盘控制器可与模拟的转盘模拟器同时使用。</translation>
+如果游戏必需 DJ Hero 转盘控制器，但你没有真实的转盘控制器，那么选择 1 个或 2 个控制器。
+如果游戏已支持 DualShock 或如果你有真实的转盘控制器，请选择「Null」。
+真实的转盘控制器可与模拟的转盘模拟器同时使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="226"/>
@@ -1743,9 +1743,9 @@ Select 1 or 2 controllers if the game requires GHL Guitar controllers and you do
 Select Null if the game has support for DualShock or if you have real guitar controllers.
 A real guitar controller can be used at the same time as an emulated guitar controller.</source>
         <translation>Guitar Hero Live (GHL) 吉他控制器支持。
-如果游戏需要 GHL Guitar 控制器而你并没有真正的吉他控制器，那么选择 1 个或 2 个控制器。
-如果游戏已支持 DualShock 或你有真正的吉他控制器，请选择「Null」。
-真正的吉他控制器可与模拟的吉他控制器同时使用。</translation>
+如果游戏需要 GHL Guitar 控制器，但你并没有真实的吉他控制器，那么选择 1 个或 2 个控制器。
+如果游戏已支持 DualShock 或你有真实的吉他控制器，请选择「Null」。
+真实的吉他控制器可与模拟的吉他控制器同时使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="227"/>
@@ -1757,7 +1757,7 @@ A real guitar controller can be used at the same time as an emulated guitar cont
         <source>Shows the raw position of the PS Move input.
 This can be very helpful during calibration screens.</source>
         <translation>显示 PS Move 输入的原始位置。
-在屏幕校准期间，这会非常有用。</translation>
+在屏幕校准期间，这可能会非常有用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="229"/>
@@ -1781,7 +1781,7 @@ If set to Simulated, RPCS3 will try to fake the PSN connection, but any actual a
 Simulated is only available in custom configurations.</source>
         <translation>如果设为「RPCN」，假如游戏支持的话，RPCS3 会使用 RPCN 服务器作为 PSN 连接。
 如果设为「模拟」，RPCS3 会尝试伪造 PSN 连接，但所有实际的使用 PSN 功能的尝试，结果都会是错误或崩溃。
-模拟仅在自定义配置中可用。</translation>
+「模拟」仅在自定义配置中可用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="238"/>
@@ -1793,12 +1793,12 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="272"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-        <translation>当此特殊按键被按压时，控制压力感应的强度。&lt;br&gt;如果你想换用按键按压来切换强度，请启用&quot;切换&quot;。&lt;br&gt;使用百分比来改变你想按压按键的强度。</translation>
+        <translation>控制压敏按键被按下时的强度。&lt;br&gt;如果你想切换按键的按压强度来替代的话，请启用「切换」。&lt;br&gt;使用百分比来改变你想按压按键的力度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="284"/>
         <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an addition button mapping.&lt;br&gt;Right-click: clear this button mapping.</source>
-        <translation>点击左键：重新映射此按键。&lt;br&gt;Shift + 点击左键：添加一个额外的按键映射。&lt;br&gt;点击右键：清除此按键的映射。</translation>
+        <translation>点击左键：重新映射此按键。&lt;br&gt;Shift + 点击左键：额外添加一个按键映射。&lt;br&gt;点击右键：清除此按键的映射。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="237"/>
@@ -1819,14 +1819,14 @@ Only available in custom configurations.</source>
         <source>Enable UPNP.
 This will automatically forward ports bound on 0.0.0.0 if your router has UPNP enabled.</source>
         <translation>启用 UPNP.
-如果你的路由器启用了 UPNP，这将自动转发绑定在 0.0.0.0 上的端口。</translation>
+如果你的路由器已启用 UPNP，这将自动转发绑定在 0.0.0.0 上的端口。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="244"/>
         <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
         <translation>主机地区定义了 PS3 的许可地区。
-根据许可地区的不同，一些游戏可能没法工作。</translation>
+根据许可地区的不同，一些游戏可能无法使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="245"/>
@@ -1862,7 +1862,7 @@ In these cases having the cross button assigned can often lead to confusion.</ol
         <location filename="rpcs3qt/tooltips.h" line="248"/>
         <source>Required for some Homebrew.
 If unsure, don&apos;t use this option.</source>
-        <translation>一些 Homebrew 游戏对此项是必须的。
+        <translation>一些 Homebrew 游戏对此项是必需的。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -1873,10 +1873,10 @@ Games can use the cache folder to temporarily store data outside of system memor
 This setting is only available in the global configuration.</source>
         <oldsource>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.</oldsource>
-        <translation>如果增长得比指定的值大，则在启动时自动从磁盘缓存中移除旧文件。
-游戏可在系统内存之外，使用缓存文件夹来临时地存储数据。不用于长期存储。
+        <translation>在启动时自动从磁盘中移除旧文件——如果它增长到了大于其指定值时。
+在系统内存之外，游戏可以使用缓存文件夹来临时地存储数据。不用于长期存储。
 
-此设置仅可用于全局配置。</translation>
+此设置仅在全局配置中可用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="250"/>
@@ -1888,7 +1888,7 @@ Can be reset to current wallclock time by clicking &quot;Set to Now&quot;.</sour
     <message>
         <location filename="rpcs3qt/tooltips.h" line="255"/>
         <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
-        <translation>此控制器已禁用，且将被显示为与软件断开连接。选择另一个程序来启用它。</translation>
+        <translation>此控制器已禁用，且将被显示为已与软件断开连接。选择另一个程序来启用它。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="256"/>
@@ -1900,13 +1900,13 @@ Can be reset to current wallclock time by clicking &quot;Set to Now&quot;.</sour
         <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
         <oldsource>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.
 To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</oldsource>
-        <translation>虽然在 RPCS3 中可以用键盘来作为手柄，但还是强烈推荐使用一个真正的控制器。&lt;br&gt;要把鼠标的移动绑定到一个按键或摇杆上，点击想要的按键来激活，或在鼠标拖拽至一个方向时点击并保持。</translation>
+        <translation>虽然在 RPCS3 中可以用键盘来作为手柄，但还是强烈推荐使用一个真实的控制器。&lt;br&gt;要把鼠标的移动绑定到一个按键或摇杆上，点击想要的按键来激活它，然后在鼠标拖拽至某个方向时点击并保持。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="258"/>
         <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <oldsource>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</oldsource>
-        <translation>为使用 DualShock 3 处理程序，你首先需要安装官方的 DualShock 3 驱动程序。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
+        <translation>为了使用 DualShock 3 的处理程序，你首先需要安装官方的 DualShock 3 驱动程序。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="259"/>
@@ -1921,12 +1921,12 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="261"/>
         <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
-        <translation>如果你在使用 DualShock 4 处理程序时遇到了任何问题，它可能是由第三方工具如 DS4Windows 引起的。推荐你在使用此处理程序时将它们禁用。</translation>
+        <translation>如果你在使用 DualShock 4 处理程序时遇到了任何问题，这都可能是因第三方工具如 DS4Windows 引起的。推荐你在使用此处理程序时将它们禁用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="262"/>
         <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation>为使用 DualShock 4 处理程序，你可能需要添加 udev 规则以让 RPCS3 访问控制器。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
+        <translation>为了使用 DualShock 4 的处理程序，你可能需要添加 udev 规则以让 RPCS3 访问控制器。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="263"/>
@@ -1950,7 +1950,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="268"/>
         <source>The evdev handler should work with any controller that has linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation>evdev」处理程序应适用于任何支持 Linux 的控制器。&lt;br&gt;如摇杆未正常居中，请阅读 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的相关说明。</translation>
+        <translation>「evdev」处理程序应当适用于任何支持 Linux 的控制器。&lt;br&gt;如摇杆未正常居中，请阅读 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的相关说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="269"/>
@@ -1965,7 +1965,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="273"/>
         <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 8000 is usually recommended.</source>
-        <translation>实际的 DualShock 3 摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示了模拟的摇杆的最大范围。如果你的摇杆不能达到那个范围的几个角，你可以使用方形圆角值来修改摇杆输入。值为 0 不会应用于任何所谓的方形圆角。值为 8000 则是通常推荐的。</translation>
+        <translation>实际的 DualShock 3 摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示了模拟的摇杆的最大范围。如果你的摇杆不能达到那个范围的几个角，你可以使用方形圆角值来修改摇杆输入。值为 0 不会应用于任何所谓的方形圆角。值为 8000 则通常是推荐的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="274"/>
@@ -1975,12 +1975,12 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="275"/>
         <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is actually simulated as a real DualShock 3&apos;s deadzone of ~13%, so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
-        <translation>摇杆死区决定了在被游戏完全识别到之前，摇杆要移动多远距离。为了给你一个流畅的体验，由此产生的范围将被投射到整个输入范围。死区内的移动实际上被模拟为一个真实的 DualShock 3 的死区的约 13%，因此如果在模拟的摇杆预览中仍有移动，请不必担心。</translation>
+        <translation>摇杆死区决定了在被游戏完全识别到之前，摇杆要移动多远距离。为了给你一个流畅的体验，此结果范围将被投射到整个输入范围。死区内的移动实际上被模拟为一个真的 DualShock 3 的死区的约 13%，因此如果在模拟的摇杆预览中仍显示移动，请不必担心。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="276"/>
         <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.</source>
-        <translation>PS3 激活两个马达 (大的与小的) 来处理控制器的振动。&lt;br&gt;你可以在这里为当前选中的手柄启用、禁用或甚至是切换这些信号。</translation>
+        <translation>PS3 激活两个马达 (大的和小的) 来处理控制器振动。&lt;br&gt;你可以在这里为当前选中的手柄启用、禁用或甚至是切换这些信号。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="277"/>
@@ -1990,12 +1990,12 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="278"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
-        <translation>摇杆预览中模拟的摇杆值（红色圆点）表示实际的摇杆位置，因为它们会对游戏可见。实际的 DualShock 3 摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示模拟摇杆的最大范围。蓝色常规圆点表示了在被转为游戏内使用之前的原始摇杆值（包含摇杆倍率）。</translation>
+        <translation>摇杆预览中模拟的摇杆值（红色圆点）表示实际的摇杆位置，因为它们会对游戏可见。实际的 DualShock 3 的摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示模拟摇杆的最大范围。蓝色常规圆点表示了在被转为游戏内使用之前的原始摇杆值（包含摇杆倍率）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="279"/>
         <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
-        <translation>扳机死区决定了在被游戏识别到之前，扳机要移动多远的距离。为了给你一个流畅的体验，由此产生的范围将被投射至整个输入范围。</translation>
+        <translation>扳机死区决定了在被游戏识别到之前，扳机要移动多远的距离。为了给你一个流畅的体验，此结果范围将被投射至整个输入范围。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="280"/>
@@ -2012,7 +2012,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="282"/>
         <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
-        <translation>鼠标加速可用来放大你的鼠标在 x 和 y 轴上的移动。如果你在玩游戏时感觉你的鼠标移动太慢，就增大这些值。你可以在游戏游玩期间临时地更改这些值以找到最理想的值（x 轴使用 Alt+G 和 Alt+H，y 轴使用 Alt+J 和 Alt+K）请记住，现代的鼠标通常也会提供不同的模式和设置，以用来改变鼠标的移动速度。。</translation>
+        <translation>鼠标加速可用来放大你的鼠标在 x 和 y 轴上的移动。如果你在玩游戏时感觉你的鼠标移动太慢，就增大这些值。你可以在游戏游玩期间临时地更改这些值以找到最理想的值（x 轴使用 Alt+G 和 Alt+H，y 轴使用 Alt+J 和 Alt+K）。请记住，现代的鼠标通常也会提供不同的模式和设置，以用来改变鼠标的移动速度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="283"/>
