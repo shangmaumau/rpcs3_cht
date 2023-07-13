@@ -2229,7 +2229,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
         <source>To use auto pause: enter the ID(s) of a function or a system call.
 Restart of the game is required to apply. You can enable/disable this in the settings.</source>
         <translation>使用自动暂停：请输入函数或系统调用的 ID（可为多个）。
-需要重新开始游戏才会应用。你可以在设置中启用/禁用此功能。</translation>
+要应用的话，必须重启游戏。你可以在设置中启用/禁用此功能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="24"/>
