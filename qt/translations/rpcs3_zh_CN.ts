@@ -7287,7 +7287,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="90"/>
         <source>Trace</source>
-        <translation>Trace</translation>
+        <translation>跟踪</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="148"/>
@@ -7343,7 +7343,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="375"/>
         <source>Cannot find any game boot!</source>
-        <translation>不能找到任何游戏启动！</translation>
+        <translation>未能找到任何游戏启动！</translation>
     </message>
 </context>
 <context>
