@@ -3623,13 +3623,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1144"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
-        <translation>输入使用圆圈键</translation>
+        <translation>输入使用圆形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1145"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
-        <translation>输入使用叉号键</translation>
+        <translation>输入使用叉形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1151"/>
@@ -5019,7 +5019,7 @@ You can clear the line in order to use the original title.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1524"/>
         <source>Confirm Reset</source>
-        <translation>重置确认</translation>
+        <translation>确认重置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1524"/>
@@ -5076,17 +5076,17 @@ Your configuration will revert to the global pad settings.</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1821"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1832"/>
         <source>PPU Cache Batch Creation</source>
-        <translation>批量创建 PPU 缓存</translation>
+        <translation>PPU 缓存批量创建</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1821"/>
         <source>No titles found</source>
-        <translation>一个作品也没发现</translation>
+        <translation>未发现一个作品</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1830"/>
         <source>Creating all PPU caches</source>
-        <translation>创建全部 PPU 缓存</translation>
+        <translation>创建所有 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="318"/>
@@ -5105,7 +5105,7 @@ Your configuration will revert to the global pad settings.</source>
 Progress: %1/%2. Compiling caches for VSH...</source>
         <comment>Second line after main label</comment>
         <translation>%0
-进度：%1/%2。正在编译 VSH 缓存……</translation>
+进度：%1/%2。正在为 VSH 编译缓存……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1871"/>
@@ -5113,14 +5113,14 @@ Progress: %1/%2. Compiling caches for VSH...</source>
 Progress: %1/%2. Compiling caches for %3...</source>
         <comment>Second line after main label</comment>
         <translation>%0
-进度：%1/%2。正在编译%3的缓存……</translation>
+进度：%1/%2。正在为 %3 编译缓存……</translation>
     </message>
     <message numerus="yes">
         <location filename="rpcs3qt/game_list_frame.cpp" line="1897"/>
         <source>Created PPU Caches for %n title(s)</source>
         <oldsource>Created PPU Caches for %0 titles</oldsource>
         <translation>
-            <numerusform>为%n作品创建 PPU 缓存</numerusform>
+            <numerusform>为 %n 等作品创建 PPU 缓存</numerusform>
         </translation>
     </message>
     <message>
@@ -5137,7 +5137,7 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1913"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1917"/>
         <source>PPU Cache Batch Removal</source>
-        <translation>批量移除 PPU 缓存</translation>
+        <translation>PPU 缓存批量移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1913"/>
@@ -5151,7 +5151,7 @@ Progress: %1/%2. Compiling caches for %3...</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1917"/>
         <source>Removing all PPU caches</source>
-        <translation>移除所有 PPU 缓存</translation>
+        <translation>正在移除所有 PPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1938"/>
@@ -5163,23 +5163,23 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1954"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1958"/>
         <source>SPU Cache Batch Removal</source>
-        <translation>批量移除 SPU 缓存</translation>
+        <translation>SPU 缓存批量移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1958"/>
         <source>Removing all SPU caches</source>
-        <translation>移除所有 SPU 缓存</translation>
+        <translation>正在移除所有 SPU 缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1998"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2002"/>
         <source>Custom Configuration Batch Removal</source>
-        <translation>批量移除自定义配置</translation>
+        <translation>自定义配置批量移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2002"/>
         <source>Removing all custom configurations</source>
-        <translation>移除所有自定义配置</translation>
+        <translation>正在移除所有自定义配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2023"/>
@@ -5190,12 +5190,12 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2043"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2047"/>
         <source>Custom Pad Configuration Batch Removal</source>
-        <translation>批量移除自定义手柄配置</translation>
+        <translation>自定义手柄配置批量移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2047"/>
         <source>Removing all custom pad configurations</source>
-        <translation>移除所有自定义手柄配置</translation>
+        <translation>正在移除所有自定义手柄配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2068"/>
@@ -5206,12 +5206,12 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2085"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2089"/>
         <source>Shader Cache Batch Removal</source>
-        <translation>批量移除着色器缓存</translation>
+        <translation>着色器缓存批量移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2089"/>
         <source>Removing all shader caches</source>
-        <translation>移除所有着色器缓存</translation>
+        <translation>正在移除所有着色器缓存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2110"/>
@@ -5234,7 +5234,7 @@ Notes:
 %2</source>
         <translation>%0 [%1]
 
-提示：
+笔记：
 %2</translation>
     </message>
 </context>
@@ -5260,7 +5260,7 @@ Notes:
     <message>
         <location filename="rpcs3qt/game_list_table.cpp" line="338"/>
         <source>%0 (Update available: %1)</source>
-        <translation>%0（可用更新：%1）</translation>
+        <translation>%0（更新可用：%1）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_table.cpp" line="368"/>
@@ -5597,7 +5597,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="67"/>
         <source>For SPUs Group</source>
-        <translation>SPU 群专用</translation>
+        <translation>SPU 组专用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="103"/>
@@ -5664,7 +5664,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="183"/>
         <source>Log All</source>
-        <translation>打印所有日志</translation>
+        <translation>记录所有</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="191"/>
@@ -5674,7 +5674,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="224"/>
         <source>Process Info</source>
-        <translation>处理器信息</translation>
+        <translation>进程信息</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="226"/>
@@ -5724,7 +5724,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="235"/>
         <source>Traces</source>
-        <translation>Traces</translation>
+        <translation>跟踪记录（Traces）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="236"/>
@@ -5776,7 +5776,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="245"/>
         <source>Event Flags</source>
-        <translation>事件标记</translation>
+        <translation>事件标记位</translation>
     </message>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="246"/>
@@ -5831,7 +5831,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/kernel_explorer.cpp" line="839"/>
         <source>Display Buffers</source>
-        <translation>显示缓冲区</translation>
+        <translation>显示缓冲</translation>
     </message>
 </context>
 <context>
@@ -5879,7 +5879,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="44"/>
         <source>Compiling shaders</source>
-        <translation>编译着色器</translation>
+        <translation>正在编译着色器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="46"/>
@@ -5903,7 +5903,7 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="50"/>
         <source>Save Dialog</source>
         <comment>Save Dialog</comment>
-        <translation>保存对话</translation>
+        <translation>保存对话框</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="51"/>
@@ -5915,7 +5915,7 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="52"/>
         <source>Load Save</source>
         <comment>Save Dialog</comment>
-        <translation>加载对话</translation>
+        <translation>加载保存</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="53"/>
@@ -5927,13 +5927,13 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="56"/>
         <source>Space</source>
         <comment>OSK Dialog</comment>
-        <translation>Space</translation>
+        <translation>空格</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="57"/>
         <source>Backspace</source>
         <comment>OSK Dialog</comment>
-        <translation>Backspace</translation>
+        <translation>退格</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="58"/>
@@ -5962,7 +5962,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="45"/>
         <source>Compiling PPU Modules</source>
-        <translation>编译 PPU 模块</translation>
+        <translation>正在编译 PPU 模块</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="54"/>
@@ -6016,7 +6016,7 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="67"/>
         <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
-        <translation>错误：HDD 启动游戏已损坏。应用程序将继续。</translation>
+        <translation>错误：硬盘启动游戏已损坏。应用程序将继续。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="68"/>
@@ -6028,7 +6028,7 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="69"/>
         <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
-        <translation>错误：HDD 启动游戏已损坏。应用程序将被终止。</translation>
+        <translation>错误：硬盘启动游戏已损坏。应用程序将被终止。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="70"/>
@@ -6058,7 +6058,7 @@ Space needed: %0 KB</source>
 
 Please remove the game data for this title.</source>
         <comment>Game Error</comment>
-        <translation>有一个错误！
+        <translation>已经有一个错误了！
 
 请移除此作品的游戏数据。</translation>
     </message>
@@ -6068,16 +6068,16 @@ Please remove the game data for this title.</source>
 
 Please reinstall the HDD boot game.</source>
         <comment>Game Error</comment>
-        <translation>有一个错误！
+        <translation>已经有一个错误了！
 
-请重新安装 HDD 启动游戏。</translation>
+请重新安装硬盘启动游戏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="75"/>
         <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
         <comment>HDD Game Check Error</comment>
-        <translation>没有足够的空间以创建硬盘启动游戏。
+        <translation>没有足够的空间来创建硬盘启动游戏。
 需要的空间：%0 KB</translation>
     </message>
     <message>
@@ -6116,7 +6116,7 @@ Space Needed: %0 KB</source>
         <location filename="rpcs3qt/localized_emu.h" line="81"/>
         <source>The game data in %0 could not be found!</source>
         <comment>Gamedata Check Error</comment>
-        <translation>在 %0 中没有找到游戏数据！</translation>
+        <translation>未能发现 %0 中的游戏数据！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="82"/>
@@ -6145,7 +6145,7 @@ Space Needed: %0 KB</source>
         <source>The feature is not yet implemented.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>此功能尚未实现。
+        <translation>这功能还没实现哩。
 (%0)</translation>
     </message>
     <message>
@@ -6249,7 +6249,7 @@ Space Needed: %0 KB</source>
         <source>Shortage of the kernel resources.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>内核资源不足。
+        <translation>内核资源短缺。
 (%0)</translation>
     </message>
     <message>
@@ -6257,7 +6257,7 @@ Space Needed: %0 KB</source>
         <source>The file is a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>此文件为目录。
+        <translation>此文件是一个目录。
 (%0)</translation>
     </message>
     <message>
@@ -6329,7 +6329,7 @@ Space Needed: %0 KB</source>
         <source>Math domain violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>违背数学域。（看不懂）
+        <translation>违反数学域。（看不懂）
 (%0)</translation>
     </message>
     <message>
@@ -6337,7 +6337,7 @@ Space Needed: %0 KB</source>
         <source>Math range violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>违背数学范围。（看不懂）
+        <translation>违反数学范围。（看不懂）
 (%0)</translation>
     </message>
     <message>
@@ -6345,7 +6345,7 @@ Space Needed: %0 KB</source>
         <source>Illegal multi-byte sequence in input.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>非法的多字节序列输入。
+        <translation>输入中存在非法的多字节序列。
 (%0)</translation>
     </message>
     <message>
@@ -6409,7 +6409,7 @@ Space Needed: %0 KB</source>
         <source>Broken pipe.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>损坏的 pipe.
+        <translation>损坏的管道。
 (%0)</translation>
     </message>
     <message>
@@ -6481,7 +6481,7 @@ Space Needed: %0 KB</source>
         <source>Not a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>非目录。
+        <translation>不是一个目录。
 (%0)</translation>
     </message>
     <message>
@@ -6521,7 +6521,7 @@ Space Needed: %0 KB</source>
         <source>Message size error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>信息大小错误。
+        <translation>信息尺寸错误。
 (%0)</translation>
     </message>
     <message>
@@ -6657,7 +6657,7 @@ Space needed: %0 KB</source>
         <location filename="rpcs3qt/localized_emu.h" line="151"/>
         <source>There is no saved data.</source>
         <comment>Savedata entry info</comment>
-        <translation>没有保存数据。</translation>
+        <translation>无已保存数据。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="152"/>
@@ -6669,7 +6669,7 @@ Space needed: %0 KB</source>
         <location filename="rpcs3qt/localized_emu.h" line="153"/>
         <source>Select to create a new entry</source>
         <comment>Savedata Dialog</comment>
-        <translation>选择或创建一条新记录</translation>
+        <translation>选择来创建一条新记录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="154"/>
@@ -6759,7 +6759,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="165"/>
         <source>RPCN Connection Error: WolfSSL Error</source>
-        <translation>RPCN 连接错误：WolfSLL 错误</translation>
+        <translation>RPCN 连接错误：wolfSLL 错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="166"/>
@@ -6799,7 +6799,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="173"/>
         <source>RPCN Misc Error: Protocol Version Error (outdated RPCS3?)</source>
-        <translation>RPCN 杂项错误：协议版本错误（过时的 RPCS3?）</translation>
+        <translation>RPCN 杂项错误：协议版本错误（RPCS3 版本太旧啦？）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="174"/>
@@ -6874,12 +6874,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="188"/>
         <source>Overlays</source>
-        <translation>Overlays</translation>
+        <translation>蒙层</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="189"/>
         <source>Performance Overlay</source>
-        <translation>性能 Overlay</translation>
+        <translation>性能蒙层</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="190"/>
@@ -6889,7 +6889,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="191"/>
         <source>Take Screenshot</source>
-        <translation>截图</translation>
+        <translation>截个屏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="192"/>
@@ -6914,7 +6914,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="196"/>
         <source>Press and hold the START button to resume</source>
-        <translation>按压并保持 START 按键以继续</translation>
+        <translation>按下并保持 START 按键以继续</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="197"/>
@@ -7149,7 +7149,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="303"/>
         <source>Todo</source>
-        <translation>待办事项</translation>
+        <translation>待办</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="304"/>
@@ -7169,7 +7169,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="307"/>
         <source>Trace</source>
-        <translation>Trace</translation>
+        <translation>跟踪</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="309"/>
@@ -7194,12 +7194,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="358"/>
         <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
-        <translation>从调试器的日志文本跳至已选的十六进制地址。</translation>
+        <translation>从调试器的日志文本跳至选择的十六进制地址。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="378"/>
         <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
-        <translation>从调试器的 TTY 文本跳至已选的十六进制地址。</translation>
+        <translation>从调试器的 TTY 文本跳至选择的十六进制地址。</translation>
     </message>
 </context>
 <context>
@@ -7207,7 +7207,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="30"/>
         <source>Log Viewer</source>
-        <translation>日志浏览器</translation>
+        <translation>日志查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_viewer.cpp" line="64"/>
@@ -7832,7 +7832,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="849"/>
         <location filename="rpcs3qt/main_window.cpp" line="2744"/>
         <source>HDD Games</source>
-        <translation>HDD 游戏</translation>
+        <translation>硬盘游戏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="860"/>
