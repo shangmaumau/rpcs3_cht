@@ -2289,7 +2289,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="159"/>
         <source>&amp;Remove</source>
-        <translation>&amp;删除</translation>
+        <translation>&amp;移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="161"/>
@@ -2318,7 +2318,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="164"/>
         <source>Cannot set breakpoints on non-executable memory!</source>
-        <translation>不可在非执行的内存上设定断点！</translation>
+        <translation>不能在不可执行的内存上设定断点！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="112"/>
@@ -2328,12 +2328,12 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="112"/>
         <source>Cannot set breakpoints on non-interpreter decoders.</source>
-        <translation>不可在非解释器解码器上设定断点。</translation>
+        <translation>不能在非解释器解码器上设定断点。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="122"/>
         <source>Cannot set breakpoints on non-SPU executable memory!</source>
-        <translation>不可在非 SPU 执行的内存上设定断点！</translation>
+        <translation>不能在非 SPU 执行的内存上设定断点！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
@@ -2428,7 +2428,7 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="80"/>
         <source>Select Cg program object</source>
-        <translation>选择 Cg 程序的目标</translation>
+        <translation>选择 Cg 程序实例</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cg_disasm_window.cpp" line="80"/>
@@ -2456,7 +2456,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Offset</source>
-        <translation>偏移</translation>
+        <translation>偏移量</translation>
     </message>
     <message>
         <source>Script</source>
@@ -2500,11 +2500,11 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Import Cheats</source>
-        <translation>输入作弊</translation>
+        <translation>导入作弊</translation>
     </message>
     <message>
         <source>Export Cheats</source>
-        <translation>输出作弊</translation>
+        <translation>导出作弊</translation>
     </message>
     <message>
         <source>Reverse-Lookup Cheat</source>
@@ -2517,11 +2517,11 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Couldn&apos;t convert the value you typed to the integer type of that cheat</source>
-        <translation>你敲下的值无法转换为那个作弊（需要）的整数类型</translation>
+        <translation>你键入的值无法转换为那个作弊（需要）的整数类型</translation>
     </message>
     <message>
         <source>Error applying value</source>
-        <translation>错误的应用值</translation>
+        <translation>应用值时出现错误</translation>
     </message>
     <message>
         <source>Couldn&apos;t patch memory</source>
@@ -2542,7 +2542,7 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="981"/>
         <source>Couldn&apos;t convert the search value you typed to the integer type you selected</source>
-        <translation>你敲下的搜索值无法转换为你选择的整数类型</translation>
+        <translation>你键入的搜索值无法转换为你选择的整数类型</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="991"/>
@@ -2755,14 +2755,14 @@ F11：在指令上执行单步前进。
 F1：展示此帮助对话框。
 上键：向上滚动一条指令。（地址是递减的）
 下键：向下滚动一条指令。（地址是递增的）
-Page-Up 键：向上滚动，其步数等于当前看到的指令数量。
-Page-Down 键：向下滚动，其步数等于当前看到的指令数量。
+上翻页键：向上滚动，其步数等于当前看到的指令数量。
+下翻页键：向下滚动，其步数等于当前看到的指令数量。
 双击：设定断点。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="488"/>
         <source>Max MFC cmds logged</source>
-        <translation>已记录 MFC 指令至最大数量</translation>
+        <translation>MFC 指令已记录至最大数量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="274"/>
@@ -2797,7 +2797,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="544"/>
         <source>Max PPU calls logged</source>
-        <translation>已记录 PPU 调用至最大数量</translation>
+        <translation>PPU 调用已记录至最大数量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="1187"/>
@@ -2851,7 +2851,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="60"/>
         <source>Remove segment</source>
-        <translation>删除切片</translation>
+        <translation>移除切片</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="65"/>
@@ -2881,7 +2881,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="80"/>
         <source>Flags:</source>
-        <translation>村记位：</translation>
+        <translation>标记位：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="129"/>
@@ -3010,10 +3010,10 @@ Consider that a correction might render them invalid for other versions of RPCS3
 Do you wish to let the program correct them for you?
 This change will only be final when you save the config.</source>
         <translation>你的配置文件中包含了一个或多个无法识别的设置项值。
-直至其被更正前，会使用它们的默认值。
-请考虑到：更正操作在其他版本的 RPCS3 中可能会无效渲染。
+在被纠正前，会一直使用它们的默认值。
+请考虑到：纠正操作在其他版本的 RPCS3 中可能会无效渲染。
 
-你希望让程序为你更正它们吗？
+你希望让程序为你纠正它们吗？
 只有你保存的时候，这个更改才会成为最终配置。</translation>
     </message>
     <message>
@@ -3092,13 +3092,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="920"/>
         <source>Legacy (single threaded)</source>
         <comment>Shader Mode</comment>
-        <translation>旧版（单线程）</translation>
+        <translation>老式的（单线程）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="921"/>
         <source>Async (multi threaded)</source>
         <comment>Shader Mode</comment>
-        <translation>异步（多线程）</translation>
+        <translation>异步的（多线程）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="922"/>
@@ -3182,13 +3182,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="950"/>
         <source>High</source>
         <comment>Shader Precision</comment>
-        <translation>高</translation>
+        <translation>High</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="951"/>
         <source>Low</source>
         <comment>Shader Precision</comment>
-        <translation>低</translation>
+        <translation>Low</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="957"/>
@@ -3254,7 +3254,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="981"/>
         <source>Real SingStar</source>
         <comment>Microphone handler</comment>
-        <translation>真正的 SingStar</translation>
+        <translation>真实的 SingStar</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="982"/>
@@ -3404,7 +3404,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1053"/>
         <source>Null (use real Buzzers)</source>
         <comment>Buzz handler</comment>
-        <translation>空（使用真正的 Buzzers）</translation>
+        <translation>空（使用真实的 Buzzers）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1054"/>
@@ -3488,19 +3488,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1092"/>
         <source>As Host</source>
         <comment>Sleep timers accuracy</comment>
-        <translation>As Host</translation>
+        <translation>跟随主机</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1093"/>
         <source>Usleep Only</source>
         <comment>Sleep timers accuracy</comment>
-        <translation>Usleep Only</translation>
+        <translation>仅 Usleep</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1094"/>
         <source>All Timers</source>
         <comment>Sleep timers accuracy</comment>
-        <translation>All Timers</translation>
+        <translation>所有定时器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1100"/>
@@ -3623,13 +3623,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1144"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
-        <translation>用圆圈键输入</translation>
+        <translation>输入使用圆圈键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1145"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
-        <translation>用叉号键输入</translation>
+        <translation>输入使用叉号键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1151"/>
@@ -3641,13 +3641,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1152"/>
         <source>Surround 5.1</source>
         <comment>Audio format</comment>
-        <translation>环绕 5.1</translation>
+        <translation>环绕声 5.1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1153"/>
         <source>Surround 7.1</source>
         <comment>Audio format</comment>
-        <translation>环绕 7.1</translation>
+        <translation>环绕声 7.1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1154"/>
@@ -3665,31 +3665,31 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1161"/>
         <source>Linear PCM 2 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
-        <translation>Linear PCM 2 Ch. 48 kHz</translation>
+        <translation>线性 PCM 双通道 48 kHz</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1162"/>
         <source>Linear PCM 5.1 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
-        <translation>Linear PCM 5.1 Ch. 48 kHz</translation>
+        <translation>线性 PCM 5.1 通道 48 kHz</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1163"/>
         <source>Linear PCM 7.1 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
-        <translation>Linear PCM 7.1 Ch. 48 kHz</translation>
+        <translation>线性 PCM 7.1 通道 48 kHz</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1164"/>
         <source>Dolby Digital 5.1 Ch.</source>
         <comment>Audio format flag</comment>
-        <translation>Dolby Digital 5.1 Ch.</translation>
+        <translation>杜比数字 5.1 通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1165"/>
         <source>DTS 5.1 Ch.</source>
         <comment>Audio format flag</comment>
-        <translation>DTS 5.1 Ch.</translation>
+        <translation>DTS 5.1 通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1171"/>
@@ -3725,19 +3725,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1181"/>
         <source>AV multiout</source>
         <comment>Audio Avport</comment>
-        <translation>AV multiout</translation>
+        <translation>AV multiout（多种模拟音视频输出）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1182"/>
         <source>SPDIF 0</source>
         <comment>Audio Avport</comment>
-        <translation>SPDIF 0</translation>
+        <translation>光纤音频输出 0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1183"/>
         <source>SPDIF 1</source>
         <comment>Audio Avport</comment>
-        <translation>SPDIF 1</translation>
+        <translation>光纤音频输出 1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1189"/>
@@ -3797,7 +3797,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1208"/>
         <source>Japanese</source>
         <comment>System Language</comment>
-        <translation>日本</translation>
+        <translation>日文</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1209"/>
@@ -4079,7 +4079,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1266"/>
         <source>Prefer exclusive fullscreen</source>
         <comment>Exclusive Fullscreen Mode</comment>
-        <translation>优先专用全屏</translation>
+        <translation>优先独占全屏</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1272"/>
@@ -4091,19 +4091,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1273"/>
         <source>Anaglyph</source>
         <comment>3D Display Mode</comment>
-        <translation>浮雕</translation>
+        <translation>红蓝格式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1274"/>
         <source>Side-by-side</source>
         <comment>3D Display Mode</comment>
-        <translation>Side-by-side</translation>
+        <translation>左右格式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1275"/>
         <source>Over-under</source>
         <comment>3D Display Mode</comment>
-        <translation>Over-under</translation>
+        <translation>上下格式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1281"/>
@@ -4129,7 +4129,7 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="52"/>
         <source>Confirm Reset</source>
-        <translation>重置确认</translation>
+        <translation>确认重置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emulated_pad_settings_dialog.cpp" line="52"/>
@@ -4210,7 +4210,7 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="476"/>
         <source>Create</source>
-        <translation>创造</translation>
+        <translation>创建</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="477"/>
@@ -4226,12 +4226,12 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="504"/>
         <source>Figure number entered is invalid!</source>
-        <translation>输入形象编号无效！</translation>
+        <translation>输入的形象编号无效！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="510"/>
         <source>Series number entered is invalid!</source>
-        <translation>输入序列号无效！</translation>
+        <translation>输入的序列号无效！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="523"/>
@@ -4246,13 +4246,13 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="530"/>
         <source>Failed to create figure file!</source>
-        <translation>创建形象文件失败！</translation>
+        <translation>形象文件创建失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="530"/>
         <source>Failed to create figure file:
 %1</source>
-        <translation>创建形象文件失败：
+        <translation>形象文件创建失败：
 %1</translation>
     </message>
 </context>
@@ -4324,7 +4324,7 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="124"/>
         <source>Games that can be properly played from start to finish</source>
-        <translation>游戏能够从头到尾正确地游玩</translation>
+        <translation>游戏能够正常地从头玩到尾</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="125"/>
@@ -4396,7 +4396,7 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="131"/>
         <source>Downloading the compatibility database. Please wait...</source>
-        <translation>正在下载兼容性数据库。请稍候……</translation>
+        <translation>正在下载兼容性数据库。请稍等……</translation>
     </message>
 </context>
 <context>
@@ -4585,7 +4585,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="318"/>
         <source>Loading games, please wait...</source>
-        <translation>正在加载游戏，请稍候……</translation>
+        <translation>正在加载游戏，请稍等……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1015"/>
@@ -4645,7 +4645,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1077"/>
         <source>&amp;Reboot with savestate</source>
-        <translation>使用存档重新启动(&amp;J)</translation>
+        <translation>&amp;使用存档重启</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1078"/>
@@ -4779,7 +4779,7 @@ Falling back to local database.
         <location filename="rpcs3qt/game_list_frame.cpp" line="1716"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1767"/>
         <source>Confirm Removal</source>
-        <translation>移除确认</translation>
+        <translation>确认移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1163"/>
@@ -4814,7 +4814,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1197"/>
         <source>&amp;Edit Tooltip Notes</source>
-        <translation>&amp;编辑工具条提示</translation>
+        <translation>&amp;编辑工具条笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1200"/>
@@ -4854,17 +4854,17 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1217"/>
         <source>&amp;Import Custom Shader Loading Background</source>
-        <translation>&amp;导入自定义着色器加载背景</translation>
+        <translation>&amp;导入自定义着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1218"/>
         <source>&amp;Replace Custom Shader Loading Background</source>
-        <translation>&amp;替换自定义着色器加载背景</translation>
+        <translation>&amp;替换自定义着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1219"/>
         <source>&amp;Remove Custom Shader Loading Background</source>
-        <translation>&amp;移除自定义着色器加载背景</translation>
+        <translation>&amp;移除自定义着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1248"/>
@@ -4879,7 +4879,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1254"/>
         <source>Select Custom Shader Loading Background</source>
-        <translation>选择自定义着色器加载背景</translation>
+        <translation>选择自定义着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1257"/>
@@ -4889,12 +4889,12 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1267"/>
         <source>Remove Custom Icon of %0?</source>
-        <translation>移除%0的自定义图标？</translation>
+        <translation>移除 %0 的自定义图标？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1270"/>
         <source>Remove Custom Hover Gif of %0?</source>
-        <translation>移除%0的自定义悬浮 Gif？</translation>
+        <translation>移除 %0 的自定义悬浮 Gif？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1283"/>
@@ -4909,7 +4909,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1273"/>
         <source>Remove Custom Shader Loading Background of %0?</source>
-        <translation>移除%0的自定义着色器加载背景？</translation>
+        <translation>移除 %0 的自定义着色器加载中背景？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="970"/>
@@ -4934,7 +4934,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1347"/>
         <source>&amp;Copy Name + Serial</source>
-        <translation>&amp;复制名称+序列号</translation>
+        <translation>&amp;复制名称 + 序列号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1348"/>
@@ -4953,14 +4953,14 @@ Current Free Disk Space: %1
 
 </source>
         <translation>游戏目录大小：%0
-当前磁盘剩余空间：%1
+当前磁盘空余容量：%1
 
 </translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1416"/>
         <source>Confirm %1 Removal</source>
-        <translation>确认%1移除</translation>
+        <translation>确认 %1 移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1417"/>
@@ -4977,7 +4977,7 @@ Current Free Disk Space: %1
         <source>Failed to remove %0 from drive!
 Path: %1
 Caches and custom configs have been left intact.</source>
-        <translation>从硬盘中移除%0失败！
+        <translation>从硬盘中移除 %0 失败！
 路径：%1
 缓存与自定义配置未受影响。</translation>
     </message>
@@ -4985,7 +4985,7 @@ Caches and custom configs have been left intact.</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1446"/>
         <source>Failed to remove %0 from drive!
 Path: %1</source>
-        <translation>从硬盘中移除%0失败！
+        <translation>从硬盘中移除 %0 失败！
 路径：%1</translation>
     </message>
     <message>
@@ -5007,7 +5007,7 @@ You can clear the line in order to use the original title.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1505"/>
         <source>Edit Tooltip Notes</source>
-        <translation>编辑工具条提示</translation>
+        <translation>编辑工具条笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1505"/>
