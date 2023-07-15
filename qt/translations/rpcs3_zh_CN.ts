@@ -7371,7 +7371,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="172"/>
         <source>Boot Recent</source>
-        <translation>最近启动</translation>
+        <translation>启动最近（作品）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="183"/>
@@ -7473,7 +7473,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="456"/>
         <source>Install application from a .pkg file</source>
         <oldsource>Install application from pkg file</oldsource>
-        <translation>安装应用程序——以 .pkg 文件</translation>
+        <translation>从一个 .pkg 文件安装应用程序</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="461"/>
@@ -7483,7 +7483,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="464"/>
         <source>Install firmware from PS3UPDAT.PUP</source>
-        <translation>安装固件——以 PS3UPDAT.PUP 文件</translation>
+        <translation>从 PS3UPDAT.PUP 安装固件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="476"/>
@@ -7752,7 +7752,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="731"/>
         <source>Show Game Compatibility in Grid Mode</source>
-        <translation>显示游戏兼容性——在网格模式下</translation>
+        <translation>在网格模式中显示游戏兼容性</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="736"/>
@@ -7862,7 +7862,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.ui" line="904"/>
         <location filename="rpcs3qt/main_window.cpp" line="2749"/>
         <source>Home</source>
-        <translation>Home</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="915"/>
@@ -8012,12 +8012,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1122"/>
         <source>Skylanders Portal</source>
-        <translation>小龙斯派罗 Portal</translation>
+        <translation>《小龙斯派罗》Portal</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1127"/>
         <source>Infinity Base</source>
-        <translation>Infinity Base</translation>
+        <translation>迪士尼《无限》底座</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1132"/>
@@ -8082,7 +8082,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1197"/>
         <source>Log Viewer</source>
-        <translation>日志浏览器</translation>
+        <translation>日志查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1208"/>
@@ -8205,7 +8205,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <oldsource>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</oldsource>
-        <translation>商业游戏必需固件（PS3UPDAT.PUP 文件）的已安装。
+        <translation>商业游戏必需固件（PS3UPDAT.PUP）已安装。
 &lt;br&gt;关于如何获得必需固件的更多信息，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
     </message>
     <message>
@@ -8231,7 +8231,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="426"/>
         <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
-        <translation>虚拟 dev_bdvd 文件夹不存在或为非空文件夹。</translation>
+        <translation>虚拟 dev_bdvd 文件夹不存在或不是空的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="429"/>
@@ -8241,7 +8241,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="432"/>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
-        <translation>数字内容无法解密。这通常是由于授权（RAP）文件缺失或无效。</translation>
+        <translation>数字内容无法解密。这通常是因授权（RAP）文件缺失或无效引起。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="435"/>
@@ -8348,7 +8348,7 @@ Path:
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="794"/>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-        <translation>要观看更新日志，请点选 &quot;显示详细资料&quot;。</translation>
+        <translation>要查看更新日志，请点击「显示细节」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="795"/>
@@ -8363,7 +8363,7 @@ Path:
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="930"/>
         <source>Installing package, please wait...</source>
-        <translation>正在安装软件包，请稍候……</translation>
+        <translation>正在安装软件包，请稍等……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="930"/>
@@ -8424,7 +8424,7 @@ Would you like to install shortcuts to the installed software? (%1 new software 
         <location filename="rpcs3qt/main_window.cpp" line="1180"/>
         <source>The following package cannot be installed on top of the current data:
 %1!</source>
-        <translation>无法在当前数据的顶部安装下列软件包：
+        <translation>无法在当前数据之上安装下列软件包：
 %1！</translation>
     </message>
     <message>
@@ -8442,7 +8442,7 @@ Would you like to install shortcuts to the installed software? (%1 new software 
         <location filename="rpcs3qt/main_window.cpp" line="1251"/>
         <location filename="rpcs3qt/main_window.cpp" line="1276"/>
         <source>Extraction Directory</source>
-        <translation>提取的文件目录</translation>
+        <translation>「提取文件」目录</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1219"/>
@@ -8482,7 +8482,7 @@ Would you like to install shortcuts to the installed software? (%1 new software 
         <source>Extracting encrypted TARs
 Please wait...</source>
         <translation>正在提取加密的 TAR
-请稍候……</translation>
+请稍等……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1302"/>
@@ -8507,7 +8507,7 @@ Please wait...</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1352"/>
         <source>Firmware installation failed: The selected firmware file couldn&apos;t be opened.</source>
-        <translation>固件安装失败：选择的文件无法打开。</translation>
+        <translation>固件安装失败：选择的文件不能打开。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1363"/>
@@ -8522,7 +8522,7 @@ Please wait...</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1375"/>
         <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
-        <translation>固件安装失败：提供的文件不完整。请尝试重新下载它。</translation>
+        <translation>固件安装失败：提供的文件不完整。请尝试重新下载。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1390"/>
@@ -8535,7 +8535,7 @@ Please wait...</source>
         <location filename="rpcs3qt/main_window.cpp" line="1446"/>
         <location filename="rpcs3qt/main_window.cpp" line="1467"/>
         <source>Firmware installation failed: The provided file&apos;s contents are corrupted.</source>
-        <translation>固件安装失败：提供的文件的内容已损坏。</translation>
+        <translation>固件安装失败：提供文件的内容已损坏。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1420"/>
@@ -8545,7 +8545,7 @@ Please wait...</source>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1518"/>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
-        <translation>固件安装失败：固件无法解压</translation>
+        <translation>固件安装失败：固件无法解压缩。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1596"/>
@@ -8600,7 +8600,7 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2759"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
-        <translation>对你的系统来说，自动更新器当前是不可用的。</translation>
+        <translation>当前自动更新器不适用于你的系统</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="3364"/>
@@ -8618,7 +8618,7 @@ And is logged with some sceNpDrm* functions when the game/application which owns
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
         <translation>检测到旧版固件。
-最新的固件版本为 %1 ，你正要尝试安装的版本为 %2
+最新的固件版本为 %1，你正要尝试安装的版本为 %2
 继续安装流程？</translation>
     </message>
     <message>
@@ -8703,7 +8703,7 @@ Changelog:
         <source>Installing package (%0/%1), please wait...
 
 %2</source>
-        <translation>正在安装软件包（%0/%1），请稍候……
+        <translation>正在安装软件包（%0/%1），请稍等……
 
 %2</translation>
     </message>
@@ -8715,7 +8715,7 @@ This is very likely caused by external interference from a faulty anti-virus sof
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
         <translation>从软件包安装软件失败：
 %1！
-这很像由有缺陷的防病毒软件引起的外部干扰！
+这很可能是由有缺陷的防病毒软件的外部干扰造成的。
 请把 RPCS3 添加到你的防病毒软件的白名单中，或使用更佳的防病毒软件。</translation>
     </message>
     <message>
@@ -8730,7 +8730,7 @@ Overwrite current installation with version %2?</source>
         <source>Installing firmware version %1
 Please wait...</source>
         <translation>正在安装固件版本 %1
-请稍候……</translation>
+请稍等……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1527"/>
@@ -8738,13 +8738,13 @@ Please wait...</source>
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
         <translation>固件内容无法提取。
-这很像由有缺陷的防病毒软件引起的外部干扰！
+这很可能是由有缺陷的防病毒软件的外部干扰造成的。
 请把 RPCS3 添加到你的防病毒软件的白名单中，或使用更佳的防病毒软件。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1580"/>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
-        <translation>成功安装 PS3 固件和 LLE 模块！</translation>
+        <translation>已成功安装 PS3 固件及 LLE 模块！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1596"/>
@@ -8861,7 +8861,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
 %0
 
 Check anyway?</source>
-        <translation>该文件的类型看起来有点让人意想不到：
+        <translation>该文件的类型看起来有点意想不到：
 %0
 
 仍要检查？</translation>
@@ -9102,7 +9102,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/msg_dialog_frame.cpp" line="19"/>
         <source>Normal dialog</source>
-        <translation>一般对话框</translation>
+        <translation>普通对话框</translation>
     </message>
     <message>
         <location filename="rpcs3qt/msg_dialog_frame.cpp" line="19"/>
@@ -9166,12 +9166,12 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="78"/>
         <source>Use LED as a battery indicator</source>
-        <translation>使用 LED 作为电池指示器</translation>
+        <translation>使用 LED 作为电量指示器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="88"/>
         <source>LED battery indicator brightness</source>
-        <translation>LED 电池指示器亮度</translation>
+        <translation>LED 电量指示器亮度</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_led_settings_dialog.ui" line="94"/>
@@ -9266,7 +9266,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="46"/>
         <source>Tab 1</source>
-        <translation>Tab 1</translation>
+        <translation>表 1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="66"/>
@@ -9484,7 +9484,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1225"/>
         <source>Select</source>
-        <translation>选择</translation>
+        <translation>Select</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1243"/>
@@ -9494,7 +9494,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1256"/>
         <source>Start</source>
-        <translation>开始</translation>
+        <translation>Start</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1274"/>
@@ -9584,7 +9584,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1824"/>
         <source>Square</source>
-        <translation>方块键</translation>
+        <translation>方形键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1842"/>
@@ -9662,7 +9662,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="152"/>
         <source>Filter Noise</source>
-        <translation>噪音过滤</translation>
+        <translation>过滤嗓音</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="81"/>
@@ -9709,7 +9709,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1691"/>
         <source>Please choose a non-existing name</source>
-        <translation>请选取一个不存在的名称</translation>
+        <translation>请选取一个尚未存在的名称</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="177"/>
@@ -9777,13 +9777,13 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1626"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
-        <translation>「劲舞革命」控制器</translation>
+        <translation>《劲舞革命》控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1631"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
-        <translation>DJ 英雄转盘</translation>
+        <translation>《DJ 英雄》转盘</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1636"/>
@@ -9834,7 +9834,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1843"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
-        <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按钮&lt;b&gt;%1&lt;/b&gt; 被分配了至少两次。&lt;br&gt;请考虑调整配置。&lt;br&gt;&lt;br&gt;仍要继续？&lt;br</translation>
+        <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按键&lt;b&gt;%1&lt;/b&gt; 至少被分配了两次。&lt;br&gt;请考虑调整此配置。&lt;br&gt;&lt;br&gt;仍要继续？&lt;br</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1877"/>
@@ -9903,7 +9903,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="42"/>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="65"/>
         <source>Offset</source>
-        <translation>偏移</translation>
+        <translation>偏移量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="47"/>
@@ -9925,7 +9925,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="104"/>
         <source>Hash</source>
-        <translation>Hash</translation>
+        <translation>哈希</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.ui" line="113"/>
@@ -10009,7 +10009,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="180"/>
         <source>&amp;Remove Instruction(s)</source>
-        <translation>&amp;移除（多个）指令</translation>
+        <translation>&amp;（多个）指令移除</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="189"/>
