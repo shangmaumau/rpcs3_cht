@@ -8348,7 +8348,7 @@ Path:
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="794"/>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-        <translation>要查看更新日志，请点击「显示细节」。</translation>
+        <translation>要查看更新日志，请点击「显示详情」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="795"/>
@@ -10099,7 +10099,7 @@ The export of invalid patches is not allowed.</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="166"/>
         <source>Hash</source>
-        <translation>Hash</translation>
+        <translation>哈希</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.ui" line="112"/>
@@ -10202,7 +10202,7 @@ This action is immediate and irreversible!</source>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="995"/>
         <source>What do you want to do with the patch file?</source>
-        <translation>你想对补丁文件做些什么？</translation>
+        <translation>你想用补丁文件做些什么？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="996"/>
@@ -10228,7 +10228,7 @@ Log:
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1037"/>
         <source>Nothing to import</source>
-        <translation>啥也没导入</translation>
+        <translation>无可导入（补丁）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1037"/>
@@ -10458,7 +10458,7 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
         <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
         <translation>你即将安装多个软件包。
-重新排序并且/或如有需要排除它们，接着点击「安装」以进行。</translation>
+重新排序并且/或如有需要排除它们，然而点击「安装」以进行。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pkg_install_dialog.cpp" line="165"/>
@@ -10510,13 +10510,13 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="199"/>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="221"/>
         <source>Lose reservation on OK</source>
-        <translation>丢弃预留区在 OK 上（看不懂）</translation>
+        <translation>在 OK 上失去预约（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="199"/>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="221"/>
         <source>Reservation is inactive</source>
-        <translation>预留区不活跃</translation>
+        <translation>预约不活跃</translation>
     </message>
     <message>
         <location filename="rpcs3qt/register_editor_dialog.cpp" line="427"/>
@@ -10528,7 +10528,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
         <source>This value could not be converted.
 No changes were made.</source>
         <translation>此值无法转换。
-未产生任何变更。</translation>
+未做出变更。</translation>
     </message>
 </context>
 <context>
@@ -10543,7 +10543,7 @@ No changes were made.</source>
         <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
 
 Selecting ignore starts the emulator without Vulkan support.</source>
-        <translation>查询 Vulkan 兼容设备花费的时间过长。通常这是由有故障的图形驱动所导致，重新安装它们也许可以修复此问题。
+        <translation>查询 Vulkan 兼容设备花费的时间过长。通常这是因有故障的图形驱动所致，重新安装它们可以修复此问题。
 
 选择「忽略」会在没有 Vulkan 支持下启动模拟器。</translation>
     </message>
@@ -10601,12 +10601,12 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="112"/>
         <source>Captured Frame</source>
-        <translation>捕获帧</translation>
+        <translation>捕获的帧</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="113"/>
         <source>Captured Draw Calls</source>
-        <translation>捕获绘制调用</translation>
+        <translation>捕获的绘制调用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/rsx_debugger.cpp" line="115"/>
