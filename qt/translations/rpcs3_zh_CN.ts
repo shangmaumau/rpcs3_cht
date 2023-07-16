@@ -5299,7 +5299,7 @@ Notes:
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="1012"/>
         <source>Screenshot saved: %0</source>
-        <translation>截屏已保存：%0</translation>
+        <translation>屏幕快照已保存：%0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/gs_frame.cpp" line="1077"/>
@@ -6889,7 +6889,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="191"/>
         <source>Take Screenshot</source>
-        <translation>截个屏</translation>
+        <translation>截取屏幕快照</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="192"/>
@@ -8032,7 +8032,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1145"/>
         <source>Screenshots</source>
-        <translation>截屏</translation>
+        <translation>屏幕快照</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="1150"/>
@@ -10919,7 +10919,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/screenshot_manager_dialog.cpp" line="22"/>
         <source>Screenshots</source>
-        <translation>截屏</translation>
+        <translation>屏幕快照</translation>
     </message>
 </context>
 <context>
@@ -10928,7 +10928,7 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="21"/>
         <source>Screenshot Viewer</source>
         <oldsource>Screenshot Preview</oldsource>
-        <translation>截屏查看器</translation>
+        <translation>屏幕快照查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/screenshot_preview.cpp" line="35"/>
@@ -12837,7 +12837,7 @@ Preview:
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="53"/>
         <source>Screenshot</source>
-        <translation>截屏</translation>
+        <translation>屏幕快照</translation>
     </message>
     <message>
         <location filename="rpcs3qt/shortcut_settings.cpp" line="54"/>
