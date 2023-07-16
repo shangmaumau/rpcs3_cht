@@ -966,7 +966,7 @@ Games use CellAudio, while VSH requires RSXAudio.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="61"/>
         <source>Controls which avport is used to sample audio data from.</source>
-        <translation>控制使用哪个 avport 来取样音频数据。</translation>
+        <translation>控制使用哪个音视频端口来取样音频数据。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="62"/>
@@ -10847,7 +10847,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="238"/>
         <source>Loading save data, please wait...</source>
-        <translation>正在加载保存数据，请稍候……</translation>
+        <translation>正在加载保存数据，请稍等……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/save_manager_dialog.cpp" line="238"/>
@@ -11032,7 +11032,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="296"/>
         <source>Preferred SPU Threads</source>
-        <translation>优先 SPU 线程</translation>
+        <translation>优先的 SPU 线程</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="314"/>
@@ -11160,7 +11160,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="678"/>
         <source>Resolution Scale Threshold</source>
-        <translation>解析度比例定限</translation>
+        <translation>分辨率缩放阈值</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="689"/>
@@ -11181,7 +11181,7 @@ No graphics will be rendered.</source>
         <location filename="rpcs3qt/settings_dialog.ui" line="741"/>
         <source>Output Scaling</source>
         <oldsource>Upscaling</oldsource>
-        <translation>输入的缩放等级</translation>
+        <translation>输出缩放比例</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="778"/>
@@ -11221,7 +11221,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="960"/>
         <source>Stretch To Display Area</source>
-        <translation>延伸至显示区域</translation>
+        <translation>拉伸至显示区域</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2628"/>
@@ -11317,22 +11317,22 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1435"/>
         <source>Mic1:</source>
-        <translation>Mic1:</translation>
+        <translation>话筒1：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1448"/>
         <source>Mic3:</source>
-        <translation>Mic3:</translation>
+        <translation>话筒3：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1489"/>
         <source>Mic2:</source>
-        <translation>Mic2:</translation>
+        <translation>话筒2：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1502"/>
         <source>Mic4:</source>
-        <translation>Mic4:</translation>
+        <translation>话筒4：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1585"/>
@@ -11382,7 +11382,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1179"/>
         <source>RSXAudio Avport</source>
-        <translation>RSXAudio Avport</translation>
+        <translation>RSXAudio 音视频端口</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1689"/>
@@ -11407,7 +11407,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1665"/>
         <source>Pad Handler Mode</source>
-        <translation>手柄处理模式</translation>
+        <translation>手柄处理程序模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1882"/>
@@ -11467,7 +11467,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2056"/>
         <source>Cache size: 3072 MB</source>
-        <translation>缓存大小：3 GiB</translation>
+        <translation>缓存大小：3 072 MB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2135"/>
@@ -11549,7 +11549,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2454"/>
         <source>Maximum Number of SPURS Threads</source>
-        <translation>SPURS 最大线程数量</translation>
+        <translation>SPURS 线程最大数量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2529"/>
@@ -11584,7 +11584,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2642"/>
         <source>Disable MSL Fast Math</source>
-        <translation>彬 MSL 快速数学</translation>
+        <translation>禁用 MSL 快速数学</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2658"/>
@@ -11624,7 +11624,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="191"/>
         <source>Max Power Saving CPU-preemptions</source>
-        <translation>最大省电 CPU 抢占</translation>
+        <translation>最省电 CPU 抢占</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="536"/>
@@ -11684,7 +11684,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2413"/>
         <source>Suspend-Emulation Savestates Mode</source>
-        <translation>挂起模拟存档模式</translation>
+        <translation>「挂起模拟」存档模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2487"/>
@@ -11735,7 +11735,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2905"/>
         <source>Prevent display sleep while running games</source>
-        <translation>游戏运行时，禁止显示器睡眠</translation>
+        <translation>运行游戏时阻止显示器睡眠</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2912"/>
@@ -11755,22 +11755,22 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1809"/>
         <source>Lock Overlay Input To Player One</source>
-        <translation>将蒙层输入锁定至玩家一号</translation>
+        <translation>将蒙层输入锁定至玩家一</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2884"/>
         <source>Pause emulation on RPCS3 focus loss</source>
-        <translation>RPCS3 失焦时暂停仿真</translation>
+        <translation>RPCS3 失焦时暂停模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2891"/>
         <source>Pause emulation after loading savestates</source>
-        <translation>载入存档后暂停仿真</translation>
+        <translation>加载存档后暂停模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2898"/>
         <source>Pause emulation during home menu</source>
-        <translation>主页菜单（在前台时）暂停模拟</translation>
+        <translation>主页菜单（显示时）暂停模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2919"/>
@@ -11901,7 +11901,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3322"/>
         <source>Detail Level:</source>
-        <translation>详细等级：</translation>
+        <translation>详情等级：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3350"/>
@@ -12052,7 +12052,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3914"/>
         <source>Check for updates on startup</source>
-        <translation>起动时检测更新</translation>
+        <translation>起动时检查更新</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3926"/>
@@ -12102,7 +12102,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4099"/>
         <source>Force CPU Blit Emulation</source>
-        <translation>强制 CPU blit 模拟</translation>
+        <translation>强制 CPU Blit 模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4106"/>
@@ -12132,7 +12132,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4071"/>
         <source>Disable FIFO Reordering</source>
-        <translation>禁用 FIFO 重排序</translation>
+        <translation>禁用 FIFO 重排</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4130"/>
@@ -12269,7 +12269,7 @@ No graphics will be rendered.</source>
 
 Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU, it&apos;s recommended to try each option to find out which performs the best.</source>
-        <translation>少于 %0 线程的 CPU 上，不支持更改线程调度器。
+        <translation>CPU 线程数小于 %0，不支持更改线程调度器。
 
 控制 RPCS3 如何利用你的系统的线程。
 每个选项很大程度上会因游戏和你的 CPU 而有所不同，推荐尝试每个选项以找出表现最佳者。</translation>
@@ -12373,7 +12373,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="rpcs3qt/settings_dialog.cpp" line="1156"/>
         <source>Master: %0 %</source>
         <comment>Master volume</comment>
-        <translation>Master: %0 %</translation>
+        <translation>Master：%0 %</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="1159"/>
@@ -12396,7 +12396,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="rpcs3qt/settings_dialog.cpp" line="1388"/>
         <source>Maximum size: %0 MB</source>
         <comment>Maximum cache size</comment>
-        <translation>最大大小：%0 MB</translation>
+        <translation>最大尺寸：%0 MB</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="1517"/>
@@ -12442,7 +12442,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
 								Intel 已在较新的微代码修订版中撤销了这些功能，因为它们可引起不可预知的行为。&lt;br&gt;
 								这意味着使用 TSX 可能会破坏游戏，甚或&lt;font color=&quot;red&quot;&gt;&lt;b&gt;毁损&lt;/b&gt;&lt;/font&gt;你的数据。&lt;br&gt;
 								我们推荐禁用此功能并更新你的电脑的 BIOS。&lt;br&gt;&lt;br&gt;
-								还是要用 TSX？
+								你还是要用 TSX？
 							&lt;/p&gt;
 						</translation>
     </message>
@@ -12465,8 +12465,8 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
 							&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 								RPCS3 检测到你的 CPU 仅支持 TSX-FA.&lt;br&gt;
 								这意味着使用 TSX 可能会破坏游戏，甚或&lt;font color=&quot;red&quot;&gt;&lt;b&gt;毁损&lt;/b&gt;&lt;/font&gt;你的数据。&lt;br&gt;
-								我们建议禁用此功能。&lt;br&gt;&lt;br&gt;
-								还是要用 TSX？
+								我们推荐禁用此功能。&lt;br&gt;&lt;br&gt;
+								你还是要用 TSX？
 							&lt;/p&gt;
 						</translation>
     </message>
@@ -12517,7 +12517,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="1621"/>
         <source>Do not touch libsysutil libs, development purposes only, will cause game crashes.</source>
-        <translation>不要碰 libsysutil 库，仅用于开发目的，会让游戏崩溃。</translation>
+        <translation>不要碰 libsysutil 库，仅用于开发目的，会导致游戏崩溃。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="1628"/>
@@ -12607,7 +12607,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="rpcs3qt/settings_dialog.cpp" line="2005"/>
         <source>Thread Count</source>
         <comment>Game window title</comment>
-        <translation>线程数</translation>
+        <translation>线程计数</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="2006"/>
@@ -12631,7 +12631,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="rpcs3qt/settings_dialog.cpp" line="2009"/>
         <source>Title</source>
         <comment>Game window title</comment>
-        <translation>标题</translation>
+        <translation>作品</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="2010"/>
@@ -12748,12 +12748,12 @@ Preview:
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="2482"/>
         <source>Remove obsolete settings?</source>
-        <translation>移除过时的设置项？</translation>
+        <translation>移除淘汰的设置项？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="2483"/>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
-        <translation>你的配置文件中包含了一个或多个过时的记录。&lt;br&gt;考虑到移除的话可能会使其他版本 RPCS3 无效渲染。&lt;br&gt;&lt;br&gt;你想让程序为你移除它们吗？&lt;br&gt;只有你保存的时候，这个更改才会成为最终配置。</translation>
+        <translation>你的配置文件中包含了一个或多个淘汰的记录。&lt;br&gt;考虑到移除的话可能会使其他版本 RPCS3 无效渲染。&lt;br&gt;&lt;br&gt;你想让程序为你移除它们吗？&lt;br&gt;只有你保存的时候，这个更改才会成为最终配置。</translation>
     </message>
 </context>
 <context>
@@ -12911,12 +12911,12 @@ Preview:
     <message>
         <location filename="rpcs3qt/skylander_dialog.cpp" line="630"/>
         <source>Create Skylander File</source>
-        <translation>创造小龙斯派罗文件</translation>
+        <translation>创建小龙斯派罗文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/skylander_dialog.cpp" line="630"/>
         <source>Skylander Object (*.sky);;</source>
-        <translation>小龙斯派罗实体 (*.sky);;</translation>
+        <translation>小龙斯派罗实例 (*.sky);;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/skylander_dialog.cpp" line="639"/>
@@ -13042,7 +13042,7 @@ File was too small.</source>
         <location filename="rpcs3qt/system_cmd_dialog.cpp" line="118"/>
         <source>The selected command is bugged.
 Please contact a developer.</source>
-        <translation>所选指令有点bug。
+        <translation>所选指令有点问题。
 请联系一个开发人员。</translation>
     </message>
     <message>
@@ -13194,13 +13194,13 @@ Please contact a developer.</source>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="162"/>
         <source>Show Not Earned Trophies</source>
         <oldsource>Show Locked Trophies</oldsource>
-        <translation>显示未取得的奖杯</translation>
+        <translation>显示未获得的奖杯</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="166"/>
         <source>Show Earned Trophies</source>
         <oldsource>Show Unlocked Trophies</oldsource>
-        <translation>显示取得的奖杯</translation>
+        <translation>显示获得的奖杯</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="170"/>
@@ -13231,13 +13231,13 @@ Please contact a developer.</source>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="191"/>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="253"/>
         <source>Trophy Icon Size: %0x%1</source>
-        <translation>奖杯图标大小：%0x%1</translation>
+        <translation>奖杯图标尺寸：%0x%1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="194"/>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="282"/>
         <source>Game Icon Size: %0x%1</source>
-        <translation>游戏图标大小：%0x%1</translation>
+        <translation>游戏图标尺寸：%0x%1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="205"/>
@@ -13289,7 +13289,7 @@ Please contact a developer.</source>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="937"/>
         <source>Loading trophy data, please wait...</source>
-        <translation>正在加载奖杯数据，请稍候……</translation>
+        <translation>正在加载奖杯数据，请稍等……</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="937"/>
@@ -13348,12 +13348,12 @@ Please contact a developer.</source>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="1105"/>
         <source>Earned</source>
-        <translation>取得</translation>
+        <translation>已获得</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_manager_dialog.cpp" line="1105"/>
         <source>Not Earned</source>
-        <translation>未取得</translation>
+        <translation>未获得</translation>
     </message>
 </context>
 <context>
@@ -13362,28 +13362,28 @@ Please contact a developer.</source>
         <location filename="rpcs3qt/trophy_notification_frame.cpp" line="44"/>
         <source>You have earned the Bronze trophy.
 %1</source>
-        <translation>你得到了青铜奖杯。
+        <translation>你获得了青铜奖杯。
 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_notification_frame.cpp" line="45"/>
         <source>You have earned the Silver trophy.
 %1</source>
-        <translation>你得到了白银奖杯。
+        <translation>你获得了白银奖杯。
 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_notification_frame.cpp" line="46"/>
         <source>You have earned the Gold trophy.
 %1</source>
-        <translation>你得到了黄金奖杯。
+        <translation>你获得了黄金奖杯。
 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/trophy_notification_frame.cpp" line="47"/>
         <source>You have earned the Platinum trophy.
 %1</source>
-        <translation>你得到了白金奖杯。
+        <translation>你获得了白金奖杯。
 %1</translation>
     </message>
 </context>
@@ -13465,7 +13465,7 @@ Do you want to update to the latest official RPCS3 version?</source>
         <translation>你现在正在使用一个自定义或预发布构建版本。
 
 最新版本：%0 (%1)
-最新版本已有 %2 了。
+最新版本已落后 %2。
 
 你想更新到最新的官方 RPCS3 版本吗？</translation>
     </message>
@@ -13618,7 +13618,7 @@ New Username: </source>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="286"/>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="343"/>
         <source>Name must be between 3 and 16 characters and only consist of letters, numbers, underscores, and hyphens.</source>
-        <translation>名称必须为 3 到 16 个字符，只能包含字母，数字，下划线和边字符。</translation>
+        <translation>名称必须为 3 到 16 个字符，只能包含字母，数字，下划线和连字符。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="324"/>
@@ -13649,7 +13649,7 @@ New Username: </source>
         <source>In order to change the user you have to stop the emulator first.
 
 Stop the emulator now?</source>
-        <translation>为了更改用户，你得先停掉模拟。
+        <translation>你得先停掉模拟才能更改用户。
 
 现在停止模拟？</translation>
     </message>
@@ -13851,7 +13851,7 @@ Stop the emulator now?</source>
         <translation>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				为了开始使用，你必须先安装 &lt;span style=&quot;font-weight:600;&quot;&gt;PlayStation 3 固件&lt;/span&gt;。&lt;br&gt;
-				欲了解更多的信息，请参阅在官方网络上找到的 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门&lt;/a&gt; 指南。&lt;br&gt;
+				欲了解更多的信息，请参阅在官方网站上找到的 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门&lt;/a&gt; 指南。&lt;br&gt;
 				如果你有任何更多的问题，请参阅 &lt;a %0 href=&quot;https://rpcs3.net/faq&quot;&gt;常见问题&lt;/a&gt;。&lt;br&gt;
 				此外，进一步的讨论和支持可在 &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;论坛&lt;/a&gt; 或者在 &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt; 我们的服务器上找到。
 			&lt;/p&gt;
@@ -13897,7 +13897,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Resend Token</source>
-        <translation>重发令牌</translation>
+        <translation>重新发送令牌</translation>
     </message>
     <message>
         <source>Change Password</source>
@@ -13933,7 +13933,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>This email provider is banned!</source>
-        <translation>电子邮箱供应者已被 ban。</translation>
+        <translation>电子邮箱供应者已被禁。</translation>
     </message>
     <message>
         <source>An account with that email already exists!</source>
@@ -14009,7 +14009,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>The mail couldn&apos;t be sent successfully!</source>
-        <translation>邮件无法成功发出！</translation>
+        <translation>邮件未能成功发出！</translation>
     </message>
     <message>
         <source>The username/password pair is invalid!</source>
@@ -14029,7 +14029,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Your token was successfully resent to the email associated with your account!</source>
-        <translation>你的令牌已成功重发送至与你账号相关联的邮箱！</translation>
+        <translation>你的令牌已成功重新发送至与你账号相关联的邮箱！</translation>
     </message>
     <message>
         <source>Please confirm your username:</source>
@@ -14134,7 +14134,7 @@ Note that the reset password token is different from the email verification toke
         <source>The token appears to be invalid:\n
 -Token should be 16 characters long\n
 -Token should only contain 0-9 and A-F</source>
-        <translation>令牌看起来是无效的：\n
+        <translation>令牌似乎无效：\n
 - 令牌应为 16 个字符长\n
 - 令牌应只包含 0-9 和 A-F</translation>
     </message>
@@ -14182,7 +14182,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
                 - Username can only contain a-z A-Z 0-9 &apos;-&apos; &apos;_&apos;\n
                 - Username is case sensitive\n</source>
         <translation>请输入你的用户名。\n\n
-                     注意遵守这些限制：\n
+                     注意这些限制的应用：\n
                      - 用户名必须为 3 到 16 个字符\n
                      - 用户名只能包含 a-z A-Z 0-9 &apos;-&apos; &apos;_&apos;\n
                      - 用户名区分大小写\n</translation>
@@ -14240,7 +14240,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>You already have a server with this description &amp; hostname in the list.</source>
-        <translation>列表中你已经有了一个拥有此描述及主机名的服务器。</translation>
+        <translation>在列表中你已经有了一个拥有此描述及主机名的服务器。</translation>
     </message>
     <message>
         <source>Failed to connect to RPCN:\n%0</source>
@@ -14362,7 +14362,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Friend Requests</source>
-        <translation>朋友邀请</translation>
+        <translation>朋友请求</translation>
     </message>
     <message>
         <source>Blocked Users</source>
@@ -14406,11 +14406,11 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>&amp;Accept Request</source>
-        <translation>&amp;接受邀请</translation>
+        <translation>&amp;接受请求</translation>
     </message>
     <message>
         <source>Error adding a friend!</source>
-        <translation>添加朋友时出错！</translation>
+        <translation>添加一个朋友时出错！</translation>
     </message>
     <message>
         <source>An error occured trying to add a friend!</source>
@@ -14434,7 +14434,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Error validating username</source>
-        <translation>确认用户时出错</translation>
+        <translation>验证用户时出错</translation>
     </message>
     <message>
         <source>The username you entered is invalid</source>
@@ -14715,7 +14715,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1813"/>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 横跨所有主要桌面操作系统，提供了同一套源代码的可移植性。它也可用于嵌入式 Linux 和其他嵌入式及移动端操作系统。&lt;/p&gt;&lt;p&gt;Qt 设计有多种许可选项（可用），以适应我们各类用户的需求。&lt;/p&gt;&lt;p&gt;依据我们的商业许可授权的 Qt 许可，适用于开发你不想与第三方分享任何代码，或是其他不能遵守 GNU (L)GPL 条款的专用/商业软件。&lt;/p&gt;&lt;p&gt;依据 GNU (L)GPL 的 Qt 许可，适用于开发你能遵守相应许可的条款和条件而提供的 Qt 应用程序。&lt;/p&gt;&lt;p&gt;请查看 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 以对 Qt 许可有一个大体了解。&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd 及其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt logo 为 The Qt Company Ltd. 的商标。&lt;/p&gt;&lt;p&gt;Qt 为 The Qt Company Ltd. 作为一个开源项目开发的产品。请查看 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; 以获取更多信息。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 横跨所有主要桌面操作系统，提供了同一套源代码的可移植性。它也可用于嵌入式 Linux 和其他嵌入式及移动端操作系统。&lt;/p&gt;&lt;p&gt;Qt 设计有多种许可选项（可用），以适应我们各类用户的需求。&lt;/p&gt;&lt;p&gt;依据我们的商业许可授权的 Qt 许可，适用于开发你不想与第三方分享任何代码，或是其他不能遵守 GNU (L)GPL 条款的专用/商业软件。&lt;/p&gt;&lt;p&gt;依据 GNU (L)GPL 的 Qt 许可，适用于开发你能遵守相应许可的条款和条件而提供的 Qt 应用程序。&lt;/p&gt;&lt;p&gt;请查看 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 以对 Qt 许可有一个大体了解。&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd 及其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt 标识 为 The Qt Company Ltd. 的商标。&lt;/p&gt;&lt;p&gt;Qt 为 The Qt Company Ltd. 作为一个开源项目开发的产品。请查看 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; 以获取更多信息。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="dialogs/qmessagebox.cpp" line="1840"/>
@@ -14958,7 +14958,7 @@ Press ESC to cancel</source>
     <message>
         <location filename="kernel/qplatformtheme.cpp" line="699"/>
         <source>Restore Defaults</source>
-        <translation>恢复至默认</translation>
+        <translation>恢复为默认</translation>
     </message>
 </context>
 </TS>
