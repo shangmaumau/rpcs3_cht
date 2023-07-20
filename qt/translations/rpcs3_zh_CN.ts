@@ -6,12 +6,12 @@
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="221"/>
         <source>&amp;Ok</source>
-        <translation>确定(&amp;O)</translation>
+        <translation>&amp;确定</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="222"/>
         <source>&amp;Cancel</source>
-        <translation>取消(&amp;C)</translation>
+        <translation>&amp;取消</translation>
     </message>
     <message>
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="226"/>
@@ -64,7 +64,7 @@
         <location filename="rpcs3qt/localized.h" line="26"/>
         <source>Photo App</source>
         <oldsource>App Photo</oldsource>
-        <translation>相片应用</translation>
+        <translation>照片应用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="27"/>
@@ -75,7 +75,7 @@
         <location filename="rpcs3qt/localized.h" line="28"/>
         <source>TV App</source>
         <oldsource>App TV</oldsource>
-        <translation>TV 应用</translation>
+        <translation>电视应用</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="29"/>
@@ -277,27 +277,27 @@
     <message>
         <location filename="rpcs3qt/localized.cpp" line="94"/>
         <source>LPCM 2.0</source>
-        <translation>LPCM 2.0</translation>
+        <translation>线性 PCM 双通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.cpp" line="95"/>
         <source>LPCM 5.1</source>
-        <translation>LPCM 5.1</translation>
+        <translation>线性 PCM 5.1 通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.cpp" line="96"/>
         <source>LPCM 7.1</source>
-        <translation>LPCM 7.1</translation>
+        <translation>线性 PCM 7.1 通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.cpp" line="97"/>
         <source>Dolby Digital 5.1</source>
-        <translation>Dolby Digital 5.1</translation>
+        <translation>杜比数字 5.1 通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.cpp" line="98"/>
         <source>DTS 5.1</source>
-        <translation>DTS 5.1</translation>
+        <translation>DTS 5.1 通道</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.cpp" line="105"/>
@@ -315,7 +315,7 @@
         <location filename="rpcs3qt/localized.cpp" line="19"/>
         <source>%Ln hour(s)</source>
         <translation>
-            <numerusform>%n 个小时</numerusform>
+            <numerusform>%n 小时</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -366,13 +366,13 @@
     <message>
         <location filename="main.cpp" line="1332"/>
         <source>Missing command-line arguments!</source>
-        <translation>缺少命令行参数！</translation>
+        <translation>缺失命令行参数！</translation>
     </message>
     <message>
         <location filename="main.cpp" line="1332"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
-        <translation>没有启动目标，无法运行无 GUI 模式。
+        <translation>无启动目标时无法运行无 GUI 模式。
 正在结束……</translation>
     </message>
     <message>
@@ -438,7 +438,7 @@ Causes some software to behave differently than on retail hardware.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="35"/>
         <source>Stop writing any logs after game startup. Don&apos;t use unless you believe it&apos;s necessary.</source>
-        <translation>游戏启动后停止写入任何日志。不要使用，除非你坚信它有必要。</translation>
+        <translation>游戏启动后停止写入任何日志。不要使用——除非你坚信它有必要。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="36"/>
@@ -466,10 +466,10 @@ Causes some software to behave differently than on retail hardware.</source>
 · Precise is the most accurate to PS3 behaviour.
 · Approximate is just a faster way to generate occlusion data which may not always match what the PS3 would generate.
 · Relaxed changes the synchronization method completely and can improve performance in some games or completely break others.</oldsource>
-        <translation>更改 ZCULL 报告的同步行为。尝试为你的游戏找到最佳选项。对大多数游戏，推荐使用近似模式。
-· 精确是对 PS3 行为的最精准（模拟）。在一些作品中为求精准的视觉效果，此模式是必须的，如 Demon&apos;s Souls 和 The Darkness。
-· 近似是一种快得多的生成遮挡数据的方式，但和 PS3 生成的可能并不总是一致。同大多数 PS3 游戏工作融洽。
-· 轻松完全改变了同步的方法，可以极大提升一些游戏的表现，或使有些游戏完全不能运行。</translation>
+        <translation>更改 ZCULL 报告的同步行为。实验性地为你的游戏找出最佳选项。对大多数游戏而言，推荐使用近似模式。
+· 「Precise」（精准）是对 PS3 行为的最精准（模拟）。在一些作品中为求精准的视觉效果，此模式是必须的，如 Demon&apos;s Souls 和 The Darkness。
+· 「Approximate」（近似）是一种快得多的生成遮挡数据的方式，但和 PS3 生成的可能并不总是一致。与大多数 PS3 游戏工作融洽。
+· 「Relaxed」（放松）完全改变了同步的方法，在一此游戏中可以极大提升表现，或者在其他游戏中完全破坏（而使其不能运行）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="43"/>
@@ -481,7 +481,7 @@ May improve performance in some cases, especially on systems with limited number
 Limiting the number of threads is likely to cause crashes; it&apos;s recommended to keep this at default value.</oldsource>
         <translation>限制每个线程组中的最大 SPURS 线程数量。
 在某些情形中可能提升表现，尤其是在硬件线程数量有限的系统上。
-限制线程数量很可能引起崩溃；推荐保留此项为默认值。</translation>
+限制线程数量很可能会引起崩溃；推荐保留此项为默认值。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="44"/>
@@ -494,8 +494,8 @@ Can affect performance in unexpected ways.</source>
 &apos;Usleep Only&apos; limits the adjustments to usleep syscall only.
 Can affect perfomance in unexpected ways.</oldsource>
         <translation>改变睡眠周期的准确性。
-&apos;As Host&apos; 使用底层操作系统的默认准确度，&apos;All Timers&apos; 则会尝试改善它。
-&apos;Usleep Only&apos; 限制仅对 usleep 系统调用进行调整。
+「As Host」使用底层操作系统的默认准确度，而「All Timers」则会尝试改善它。
+「Usleep Only」限定了调整仅针对 usleep 系统调用。
 会以非预期的方式影响表现。</translation>
     </message>
     <message>
@@ -503,13 +503,13 @@ Can affect perfomance in unexpected ways.</oldsource>
         <source>Adjusts the frequency of vertical blanking signals that the emulator sends.
 Affects timing of events which rely on these signals.</source>
         <translation>调整模拟器发送的垂直消隐信号的频率。
-会影响依赖这些信号的事件的时序。</translation>
+会影响依赖这些信号的事件的时间（timing）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="48"/>
         <source>Changes the scale of emulated system time.
 Affects software which uses system time to calculate things such as dynamic timesteps.</source>
-        <translation>更改模拟系统时间的比例。
+        <translation>更改模拟的系统时间的尺度（scale）。
 会影响使用系统时间来计算一些东西如动态时间步长（dynamic timesteps）的软件。</translation>
     </message>
     <message>
