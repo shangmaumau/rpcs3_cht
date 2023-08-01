@@ -953,7 +953,7 @@ This mode is like hibernation of emulation: if you don&apos;t want to be able to
 Do note that the savestate file is not gone completely just ignored by RPCS3, you can manually relaunch it if needed.</oldsource>
         <translation>当此模式开启时，保存（游戏进度）时模拟会退出，且存档文件在加载后，为防 RPCS3 复用，会被隐藏。
 此模式类似于模拟的休眠：如果你在玩游戏时不想使用存档来作弊，可以考虑使用此模式。 
-请务必注意，存档文件并没有完全移除，只是 RPCS3 忽略了它，如有需要，你可以手动再次加载它。</translation>
+请务必注意，存档文件并没有完全移除，只是 RPCS3 忽略了它。如有需要，你可以手动地再次加载它。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="54"/>
