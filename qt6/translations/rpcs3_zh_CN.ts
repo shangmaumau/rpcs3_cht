@@ -551,7 +551,7 @@ Use &apos;Device&apos; to let your driver handle this. Beware that &apos;device&
 Disabling it may fix some artifacts, especially on Apple GPUs, at the cost of performance.</source>
         <oldsource>Disables Fast Math for MSL shaders, which may violate the IEEE 754 standard.
 Disabling it may fix some artefacts especially on Apple GPUs, at the cost of performance.</oldsource>
-        <translation>禁用 MSL 着色器的快速计算，这可能违反 IEEE 754 标准。
+        <translation>为 MSL 着色器禁用快速数学运算，这可能违反 IEEE 754 标准。
 禁用它会修复一些伪影现象———尤其在 Apple GPU 上，但会牺牲一部分性能。</translation>
     </message>
     <message>
@@ -570,7 +570,7 @@ If it&apos;s not available, FAudio could be used instead.</source>
         <oldsource>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 If it&apos;s not availiable, FAudio could be used instead.</oldsource>
         <translation>Cubeb 使用跨平台的方案且支持音频缓冲，因此它是推荐选项。
-如不可用，FAudio 可作为替选方案。</translation>
+如果它不可用，FAudio 可作为替选方案。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="63"/>
@@ -582,7 +582,7 @@ If it&apos;s not availiable, FAudio could be used instead.</oldsource>
         <source>Uses 16-bit audio samples instead of default 32-bit floating point.
 Use with buggy audio drivers if you have no sound or completely broken sound.</source>
         <translation>使用 16 位音频取样，而非默认的 32 位浮点取样。
-如果你没有声音或完全破坏了声音，则是使用了有缺陷的音频驱动。</translation>
+在音频驱动有问题时使用——如果你听不到声音或声音完全没办法听。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="66"/>
@@ -595,21 +595,21 @@ Values above 100% might reduce the audio quality.</source>
         <location filename="rpcs3qt/tooltips.h" line="67"/>
         <source>Enables audio buffering, which reduces crackle/stutter but increases audio latency.</source>
         <oldsource>Enables audio buffering, which reduces crackle/stutter but increases audio latency (requires XAudio2 or OpenAL).</oldsource>
-        <translation>启用音频缓冲可减少爆音或音频断续，但会增加延迟。</translation>
+        <translation>启用音频缓冲，可减少爆音/音频卡顿现象，但会增加音频延迟。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="68"/>
         <source>Target buffer duration in milliseconds.
 Higher values make the buffering algorithm&apos;s job easier, but may introduce noticeable audio latency.</source>
-        <translation>目标缓冲时长，单位为毫秒。
-较高的值会使缓冲算法工作起来更轻松，但可能会引入显著的音频延迟。</translation>
+        <translation>目标缓冲时长，以毫秒计。
+较高的值会使缓冲算法的工作更轻松，但可能会引入显著的音频延迟。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="69"/>
         <source>Enables time stretching - requires buffering to be enabled.
 Reduces crackle/stutter further, but may cause a very noticeable reduction in audio quality on slower CPUs.</source>
         <translation>启用时间拉伸——需启用缓冲。
-进一步减少爆音或音频断续，但在较慢的 CPU 上可能会引起非常显著的音质下滑。</translation>
+进一步减少爆音或音频卡顿现象，但在较慢的 CPU 上可能会引起非常显著的音质下滑。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="70"/>
@@ -622,10 +622,10 @@ Reduces crackle/stutter further, but may cause a very noticeable reduction in au
 SingStar emulates a SingStar device and should be used with SingStar games.
 Real SingStar should only be used with a REAL SingStar device with SingStar games.
 Rocksmith should be used with a Rocksmith dongle.</source>
-        <translation>对大多数游戏，应当使用 Standard。
+        <translation>对大多数游戏应当使用 Standard。
 SingStar 模拟了一台 SingStar 设备，且应当用于 SingStar 游戏。
-真 SingStar 应当且仅应当用于一台“真” SingStar 设备的 SingStar 游戏。
-Rocksmith 应当用于 Rocksmith 适配器。</translation>
+真 SingStar 应当仅用于一台“真” SingStar 设备的 SingStar 游戏。
+Rocksmith 应当用于一个 Rocksmith 适配器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="77"/>
@@ -638,8 +638,8 @@ This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
 If unsure, use this option.</oldsource>
         <translation>在游戏首次运行之前，使用 LLVM 重编译器重编译并缓存游戏的 PPU 码。
-这是迄今最为快速的选项，应当始终使用。
-假设你遇到了兼容性问题，回落至解释器的一种然后重试。
+这是迄今为止最快速的选项，应当始终使用。
+要是你遇到了兼容性问题，回退至某种解释器然后重试。
 如不确定，则使用此选项。</translation>
     </message>
     <message>
