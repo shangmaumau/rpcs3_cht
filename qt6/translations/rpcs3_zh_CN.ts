@@ -639,7 +639,7 @@ Should you face compatibility issues, fall back to one of the Interpreters and r
 If unsure, use this option.</oldsource>
         <translation>在游戏首次运行之前，使用 LLVM 重编译器重编译并缓存游戏的 PPU 码。
 这是迄今为止最快速的选项，应当始终使用。
-要是你遇到了兼容性问题，回退至某种解释器然后重试。
+要是你遇到了兼容性问题，回退至解释器的一种，然后重试。
 如不确定，则使用此选项。</translation>
     </message>
     <message>
@@ -658,9 +658,9 @@ This is the fast option with very good compatibility.
 If unsure, use this option.</source>
         <oldsource>This is the fast option with very good compatibility.
 If unsure, use this option.</oldsource>
-        <translation>使用 ASMJIT 重编译器来重编译游戏的 SPU 码。
-这是非常好的兼容性的快速选项。
-如果不确定，请使用此选项。</translation>
+        <translation>使用 ASMJIT 重编译器重编译游戏的 SPU 码。
+这是有着非常好的兼容性的快速选项。
+如不确定，请使用此选项。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="82"/>
@@ -672,7 +672,7 @@ Recompiles the game&apos;s SPU LLVM cache before running which adds extra start-
 If you experience issues, use the ASMJIT Recompiler.</oldsource>
         <translation>在游戏运行之前，使用 LLVM 重编译器重编译并缓存其 SPU 码；会增加额外的启动时间。
 这是有着非常好的兼容性的最快选项。
-如果你遇到问题，则使用 ASMJIT 重编译器。</translation>
+如果你遇到问题，请使用 ASMJIT 重编译器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="83"/>
@@ -684,7 +684,7 @@ Fixes bugs in various games at the cost of performance.
 This setting is only applied when SPU Decoder is set to Dynamic or LLVM.</oldsource>
         <translation>控制 SPU 浮点向量处理的准确性。
 牺牲一部分性能以在多个游戏中修复一些错误。
-仅当 SPU 解码器设定为动态或 LLVM 时，才应用此设置。</translation>
+此设置仅在 SPU 解码器设定为动态（Dynamic）或 LLVM 时才应用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="84"/>
@@ -695,8 +695,8 @@ Changing the thread scheduler is not supported on CPUs with less than 12 threads
 Each option heavily depends on the game and on your CPU, it&apos;s recommended to try each option to find out which performs the best.
 Changing the thread scheduler is not supported on CPUs with less than 12 threads.</oldsource>
         <translation>控制 RPCS3 如何利用你的系统线程。
-每个选项很大程度上会因游戏和你的 CPU 而有所不同。推荐尝试每个选项以找出表现最佳者。
-调整线程调度器在少于 12 线程的 CPU 上是不支持的。</translation>
+每个选项很大程度上会因游戏及你的 CPU 而有所不同。推荐尝试每个选项以找到表现最佳者。
+变更线程调度器在少于 12 线程的 CPU 上是不支持的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="86"/>
@@ -717,13 +717,13 @@ Improves performance and reduces CPU usage.
 May cause severe audio stuttering in rare cases.</source>
         <translation>尝试在 SPU 内核中检测循环条件并使用它们作为调度提示。
 提升表现并减少 CPU 使用。
-在极少数情形下，会引起严重的音频断续问题。</translation>
+在极少数情形下，会引起严重的音频卡顿问题。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="87"/>
         <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
 Use the Safe mode for maximum compatibility.</source>
-        <translation>此选项控制 SPU 分析器，特别是编译单元的尺寸。Mega 和 Giga 模式通过将小的单元捆扎一起（减少编译的单元数量但增大其尺寸）来提升性能。
+        <translation>此选项控制 SPU 分析器，特别是编译单元的尺寸。Mega 和 Giga 模式通过将较小的单元捆扎一起——减少编译单元数量但增大其尺寸——来提升性能。
 如求最佳兼容性，请使用 Safe 模式。</translation>
     </message>
     <message>
@@ -731,9 +731,9 @@ Use the Safe mode for maximum compatibility.</source>
         <source>Some SPU stages are sensitive to race conditions and allowing a limited number at a time helps alleviate performance stalls.
 Setting this to a smaller value might improve performance and reduce stuttering in some games.
 Leave this on auto if performance is negatively affected when setting a small value.</source>
-        <translation>一些 SPU 阶段对条件竞争敏感，同一时间只允许限定数量（的条件）以帮助缓解性能的下跌。
-设置此选项为一较小值，可能会提升一些游戏的表现并减少断续情况的出现。
-设置为小的数值时，如果性能遭受了负面影响，请保留此选项为 auto。</translation>
+        <translation>一些 SPU 阶段对竞争条件较为敏感，同一时间只允许限定数量（的条件）以帮助缓解性能的下跌。
+设置此选项为一较小值，可能会提升一些游戏的表现并减少卡顿。
+如果性能在设置了一个小的数值时遭受了负面影响，请保留此选项为 auto。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="94"/>
@@ -768,8 +768,8 @@ Never use this.</source>
 Only used in PPU thread when it&apos;s not precise.
 Only useful to developers.
 Never use this.</source>
-        <translation>设定特殊 MXCSR 标志位来调试在 SSE 运算中的错误。
-仅在不精确的 PPU 线程中使用。
+        <translation>设定特殊 MXCSR 标志位以调试 SSE 运算中的错误。
+此运算不精确时，仅用于 PPU 线程。
 仅对开发人员有用。
 永远别用这个。</translation>
     </message>
@@ -801,7 +801,7 @@ In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses wi
         <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
-        <translation>强制延迟所有奇数 MFC 指令，至少等待两个待处理命令，以使用随机序列执行它们。
+        <translation>强制延迟所有奇数 MFC 指令，至少等待两个待处理命令，以在随机序列执行它们。
 目前必须与任一 SPU 解释器一起使用。
 严重降低性能！如不确定，请勿使用此选项。</translation>
     </message>
