@@ -1993,7 +1993,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="275"/>
         <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is actually simulated as a real DualShock 3&apos;s deadzone of ~13%, so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
-        <translation>摇杆死区决定了在被游戏完全识别到之前，摇杆要移动多远距离。为了给你一个流畅的体验，此结果范围将被投射到整个输入范围。死区内的移动实际上被模拟为一个真的 DualShock 3 的死区的约 13%，因此如果在模拟的摇杆预览中仍显示移动，请不必担心。</translation>
+        <translation>摇杆死区决定了在被游戏完全识别到之前，摇杆要移动多远距离。为了给你一个流畅的体验，此结果范围将被投射到整个输入范围。死区内的移动实际上被模拟为一个真正的 DualShock 3 的死区的约 13%，因此如果在模拟的摇杆预览中仍显示移动，请不必担心。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="276"/>
@@ -2003,12 +2003,12 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="277"/>
         <source>Use this to configure the gamepad motion controls.</source>
-        <translation>使用此项来配置游戏手柄的运动控制。</translation>
+        <translation>使用此项来配置游戏手柄的运动控制（motion controls）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="278"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
-        <translation>摇杆预览中模拟的摇杆值（红色圆点）表示实际的摇杆位置，因为它们会对游戏可见。实际的 DualShock 3 的摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示模拟摇杆的最大范围。蓝色常规圆点表示了在被转为游戏内使用之前的原始摇杆值（包含摇杆倍率）。</translation>
+        <translation>摇杆预览中模拟的摇杆值（红色圆点）表示实际的摇杆位置，因为它们会对游戏可见。实际的 DualShock 3 的摇杆范围并不是圆形的，而是状如圆角正方形（或方圆形），表示模拟摇杆的最大范围。蓝色常规圆点代表了原始的摇杆值（包括摇杆倍率）——在它们被换算为游戏内使用（的值）之前。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="279"/>
