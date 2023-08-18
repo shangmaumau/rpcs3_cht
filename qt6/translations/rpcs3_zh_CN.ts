@@ -1198,7 +1198,7 @@ When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
         <translation>启用对游戏视窗内的原生 HUD 的使用，可与游戏控制器互动。
 禁用时，会替换使用常规的 Qt 对话框。 
-当前，屏内键盘仅支持英文按键布局。</translation>
+当前，屏上键盘仅支持英文按键布局。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="140"/>
@@ -1554,7 +1554,7 @@ FidelityFX 目前不支持立体 3D 输出。</translation>
         <source>Changes Texture sampling accuracy. (Small changes have a big effect.)
 Avoid using values outside the range of -12 to +12 if you&apos;re unsure.
 -3 to +3 is plenty for most usecases</source>
-        <translation>调整纹理取样的精准度。（小调整会带来大影响。）
+        <translation>调整纹理取样的精准度。（小改变会带来大影响。）
 如果你不确定，请避免使用 -12 到 +12 范围之外的值。
 -3 到 +3 对于大多数使用场景来说已经足够了。</translation>
     </message>
@@ -1565,7 +1565,7 @@ This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
         <translation>设定 log 可以显示的最大区块数量。
 通常来说，这和行数是一个意思。
-为了移除限制，可设为 0.</translation>
+为移除限制，可设为 0。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="196"/>
@@ -1577,7 +1577,7 @@ This usually equals the number of lines.
 Set 0 in order to remove the limit.</oldsource>
         <translation>设定 TTY 可以显示的最大区块数量。
 通常来说，这和行数是一个意思。
-为了移除限制，可设为 0.</translation>
+为移除限制，可设为 0。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="197"/>
@@ -1589,7 +1589,7 @@ Choose a stylesheet and click Apply to change between styles.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="198"/>
         <source>Shows the initial welcome screen upon starting RPCS3.</source>
-        <translation>展示启动 RPCS3 时的初始欢迎画面。</translation>
+        <translation>展示启动 RPCS3 时的初始欢迎屏幕。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="199"/>
@@ -1658,7 +1658,7 @@ Requires a restart of RPCS3 to completely close the connection.</source>
         <location filename="rpcs3qt/tooltips.h" line="210"/>
         <source>This is the ID used for hardware statistics.
 It should only be reset if you change your hardware configuration or if you copied RPCS3 to another PC.</source>
-        <translation>这是用于硬件统计的 ID.
+        <translation>这是用于硬件统计的 ID。
 如果你改换了你的硬件配置，或如果你把 RPCS3 拷贝到了另一台 PC 时，此项才需要重置。</translation>
     </message>
     <message>
@@ -1713,7 +1713,7 @@ This may not be able to play all audio formats.</source>
         <location filename="rpcs3qt/tooltips.h" line="221"/>
         <source>Flips the camera image either horizontally, vertically, or on both axes.</source>
         <oldsource>Flips the camera image either horizontally, vertically, or on both axis.</oldsource>
-        <translation>在水平轴，垂直轴或两个轴上翻转相机图像。</translation>
+        <translation>水平地或垂直地翻转相机图像，又或者同时在两个轴上（翻转）。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="222"/>
@@ -1726,8 +1726,8 @@ This may not be able to play all audio formats.</source>
 Fake: Experimental! This maps Move controls to DS3 controller mappings.
 Mouse: Emulate PSMove with Mouse handler.</source>
         <translation>PlayStation Move 支持。
-「Fake」：实验功能！这会把「移动」控制映射到 DS3 控制器的（按键）映射上。
-「Mouse」：使用鼠标处理程序模拟 PSMove.</translation>
+「Fake」：实验功能！这会把「Move」控制映射到 DS3 控制器的（按键）映射上。
+「Mouse」：使用鼠标处理程序模拟 PSMove。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="224"/>
@@ -1735,8 +1735,8 @@ Mouse: Emulate PSMove with Mouse handler.</source>
 Select 1 or 2 controllers if the game requires Buzz! controllers and you don&apos;t have real controllers.
 Select Null if the game has support for DualShock or if you have real Buzz! controllers.</source>
         <translation>Buzz! 支持。
-如果游戏必需 Buzz! 控制器，但你没有真实的控制器，那么选择 1 个或 2 个控制器。
-如果游戏已支持 DualShock 或如果你有真实的 Buzz! 控制器，请选择「Null」。</translation>
+如果游戏必需 Buzz! 控制器，但你没有真正的控制器，那么选择 1 或 2 个控制器。
+如果游戏已支持 DualShock 或如果你有真正的 Buzz! 控制器，请选择「Null」。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="225"/>
@@ -1745,9 +1745,9 @@ Select 1 or 2 controllers if the game requires DJ Hero Turntable controllers and
 Select Null if the game has support for DualShock or if you have real turntable controllers.
 A real turntable controller can be used at the same time as an emulated turntable controller.</source>
         <translation>DJ Hero 转盘控制器支持。
-如果游戏必需 DJ Hero 转盘控制器，但你没有真实的转盘控制器，那么选择 1 个或 2 个控制器。
-如果游戏已支持 DualShock 或如果你有真实的转盘控制器，请选择「Null」。
-真实的转盘控制器可与模拟的转盘模拟器同时使用。</translation>
+如果游戏必需 DJ Hero 转盘控制器，但你没有真正的转盘控制器，那么选择 1 或 2 个控制器。
+如果游戏已支持 DualShock 或如果你有真正的转盘控制器，请选择「Null」。
+真正的转盘控制器可与模拟的转盘模拟器同时使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="226"/>
@@ -1756,9 +1756,9 @@ Select 1 or 2 controllers if the game requires GHL Guitar controllers and you do
 Select Null if the game has support for DualShock or if you have real guitar controllers.
 A real guitar controller can be used at the same time as an emulated guitar controller.</source>
         <translation>Guitar Hero Live (GHL) 吉他控制器支持。
-如果游戏需要 GHL Guitar 控制器，但你并没有真实的吉他控制器，那么选择 1 个或 2 个控制器。
-如果游戏已支持 DualShock 或你有真实的吉他控制器，请选择「Null」。
-真实的吉他控制器可与模拟的吉他控制器同时使用。</translation>
+如果游戏需要 GHL Guitar 控制器，但你并没有真正的吉他控制器，那么选择 1 或 2 个控制器。
+如果游戏已支持 DualShock 或你有真正的吉他控制器，请选择「Null」。
+真正的吉他控制器可与模拟的吉他控制器同时使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="227"/>
@@ -1781,7 +1781,7 @@ This can be very helpful during calibration screens.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="231"/>
         <source>Locks the native overlay input to the first player.</source>
-        <translation>将原生蒙层的输入锁定到第一个玩家。</translation>
+        <translation>将原生蒙层的输入锁定至第一个玩家。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="235"/>
@@ -1807,19 +1807,19 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="272"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-        <translation>控制压敏按键被按下时的强度。&lt;br&gt;如果你想切换按键的按压强度来替代的话，请启用「切换」。&lt;br&gt;使用百分比来改变你想按压按键的力度。</translation>
+        <translation>控制压感按键的按压强度——当这种特殊按键被按压时。&lt;br&gt;如果你想切换按键的按压强度来替代的话，请启用「切换」。&lt;br&gt;使用百分比来改变你想按压按键的力度。（不太懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="284"/>
         <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an additional button mapping.&lt;br&gt;Right-click: clear this button mapping.</source>
         <oldsource>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an addition button mapping.&lt;br&gt;Right-click: clear this button mapping.</oldsource>
-        <translation>点击左键：重新映射此按键。&lt;br&gt;Shift + 点击左键：额外添加一个按键映射。&lt;br&gt;点击右键：清除此按键的映射。</translation>
+        <translation>点击左键：重新映射此按键。&lt;br&gt;Shift + 点击左键：添加一个额外的按键映射。&lt;br&gt;点击右键：清除此按键的映射。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="237"/>
         <source>DNS used to resolve hostnames by applications.</source>
         <oldsource>DNS used to resolve hostnames by applications</oldsource>
-        <translation>用于应用程序解析主机名的 DNS.</translation>
+        <translation>用于应用程序解析主机名的 DNS。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="239"/>
@@ -1833,7 +1833,7 @@ Only available in custom configurations.</source>
         <location filename="rpcs3qt/tooltips.h" line="240"/>
         <source>Enable UPNP.
 This will automatically forward ports bound on 0.0.0.0 if your router has UPNP enabled.</source>
-        <translation>启用 UPNP.
+        <translation>启用 UPNP。
 如果你的路由器已启用 UPNP，这将自动转发绑定在 0.0.0.0 上的端口。</translation>
     </message>
     <message>
@@ -1841,7 +1841,7 @@ This will automatically forward ports bound on 0.0.0.0 if your router has UPNP e
         <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
         <translation>主机地区定义了 PS3 的许可地区。
-根据许可地区的不同，一些游戏可能无法使用。</translation>
+根据许可地区的不同，一些游戏可能无法工作。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="245"/>
@@ -1859,7 +1859,7 @@ Currently only US, Japanese and German layouts are fully supported at this momen
         <oldsource> Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</oldsource>
         <translation>设定使用的键盘布局。
-当前，仅美国、日本和韩国的键盘布局在现在是完全支持的。</translation>
+目前，仅美国、日本和韩国的键盘布局在这个时间点是完全支持的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="247"/>
@@ -1870,8 +1870,8 @@ In these cases having the cross button assigned can often lead to confusion.</so
 Change this to use the circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</oldsource>
         <translation>在系统对话框中，用于进入/接受/确认的按键。
-将此改为使用「Circle」按键，这是在日本系统和众多日本游戏中的默认配置。
-在这些情形下，如果配置给了「Cross」按键，就总会引起困惑。</translation>
+更改此项以使用「圆形」按键来替代，这是在日语系统和众多日本游戏中的默认配置。
+在这些情形下，如果配置给了「叉形」按键，就总会引起困惑。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="248"/>
@@ -1888,7 +1888,7 @@ Games can use the cache folder to temporarily store data outside of system memor
 This setting is only available in the global configuration.</source>
         <oldsource>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.</oldsource>
-        <translation>在启动时自动从磁盘中移除旧文件——如果它增长到了大于其指定值时。
+        <translation>如果旧文件增长到大过了指定值，则在启动时自动将其从磁盘中移除。
 在系统内存之外，游戏可以使用缓存文件夹来临时地存储数据。不用于长期存储。
 
 此设置仅在全局配置中可用。</translation>
@@ -1917,7 +1917,7 @@ Can be reset to current wallclock time by clicking &quot;Set to Now&quot;.</olds
         <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
         <oldsource>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.
 To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</oldsource>
-        <translation>虽然在 RPCS3 中可以用键盘来作为手柄，但还是强烈推荐使用一个真实的控制器。&lt;br&gt;要把鼠标的移动绑定到一个按键或摇杆上，点击想要的按键来激活它，然后在鼠标拖拽至某个方向时点击并保持。</translation>
+        <translation>虽然在 RPCS3 中可以用键盘来作为手柄，但还是强烈推荐使用一个真正的控制器。&lt;br&gt;要把鼠标的移动绑定到一个按键或摇杆上，点击想要的按键来激活它，然后在鼠标拖拽至某个方向时点击并保持。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="258"/>
@@ -1938,12 +1938,12 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="261"/>
         <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
-        <translation>如果你在使用 DualShock 4 处理程序时遇到了任何问题，这都可能是因第三方工具如 DS4Windows 引起的。推荐你在使用此处理程序时将它们禁用。</translation>
+        <translation>如果你在使用 DualShock 4 处理程序时遇到了什么问题，这都可能是由第三方工具如 DS4Windows 引起的。推荐你在使用此处理程序时将它们禁用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="262"/>
         <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation>为了使用 DualShock 4 的处理程序，你可能需要添加 udev 规则以让 RPCS3 访问控制器。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
+        <translation>为了使用 DualShock 4 的处理程序，你可能需要添加 udev 规则来让 RPCS3 使用控制器。&lt;br&gt;请参阅 &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 维基&lt;/a&gt; 的说明。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="263"/>
