@@ -2030,12 +2030,12 @@ To bind mouse movement to a button or joystick, click on the desired button to a
     <message>
         <location filename="rpcs3qt/tooltips.h" line="282"/>
         <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
-        <translation>鼠标加速可用来放大你的鼠标在 x 和 y 轴上的移动。如果你在玩游戏时感觉你的鼠标移动太慢，就增大这些值。你可以在游戏游玩期间临时地更改这些值以找到最理想的值（x 轴使用 Alt+G 和 Alt+H，y 轴使用 Alt+J 和 Alt+K）。请记住，现代的鼠标通常也会提供不同的模式和设置，以用来改变鼠标的移动速度。</translation>
+        <translation>鼠标加速可用来放大你的鼠标在 x 和 y 轴上的移动。如果你在玩游戏时感觉你的鼠标移动太慢，就增大这些值。你可以在游戏游玩期间临时地更改这些值以找到最理想的值（x 轴使用 Alt+G 和 Alt+H，y 轴使用 Alt+J 和 Alt+K）。请记住，现代的鼠标通常也会提供不同的模式和设置，以用于改变鼠标的移动速度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="283"/>
         <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
-        <translation>鼠标移动的模式决定了如何将鼠标的移动转换为手柄的输入。&lt;br&gt;传统鼠标移动的话，使用「相对模式」。&lt;br&gt;以鼠标（光标）距离屏幕中心的距离作为输入的话，使用「绝对模式」。</translation>
+        <translation>鼠标移动的模式决定了如何将鼠标的移动转换为手柄的输入。&lt;br&gt;传统鼠标移动的话，使用「相对模式」。&lt;br&gt;以鼠标（光标）距离屏幕中心的距离作为输入值的话，使用「绝对模式」。</translation>
     </message>
 </context>
 <context>
@@ -2054,7 +2054,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
         <location filename="rpcs3qt/about_dialog.ui" line="218"/>
         <source>&lt;p&gt;&lt;b&gt;Developers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;¬cornytrace&lt;br&gt;¬ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</source>
         <oldsource>&lt;p&gt;&lt;b&gt;Developers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;cornytrace&lt;br&gt;ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</oldsource>
-        <translation>&lt;p&gt;&lt;b&gt;开发团队：&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;¬cornytrace&lt;br&gt;¬ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;开发者：&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;¬cornytrace&lt;br&gt;¬ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/about_dialog.ui" line="234"/>
@@ -2234,7 +2234,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 是一款开源的索尼 PlayStation 3 模拟器与调试器。&lt;br&gt;
 				它以 C++ 编写而成，适用于 Windows、Linux、FreeBSD 和 macOS 平台。由 &lt;a %0 href=&quot;https://www.patreon.com/Nekotekina&quot;&gt;Patreon&lt;/a&gt;资助。&lt;br&gt;
-				我们的开发者和贡献者一直努力工作以确保这个项目达到它能做到的最好。&lt;br&gt;
+				我们的开发者和贡献者一直在努力工作以确保这个项目达到它能做到的最好。&lt;br&gt;
 				还有大量的实现有待添加、大量的优化有待完成。
 			&lt;/p&gt;
 		</translation>
@@ -2246,7 +2246,7 @@ To bind mouse movement to a button or joystick, click on the desired button to a
         <location filename="rpcs3qt/auto_pause_settings_dialog.cpp" line="20"/>
         <source>To use auto pause: enter the ID(s) of a function or a system call.
 Restart of the game is required to apply. You can enable/disable this in the settings.</source>
-        <translation>使用自动暂停：请输入函数或系统调用的 ID（可为多个）。
+        <translation>使用自动暂停：请输入函数或系统调用的 ID。
 要应用的话，必须重启游戏。你可以在设置中启用/禁用此功能。</translation>
     </message>
     <message>
@@ -2325,13 +2325,13 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
         <source>Unimplemented Breakpoints For Thread Type!</source>
-        <translation>线程类型未实现断点！</translation>
+        <translation>未实现的线程类型断点！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="122"/>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="164"/>
         <source>Invalid Memory For Breakpoints!</source>
-        <translation>断点无效内存！</translation>
+        <translation>无效的内存断点！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="164"/>
@@ -2346,7 +2346,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="112"/>
         <source>Cannot set breakpoints on non-interpreter decoders.</source>
-        <translation>不能在非解释器解码器上设定断点。</translation>
+        <translation>不能在非解释器的解码器上设定断点。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="122"/>
@@ -2356,7 +2356,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="158"/>
         <source>Cannot set breakpoints on a thread not an PPU/SPU currently, sorry.</source>
-        <translation>目前不可在非 PPU/SPU 的线程上设定断点，不好意思。</translation>
+        <translation>目前不能在非 PPU/SPU 的线程上设定断点，不好意思。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/breakpoint_list.cpp" line="176"/>
@@ -2379,7 +2379,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="rpcs3qt/camera_settings_dialog.ui" line="14"/>
         <source>Camera Settings</source>
-        <translation>相机设定</translation>
+        <translation>相机设置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/camera_settings_dialog.ui" line="22"/>
@@ -2502,7 +2502,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Failed to resolve redirection script</source>
-        <translation>解析重定向脚本失败</translation>
+        <translation>重定向脚本解析失败</translation>
     </message>
     <message>
         <source>%1</source>
@@ -2510,7 +2510,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Failed to get the value from memory</source>
-        <translation>从内存获取值失败</translation>
+        <translation>从内存中获取值失败</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -2531,7 +2531,7 @@ It might be blocked by another application.</source>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="981"/>
         <source>Error converting value</source>
-        <translation>转换值时出现错误</translation>
+        <translation>转换值时出错</translation>
     </message>
     <message>
         <source>Couldn&apos;t convert the value you typed to the integer type of that cheat</source>
@@ -2539,7 +2539,7 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Error applying value</source>
-        <translation>应用值时出现错误</translation>
+        <translation>应用值时出错</translation>
     </message>
     <message>
         <source>Couldn&apos;t patch memory</source>
@@ -2551,11 +2551,11 @@ It might be blocked by another application.</source>
     </message>
     <message>
         <source>Cheat already exist</source>
-        <translation>作弊已经存在</translation>
+        <translation>作弊已存在</translation>
     </message>
     <message>
         <source>Do you want to overwrite the existing cheat?</source>
-        <translation>要覆盖已经存在的作弊吗？</translation>
+        <translation>你要覆盖当前存在的作弊吗？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/cheat_manager.cpp" line="981"/>
@@ -2757,14 +2757,14 @@ Double-click: Set breakpoints.</oldsource>
 Ctrl+B：打开断点设置。
 Ctrl+C：复制指令内容。
 Ctrl+F：查找线程。
-Alt+S：从 PPU 使用时，捕获选中 SPU 的 SPU 图像，或其一般形式。
-Alt+S：从 RSX 使用时，启动一个指向当前 RSX 信号量位置的内存查看器。
-Alt+R：加载上次保存的 SPU 捕获状态。
+Alt+S：以 PPU 使用时，捕获选中 SPU 的 SPU 图像，或其一般形式。
+Alt+S：以 RSX 使用时，启动一个指向当前 RSX 信号量位置的内存查看器。
+Alt+R：加载上次保存的 SPU 状态捕获。
 D：SPU MFC 指令记录器，必须启用 MFC 调试设置。
-D：也是 PPU 调用历史记录器，必须使用解释器和非 0 的调用历史大小。
+D：也是 PPU 调用历史记录器，必须使用解释器和非零调用历史大小。
 E：指令编辑器：点击你要修改的指令，然后按下 E。
 F：为 SPU 线程切换至专用的浮点模式。
-R：（打开）选中线程的寄存器编辑器。
+R：选中线程的寄存器编辑器。
 N：展示标记指令之后下一条要执行的指令，如目标不可预计，就什么也不做。
 M：展示内存查看器，其初始内存地址指向标记的指令。
 I：展示 RSX 方法的细节。
@@ -2773,8 +2773,8 @@ F11：在指令上执行单步前进。
 F1：展示此帮助对话框。
 上键：向上滚动一条指令。（地址是递减的）
 下键：向下滚动一条指令。（地址是递增的）
-上翻页键：向上滚动，其步数等于当前看到的指令数量。
-下翻页键：向下滚动，其步数等于当前看到的指令数量。
+Page-Up 键：向上滚动，其步数等于当前看到的指令数量。
+Page-Down 键：向下滚动，其步数等于当前看到的指令数量。
 双击：设定断点。</translation>
     </message>
     <message>
