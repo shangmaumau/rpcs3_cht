@@ -187,7 +187,7 @@
     <message>
         <location filename="rpcs3qt/localized.h" line="62"/>
         <source>Other</source>
-        <translation>其它</translation>
+        <translation>其他</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized.h" line="102"/>
@@ -1673,12 +1673,12 @@ Only use multi-threaded if you can spare the extra threads.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="215"/>
         <source>Shows all configured pads as always connected ingame even if they are physically disconnected.</source>
-        <translation>在游戏中将所有已配置的手柄显示为始终连接，即使它们已经在物理层面上断开了。</translation>
+        <translation>在游戏中将所有已配置的手柄显示为始终连接，即使它们在物理层面上并未连接。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="216"/>
         <source>Some games support native keyboard input.
-Basic will work in these cases.</source>
+Basic will work in these cases.</source>·
         <translation>一些游戏支持原生的键盘输入。
 「Basic」在这些情形下是可正常工作的。</translation>
     </message>
@@ -2803,8 +2803,8 @@ Page-Down 键：向下滚动，其步数等于当前看到的指令数量。
         <location filename="rpcs3qt/debugger_frame.cpp" line="269"/>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
-        <translation>当设定：击中断点时会暂停模拟而非暂停当前线程。
-应用于所有线程中的所有断点，而不管是在更改此设置之前或之后设定的。（看不懂）</translation>
+        <translation>当设定：一个断点命中会暂停模拟而非当前线程。
+应用于所有线程的所有断点，而不管是在更改此设置之前或之后设定的。（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/debugger_frame.cpp" line="488"/>
@@ -2934,13 +2934,13 @@ Applies on all breakpoints in all threads regardless if set before or after chan
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="136"/>
         <source>Segment parameters are incorrect:
 %1</source>
-        <translation>切片参数不正确：
+        <translation>切片参数有误：
 %1</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="142"/>
         <source>SPU segment size must be 4 bytes aligned.</source>
-        <translation>SPU 切片尺寸必须为 4 字节对齐。</translation>
+        <translation>SPU 切片尺寸必须 4 字节对齐。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="148"/>
@@ -2950,7 +2950,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="154"/>
         <source>PPU address range is not accessible.</source>
-        <translation>PPU 地址范围无法获取。</translation>
+        <translation>PPU 地址范围无法访问。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="168"/>
@@ -3028,7 +3028,7 @@ Consider that a correction might render them invalid for other versions of RPCS3
 Do you wish to let the program correct them for you?
 This change will only be final when you save the config.</source>
         <translation>你的配置文件中包含了一个或多个无法识别的设置项值。
-在被纠正前，会一直使用它们的默认值。
+会一直使用其默认值，除非它们被纠正。
 请考虑到：纠正操作在其他版本的 RPCS3 中可能会无效渲染。
 
 你希望让程序为你纠正它们吗？
@@ -3122,7 +3122,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="922"/>
         <source>Async with Shader Interpreter</source>
         <comment>Shader Mode</comment>
-        <translation>异步着色器解释器</translation>
+        <translation>与着色器解释器异步</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="923"/>
@@ -3194,19 +3194,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="949"/>
         <source>Ultra</source>
         <comment>Shader Precision</comment>
-        <translation>Ultra</translation>
+        <translation>极致</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="950"/>
         <source>High</source>
         <comment>Shader Precision</comment>
-        <translation>High</translation>
+        <translation>高</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="951"/>
         <source>Low</source>
         <comment>Shader Precision</comment>
-        <translation>Low</translation>
+        <translation>低</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="957"/>
@@ -3429,13 +3429,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1054"/>
         <source>1 controller (1-4 players)</source>
         <comment>Buzz handler</comment>
-        <translation>1 个控制器（1-4 个玩家）</translation>
+        <translation>一个控制器（1-4 个玩家）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1055"/>
         <source>2 controllers (5-7 players)</source>
         <comment>Buzz handler</comment>
-        <translation>2 个控制器（5-7 个玩家）</translation>
+        <translation>两个控制器（5-7 个玩家）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1061"/>
@@ -3447,13 +3447,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1062"/>
         <source>1 controller</source>
         <comment>Turntable handler</comment>
-        <translation>1 个控制器</translation>
+        <translation>一个控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1063"/>
         <source>2 controllers</source>
         <comment>Turntable handler</comment>
-        <translation>2 个控制器</translation>
+        <translation>两个控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1069"/>
@@ -3465,19 +3465,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1070"/>
         <source>1 controller</source>
         <comment>GHLtar handler</comment>
-        <translation>1 个控制器</translation>
+        <translation>一个控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1071"/>
         <source>2 controllers</source>
         <comment>GHLtar handler</comment>
-        <translation>2 个控制器</translation>
+        <translation>两个控制器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1077"/>
         <source>Disconnected</source>
         <comment>Internet Status</comment>
-        <translation>已断开连接</translation>
+        <translation>未连接</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1078"/>
@@ -3489,7 +3489,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1084"/>
         <source>Disconnected</source>
         <comment>PSN Status</comment>
-        <translation>已断开连接</translation>
+        <translation>未连接</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1085"/>
@@ -3507,7 +3507,7 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1092"/>
         <source>As Host</source>
         <comment>Sleep timers accuracy</comment>
-        <translation>跟随主机</translation>
+        <translation>与主机一致</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1093"/>
@@ -3798,19 +3798,19 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1195"/>
         <source>Other</source>
         <comment>License Area</comment>
-        <translation>其它</translation>
+        <translation>其他</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1201"/>
         <source>Safe</source>
         <comment>Asynchronous Queue Scheduler</comment>
-        <translation>Safe</translation>
+        <translation>安全</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1202"/>
         <source>Fast</source>
         <comment>Asynchronous Queue Scheduler</comment>
-        <translation>Fast</translation>
+        <translation>快速</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1208"/>
@@ -6637,7 +6637,7 @@ Space Needed: %0 KB</source>
         <source>Incorrect version in sys_load_param.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>sys_load_param 中的版本不正确。
+        <translation>sys_load_param 中的版本有误。
 (%0)</translation>
     </message>
     <message>
@@ -9320,7 +9320,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.h" line="66"/>
         <source> (disconnected)</source>
-        <translation>（已断开连接）</translation>
+        <translation>（未连接）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_motion_settings_dialog.cpp" line="47"/>
@@ -9956,7 +9956,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.h" line="89"/>
         <source> (disconnected)</source>
-        <translation>（已断开连接）</translation>
+        <translation>（未连接）</translation>
     </message>
 </context>
 <context>
