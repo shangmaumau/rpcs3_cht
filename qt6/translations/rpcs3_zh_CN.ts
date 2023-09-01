@@ -4715,7 +4715,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1456"/>
         <source>The PS3 application is still running, it cannot be removed!</source>
-        <translation>PS3 应用程序仍在运行，无法被移除！</translation>
+        <translation>PS3 应用程序仍在运行，它不能被移除！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1471"/>
@@ -4849,7 +4849,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1246"/>
         <source>&amp;Edit Tooltip Notes</source>
-        <translation>&amp;编辑工具条笔记</translation>
+        <translation>&amp;编辑工具提示（Tooltip）笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1249"/>
@@ -4889,17 +4889,17 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1266"/>
         <source>&amp;Import Custom Shader Loading Background</source>
-        <translation>&amp;导入自定义着色器加载中背景</translation>
+        <translation>&amp;导入自定义的着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1267"/>
         <source>&amp;Replace Custom Shader Loading Background</source>
-        <translation>&amp;替换自定义着色器加载中背景</translation>
+        <translation>&amp;替换自定义的着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1268"/>
         <source>&amp;Remove Custom Shader Loading Background</source>
-        <translation>&amp;移除自定义着色器加载中背景</translation>
+        <translation>&amp;移除自定义的着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1297"/>
@@ -4914,7 +4914,7 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1303"/>
         <source>Select Custom Shader Loading Background</source>
-        <translation>选择自定义着色器加载中背景</translation>
+        <translation>选择自定义的着色器加载中背景</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1306"/>
@@ -4949,12 +4949,12 @@ Falling back to local database.
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="974"/>
         <source>Successfully created shortcut(s).</source>
-        <translation>成功创建（多个）快捷方式。</translation>
+        <translation>成功创建快捷方式。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="978"/>
         <source>Failed to create shortcut(s)!</source>
-        <translation>创建（多个）快捷方式失败！</translation>
+        <translation>创建快捷方式失败！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1247"/>
@@ -5042,7 +5042,7 @@ You can clear the line in order to use the original title.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1560"/>
         <source>Edit Tooltip Notes</source>
-        <translation>编辑工具条笔记</translation>
+        <translation>编辑工具提示笔记</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1560"/>
