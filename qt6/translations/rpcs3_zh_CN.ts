@@ -4343,7 +4343,7 @@ This change will only be final when you save the config.</source>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="124"/>
         <source>Games that can be properly played from start to finish</source>
-        <translation>游戏能够正常地从头玩到尾</translation>
+        <translation>游戏能够正常从头玩到尾</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_compatibility.h" line="125"/>
