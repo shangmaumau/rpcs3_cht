@@ -1784,7 +1784,7 @@ This can be very helpful during calibration screens.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="230"/>
         <source>Loads the SDL GameController database for improved gamepad compatibility. Only used in the SDL pad handler.</source>
-        <translation>载入 SDL GameController 资料库以提高游戏控制器的相容性。 仅在 SDL 控制器处理程序中使用。</translation>
+        <translation>加载 SDL 游戏控制器数据库以提升游戏手柄兼容性。仅在 SDL 手柄处理程序中使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="232"/>
@@ -1820,7 +1820,7 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="274"/>
         <source>Controls the deadzone of pressure sensitive buttons. It determines how far the button has to be pressed until it is recognized by the game. The resulting range will be projected onto the full button sensitivity range.</source>
-        <translation>控制压力感应按钮的盲区。 决定了按钮必须按下多久才能被游戏识别。 所得范围将投射到整个按钮感应的范围。</translation>
+        <translation>控制压感按键的死区。它决定了这个按键得被压住到多远的地方，才能被游戏识别。结果范围将被投射为整个按键的感应范围。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="286"/>
@@ -9566,17 +9566,17 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="152"/>
         <source>Configuration Files</source>
-        <translation>组态档案</translation>
+        <translation>配置文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="173"/>
         <source>Add Configuration</source>
-        <translation>加入组态</translation>
+        <translation>添加配置</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="723"/>
         <source>Pressure Sensitivity Deadzone</source>
-        <translation>压力感应盲区</translation>
+        <translation>压力感应死区</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1147"/>
@@ -9936,12 +9936,12 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1672"/>
         <source>PS Move Navigation</source>
         <comment>PS Move Navigation Controller</comment>
-        <translation>PS Move 巡览</translation>
+        <translation>PS Move 导航</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1683"/>
         <source>Configuration Name: </source>
-        <translation>组态名称: </translation>
+        <translation>配置名称：</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1724"/>
@@ -11896,7 +11896,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1816"/>
         <source>Use SDL GameController Database</source>
-        <translation>使用 SDL GameController 资料库</translation>
+        <translation>使用 SDL 游戏控制器数据库</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2406"/>
