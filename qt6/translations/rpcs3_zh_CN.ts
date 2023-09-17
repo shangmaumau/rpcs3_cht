@@ -5155,7 +5155,7 @@ Your configuration will revert to the global pad settings.</source>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1919"/>
         <source>No titles found</source>
-        <translation>未发现一个作品</translation>
+        <translation>未发现作品</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="1928"/>
@@ -5220,7 +5220,7 @@ Progress: %1/%2. Compiling caches for %3...</source>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2151"/>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2198"/>
         <source>No files found</source>
-        <translation>一个文件也没发现</translation>
+        <translation>未发现文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/game_list_frame.cpp" line="2020"/>
@@ -5434,7 +5434,7 @@ Notes:
 Some games will crash.
 
 Please increase the limit before running RPCS3.</source>
-        <translation>当前最大文件描述器限制数量过低。
+        <translation>当前最大文件描述器的限制数量过低。
 有些游戏会崩溃。
 
 请在运行 RPCS3 之前增加限制数量。</translation>
@@ -5465,8 +5465,8 @@ Some thread has probably deadlocked. Aborting.</source>
         <location filename="rpcs3qt/gui_application.cpp" line="601"/>
         <source>Waiting for %0 second(s) already to stop emulation without success.
 Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
-        <translation>停止模拟已等待 %0 秒，但未成功。
-继续等待或不安全地结束 RPCS3？——你要承担风险。</translation>
+        <translation>停止模拟已经等待 %0 秒，但未成功。
+继续等待或自担风险、不安全地结束 RPCS3？</translation>
     </message>
 </context>
 <context>
@@ -5513,7 +5513,7 @@ Any unsaved progress will be lost!
 
 Any unsaved progress will be lost!
 </oldsource>
-        <translation>当前有一款游戏正在运行。你真的要关闭 RPCS3 吗？&lt;br&gt;&lt;br&gt;任何未保存进度都会丢失！&lt;br&gt;</translation>
+        <translation>有一款游戏现在正在运行。你真的要关闭 RPCS3 吗？&lt;br&gt;&lt;br&gt;任何未保存进度都会丢失！&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -5620,7 +5620,7 @@ Some thread has probably deadlocked. Aborting.</source>
         <source>Failed to open the figure file(%1)!
 File may already be in use on the base.</source>
         <translation>打开形象文件（%1）失败！
-文件可能已经在 base 上使用。</translation>
+文件可能已经在基础上（on the base）使用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/infinity_dialog.cpp" line="815"/>
@@ -5671,7 +5671,7 @@ File was too small.</source>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="67"/>
         <source>For SPUs Group</source>
-        <translation>SPU 组专用</translation>
+        <translation>用于 SPU 组</translation>
     </message>
     <message>
         <location filename="rpcs3qt/instruction_editor_dialog.cpp" line="103"/>
