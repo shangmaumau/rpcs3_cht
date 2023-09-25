@@ -5434,7 +5434,7 @@ Notes:
 Some games will crash.
 
 Please increase the limit before running RPCS3.</source>
-        <translation>当前的文件描述器的最大限制数量过低。
+        <translation>当前的文件描述符的最大限制数量过低。
 有些游戏会崩溃。
 
 请在运行 RPCS3 之前增加限制数量。</translation>
@@ -6042,7 +6042,7 @@ File was too small.</source>
         <location filename="rpcs3qt/localized_emu.h" line="54"/>
         <source>Enter</source>
         <comment>OSK Dialog</comment>
-        <translation>进入</translation>
+        <translation>输入</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="55"/>
