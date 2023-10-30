@@ -3675,13 +3675,13 @@ This change will only be final when you save the config.</source>
         <location filename="rpcs3qt/emu_settings.cpp" line="1144"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
-        <translation>输入使用圆形键</translation>
+        <translation>使用圆形键确认</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1145"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
-        <translation>输入使用叉形键</translation>
+        <translation>使用叉形键确认</translation>
     </message>
     <message>
         <location filename="rpcs3qt/emu_settings.cpp" line="1151"/>
@@ -7042,22 +7042,22 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="8"/>
         <source>D-Pad Up</source>
-        <translation>D-Pad 上键</translation>
+        <translation>十字键上键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="9"/>
         <source>D-Pad Down</source>
-        <translation>D-Pad 下键</translation>
+        <translation>十字键下键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="10"/>
         <source>D-Pad Left</source>
-        <translation>D-Pad 左键</translation>
+        <translation>十字键左键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="11"/>
         <source>D-Pad Right</source>
-        <translation>D-Pad 右键</translation>
+        <translation>十字键右键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.cpp" line="12"/>
@@ -7227,7 +7227,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="258"/>
         <source>Show Thread On The Debugger</source>
-        <translation>在侦错器上显示执行绪</translation>
+        <translation>在调试器上显示线程</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="265"/>
@@ -7242,7 +7242,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="306"/>
         <source>Nothing</source>
-        <translation>啥也没有</translation>
+        <translation>什么也没有</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="308"/>
@@ -7302,7 +7302,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="367"/>
         <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
-        <translation>从调试器的日志文本跳至选择的十六进制地址。</translation>
+        <translation>从调试器的日志文本跳转至选择的十六进制地址。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="368"/>
@@ -7312,7 +7312,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/log_frame.cpp" line="388"/>
         <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
-        <translation>从调试器的 TTY 文本跳至选择的十六进制地址。</translation>
+        <translation>从调试器的 TTY 文本跳转至选择的十六进制地址。</translation>
     </message>
 </context>
 <context>
@@ -7629,12 +7629,12 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="505"/>
         <source>Send Open System Menu CMD</source>
-        <translation>发送开启系统菜单 CMD</translation>
+        <translation>发送开启系统菜单指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="510"/>
         <source>CPU</source>
-        <translation>CPU</translation>
+        <translation>CPU（中央处理器）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="513"/>
@@ -7644,13 +7644,13 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="518"/>
         <source>GPU</source>
-        <translation>GPU</translation>
+        <translation>GPU（图形处理器）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="521"/>
         <source>Configure graphics</source>
         <oldsource>Configure Graphics</oldsource>
-        <translation>配置图形</translation>
+        <translation>配置图形（卡）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="526"/>
@@ -7830,7 +7830,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="682"/>
         <source>Extract MSELF</source>
-        <translation>提取 MYSELF</translation>
+        <translation>提取 MSELF</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="687"/>
@@ -7845,7 +7845,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="695"/>
         <source>Extract files from special .tar files inside PS3UPDAT.PUP</source>
-        <translation>从 PS3UPDAT.PUP 内特定的 .tar 文件中提取文件</translation>
+        <translation>从 PS3UPDAT.PUP 内指定的 .tar 文件中提取文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="703"/>
