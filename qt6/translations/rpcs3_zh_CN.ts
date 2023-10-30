@@ -6239,7 +6239,7 @@ Space Needed: %0 KB</source>
         <source>The feature is not yet implemented.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>这功能还没实现哩。
+        <translation>此功能尚未实现。
 (%0)</translation>
     </message>
     <message>
@@ -6255,7 +6255,7 @@ Space Needed: %0 KB</source>
         <source>The resource with the specified identifier does not exist.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>指定唯一标识符的资源不存在。
+        <translation>指定标识符的资源不存在。
 (%0)</translation>
     </message>
     <message>
@@ -6273,7 +6273,7 @@ Space Needed: %0 KB</source>
         <oldsource>The file is in unrecognized format / The file is not a valid ELF file.
 (%0)</oldsource>
         <comment>Error code</comment>
-        <translation>文件格式未能识别 / 文件非有效的 ELF 文件。
+        <translation>文件是一种未能识别的格式 / 文件不是一个有效的 ELF 文件。
 (%0)</translation>
     </message>
     <message>
@@ -6337,7 +6337,7 @@ Space Needed: %0 KB</source>
         <source>Alignment is invalid.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>Alignment 无效。
+        <translation>对齐无效。
 (%0)</translation>
     </message>
     <message>
@@ -6369,7 +6369,7 @@ Space Needed: %0 KB</source>
         <source>Entry already exists.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>项目已存在。
+        <translation>入口已存在。
 (%0)</translation>
     </message>
     <message>
@@ -6393,7 +6393,7 @@ Space Needed: %0 KB</source>
         <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>授权 SELF 失败。程序认证失败。
+        <translation>授权 SELF 时失败。程序认证失败。
 (%0)</translation>
     </message>
     <message>
@@ -6425,7 +6425,7 @@ Space Needed: %0 KB</source>
         <source>Math domain violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>违反数学域。（看不懂）
+        <translation>数学域违背。（按如对负数开平方或取非正数的对数，就会出现此类错误。）
 (%0)</translation>
     </message>
     <message>
@@ -6433,7 +6433,7 @@ Space Needed: %0 KB</source>
         <source>Math range violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>违反数学范围。（看不懂）
+        <translation>数学范围违背。（按一般指超出相应类型可表示的最大数值范围。）
 (%0)</translation>
     </message>
     <message>
@@ -6537,7 +6537,7 @@ Space Needed: %0 KB</source>
         <source>Access violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>访问违例。
+        <translation>访问违背。（按一般译为非法访问。）
 (%0)</translation>
     </message>
     <message>
@@ -6617,7 +6617,7 @@ Space Needed: %0 KB</source>
         <source>Message size error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>信息尺寸错误。
+        <translation>信息尺寸（即大小）错误。
 (%0)</translation>
     </message>
     <message>
@@ -6721,7 +6721,7 @@ Space Needed: %0 KB</source>
         <location filename="rpcs3qt/localized_emu.h" line="146"/>
         <source>The Home Menu can&apos;t be opened while the On Screen Keyboard is busy!</source>
         <comment>OSK Dialog</comment>
-        <translation>屏上键盘正忙，无法打开主页菜单。</translation>
+        <translation>屏上键盘正忙时，无法打开主页菜单！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="147"/>
@@ -6821,7 +6821,7 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation>你真的要覆写已保存的数据吗？
+        <translation>你想覆写已保存的数据吗？
 
 %0</translation>
     </message>
@@ -6831,13 +6831,13 @@ Space needed: %0 KB</source>
 If you have not installed [%0], go to [Remote Play] on the PS Vita system and start [Cross-Controller] from the LiveArea™ screen.</source>
         <comment>Cross-Controller message</comment>
         <translation>启动 PS Vita 系统上的 [%0]。
-如果你还未安装 [%0]，则在 PS Vita 系统上前往 [Remote Play]，然后从 LiveArea™ 屏开始 [Cross-Controller]。</translation>
+如果你还未安装 [%0]，则在 PS Vita 系统上前往 [Remote Play]（远程游玩），然后从 LiveArea™ 屏开始 [Cross-Controller]。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="161"/>
         <source>If your system software version on the PS Vita system is earlier than 1.80, you must update the system software to the latest version.</source>
         <comment>Cross-Controller firmware message</comment>
-        <translation>如果 PS Vita 系统上你的系统软件版本早于 1.80，你必须更新系统软件到最新的版本。</translation>
+        <translation>如果 PS Vita 系统上你的系统软件版本早于 1.80，你必须更新系统软件至最新版本。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="162"/>
@@ -6857,7 +6857,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="165"/>
         <source>RPCN Connection Error: WolfSSL Error</source>
-        <translation>RPCN 连接错误：wolfSLL 错误</translation>
+        <translation>RPCN 连接错误：WolfSLL 错误</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="166"/>
@@ -6897,7 +6897,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="173"/>
         <source>RPCN Misc Error: Protocol Version Error (outdated RPCS3?)</source>
-        <translation>RPCN 杂项错误：协议版本错误（RPCS3 版本太旧啦？）</translation>
+        <translation>RPCN 杂项错误：协议版本错误（RPCS3 版本太旧？）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/localized_emu.h" line="174"/>
