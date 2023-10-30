@@ -6369,7 +6369,7 @@ Space Needed: %0 KB</source>
         <source>Entry already exists.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>入口已存在。
+        <translation>记录已存在。
 (%0)</translation>
     </message>
     <message>
