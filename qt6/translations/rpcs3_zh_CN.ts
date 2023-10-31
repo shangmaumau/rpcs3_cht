@@ -8380,7 +8380,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="437"/>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
-        <translation>数字内容无法解密。这通常是因授权（RAP）文件缺失或无效引起。</translation>
+        <translation>数字内容无法解密。这通常是因授权（RAP）文件缺失或无效引起的。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="440"/>
@@ -8390,7 +8390,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="443"/>
         <source>This disc type is not supported yet.</source>
-        <translation>该光盘类型当前还不支持。</translation>
+        <translation>此光盘类型（目前）还不支持。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="446"/>
@@ -8427,7 +8427,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="512"/>
         <location filename="rpcs3qt/main_window.cpp" line="558"/>
         <source>Select (S)ELF To Boot</source>
-        <translation>选择 (S)ELF 启动</translation>
+        <translation>选择 (S)ELF 来启动</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="512"/>
@@ -8482,7 +8482,7 @@ Path:
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="449"/>
         <source>Savestate versioning data differs from your RPCS3 build.</source>
-        <translation>存档版本数据与你的 RPCS3 构建版本不一致。</translation>
+        <translation>存档的版本数据与你的 RPCS3 构建版本不一致。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="817"/>
@@ -8550,7 +8550,7 @@ Would you like to install shortcuts to the installed software? (%1 new software 
 
 </source>
         <translation>成功从（多个）软件包安装了软件！
-你要给安装的软件安装快捷方式吗？（已检测到 %1 个新软件）
+你要给忆安装的软件添加（install）快捷方式吗？（已检测到 %1 个新软件）
 
 </translation>
     </message>
@@ -8614,7 +8614,7 @@ Would you like to install shortcuts to the installed software? (%1 new software 
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1309"/>
         <source>TAR Extraction</source>
-        <translation>TAR 的提取文件</translation>
+        <translation>TAR 提取文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1309"/>
