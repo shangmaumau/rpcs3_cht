@@ -8550,7 +8550,7 @@ Would you like to install shortcuts to the installed software? (%1 new software 
 
 </source>
         <translation>成功从（多个）软件包安装了软件！
-你要给忆安装的软件添加（install）快捷方式吗？（已检测到 %1 个新软件）
+你要给已安装的软件添加（install）快捷方式吗？（已检测到 %1 个新软件）
 
 </translation>
     </message>
