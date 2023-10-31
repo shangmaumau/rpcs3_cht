@@ -1835,7 +1835,7 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="276"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-        <translation>控制压感按键的按压强度——当这种特殊按键被按压时。&lt;br&gt;如果你想切换按键的按压强度来替代的话，请启用「切换」。&lt;br&gt;使用百分比来改变你想按压按键的力度。（不太懂）</translation>
+        <translation>控制压感按键的按压强度——当这种特殊按键被按压时。&lt;br&gt;如果你想切换按键的按压强度来替代的话，请启用「切换」。&lt;br&gt;使用百分比来改变你想按压按键的力度。（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="277"/>
@@ -9438,7 +9438,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="195"/>
         <source>D-Pad</source>
-        <translation>方向键（D-Pad）</translation>
+        <translation>十字键（D-Pad）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="247"/>
@@ -9646,7 +9646,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1231"/>
         <source>Space</source>
-        <translation>Space</translation>
+        <translation>空格键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1244"/>
@@ -9656,7 +9656,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1262"/>
         <source>Enter</source>
-        <translation>Enter</translation>
+        <translation>Enter 键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1321"/>
@@ -9666,7 +9666,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1339"/>
         <source>Backspace</source>
-        <translation>Backspace</translation>
+        <translation>退格键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="1372"/>
@@ -9777,12 +9777,12 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2018"/>
         <source>PgUp</source>
-        <translation>PgUp</translation>
+        <translation>上翻页键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2067"/>
         <source>Home</source>
-        <translation>Home</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2098"/>
@@ -9792,7 +9792,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2159"/>
         <source>PgDown</source>
-        <translation>PgDown</translation>
+        <translation>下翻页键</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.ui" line="2210"/>
@@ -9906,12 +9906,12 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="201"/>
         <source>Relative</source>
-        <translation>Relative</translation>
+        <translation>相对</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="202"/>
         <source>Absolute</source>
-        <translation>Absolute</translation>
+        <translation>绝对</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="323"/>
@@ -9939,7 +9939,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1635"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
-        <translation>《劲舞革命》控制器</translation>
+        <translation>《劲舞革命》（毯）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1640"/>
@@ -9951,25 +9951,25 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1645"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
-        <translation>摇滚乐队</translation>
+        <translation>摇滚乐队（鼓套件）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1650"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
-        <translation>摇滚乐队专业版</translation>
+        <translation>摇滚乐队专业版（鼓套件）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1655"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
-        <translation>摇滚乐队</translation>
+        <translation>摇滚乐队（吉他）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1660"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
-        <translation>吉他英雄</translation>
+        <translation>吉他英雄（鼓套件）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1665"/>
@@ -9993,7 +9993,7 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1680"/>
         <source>RIDE Skateboard</source>
         <comment>Tony Hawk RIDE Skateboard Controller</comment>
-        <translation>RIDE 滑板</translation>
+        <translation>RIDE 滑板（控制器）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pad_settings_dialog.cpp" line="1691"/>
@@ -10168,27 +10168,27 @@ SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="149"/>
         <source>&amp;Add Instruction Above</source>
-        <translation>&amp;在其上添加指令</translation>
+        <translation>&amp;在上方添加指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="155"/>
         <source>&amp;Add Instruction Below</source>
-        <translation>&amp;在其下添加指令</translation>
+        <translation>&amp;在下方添加指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="169"/>
         <source>&amp;Move Instruction(s) Up</source>
-        <translation>&amp;（多个）指令上移</translation>
+        <translation>&amp;将（多个）指令上移</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="181"/>
         <source>&amp;Move Instruction(s) Down</source>
-        <translation>&amp;（多个）指令下移</translation>
+        <translation>&amp;将（多个）指令下移</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="190"/>
         <source>&amp;Remove Instruction(s)</source>
-        <translation>&amp;（多个）指令移除</translation>
+        <translation>&amp;移除（多个）指令</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_creator_dialog.cpp" line="199"/>
@@ -10450,7 +10450,7 @@ Log:
 
 Log:
 %0</source>
-        <translation>在补丁文件中发现错误。
+        <translation>在补丁文件中发现（多个）错误。
 
 日志：
 %0</translation>
@@ -10458,7 +10458,7 @@ Log:
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1067"/>
         <source>Errors were found in the patch file.</source>
-        <translation>在补丁文件中发现错误。</translation>
+        <translation>在补丁文件中发现（多个）错误。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/patch_manager_dialog.cpp" line="1069"/>
@@ -10513,7 +10513,7 @@ Do you want to update?</source>
 
 Log:
 %0</source>
-        <translation>在已下载的补丁中发现错误。
+        <translation>在已下载的补丁中发现（多个）错误。
 
 日志：
 %0</translation>
@@ -10649,7 +10649,7 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
         <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
         <translation>你即将安装多个软件包。
-重新排序并且/或如有需要排除它们，然而点击「安装」以进行。</translation>
+重新排序并且/或如有需要排除它们，然后点击「安装」以进行。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/pkg_install_dialog.cpp" line="165"/>
@@ -10682,7 +10682,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
         <source>Error receiving a message!</source>
-        <translation>接收信息出错！</translation>
+        <translation>接收信息时出错！</translation>
     </message>
     <message>
         <location filename="rpcs3qt/recvmessage_dialog_frame.cpp" line="68"/>
@@ -10734,9 +10734,9 @@ No changes were made.</source>
         <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
 
 Selecting ignore starts the emulator without Vulkan support.</source>
-        <translation>查询 Vulkan 兼容设备花费的时间过长。通常这是因有故障的图形驱动所致，重新安装它们可以修复此问题。
+        <translation>查询 Vulkan 兼容设备花费的时间过长。通常这是因有故障的图形驱动所致，重新安装它们可修复此问题。
 
-选择「忽略」会在没有 Vulkan 支持下启动模拟器。</translation>
+选择「忽略」会在缺少 Vulkan 支持下启动模拟器。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/render_creator.cpp" line="111"/>
@@ -11259,7 +11259,7 @@ No graphics will be rendered.</source>
 
 
 </source>
-        <translation>把你的鼠标光标移至一个选项处以在这里展示一个描述。
+        <translation>把你的鼠标光标指到一个选项上以在此处展示一个描述。
 
 
 </translation>
@@ -11468,7 +11468,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1224"/>
         <source>Master: 0%</source>
-        <translation>Master：0%</translation>
+        <translation>Master：0%（看不懂）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1270"/>
@@ -11646,7 +11646,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2017"/>
         <source>Enter Button Assignment</source>
-        <translation>Enter 键分配</translation>
+        <translation>确认键分配</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2050"/>
@@ -11662,7 +11662,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2063"/>
         <source>Cache size: 3072 MB</source>
-        <translation>缓存大小：3 072 MB</translation>
+        <translation>缓存大小：3072 MB（按即 3GB）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2142"/>
