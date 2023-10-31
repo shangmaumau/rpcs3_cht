@@ -8709,7 +8709,7 @@ And is logged with some sceNpDrm* functions when the game/application which owns
         <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
         <translation>定位日志文件失败。
-请确保 RPCS3.log 和 RPCS3.log.gz 是可写入的，且能够在无权限问题的情形下被（成功）创建。</translation>
+请确保 RPCS3.log 和 RPCS3.log.gz 是可写入的，且能够在无权限问题的情形下被创建。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2466"/>
@@ -8752,7 +8752,7 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2925"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
-        <translation>当前自动更新器不适用于你的系统</translation>
+        <translation>对于你的操作系统，自动更新器当前不可用。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1451"/>
@@ -8766,7 +8766,7 @@ The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
         <translation>检测到旧版固件。
 最新的固件版本为 %1，你正要尝试安装的版本为 %2
-继续安装流程？</translation>
+继续安装？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="734"/>
@@ -8874,7 +8874,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
         <location filename="rpcs3qt/main_window.cpp" line="1506"/>
         <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
-        <translation>版本为 %1 的固件已安装。 
+        <translation>版本为 %1 的固件已经安装了。 
 使用版本 %2 覆写当前的安装版本？</translation>
     </message>
     <message>
@@ -8939,7 +8939,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1875"/>
         <source>Resume %0</source>
-        <translation>恢复 %0</translation>
+        <translation>继续 %0</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1841"/>
@@ -8956,12 +8956,12 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
         <location filename="rpcs3qt/main_window.cpp" line="735"/>
         <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
         <oldsource>All relevant (*.pkg *.PKG *.rap *.RAP);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;All files (*.*)</oldsource>
-        <translation>所有相关文件 (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;软件包文件 (*.pkg *.PKG);;RAP 文件 (*.rap *.RAP);;EDAT 文件 (*.edat *.EDAT);;所有文件 (*.*)</translation>
+        <translation>所有相关（文件） (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;软件包文件 (*.pkg *.PKG);;RAP 文件 (*.rap *.RAP);;Edat 文件 (*.edat *.EDAT);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1222"/>
         <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
-        <translation>所有 MSELF 文件 (*.mself *.MSELF);;所有文件 (*.*)</translation>
+        <translation>所有 mself 文件 (*.mself *.MSELF);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1243"/>
@@ -8972,12 +8972,12 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1293"/>
         <source>All tar files (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;All files (*.*)</source>
-        <translation>所有 TAR 文件 (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;所有文件 (*.*)</translation>
+        <translation>所有 tar 文件 (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;所有文件 (*.*)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1881"/>
         <source>&amp;Resume</source>
-        <translation>&amp;恢复</translation>
+        <translation>&amp;继续</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="1899"/>
@@ -8995,7 +8995,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2336"/>
         <source>Select a folder containing one or more games</source>
-        <translation>选择包含一个或多个游戏的文件夹</translation>
+        <translation>选择一个包含一个或多个游戏的文件夹</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="2750"/>
@@ -9013,7 +9013,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
 %0
 
 Check anyway?</source>
-        <translation>该文件的类型看起来有点意想不到：
+        <translation>此文件似乎拥有一种意想不到的类型（按就是这种类型的文件识别不了）：
 %0
 
 仍要检查？</translation>
@@ -9064,12 +9064,12 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="62"/>
         <source>Memory Viewer Of %0</source>
-        <translation>%0 内存查看器</translation>
+        <translation>%0 的内存查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="63"/>
         <source>Memory Viewer Of RSX[0x55555555]</source>
-        <translation>RSX[0x55555555] 内存查看器</translation>
+        <translation>RSX[0x55555555] 的内存查看器</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="83"/>
@@ -9104,7 +9104,7 @@ Check anyway?</source>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="164"/>
         <source>Raw Image Preview Options</source>
-        <translation>RAW 图像预览选项</translation>
+        <translation>Raw 图像预览选项</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="168"/>
@@ -9206,8 +9206,8 @@ Instruction: search an instruction contains the text of the string.
 RegEx: search an instruction containing text that matches the regular expression input.</source>
         <translation>字符串：搜索内存中指定的字符串。
 HEX 字节/整数：搜索内存中的十六进制值。空格，逗号，&quot;0x&quot;，&quot;0X&quot;，&quot;\x&quot;，&quot;h&quot;，&quot;H&quot; 确保字节分隔，但不是强制性的。
-Double：将字符串以 64 位精度的浮点数值重新解释。值以其精确表示来搜索，意即 -0 != 0.
-Float：将字符串以 32 位精度浮点数值重新解释。值以其精确表示来搜索，意即 -0 != 0.
+Double：将字符串以 64 位精度的浮点数值重新解释。值以其精确表示来搜索，这意味着 -0 != 0.
+Float：将字符串以 32 位精度浮点数值重新解释。值以其精确表示来搜索，这意味着 -0 != 0.
 指令：搜索包含字符串文本的指令。
 RegEx：搜索包含了「与正则表达式输入匹配」的文本的指令。</translation>
     </message>
@@ -9223,7 +9223,7 @@ SPU Instruction: Search an SPU instruction contains the text of the string. For 
 Tip: SPU floats are commented along forming instructions.</source>
         <translation>
 SPU 指令：搜索包含字符串文本的 SPU 指令。用于在嵌入的 SPU 图像中搜索指令。
-小提示：SPU 浮点随成型指令一起注释。（看不懂）</translation>
+小提示：SPU 浮点数会在指令形成时伴随着被注释掉。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/memory_viewer_panel.cpp" line="349"/>
