@@ -1835,7 +1835,7 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="276"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-        <translation>控制压感按键的按压强度——当这种特殊按键被按压时。&lt;br&gt;如果你想切换按键的按压强度来替代的话，请启用「切换」。&lt;br&gt;使用百分比来改变你想按压按键的力度。（看不懂）</translation>
+        <translation>当压感按键这种特殊按键被按下时，控制其（压力）强度。&lt;br&gt;如果你想在按键按下时就切换（至目标压力强度），请启用「切换」。&lt;br&gt;使用百分比来表示你想按压按键的力度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="277"/>
@@ -11729,7 +11729,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2434"/>
         <source>Silence All Logs</source>
-        <translation>缄默所有日志</translation>
+        <translation>静默所有日志（按就是关闭所有日志输出的意思）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2450"/>
@@ -11877,7 +11877,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2420"/>
         <source>Suspend-Emulation Savestates Mode</source>
-        <translation>「挂起模拟」存档模式</translation>
+        <translation>挂起模拟的存档模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2501"/>
@@ -11907,7 +11907,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2898"/>
         <source>Exit RPCS3 when process finishes</source>
-        <translation>完成处理后退出 RPCS3</translation>
+        <translation>进程结束时退出 RPCS3</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4158"/>
@@ -11928,7 +11928,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2926"/>
         <source>Prevent display sleep while running games</source>
-        <translation>运行游戏时阻止显示器睡眠</translation>
+        <translation>运行游戏时防止显示器睡眠</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2933"/>
@@ -11963,7 +11963,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2427"/>
         <source>SPU-Compatible Savestates Mode</source>
-        <translation>SPU 兼容存档模式</translation>
+        <translation>兼容 SPU 的存档模式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2635"/>
@@ -11973,7 +11973,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2905"/>
         <source>Pause emulation on RPCS3 focus loss</source>
-        <translation>RPCS3 失焦时暂停模拟</translation>
+        <translation>RPCS3 失去焦点时暂停模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2912"/>
@@ -11993,7 +11993,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="2987"/>
         <source>Max LLVM Compile Threads</source>
-        <translation>LLVM 编译最大线程数量</translation>
+        <translation>LLVM 编译的最大线程数量</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3003"/>
@@ -12029,7 +12029,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3068"/>
         <source>ms</source>
-        <translation>ms</translation>
+        <translation>毫秒 (ms)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3105"/>
