@@ -856,7 +856,7 @@ If unsure, don&apos;t use this option.</source>
         <location filename="rpcs3qt/tooltips.h" line="111"/>
         <source>Dump game shaders to file. Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-        <translation>将游戏着色器转储至文件中。仅对开发人员有用。
+        <translation>将游戏着色器转储 (dump) 至文件中。仅对开发人员有用。
 如不确定，请勿使用此选项。</translation>
     </message>
     <message>
@@ -864,7 +864,7 @@ If unsure, don&apos;t use this option.</source>
         <source>Disables running occlusion queries. Minor to moderate performance boost.
 Might introduce issues with broken occlusion e.g missing geometry and extreme pop-in.</source>
         <translation>禁止运行遮挡查询。轻微到中等的性能跃升。
-可能引起破坏遮挡的问题，如几何体丢失和极端的图形异突（pop-in）。</translation>
+可能引起破坏遮挡的问题，如几何体丢失和极端的图形异突 (pop-in)。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="114"/>
@@ -872,7 +872,7 @@ Might introduce issues with broken occlusion e.g missing geometry and extreme po
 Requires &apos;Write Color Buffers&apos; option to also be enabled in most cases to avoid missing graphics.
 Significantly degrades performance but is more accurate in some cases.
 This setting overrides the &apos;GPU texture scaling&apos; option.</source>
-        <translation>强制所有位块转移（blit）和图像处理的动作的模拟在 CPU 上运行。
+        <translation>强制所有位块转移 (blit) 和图像处理的动作的模拟在 CPU 上运行。
 在大多数情形下，还需要启用「写入颜色缓冲」选项以避免图形丢失。
 极大降低性能，但在一些情形中会更精准。
 此设置会覆盖「GPU 纹理缩放」选项。</translation>
@@ -2887,7 +2887,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="24"/>
         <source>SPU ELF Dumper</source>
-        <translation>SPU ELF 转储器</translation>
+        <translation>SPU ELF 转储器 (Dumper)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/elf_memory_dumping_dialog.cpp" line="34"/>
@@ -7794,13 +7794,13 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
     <message>
         <location filename="rpcs3qt/main_window.ui" line="640"/>
         <source>User Accounts</source>
-        <translation>用户帐号</translation>
+        <translation>用户账号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="643"/>
         <source>Manage user accounts</source>
         <oldsource>Manage User Accounts</oldsource>
-        <translation>管理用户帐号</translation>
+        <translation>管理用户账号</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.ui" line="648"/>
@@ -8411,7 +8411,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
         <location filename="rpcs3qt/main_window.cpp" line="461"/>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <oldsource>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</oldsource>
-        <translation>&lt;br /&gt;&lt;br /&gt;关于设定模拟器并转储你的 PS3 游戏的更多信息，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
+        <translation>&lt;br /&gt;&lt;br /&gt;关于设定模拟器并转储 (dump) 你的 PS3 游戏的更多信息，请阅读 &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;快速入门指南&lt;/a&gt;。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/main_window.cpp" line="464"/>
@@ -11453,7 +11453,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1109"/>
         <source>Dump to File</source>
-        <translation>转储至文件</translation>
+        <translation>转储 (Dump) 至文件</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="1102"/>
@@ -13660,7 +13660,7 @@ Latest version: %0 (%1)
 The latest version is %2 old.
 
 Do you want to update to the latest official RPCS3 version?</source>
-        <translation>你现在正在使用一个自定义或预发布构建版本。
+        <translation>你现在正在使用一个自定义或预发布的构建版本。
 
 最新版本：%0 (%1)
 最新版本已落后 %2。
@@ -13833,7 +13833,7 @@ New Username: </source>
         <source>New User ID: %0
 
 New Username: </source>
-        <translation>新用户ID：%0
+        <translation>新用户 ID：%0
 
 新用户名：</translation>
     </message>
@@ -13854,7 +13854,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="407"/>
         <source>&amp;Sort By</source>
-        <translation>&amp;以之排序</translation>
+        <translation>&amp;排序方式 (Sort By)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/user_manager_dialog.cpp" line="411"/>
@@ -13990,7 +13990,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="180"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 does not condone piracy. You must dump your own games.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 不纵容盗版。你必须转储你自己的游戏。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 不纵容盗版。你必须转储 (dump) 你自己的游戏。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="rpcs3qt/welcome_dialog.ui" line="190"/>
@@ -14128,7 +14128,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Error Connecting!</source>
-        <translation>连线时出错！</translation>
+        <translation>连接时出错！</translation>
     </message>
     <message>
         <source>An account with that username already exists!</source>
@@ -14136,11 +14136,11 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>This email provider is banned!</source>
-        <translation>电子邮箱供应者已被禁。</translation>
+        <translation>电子邮箱提供者（按即邮件服务商）已被禁！</translation>
     </message>
     <message>
         <source>An account with that email already exists!</source>
-        <translation>使用此电子信箱的账号已存在！</translation>
+        <translation>使用此电子邮箱的账号已存在！</translation>
     </message>
     <message>
         <source>Unknown creation error</source>
@@ -14184,7 +14184,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Missing Input</source>
-        <translation>缺少输入</translation>
+        <translation>没有输入</translation>
     </message>
     <message>
         <source>You need to enter a username and a password!</source>
@@ -14192,11 +14192,11 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Username must be between 3 and 16 characters and can only contain &apos;-&apos;, &apos;_&apos; or alphanumeric characters.</source>
-        <translation>用户名必须为 3 到 16 个字符，并且只能包含 &apos;-&apos;，&apos;_&apos; 或字母数字字符。</translation>
+        <translation>用户名必须为 3 到 16 个字符，并且只能包含 &apos;-&apos;，&apos;_&apos; 或字母数字类字符。</translation>
     </message>
     <message>
         <source>The token you have received should be 16 characters long and contain only 0-9 A-F.</source>
-        <translation>你收到的令牌应为 16 个字符长，并且仅包含 0-9 A-F。</translation>
+        <translation>你收到的令牌应为 16 个字符长，且只包含 0-9 A-F。</translation>
     </message>
     <message>
         <source>The server has no email verification and doesn&apos;t need a token!</source>
@@ -14216,7 +14216,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>The username/password pair is invalid!</source>
-        <translation>用户名/密码对无效！</translation>
+        <translation>「用户名/密码」对无效！</translation>
     </message>
     <message>
         <source>Error Sending Token!</source>
@@ -14224,7 +14224,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Failed to send the token:\n%0</source>
-        <translation>发送令牌出错：\n%0</translation>
+        <translation>发送令牌失败：\n%0</translation>
     </message>
     <message>
         <source>Token Sent!</source>
@@ -14304,7 +14304,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Missing Email</source>
-        <translation>缺少电子邮箱</translation>
+        <translation>没有电子邮箱</translation>
     </message>
     <message>
         <source>You need to enter an email!</source>
@@ -14349,7 +14349,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <translation>你的账号已创建成功！\n
 你的账号的验证信息已保存。\n
 现在你只需要把发送到你的电子邮箱中的令牌输入就好了。\n
-你可以保留其为空而跳过此步，然后稍后在「编辑账号」这部分输入它。\n</translation>
+你也可以保留其为空而跳过此步，然后稍后在「编辑账号」这部分输入它。\n</translation>
     </message>
 </context>
 <context>
@@ -14364,7 +14364,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Missing Username</source>
-        <translation>缺少用户名</translation>
+        <translation>没有用户名</translation>
     </message>
     <message>
         <source>You must enter a username!</source>
@@ -14403,7 +14403,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>RPCN: Account</source>
-        <translation>RPCN：帐号</translation>
+        <translation>RPCN：账号</translation>
     </message>
     <message>
         <source>Server:</source>
@@ -14478,7 +14478,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Missing Description!</source>
-        <translation>缺少描述！</translation>
+        <translation>没有描述！</translation>
     </message>
     <message>
         <source>You must enter a description!</source>
@@ -14486,7 +14486,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Missing Hostname!</source>
-        <translation>缺少主机名！</translation>
+        <translation>没有主机名！</translation>
     </message>
     <message>
         <source>You must enter a hostname for the server!</source>
@@ -14506,7 +14506,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>The username/email pair is invalid!</source>
-        <translation>用户名/密码对无效！</translation>
+        <translation>「用户名/密码」对无效！</translation>
     </message>
     <message>
         <source>Error Sending Password Reset Token!</source>
@@ -14538,7 +14538,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>The username/token pair is invalid!</source>
-        <translation>用户名/令牌对无效！</translation>
+        <translation>「用户名/令牌」对无效！</translation>
     </message>
     <message>
         <source>Password Successfully Changed!</source>
@@ -14613,11 +14613,11 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Error adding a friend!</source>
-        <translation>添加一个朋友时出错！</translation>
+        <translation>添加朋友时出错！</translation>
     </message>
     <message>
         <source>An error occurred while trying to add a friend!</source>
-        <translation>尝试添加一个朋友时发生了一个错误！</translation>
+        <translation>尝试添加朋友时发生了一个错误！</translation>
     </message>
     <message>
         <source>Friend added</source>
@@ -14688,7 +14688,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Missing Password</source>
-        <translation>缺少密码</translation>
+        <translation>没有密码</translation>
     </message>
     <message>
         <source>You need to enter a password!</source>
@@ -14759,7 +14759,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <location filename="dialogs/qcolordialog.cpp" line="1643"/>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>光标在 %1，%2
+        <translation>光标位于 %1，%2
 按 ESC 键取消</translation>
     </message>
     <message>
