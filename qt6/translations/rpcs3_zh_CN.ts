@@ -811,7 +811,7 @@ Severely degrades performance! If unsure, don&apos;t use this option.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="106"/>
         <source>Allows to hook some functions like &apos;memcpy&apos; replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
-        <translation>允许钩拽某些函数如 &apos;memcpy&apos; 以用更高级的实现来替换它们。可能什么也不做，也可能搞砸一些东西。实验性功能。</translation>
+        <translation>允许钩拽 (hook) 某些函数如 &apos;memcpy&apos; 以用更高级的实现来替换它们。可能什么也不做，也可能搞砸一些东西。实验性功能。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="107"/>
@@ -1632,7 +1632,7 @@ Choose a stylesheet and click Apply to change between styles.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="205"/>
         <source>Shows a dialog when obsolete settings were found.</source>
-        <translation>发现淘汰的设置项时，展示一个对话框。</translation>
+        <translation>当发现过时的设置项时，展示一个对话框。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="206"/>
@@ -1835,7 +1835,7 @@ Only available in custom configurations.</source>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="276"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-        <translation>当压感按键这种特殊按键被按下时，控制其（压力）强度。&lt;br&gt;如果你想在按键按下时就切换（至目标压力强度），请启用「切换」。&lt;br&gt;使用百分比来表示你想按压按键的力度。</translation>
+        <translation>当压感按键这种特殊按键被按下时，控制其（压力）强度。&lt;br&gt;如果你想在按键按下时就切换（至目标压力）强度，请启用「切换」。&lt;br&gt;使用百分比来表示你想按压按键的力度。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/tooltips.h" line="277"/>
@@ -12170,7 +12170,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3664"/>
         <source>UI Stylesheets</source>
-        <translation>UI 样式</translation>
+        <translation>用户界面样式</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3673"/>
@@ -12180,12 +12180,12 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3683"/>
         <source>UI Colors</source>
-        <translation>UI 颜色</translation>
+        <translation>用户界面颜色</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3701"/>
         <source>Use custom UI Colors</source>
-        <translation>使用自定义 UI 颜色</translation>
+        <translation>使用自定义用户界面颜色</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3708"/>
@@ -12210,7 +12210,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3779"/>
         <source>Maximum log blocks</source>
-        <translation>最大 log 区块</translation>
+        <translation>最大日志区块</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3814"/>
@@ -12220,7 +12220,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3854"/>
         <source>UI Options</source>
-        <translation>UI 选项</translation>
+        <translation>用户界面选项</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3860"/>
@@ -12250,7 +12250,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3895"/>
         <source>Show Obsolete Settings Dialog</source>
-        <translation>展示废弃设置对话框</translation>
+        <translation>展示过时的设置项对话框</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3902"/>
@@ -12265,7 +12265,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3935"/>
         <source>Check for updates on startup</source>
-        <translation>起动时检查更新</translation>
+        <translation>起动 (startup) 时检查更新</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3947"/>
@@ -12275,7 +12275,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3953"/>
         <source>Use Discord Rich Presence</source>
-        <translation>使用 Discord Rich Presence</translation>
+        <translation>使用 Discord 丰富呈现 (Rich Presence)</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="3960"/>
@@ -12315,7 +12315,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4120"/>
         <source>Force CPU Blit Emulation</source>
-        <translation>强制 CPU 位块转移（Blit）模拟</translation>
+        <translation>强制 CPU 位块转移 (Blit) 模拟</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4127"/>
@@ -12391,7 +12391,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4320"/>
         <source>PPU Thread Count</source>
-        <translation>PPU 线程计数</translation>
+        <translation>PPU 线程数</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4332"/>
@@ -12456,7 +12456,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="rpcs3qt/settings_dialog.ui" line="4204"/>
         <source>Hook static functions</source>
-        <translation>钩拽静态函数</translation>
+        <translation>钩拽 (hook) 静态函数</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="117"/>
@@ -12615,7 +12615,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="rpcs3qt/settings_dialog.cpp" line="1509"/>
         <source>Unlimited (Default)</source>
         <comment>Max SPURS threads</comment>
-        <translation>不限制（默认）</translation>
+        <translation>无限制（默认）</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="555"/>
@@ -12638,7 +12638,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
 							&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 								RPCS3 检测到你正在 Haswell 或 Broadwell CPU 上使用 TSX 功能。&lt;br&gt;
 								Intel 已在较新的微代码修订版中撤销了这些功能，因为它们可引起不可预知的行为。&lt;br&gt;
-								这意味着使用 TSX 可能会破坏游戏，甚或&lt;font color=&quot;red&quot;&gt;&lt;b&gt;毁损&lt;/b&gt;&lt;/font&gt;你的数据。&lt;br&gt;
+								这意味着使用 TSX 可能会破坏游戏，甚或&lt;font color=&quot;red&quot;&gt;&lt;b&gt;损坏&lt;/b&gt;&lt;/font&gt;你的数据。&lt;br&gt;
 								我们推荐禁用此功能并更新你的电脑的 BIOS。&lt;br&gt;&lt;br&gt;
 								你还是要用 TSX？
 							&lt;/p&gt;
@@ -12662,7 +12662,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <translation>
 							&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 								RPCS3 检测到你的 CPU 仅支持 TSX-FA.&lt;br&gt;
-								这意味着使用 TSX 可能会破坏游戏，甚或&lt;font color=&quot;red&quot;&gt;&lt;b&gt;毁损&lt;/b&gt;&lt;/font&gt;你的数据。&lt;br&gt;
+								这意味着使用 TSX 可能会破坏游戏，甚或&lt;font color=&quot;red&quot;&gt;&lt;b&gt;损坏&lt;/b&gt;&lt;/font&gt;你的数据。&lt;br&gt;
 								我们推荐禁用此功能。&lt;br&gt;&lt;br&gt;
 								你还是要用 TSX？
 							&lt;/p&gt;
@@ -12715,7 +12715,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="1613"/>
         <source>Do not touch libsysutil libs, development purposes only, will cause game crashes.</source>
-        <translation>不要碰 libsysutil 库，仅用于开发目的，会导致游戏崩溃。</translation>
+        <translation>不要碰 libsysutil 库，仅用于开发目的，（否则）会导致游戏崩溃。</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="1620"/>
@@ -12805,7 +12805,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="rpcs3qt/settings_dialog.cpp" line="1997"/>
         <source>Thread Count</source>
         <comment>Game window title</comment>
-        <translation>线程计数</translation>
+        <translation>线程数</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="1998"/>
@@ -12946,12 +12946,12 @@ Preview:
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="2474"/>
         <source>Remove obsolete settings?</source>
-        <translation>移除淘汰的设置项？</translation>
+        <translation>移除过时的设置项？</translation>
     </message>
     <message>
         <location filename="rpcs3qt/settings_dialog.cpp" line="2475"/>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
-        <translation>你的配置文件中包含了一个或多个淘汰的记录。&lt;br&gt;考虑到移除的话可能会使其他版本 RPCS3 无效渲染。&lt;br&gt;&lt;br&gt;你想让程序为你移除它们吗？&lt;br&gt;只有你保存的时候，这个更改才会成为最终配置。</translation>
+        <translation>你的配置文件中包含了一个或多个过时的项。&lt;br&gt;考虑到移除的话可能会使其他版本 RPCS3 无效渲染。&lt;br&gt;&lt;br&gt;你想让程序为你移除它们吗？&lt;br&gt;只有你保存此配置的时候，这个更改才会成为最终配置。</translation>
     </message>
 </context>
 <context>
